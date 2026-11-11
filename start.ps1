@@ -75,6 +75,9 @@ try {
     $taskTranscript = $true
     Write-Host 'Starting Floodline (synthetic CAA pilot).'
     if ($SkipBuild -and $Rebuild) { throw 'Use either -SkipBuild or -Rebuild, not both.' }
+    if ($SkipBuild -and -not (Test-Path -LiteralPath (Join-Path $taskRoot 'frontend\dist\index.html'))) {
+        throw 'The bundled interface is missing. Run start.bat -Rebuild with Node 22.12 or newer installed.'
+    }
     $settingsFile = Join-Path $taskRoot '.env'
     $allowedSettings = @('APP_MODE', 'ADMIN_USERNAME', 'ADMIN_PASSWORD', 'DATABASE_URL', 'FLOODLINE_RUNTIME')
     if (Test-Path -LiteralPath $settingsFile) {
