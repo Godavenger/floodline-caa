@@ -1,0 +1,11 @@
+.venv
+.runtime
+.verification
+.impeccable
+.taste-skill
+.env
+frontend/node_modules
+frontend/dist
+**/__pycache__
+outputs
+project description.docx
