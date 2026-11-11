@@ -7,6 +7,7 @@ import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from
 import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Browser, delay } from './lib/browser.mjs';
+import { deviceTheme, verifyThemes } from './lib/theme-checks.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 process.chdir(root);
@@ -25,6 +26,7 @@ const env = { ...process.env, FLOODLINE_RUNTIME: join(run, 'runtime'), DATABASE_
   ADMIN_USERNAME: 'moderator', ADMIN_PASSWORD: 'floodline-demo', APP_MODE: 'synthetic' };
 const record = { status: 'running', started_at: new Date().toISOString(), mode: 'synthetic',
   frontend_sha256: createHash('sha256').update(readFileSync(join(root, 'frontend', 'dist', 'index.html'))).digest('hex'),
+  theme_bootstrap_sha256: createHash('sha256').update(readFileSync(join(root, 'frontend', 'dist', 'assets', 'theme.js'))).digest('hex'),
   checks: [], screenshots: [], javascript_errors: [] };
 const check = (name, detail = {}) => { record.checks.push({ name, passed: true, ...detail }); console.log('PASS ' + name); };
 const sampleImage = join(run, 'synthetic-qa-image.png');
@@ -54,21 +56,26 @@ async function navigate(screen, heading) {
 async function capture(name, width = 1440, height = 900) {
   await page.viewport(width, height);
   await page.evaluate(() => document.fonts.ready);
-  await delay(350);
-  const content = await page.evaluate(() => ({
-    heading: document.querySelector('h1')?.textContent,
-    text: document.body.innerText.slice(0, 250),
-    horizontal_overflow: Math.max(0, document.documentElement.scrollWidth - innerWidth),
-    loading: !!document.querySelector('.first-load, .first-load-map, .first-load-screen, .loading-map'),
-    map_paths: document.querySelectorAll('.leaflet-overlay-pane path').length,
-    open_dialog: !!document.querySelector('dialog[open]'),
-  }));
-  assert.equal(content.horizontal_overflow, 0, name + ' has horizontal overflow.');
-  assert(!content.loading, name + ' captured a loading screen.');
-  const path = join(captures, name + '.png');
-  await page.screenshot(path, !content.open_dialog);
-  record.screenshots.push({ name, path: relative(root, path).replaceAll('\\', '/'), width, height,
-    sha256: createHash('sha256').update(readFileSync(path)).digest('hex'), ...content });
+  for (const theme of ['light', 'dark']) {
+    await deviceTheme(page, theme);
+    await delay(350);
+    const variant = theme === 'light' ? name : name + '-dark';
+    const content = await page.evaluate(() => ({
+      heading: document.querySelector('h1')?.textContent,
+      text: document.body.innerText.slice(0, 250),
+      horizontal_overflow: Math.max(0, document.documentElement.scrollWidth - innerWidth),
+      loading: !!document.querySelector('.first-load, .first-load-map, .first-load-screen, .loading-map'),
+      map_paths: document.querySelectorAll('.leaflet-overlay-pane path').length,
+      open_dialog: !!document.querySelector('dialog[open]'),
+      theme: document.documentElement.dataset.theme,
+    }));
+    assert.equal(content.horizontal_overflow, 0, variant + ' has horizontal overflow.');
+    assert(!content.loading, variant + ' captured a loading screen.');
+    const path = join(captures, variant + '.png');
+    await page.screenshot(path, !content.open_dialog);
+    record.screenshots.push({ name: variant, path: relative(root, path).replaceAll('\\', '/'), width, height,
+      sha256: createHash('sha256').update(readFileSync(path)).digest('hex'), ...content });
+  }
 }
 async function request(path, body) {
   return page.evaluate(async ({ path, body }) => {
@@ -115,6 +122,7 @@ try {
   assert(ready, 'Test server did not start: ' + log);
   browser = await Browser.launch();
   page = await browser.page();
+  await page.send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: 'light' }] });
   await page.send('Page.addScriptToEvaluateOnNewDocument', { source:
     "window.__qaResponses=[]; const originalFetch=window.fetch; window.fetch=async function(...args){const response=await originalFetch(...args); if(String(args[0]).includes('/api/')){try{window.__qaResponses.push({path:String(args[0]),method:args[1]?.method||'GET',status:response.status,data:await response.clone().json()});}catch{}} return response;};" });
   await page.goto(base);
@@ -125,6 +133,8 @@ try {
   assert.equal(initial.summary.cells, 9); assert.equal(initial.wards.length, 3);
   assert.equal(initial.summary.unknown, 1);
   assert((await page.evaluate(() => document.querySelector('.title-row p').textContent)).includes('3 of 8 cells with current evidence'));
+  record.theme_acceptance = await verifyThemes(browser, page, base);
+  check('Light and dark appearance, saved preferences, cross-tab synchronization and contrast', record.theme_acceptance);
   await capture('desktop');
   await capture('tablet', 1024, 900);
   await capture('mobile', 390, 844);

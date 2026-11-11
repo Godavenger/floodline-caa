@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent as ReactKeyboardEvent, type ReactNode } from 'react';
-import { Bell, ChevronRight, Database, FlaskConical, Map, Menu, MessageSquare, Route, ShieldCheck, X, LogOut, RefreshCw } from 'lucide-react';
+import { Bell, ChevronRight, Database, FlaskConical, Map, Menu, MessageSquare, Moon, Route, ShieldCheck, Sun, X, LogOut, RefreshCw } from 'lucide-react';
 import { api, post, time } from './api';
 import type { Dashboard, Screen, Session } from './types';
 import Overview from './Overview';
@@ -9,6 +9,7 @@ import AlertsScreen from './AlertsScreen';
 import DataScreen from './DataScreen';
 import ReviewScreen from './ReviewScreen';
 import { ErrorMessage } from './ui';
+import { useTheme, type ThemePreference } from './theme';
 
 const screens = [{ id: 'map', label: 'Flood map', icon: Map }, { id: 'reports', label: 'Reports', icon: MessageSquare },
   { id: 'routes', label: 'Route suggestions', icon: Route }, { id: 'alerts', label: 'Your alerts', icon: Bell },
@@ -65,6 +66,7 @@ function LoginDialog({ close, onLogin }: { close: () => void; onLogin: (session:
 }
 
 export default function App() {
+  const { theme, preference, selectTheme } = useTheme();
   const [screen, setScreen] = useState<Screen>(initialScreen);
   const [data, setData] = useState<Dashboard | null>(null);
   const [session, setSession] = useState<Session>({ authenticated: false, role: 'visitor', username: null });
@@ -99,9 +101,9 @@ export default function App() {
   }
   const nav = <><div className="brand"><Mark /><span>Floodline<span className="brand-subtitle">Community flood platform</span></span></div><div className="workspace-label"><span className="workspace-dot" />Riverside demo catchment</div>
     <nav aria-label="Main navigation">{screens.map(({ id, label, icon: Icon }) => <a key={id} href={`#${id}`} className={`nav-link ${screen === id ? 'active' : ''}`} aria-current={screen === id ? 'page' : undefined} onClick={() => navigate(id)}><Icon size={18} strokeWidth={1.7} /><span>{label}</span>{screen === id && <ChevronRight size={14} />}</a>)}</nav>
-    <div className="sidebar-bottom"><div className="prototype-note"><FlaskConical size={16} /><p>Synthetic pilot<span>Demo conditions. No live forecast.</span></p></div><div className="account-row"><span>{session.role === 'moderator' ? `Moderator · ${session.username}` : 'Resident session'}</span>{session.role === 'moderator' ? <button className="icon-button" title="Return to resident" aria-label="Return to resident" onClick={() => void signOut()}><LogOut size={16} /></button> : <button className="text-button" onClick={() => { setLoginOpen(true); setMenuOpen(false); }}>Moderator sign in</button>}</div><span className="course-note">CAA project · Six-person pipeline</span></div></>;
+    <div className="sidebar-bottom"><div className="prototype-note"><FlaskConical size={16} /><p>Synthetic pilot<span>Demo conditions. No live forecast.</span></p></div><div className="account-row"><span>{session.role === 'moderator' ? `Moderator · ${session.username}` : 'Resident session'}</span>{session.role === 'moderator' ? <button className="icon-button" title="Return to resident" aria-label="Return to resident" onClick={() => void signOut()}><LogOut size={16} /></button> : <button className="text-button" onClick={() => { setLoginOpen(true); setMenuOpen(false); }}>Moderator sign in</button>}</div><label className="appearance-row"><span>Appearance</span><select aria-label="Appearance" value={preference} onChange={event => selectTheme(event.target.value as ThemePreference)}><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label><span className="course-note">CAA project · Six-person pipeline</span></div></>;
   return <div className="app-shell"><a className="skip-link" href="#main-content">Skip to content</a><aside className="sidebar">{nav}</aside>
-    <div className="app-workspace"><header className="topbar"><div className="mobile-brand"><Mark /><span>Floodline</span></div><div className="scope-breadcrumb"><span>Riverside pilot</span><ChevronRight size={13} /><strong>{screens.find(item => item.id === screen)?.label}</strong></div><div className="mode-label"><FlaskConical size={14} /><span>Synthetic data</span><span className="mode-time">{data ? time(data.clock) : 'Connecting…'}</span></div><button className="icon-button mobile-menu" onClick={() => setMenuOpen(true)} aria-label="Open navigation" aria-haspopup="dialog" aria-expanded={menuOpen}><Menu size={20} /></button></header>
+    <div className="app-workspace"><header className="topbar"><div className="mobile-brand"><Mark /><span>Floodline</span></div><div className="scope-breadcrumb"><span>Riverside pilot</span><ChevronRight size={13} /><strong>{screens.find(item => item.id === screen)?.label}</strong></div><div className="topbar-actions"><div className="mode-label"><FlaskConical size={14} /><span>Synthetic data</span><span className="mode-time">{data ? time(data.clock) : 'Connecting…'}</span></div><button className="icon-button theme-toggle" aria-label="Dark mode" aria-pressed={theme === 'dark'} title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`} onClick={() => selectTheme(theme === 'dark' ? 'light' : 'dark')}>{theme === 'dark' ? <Sun size={18} aria-hidden="true" /> : <Moon size={18} aria-hidden="true" />}</button><button className="icon-button mobile-menu" onClick={() => setMenuOpen(true)} aria-label="Open navigation" aria-haspopup="dialog" aria-expanded={menuOpen}><Menu size={20} /></button></div></header>
       <main id="main-content" className="canvas" tabIndex={-1}>
         {notice && <div className="notice" role="status"><p>{notice}</p><button className="icon-button" aria-label="Dismiss update" onClick={() => setNotice('')}><X size={16} /></button></div>}
         {error && <ErrorMessage retry={() => void refresh()}>{data ? `Could not refresh. The retained map is from demo time ${time(data.clock)}. ` : ''}{error}</ErrorMessage>}
