@@ -1,0 +1,26 @@
+{
+  "version": "synthetic-pilot-v1",
+  "files": [
+    {
+      "path": "data/fixtures/pilot.json",
+      "sha256": "ffc2f1d194c0266fae924fbdfd0e9bcc77bf8b8e2097fcb82cc826eb963fc731",
+      "source": "scripts/build_demo.py",
+      "licence": "Project-authored synthetic fixture",
+      "synthetic": true
+    },
+    {
+      "path": "data/raw/demo_observations.json",
+      "sha256": "b13284759eba9c5fded6fd925f245c9c3e74dc1696537df11643717eecebe814",
+      "source": "scripts/build_demo.py",
+      "licence": "Project-authored synthetic fixture",
+      "synthetic": true
+    },
+    {
+      "path": "data/fixtures/synthetic_evaluation.csv",
+      "sha256": "4937de02e2deb6a6ada8ea8354c5755bb50690e999dc54992896a5b9e8babe43",
+      "source": "backend/floodline/evaluation.py",
+      "licence": "Project-authored synthetic fixture",
+      "synthetic": true
+    }
+  ]
+}

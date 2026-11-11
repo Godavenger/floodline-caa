@@ -1,0 +1,2035 @@
+{
+  "version": "synthetic-pilot-v1",
+  "mode": "synthetic",
+  "base_time": "2026-11-11T08:32:00Z",
+  "name": "Riverside demo catchment",
+  "description": "Invented wards and roads anchored in WGS84 for GIS tests. This is not a real municipal boundary.",
+  "bounds": [
+    [
+      22.56,
+      88.325
+    ],
+    [
+      22.59,
+      88.358
+    ]
+  ],
+  "areas": [
+    {
+      "id": "A1",
+      "ward_id": "A",
+      "name": "Westbank · South",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.325,
+              22.56
+            ],
+            [
+              88.336,
+              22.56
+            ],
+            [
+              88.336,
+              22.57
+            ],
+            [
+              88.325,
+              22.57
+            ],
+            [
+              88.325,
+              22.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Westbank",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.35,
+        "drainage_constraint": 0.2,
+        "relative_elevation_m": 8.0,
+        "distance_to_water_m": 1200,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "A2",
+      "ward_id": "A",
+      "name": "Westbank · Central",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.325,
+              22.57
+            ],
+            [
+              88.336,
+              22.57
+            ],
+            [
+              88.336,
+              22.580000000000002
+            ],
+            [
+              88.325,
+              22.580000000000002
+            ],
+            [
+              88.325,
+              22.57
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Westbank",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.39,
+        "drainage_constraint": 0.2,
+        "relative_elevation_m": 7.5,
+        "distance_to_water_m": 1200,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "A3",
+      "ward_id": "A",
+      "name": "Westbank · North",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.325,
+              22.58
+            ],
+            [
+              88.336,
+              22.58
+            ],
+            [
+              88.336,
+              22.59
+            ],
+            [
+              88.325,
+              22.59
+            ],
+            [
+              88.325,
+              22.58
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Westbank",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.43,
+        "drainage_constraint": 0.2,
+        "relative_elevation_m": 7.0,
+        "distance_to_water_m": 1200,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "B1",
+      "ward_id": "B",
+      "name": "Market ward · South",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.336,
+              22.56
+            ],
+            [
+              88.347,
+              22.56
+            ],
+            [
+              88.347,
+              22.57
+            ],
+            [
+              88.336,
+              22.57
+            ],
+            [
+              88.336,
+              22.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Market ward",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.5,
+        "drainage_constraint": 0.45,
+        "relative_elevation_m": 6.0,
+        "distance_to_water_m": 750,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "B2",
+      "ward_id": "B",
+      "name": "Market ward · Central",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.336,
+              22.57
+            ],
+            [
+              88.347,
+              22.57
+            ],
+            [
+              88.347,
+              22.580000000000002
+            ],
+            [
+              88.336,
+              22.580000000000002
+            ],
+            [
+              88.336,
+              22.57
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Market ward",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.54,
+        "drainage_constraint": 0.45,
+        "relative_elevation_m": 5.5,
+        "distance_to_water_m": 750,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "B3",
+      "ward_id": "B",
+      "name": "Market ward · North",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.336,
+              22.58
+            ],
+            [
+              88.347,
+              22.58
+            ],
+            [
+              88.347,
+              22.59
+            ],
+            [
+              88.336,
+              22.59
+            ],
+            [
+              88.336,
+              22.58
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Market ward",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.58,
+        "drainage_constraint": 0.45,
+        "relative_elevation_m": 5.0,
+        "distance_to_water_m": 750,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "C1",
+      "ward_id": "C",
+      "name": "Eastbank · South",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.34700000000001,
+              22.56
+            ],
+            [
+              88.358,
+              22.56
+            ],
+            [
+              88.358,
+              22.57
+            ],
+            [
+              88.34700000000001,
+              22.57
+            ],
+            [
+              88.34700000000001,
+              22.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Eastbank",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.65,
+        "drainage_constraint": 0.7,
+        "relative_elevation_m": 4.0,
+        "distance_to_water_m": 300,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "C2",
+      "ward_id": "C",
+      "name": "Eastbank · Central",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.34700000000001,
+              22.57
+            ],
+            [
+              88.358,
+              22.57
+            ],
+            [
+              88.358,
+              22.580000000000002
+            ],
+            [
+              88.34700000000001,
+              22.580000000000002
+            ],
+            [
+              88.34700000000001,
+              22.57
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Eastbank",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.69,
+        "drainage_constraint": 0.7,
+        "relative_elevation_m": 3.5,
+        "distance_to_water_m": 300,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "C3",
+      "ward_id": "C",
+      "name": "Eastbank · North",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.34700000000001,
+              22.58
+            ],
+            [
+              88.358,
+              22.58
+            ],
+            [
+              88.358,
+              22.59
+            ],
+            [
+              88.34700000000001,
+              22.59
+            ],
+            [
+              88.34700000000001,
+              22.58
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "ward_name": "Eastbank",
+        "geometry_version": "synthetic-gis-v1",
+        "source_resolution_m": 1000,
+        "projected_crs": "EPSG:32645",
+        "impervious_fraction": 0.73,
+        "drainage_constraint": 0.7,
+        "relative_elevation_m": 3.0,
+        "distance_to_water_m": 300,
+        "synthetic": true
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "n0-0",
+      "longitude": 88.328,
+      "latitude": 22.563,
+      "name": "School",
+      "landmark": true
+    },
+    {
+      "id": "n1-0",
+      "longitude": 88.3345,
+      "latitude": 22.563,
+      "name": "Junction 2.1",
+      "landmark": false
+    },
+    {
+      "id": "n2-0",
+      "longitude": 88.341,
+      "latitude": 22.563,
+      "name": "Junction 3.1",
+      "landmark": false
+    },
+    {
+      "id": "n3-0",
+      "longitude": 88.3475,
+      "latitude": 22.563,
+      "name": "Junction 4.1",
+      "landmark": false
+    },
+    {
+      "id": "n4-0",
+      "longitude": 88.354,
+      "latitude": 22.563,
+      "name": "Junction 5.1",
+      "landmark": false
+    },
+    {
+      "id": "n0-1",
+      "longitude": 88.328,
+      "latitude": 22.571,
+      "name": "Library",
+      "landmark": true
+    },
+    {
+      "id": "n1-1",
+      "longitude": 88.3345,
+      "latitude": 22.571,
+      "name": "Junction 2.2",
+      "landmark": false
+    },
+    {
+      "id": "n2-1",
+      "longitude": 88.341,
+      "latitude": 22.571,
+      "name": "Market square",
+      "landmark": true
+    },
+    {
+      "id": "n3-1",
+      "longitude": 88.3475,
+      "latitude": 22.571,
+      "name": "Junction 4.2",
+      "landmark": false
+    },
+    {
+      "id": "n4-1",
+      "longitude": 88.354,
+      "latitude": 22.571,
+      "name": "Station",
+      "landmark": true
+    },
+    {
+      "id": "n0-2",
+      "longitude": 88.328,
+      "latitude": 22.579,
+      "name": "Junction 1.3",
+      "landmark": false
+    },
+    {
+      "id": "n1-2",
+      "longitude": 88.3345,
+      "latitude": 22.579,
+      "name": "Community hall",
+      "landmark": true
+    },
+    {
+      "id": "n2-2",
+      "longitude": 88.341,
+      "latitude": 22.579,
+      "name": "Junction 3.3",
+      "landmark": false
+    },
+    {
+      "id": "n3-2",
+      "longitude": 88.3475,
+      "latitude": 22.579,
+      "name": "Clinic",
+      "landmark": true
+    },
+    {
+      "id": "n4-2",
+      "longitude": 88.354,
+      "latitude": 22.579,
+      "name": "Junction 5.3",
+      "landmark": false
+    },
+    {
+      "id": "n0-3",
+      "longitude": 88.328,
+      "latitude": 22.587,
+      "name": "Junction 1.4",
+      "landmark": false
+    },
+    {
+      "id": "n1-3",
+      "longitude": 88.3345,
+      "latitude": 22.587,
+      "name": "Junction 2.4",
+      "landmark": false
+    },
+    {
+      "id": "n2-3",
+      "longitude": 88.341,
+      "latitude": 22.587,
+      "name": "Junction 3.4",
+      "landmark": false
+    },
+    {
+      "id": "n3-3",
+      "longitude": 88.3475,
+      "latitude": 22.587,
+      "name": "Junction 4.4",
+      "landmark": false
+    },
+    {
+      "id": "n4-3",
+      "longitude": 88.354,
+      "latitude": 22.587,
+      "name": "Riverside park",
+      "landmark": true
+    },
+    {
+      "id": "island",
+      "name": "Disconnected demo point",
+      "longitude": 88.356,
+      "latitude": 22.589,
+      "landmark": true
+    }
+  ],
+  "roads": [
+    {
+      "id": "road-n0-0-n1-0",
+      "segment_id": "road-n0-0-n1-0",
+      "source_node": "n0-0",
+      "target_node": "n1-0",
+      "name": "Cross street 1",
+      "length_m": 668.41,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.563
+          ],
+          [
+            88.3345,
+            22.563
+          ]
+        ]
+      },
+      "one_way": true
+    },
+    {
+      "id": "road-n0-0-n0-1",
+      "segment_id": "road-n0-0-n0-1",
+      "source_node": "n0-0",
+      "target_node": "n0-1",
+      "name": "Bank road 1",
+      "length_m": 885.75,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.563
+          ],
+          [
+            88.328,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-0-n0-1-r",
+      "segment_id": "road-n0-0-n0-1",
+      "source_node": "n0-1",
+      "target_node": "n0-0",
+      "name": "Bank road 1",
+      "length_m": 885.75,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.571
+          ],
+          [
+            88.328,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-0-n2-0",
+      "segment_id": "road-n1-0-n2-0",
+      "source_node": "n1-0",
+      "target_node": "n2-0",
+      "name": "Cross street 1",
+      "length_m": 668.41,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.563
+          ],
+          [
+            88.341,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-0-n2-0-r",
+      "segment_id": "road-n1-0-n2-0",
+      "source_node": "n2-0",
+      "target_node": "n1-0",
+      "name": "Cross street 1",
+      "length_m": 668.41,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.563
+          ],
+          [
+            88.3345,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-0-n1-1",
+      "segment_id": "road-n1-0-n1-1",
+      "source_node": "n1-0",
+      "target_node": "n1-1",
+      "name": "Bank road 2",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.563
+          ],
+          [
+            88.3345,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-0-n1-1-r",
+      "segment_id": "road-n1-0-n1-1",
+      "source_node": "n1-1",
+      "target_node": "n1-0",
+      "name": "Bank road 2",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.571
+          ],
+          [
+            88.3345,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-0-n3-0",
+      "segment_id": "road-n2-0-n3-0",
+      "source_node": "n2-0",
+      "target_node": "n3-0",
+      "name": "Cross street 1",
+      "length_m": 668.41,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.563
+          ],
+          [
+            88.3475,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-0-n3-0-r",
+      "segment_id": "road-n2-0-n3-0",
+      "source_node": "n3-0",
+      "target_node": "n2-0",
+      "name": "Cross street 1",
+      "length_m": 668.41,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.563
+          ],
+          [
+            88.341,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-0-n2-1",
+      "segment_id": "road-n2-0-n2-1",
+      "source_node": "n2-0",
+      "target_node": "n2-1",
+      "name": "Bank road 3",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.563
+          ],
+          [
+            88.341,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-0-n2-1-r",
+      "segment_id": "road-n2-0-n2-1",
+      "source_node": "n2-1",
+      "target_node": "n2-0",
+      "name": "Bank road 3",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.571
+          ],
+          [
+            88.341,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-0-n4-0",
+      "segment_id": "road-n3-0-n4-0",
+      "source_node": "n3-0",
+      "target_node": "n4-0",
+      "name": "Cross street 1",
+      "length_m": 668.41,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.563
+          ],
+          [
+            88.354,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-0-n4-0-r",
+      "segment_id": "road-n3-0-n4-0",
+      "source_node": "n4-0",
+      "target_node": "n3-0",
+      "name": "Cross street 1",
+      "length_m": 668.41,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.563
+          ],
+          [
+            88.3475,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-0-n3-1",
+      "segment_id": "road-n3-0-n3-1",
+      "source_node": "n3-0",
+      "target_node": "n3-1",
+      "name": "Bank road 4",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.563
+          ],
+          [
+            88.3475,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-0-n3-1-r",
+      "segment_id": "road-n3-0-n3-1",
+      "source_node": "n3-1",
+      "target_node": "n3-0",
+      "name": "Bank road 4",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.571
+          ],
+          [
+            88.3475,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n4-0-n4-1",
+      "segment_id": "road-n4-0-n4-1",
+      "source_node": "n4-0",
+      "target_node": "n4-1",
+      "name": "Bank road 5",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.563
+          ],
+          [
+            88.354,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n4-0-n4-1-r",
+      "segment_id": "road-n4-0-n4-1",
+      "source_node": "n4-1",
+      "target_node": "n4-0",
+      "name": "Bank road 5",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.571
+          ],
+          [
+            88.354,
+            22.563
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-1-n1-1",
+      "segment_id": "road-n0-1-n1-1",
+      "source_node": "n0-1",
+      "target_node": "n1-1",
+      "name": "Market street",
+      "length_m": 668.37,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.571
+          ],
+          [
+            88.3345,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-1-n1-1-r",
+      "segment_id": "road-n0-1-n1-1",
+      "source_node": "n1-1",
+      "target_node": "n0-1",
+      "name": "Market street",
+      "length_m": 668.37,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.571
+          ],
+          [
+            88.328,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-1-n0-2",
+      "segment_id": "road-n0-1-n0-2",
+      "source_node": "n0-1",
+      "target_node": "n0-2",
+      "name": "Bank road 1",
+      "length_m": 885.75,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.571
+          ],
+          [
+            88.328,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-1-n0-2-r",
+      "segment_id": "road-n0-1-n0-2",
+      "source_node": "n0-2",
+      "target_node": "n0-1",
+      "name": "Bank road 1",
+      "length_m": 885.75,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.579
+          ],
+          [
+            88.328,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-1-n2-1",
+      "segment_id": "road-n1-1-n2-1",
+      "source_node": "n1-1",
+      "target_node": "n2-1",
+      "name": "Market street",
+      "length_m": 668.37,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.571
+          ],
+          [
+            88.341,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-1-n2-1-r",
+      "segment_id": "road-n1-1-n2-1",
+      "source_node": "n2-1",
+      "target_node": "n1-1",
+      "name": "Market street",
+      "length_m": 668.37,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.571
+          ],
+          [
+            88.3345,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-1-n1-2",
+      "segment_id": "road-n1-1-n1-2",
+      "source_node": "n1-1",
+      "target_node": "n1-2",
+      "name": "Bank road 2",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.571
+          ],
+          [
+            88.3345,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-1-n1-2-r",
+      "segment_id": "road-n1-1-n1-2",
+      "source_node": "n1-2",
+      "target_node": "n1-1",
+      "name": "Bank road 2",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.579
+          ],
+          [
+            88.3345,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-1-n3-1",
+      "segment_id": "road-n2-1-n3-1",
+      "source_node": "n2-1",
+      "target_node": "n3-1",
+      "name": "Market street",
+      "length_m": 668.37,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.571
+          ],
+          [
+            88.3475,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-1-n3-1-r",
+      "segment_id": "road-n2-1-n3-1",
+      "source_node": "n3-1",
+      "target_node": "n2-1",
+      "name": "Market street",
+      "length_m": 668.37,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.571
+          ],
+          [
+            88.341,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-1-n2-2",
+      "segment_id": "road-n2-1-n2-2",
+      "source_node": "n2-1",
+      "target_node": "n2-2",
+      "name": "Bank road 3",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.571
+          ],
+          [
+            88.341,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-1-n2-2-r",
+      "segment_id": "road-n2-1-n2-2",
+      "source_node": "n2-2",
+      "target_node": "n2-1",
+      "name": "Bank road 3",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.579
+          ],
+          [
+            88.341,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-1-n4-1",
+      "segment_id": "road-n3-1-n4-1",
+      "source_node": "n3-1",
+      "target_node": "n4-1",
+      "name": "Market street",
+      "length_m": 668.38,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.571
+          ],
+          [
+            88.354,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-1-n4-1-r",
+      "segment_id": "road-n3-1-n4-1",
+      "source_node": "n4-1",
+      "target_node": "n3-1",
+      "name": "Market street",
+      "length_m": 668.38,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.571
+          ],
+          [
+            88.3475,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-1-n3-2",
+      "segment_id": "road-n3-1-n3-2",
+      "source_node": "n3-1",
+      "target_node": "n3-2",
+      "name": "Bank road 4",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.571
+          ],
+          [
+            88.3475,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-1-n3-2-r",
+      "segment_id": "road-n3-1-n3-2",
+      "source_node": "n3-2",
+      "target_node": "n3-1",
+      "name": "Bank road 4",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.579
+          ],
+          [
+            88.3475,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n4-1-n4-2",
+      "segment_id": "road-n4-1-n4-2",
+      "source_node": "n4-1",
+      "target_node": "n4-2",
+      "name": "Bank road 5",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.571
+          ],
+          [
+            88.354,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n4-1-n4-2-r",
+      "segment_id": "road-n4-1-n4-2",
+      "source_node": "n4-2",
+      "target_node": "n4-1",
+      "name": "Bank road 5",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.579
+          ],
+          [
+            88.354,
+            22.571
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-2-n1-2",
+      "segment_id": "road-n0-2-n1-2",
+      "source_node": "n0-2",
+      "target_node": "n1-2",
+      "name": "Cross street 3",
+      "length_m": 668.33,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.579
+          ],
+          [
+            88.3345,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-2-n1-2-r",
+      "segment_id": "road-n0-2-n1-2",
+      "source_node": "n1-2",
+      "target_node": "n0-2",
+      "name": "Cross street 3",
+      "length_m": 668.33,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.579
+          ],
+          [
+            88.328,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-2-n0-3",
+      "segment_id": "road-n0-2-n0-3",
+      "source_node": "n0-2",
+      "target_node": "n0-3",
+      "name": "Bank road 1",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.579
+          ],
+          [
+            88.328,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-2-n0-3-r",
+      "segment_id": "road-n0-2-n0-3",
+      "source_node": "n0-3",
+      "target_node": "n0-2",
+      "name": "Bank road 1",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.587
+          ],
+          [
+            88.328,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-2-n2-2",
+      "segment_id": "road-n1-2-n2-2",
+      "source_node": "n1-2",
+      "target_node": "n2-2",
+      "name": "Cross street 3",
+      "length_m": 668.33,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.579
+          ],
+          [
+            88.341,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-2-n2-2-r",
+      "segment_id": "road-n1-2-n2-2",
+      "source_node": "n2-2",
+      "target_node": "n1-2",
+      "name": "Cross street 3",
+      "length_m": 668.33,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.579
+          ],
+          [
+            88.3345,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-2-n1-3",
+      "segment_id": "road-n1-2-n1-3",
+      "source_node": "n1-2",
+      "target_node": "n1-3",
+      "name": "Bank road 2",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.579
+          ],
+          [
+            88.3345,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-2-n1-3-r",
+      "segment_id": "road-n1-2-n1-3",
+      "source_node": "n1-3",
+      "target_node": "n1-2",
+      "name": "Bank road 2",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.587
+          ],
+          [
+            88.3345,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-2-n3-2",
+      "segment_id": "road-n2-2-n3-2",
+      "source_node": "n2-2",
+      "target_node": "n3-2",
+      "name": "Cross street 3",
+      "length_m": 668.34,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.579
+          ],
+          [
+            88.3475,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-2-n3-2-r",
+      "segment_id": "road-n2-2-n3-2",
+      "source_node": "n3-2",
+      "target_node": "n2-2",
+      "name": "Cross street 3",
+      "length_m": 668.34,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.579
+          ],
+          [
+            88.341,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-2-n2-3",
+      "segment_id": "road-n2-2-n2-3",
+      "source_node": "n2-2",
+      "target_node": "n2-3",
+      "name": "Bank road 3",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.579
+          ],
+          [
+            88.341,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-2-n2-3-r",
+      "segment_id": "road-n2-2-n2-3",
+      "source_node": "n2-3",
+      "target_node": "n2-2",
+      "name": "Bank road 3",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.587
+          ],
+          [
+            88.341,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-2-n4-2",
+      "segment_id": "road-n3-2-n4-2",
+      "source_node": "n3-2",
+      "target_node": "n4-2",
+      "name": "Cross street 3",
+      "length_m": 668.34,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.579
+          ],
+          [
+            88.354,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-2-n4-2-r",
+      "segment_id": "road-n3-2-n4-2",
+      "source_node": "n4-2",
+      "target_node": "n3-2",
+      "name": "Cross street 3",
+      "length_m": 668.34,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.579
+          ],
+          [
+            88.3475,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-2-n3-3",
+      "segment_id": "road-n3-2-n3-3",
+      "source_node": "n3-2",
+      "target_node": "n3-3",
+      "name": "Bank road 4",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.579
+          ],
+          [
+            88.3475,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-2-n3-3-r",
+      "segment_id": "road-n3-2-n3-3",
+      "source_node": "n3-3",
+      "target_node": "n3-2",
+      "name": "Bank road 4",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.587
+          ],
+          [
+            88.3475,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n4-2-n4-3",
+      "segment_id": "road-n4-2-n4-3",
+      "source_node": "n4-2",
+      "target_node": "n4-3",
+      "name": "Bank road 5",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.579
+          ],
+          [
+            88.354,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n4-2-n4-3-r",
+      "segment_id": "road-n4-2-n4-3",
+      "source_node": "n4-3",
+      "target_node": "n4-2",
+      "name": "Bank road 5",
+      "length_m": 885.76,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.587
+          ],
+          [
+            88.354,
+            22.579
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-3-n1-3",
+      "segment_id": "road-n0-3-n1-3",
+      "source_node": "n0-3",
+      "target_node": "n1-3",
+      "name": "Cross street 4",
+      "length_m": 668.29,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.328,
+            22.587
+          ],
+          [
+            88.3345,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n0-3-n1-3-r",
+      "segment_id": "road-n0-3-n1-3",
+      "source_node": "n1-3",
+      "target_node": "n0-3",
+      "name": "Cross street 4",
+      "length_m": 668.29,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.587
+          ],
+          [
+            88.328,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-3-n2-3",
+      "segment_id": "road-n1-3-n2-3",
+      "source_node": "n1-3",
+      "target_node": "n2-3",
+      "name": "Cross street 4",
+      "length_m": 668.3,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3345,
+            22.587
+          ],
+          [
+            88.341,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n1-3-n2-3-r",
+      "segment_id": "road-n1-3-n2-3",
+      "source_node": "n2-3",
+      "target_node": "n1-3",
+      "name": "Cross street 4",
+      "length_m": 668.3,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.587
+          ],
+          [
+            88.3345,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-3-n3-3",
+      "segment_id": "road-n2-3-n3-3",
+      "source_node": "n2-3",
+      "target_node": "n3-3",
+      "name": "Cross street 4",
+      "length_m": 668.3,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.341,
+            22.587
+          ],
+          [
+            88.3475,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n2-3-n3-3-r",
+      "segment_id": "road-n2-3-n3-3",
+      "source_node": "n3-3",
+      "target_node": "n2-3",
+      "name": "Cross street 4",
+      "length_m": 668.3,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.587
+          ],
+          [
+            88.341,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-3-n4-3",
+      "segment_id": "road-n3-3-n4-3",
+      "source_node": "n3-3",
+      "target_node": "n4-3",
+      "name": "Cross street 4",
+      "length_m": 668.3,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.3475,
+            22.587
+          ],
+          [
+            88.354,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    },
+    {
+      "id": "road-n3-3-n4-3-r",
+      "segment_id": "road-n3-3-n4-3",
+      "source_node": "n4-3",
+      "target_node": "n3-3",
+      "name": "Cross street 4",
+      "length_m": 668.3,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.354,
+            22.587
+          ],
+          [
+            88.3475,
+            22.587
+          ]
+        ]
+      },
+      "one_way": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "demo-rain",
+      "name": "Synthetic rainfall replay",
+      "kind": "simulated",
+      "unit": "mm",
+      "interval_minutes": 15,
+      "spatial_resolution_m": 1000,
+      "licence": "Project-authored synthetic fixture"
+    },
+    {
+      "id": "demo-level",
+      "name": "Synthetic gauge replay",
+      "kind": "simulated",
+      "unit": "m",
+      "datum": "Invented local demo datum; not street-water depth",
+      "interval_minutes": 15,
+      "licence": "Project-authored synthetic fixture"
+    }
+  ],
+  "cartography": {
+    "river": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          88.356,
+          22.558
+        ],
+        [
+          88.3575,
+          22.571
+        ],
+        [
+          88.3555,
+          22.58
+        ],
+        [
+          88.357,
+          22.592
+        ]
+      ]
+    },
+    "parks": [
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.326,
+              22.581
+            ],
+            [
+              88.331,
+              22.581
+            ],
+            [
+              88.331,
+              22.588
+            ],
+            [
+              88.326,
+              22.588
+            ],
+            [
+              88.326,
+              22.581
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.35,
+              22.583
+            ],
+            [
+              88.354,
+              22.583
+            ],
+            [
+              88.354,
+              22.588
+            ],
+            [
+              88.35,
+              22.588
+            ],
+            [
+              88.35,
+              22.583
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "seed_reports": [
+    {
+      "id": "demo-verified-market",
+      "area_id": "B2",
+      "longitude": 88.34425,
+      "latitude": 22.571,
+      "description": "Synthetic scenario: standing water covers the Market street connection. Reviewed for the route-avoidance demonstration.",
+      "severity": "impassable",
+      "status": "verified",
+      "observed_offset_minutes": -20,
+      "expires_offset_minutes": 100,
+      "edge_ids": [
+        "road-n2-1-n3-1"
+      ]
+    },
+    {
+      "id": "demo-pending-east",
+      "area_id": "C2",
+      "longitude": 88.352,
+      "latitude": 22.574,
+      "description": "Synthetic scenario: water is collecting near the eastern junction. Location and severity still need review.",
+      "severity": "water_on_road",
+      "status": "pending",
+      "observed_offset_minutes": -10,
+      "expires_offset_minutes": 110,
+      "edge_ids": []
+    }
+  ],
+  "events": [
+    {
+      "id": "synthetic-event-1",
+      "area_id": "B2",
+      "onset": "2026-11-11T09:30:00Z",
+      "label_state": "synthetic",
+      "evidence": "Development scenario only; excluded from historical accuracy."
+    }
+  ]
+}
