@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "mode": "synthetic",
+  "started_at": "2026-11-11T05:23:15.172861+00:00",
+  "finished_at": "2026-11-11T05:23:30.675528+00:00",
+  "tests": 44,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 12.962,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "fastapi": "0.141.1",
+    "starlette": "1.6.0",
+    "pydantic": "2.13.4",
+    "Pillow": "12.2.0",
+    "numpy": "2.5.2",
+    "scikit-learn": "1.9.0",
+    "shapely": "2.1.2",
+    "pyproj": "3.8.0",
+    "networkx": "3.6.1"
+  }
+}

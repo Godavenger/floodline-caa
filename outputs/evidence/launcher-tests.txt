@@ -1,0 +1,12 @@
+test_bat_serves_bundled_dashboard_without_node (__main__.LauncherAcceptance.test_bat_serves_bundled_dashboard_without_node) ... ok
+test_cmd_prepares_backs_up_and_preserves_existing_data (__main__.LauncherAcceptance.test_cmd_prepares_backs_up_and_preserves_existing_data) ... ok
+test_default_port_skips_occupied_8000 (__main__.LauncherAcceptance.test_default_port_skips_occupied_8000) ... ok
+test_first_setup_failure_has_visible_retry_instructions (__main__.LauncherAcceptance.test_first_setup_failure_has_visible_retry_instructions) ... ok
+test_invalid_settings_are_reported_without_execution (__main__.LauncherAcceptance.test_invalid_settings_are_reported_without_execution) ... ok
+test_missing_bundled_interface_reports_rebuild_instructions (__main__.LauncherAcceptance.test_missing_bundled_interface_reports_rebuild_instructions) ... ok
+test_requested_occupied_port_reports_failure_without_closing_silently (__main__.LauncherAcceptance.test_requested_occupied_port_reports_failure_without_closing_silently) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 46.805s
+
+OK

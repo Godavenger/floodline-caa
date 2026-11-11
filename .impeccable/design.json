@@ -1,0 +1,1010 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T05:42:47Z",
+  "title": "Design System: Floodline",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Water-Grey Frame",
+        "description": "Continuous sidebar and scope-bar ground.",
+        "tonalRamp": [
+          "oklch(15.000% 0.006950 219.560)",
+          "oklch(26.429% 0.006950 219.560)",
+          "oklch(37.857% 0.006950 219.560)",
+          "oklch(49.286% 0.006950 219.560)",
+          "oklch(60.714% 0.006950 219.560)",
+          "oklch(72.143% 0.006950 219.560)",
+          "oklch(83.571% 0.006950 219.560)",
+          "oklch(95.000% 0.006950 219.560)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Sheet",
+        "description": "Work sheet, flat panels, primary button text and map road casing.",
+        "tonalRamp": [
+          "oklch(15.000% 0.000000 0.000)",
+          "oklch(26.429% 0.000000 0.000)",
+          "oklch(37.857% 0.000000 0.000)",
+          "oklch(49.286% 0.000000 0.000)",
+          "oklch(60.714% 0.000000 0.000)",
+          "oklch(72.143% 0.000000 0.000)",
+          "oklch(83.571% 0.000000 0.000)",
+          "oklch(95.000% 0.000000 0.000)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Quiet Inset",
+        "description": "Gauge, image evidence, source and confirmation trays.",
+        "tonalRamp": [
+          "oklch(15.000% 0.002128 197.122)",
+          "oklch(26.429% 0.002128 197.122)",
+          "oklch(37.857% 0.002128 197.122)",
+          "oklch(49.286% 0.002128 197.122)",
+          "oklch(60.714% 0.002128 197.122)",
+          "oklch(72.143% 0.002128 197.122)",
+          "oklch(83.571% 0.002128 197.122)",
+          "oklch(95.000% 0.002128 197.122)"
+        ]
+      },
+      "active": {
+        "role": "neutral",
+        "displayName": "Active Wash",
+        "description": "Selected or hovered navigation and icon controls.",
+        "tonalRamp": [
+          "oklch(15.000% 0.008995 214.343)",
+          "oklch(26.429% 0.008995 214.343)",
+          "oklch(37.857% 0.008995 214.343)",
+          "oklch(49.286% 0.008995 214.343)",
+          "oklch(60.714% 0.008995 214.343)",
+          "oklch(72.143% 0.008995 214.343)",
+          "oklch(83.571% 0.008995 214.343)",
+          "oklch(95.000% 0.008995 214.343)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Hairline Edge",
+        "description": "Sheet, panel and summary-strip boundaries.",
+        "tonalRamp": [
+          "oklch(15.000% 0.008000 216.626)",
+          "oklch(26.429% 0.008000 216.626)",
+          "oklch(37.857% 0.008000 216.626)",
+          "oklch(49.286% 0.008000 216.626)",
+          "oklch(60.714% 0.008000 216.626)",
+          "oklch(72.143% 0.008000 216.626)",
+          "oklch(83.571% 0.008000 216.626)",
+          "oklch(95.000% 0.008000 216.626)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Row Rule",
+        "description": "Evidence-list dividers and chart grid lines.",
+        "tonalRamp": [
+          "oklch(15.000% 0.006556 208.783)",
+          "oklch(26.429% 0.006556 208.783)",
+          "oklch(37.857% 0.006556 208.783)",
+          "oklch(49.286% 0.006556 208.783)",
+          "oklch(60.714% 0.006556 208.783)",
+          "oklch(72.143% 0.006556 208.783)",
+          "oklch(83.571% 0.006556 208.783)",
+          "oklch(95.000% 0.006556 208.783)"
+        ]
+      },
+      "control": {
+        "role": "neutral",
+        "displayName": "Control Stroke",
+        "description": "Outlined button, input and map zoom-control boundaries.",
+        "tonalRamp": [
+          "oklch(15.000% 0.017869 219.687)",
+          "oklch(26.429% 0.017869 219.687)",
+          "oklch(37.857% 0.017869 219.687)",
+          "oklch(49.286% 0.017869 219.687)",
+          "oklch(60.714% 0.017869 219.687)",
+          "oklch(72.143% 0.017869 219.687)",
+          "oklch(83.571% 0.017869 219.687)",
+          "oklch(95.000% 0.017869 219.687)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Blue-Grey Ink",
+        "description": "Primary text and page/panel headings.",
+        "tonalRamp": [
+          "oklch(15.000% 0.029385 229.180)",
+          "oklch(26.429% 0.029385 229.180)",
+          "oklch(37.857% 0.029385 229.180)",
+          "oklch(49.286% 0.029385 229.180)",
+          "oklch(60.714% 0.029385 229.180)",
+          "oklch(72.143% 0.029385 229.180)",
+          "oklch(83.571% 0.029385 229.180)",
+          "oklch(95.000% 0.029385 229.180)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Evidence Grey",
+        "description": "Supporting copy, inactive navigation and units.",
+        "tonalRamp": [
+          "oklch(15.000% 0.025947 229.533)",
+          "oklch(26.429% 0.025947 229.533)",
+          "oklch(37.857% 0.025947 229.533)",
+          "oklch(49.286% 0.025947 229.533)",
+          "oklch(60.714% 0.025947 229.533)",
+          "oklch(72.143% 0.025947 229.533)",
+          "oklch(83.571% 0.025947 229.533)",
+          "oklch(95.000% 0.025947 229.533)"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Caption Grey",
+        "description": "Lower-emphasis captions and placeholders.",
+        "tonalRamp": [
+          "oklch(15.000% 0.024013 227.907)",
+          "oklch(26.429% 0.024013 227.907)",
+          "oklch(37.857% 0.024013 227.907)",
+          "oklch(49.286% 0.024013 227.907)",
+          "oklch(60.714% 0.024013 227.907)",
+          "oklch(72.143% 0.024013 227.907)",
+          "oklch(83.571% 0.024013 227.907)",
+          "oklch(95.000% 0.024013 227.907)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Action Ink",
+        "description": "Dark primary reporting, submission and sign-in buttons.",
+        "tonalRamp": [
+          "oklch(15.000% 0.029385 229.180)",
+          "oklch(26.429% 0.029385 229.180)",
+          "oklch(37.857% 0.029385 229.180)",
+          "oklch(49.286% 0.029385 229.180)",
+          "oklch(60.714% 0.029385 229.180)",
+          "oklch(72.143% 0.029385 229.180)",
+          "oklch(83.571% 0.029385 229.180)",
+          "oklch(95.000% 0.029385 229.180)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Lifted Ink",
+        "description": "Primary action hover background.",
+        "tonalRamp": [
+          "oklch(15.000% 0.035435 227.084)",
+          "oklch(26.429% 0.035435 227.084)",
+          "oklch(37.857% 0.035435 227.084)",
+          "oklch(49.286% 0.035435 227.084)",
+          "oklch(60.714% 0.035435 227.084)",
+          "oklch(72.143% 0.035435 227.084)",
+          "oklch(83.571% 0.035435 227.084)",
+          "oklch(95.000% 0.035435 227.084)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Environmental Teal",
+        "description": "Rainfall, current gauge water, route, product mark, caret and focus.",
+        "tonalRamp": [
+          "oklch(15.000% 0.090687 197.772)",
+          "oklch(26.429% 0.090687 197.772)",
+          "oklch(37.857% 0.090687 197.772)",
+          "oklch(49.286% 0.090687 197.772)",
+          "oklch(60.714% 0.090687 197.772)",
+          "oklch(72.143% 0.090687 197.772)",
+          "oklch(83.571% 0.090687 197.772)",
+          "oklch(95.000% 0.090687 197.772)"
+        ]
+      },
+      "selected-map": {
+        "role": "primary",
+        "displayName": "Selected-Area Teal",
+        "description": "Selected analysis cell and report-location pin outline.",
+        "tonalRamp": [
+          "oklch(15.000% 0.065554 209.677)",
+          "oklch(26.429% 0.065554 209.677)",
+          "oklch(37.857% 0.065554 209.677)",
+          "oklch(49.286% 0.065554 209.677)",
+          "oklch(60.714% 0.065554 209.677)",
+          "oklch(72.143% 0.065554 209.677)",
+          "oklch(83.571% 0.065554 209.677)",
+          "oklch(95.000% 0.065554 209.677)"
+        ]
+      },
+      "positive": {
+        "role": "secondary",
+        "displayName": "Verified Green",
+        "description": "Verified/sent/success words and Monitor label.",
+        "tonalRamp": [
+          "oklch(15.000% 0.073734 172.155)",
+          "oklch(26.429% 0.073734 172.155)",
+          "oklch(37.857% 0.073734 172.155)",
+          "oklch(49.286% 0.073734 172.155)",
+          "oklch(60.714% 0.073734 172.155)",
+          "oklch(72.143% 0.073734 172.155)",
+          "oklch(83.571% 0.073734 172.155)",
+          "oklch(95.000% 0.073734 172.155)"
+        ]
+      },
+      "negative": {
+        "role": "secondary",
+        "displayName": "Hazard Red",
+        "description": "High/rejected/failed words and verified road hazards.",
+        "tonalRamp": [
+          "oklch(15.000% 0.149593 23.445)",
+          "oklch(26.429% 0.149593 23.445)",
+          "oklch(37.857% 0.149593 23.445)",
+          "oklch(49.286% 0.149593 23.445)",
+          "oklch(60.714% 0.149593 23.445)",
+          "oklch(72.143% 0.149593 23.445)",
+          "oklch(83.571% 0.149593 23.445)",
+          "oklch(95.000% 0.149593 23.445)"
+        ]
+      },
+      "warning": {
+        "role": "secondary",
+        "displayName": "Warning Amber",
+        "description": "Elevated/queued words and limited-support text.",
+        "tonalRamp": [
+          "oklch(15.000% 0.097328 81.004)",
+          "oklch(26.429% 0.097328 81.004)",
+          "oklch(37.857% 0.097328 81.004)",
+          "oklch(49.286% 0.097328 81.004)",
+          "oklch(60.714% 0.097328 81.004)",
+          "oklch(72.143% 0.097328 81.004)",
+          "oklch(83.571% 0.097328 81.004)",
+          "oklch(95.000% 0.097328 81.004)"
+        ]
+      },
+      "status-positive-bg": {
+        "role": "secondary",
+        "displayName": "Verified Wash",
+        "description": "Monitor, verified, sent and success tag/notice background.",
+        "tonalRamp": [
+          "oklch(15.000% 0.012503 164.794)",
+          "oklch(26.429% 0.012503 164.794)",
+          "oklch(37.857% 0.012503 164.794)",
+          "oklch(49.286% 0.012503 164.794)",
+          "oklch(60.714% 0.012503 164.794)",
+          "oklch(72.143% 0.012503 164.794)",
+          "oklch(83.571% 0.012503 164.794)",
+          "oklch(95.000% 0.012503 164.794)"
+        ]
+      },
+      "status-negative-bg": {
+        "role": "secondary",
+        "displayName": "Hazard Wash",
+        "description": "High, rejected and failed tag background.",
+        "tonalRamp": [
+          "oklch(15.000% 0.017524 21.813)",
+          "oklch(26.429% 0.017524 21.813)",
+          "oklch(37.857% 0.017524 21.813)",
+          "oklch(49.286% 0.017524 21.813)",
+          "oklch(60.714% 0.017524 21.813)",
+          "oklch(72.143% 0.017524 21.813)",
+          "oklch(83.571% 0.017524 21.813)",
+          "oklch(95.000% 0.017524 21.813)"
+        ]
+      },
+      "status-warning-bg": {
+        "role": "secondary",
+        "displayName": "Warning Wash",
+        "description": "Elevated and queued tag background.",
+        "tonalRamp": [
+          "oklch(15.000% 0.034569 88.775)",
+          "oklch(26.429% 0.034569 88.775)",
+          "oklch(37.857% 0.034569 88.775)",
+          "oklch(49.286% 0.034569 88.775)",
+          "oklch(60.714% 0.034569 88.775)",
+          "oklch(72.143% 0.034569 88.775)",
+          "oklch(83.571% 0.034569 88.775)",
+          "oklch(95.000% 0.034569 88.775)"
+        ]
+      },
+      "status-neutral-bg": {
+        "role": "neutral",
+        "displayName": "Neutral State Wash",
+        "description": "Unknown, pending, expired, resolved, duplicate and cancelled states.",
+        "tonalRamp": [
+          "oklch(15.000% 0.004490 214.329)",
+          "oklch(26.429% 0.004490 214.329)",
+          "oklch(37.857% 0.004490 214.329)",
+          "oklch(49.286% 0.004490 214.329)",
+          "oklch(60.714% 0.004490 214.329)",
+          "oklch(72.143% 0.004490 214.329)",
+          "oklch(83.571% 0.004490 214.329)",
+          "oklch(95.000% 0.004490 214.329)"
+        ]
+      },
+      "status-neutral-text": {
+        "role": "neutral",
+        "displayName": "Neutral State Ink",
+        "description": "Unknown and neutral lifecycle-state words.",
+        "tonalRamp": [
+          "oklch(15.000% 0.027244 224.138)",
+          "oklch(26.429% 0.027244 224.138)",
+          "oklch(37.857% 0.027244 224.138)",
+          "oklch(49.286% 0.027244 224.138)",
+          "oklch(60.714% 0.027244 224.138)",
+          "oklch(72.143% 0.027244 224.138)",
+          "oklch(83.571% 0.027244 224.138)",
+          "oklch(95.000% 0.027244 224.138)"
+        ]
+      },
+      "map-ground": {
+        "role": "neutral",
+        "displayName": "Map Ground",
+        "description": "Bounded synthetic cartography background.",
+        "tonalRamp": [
+          "oklch(15.000% 0.008981 214.343)",
+          "oklch(26.429% 0.008981 214.343)",
+          "oklch(37.857% 0.008981 214.343)",
+          "oklch(49.286% 0.008981 214.343)",
+          "oklch(60.714% 0.008981 214.343)",
+          "oklch(72.143% 0.008981 214.343)",
+          "oklch(83.571% 0.008981 214.343)",
+          "oklch(95.000% 0.008981 214.343)"
+        ]
+      },
+      "map-low": {
+        "role": "secondary",
+        "displayName": "Monitor Cell",
+        "description": "Subdued lower-threshold analysis-cell fill.",
+        "tonalRamp": [
+          "oklch(15.000% 0.020188 196.805)",
+          "oklch(26.429% 0.020188 196.805)",
+          "oklch(37.857% 0.020188 196.805)",
+          "oklch(49.286% 0.020188 196.805)",
+          "oklch(60.714% 0.020188 196.805)",
+          "oklch(72.143% 0.020188 196.805)",
+          "oklch(83.571% 0.020188 196.805)",
+          "oklch(95.000% 0.020188 196.805)"
+        ]
+      },
+      "map-elevated": {
+        "role": "secondary",
+        "displayName": "Elevated Cell",
+        "description": "Subdued elevated-threshold analysis-cell fill.",
+        "tonalRamp": [
+          "oklch(15.000% 0.073105 90.110)",
+          "oklch(26.429% 0.073105 90.110)",
+          "oklch(37.857% 0.073105 90.110)",
+          "oklch(49.286% 0.073105 90.110)",
+          "oklch(60.714% 0.073105 90.110)",
+          "oklch(72.143% 0.073105 90.110)",
+          "oklch(83.571% 0.073105 90.110)",
+          "oklch(95.000% 0.073105 90.110)"
+        ]
+      },
+      "map-high": {
+        "role": "secondary",
+        "displayName": "High Cell",
+        "description": "Subdued high-threshold analysis-cell fill.",
+        "tonalRamp": [
+          "oklch(15.000% 0.054178 24.112)",
+          "oklch(26.429% 0.054178 24.112)",
+          "oklch(37.857% 0.054178 24.112)",
+          "oklch(49.286% 0.054178 24.112)",
+          "oklch(60.714% 0.054178 24.112)",
+          "oklch(72.143% 0.054178 24.112)",
+          "oklch(83.571% 0.054178 24.112)",
+          "oklch(95.000% 0.054178 24.112)"
+        ]
+      },
+      "map-unknown": {
+        "role": "neutral",
+        "displayName": "Unknown Cell Ground",
+        "description": "Background under diagonal missing-evidence pattern.",
+        "tonalRamp": [
+          "oklch(15.000% 0.004303 197.082)",
+          "oklch(26.429% 0.004303 197.082)",
+          "oklch(37.857% 0.004303 197.082)",
+          "oklch(49.286% 0.004303 197.082)",
+          "oklch(60.714% 0.004303 197.082)",
+          "oklch(72.143% 0.004303 197.082)",
+          "oklch(83.571% 0.004303 197.082)",
+          "oklch(95.000% 0.004303 197.082)"
+        ]
+      },
+      "unknown-hatch": {
+        "role": "neutral",
+        "displayName": "Unknown Hatch",
+        "description": "Repeated diagonal unknown-evidence geometry.",
+        "tonalRamp": [
+          "oklch(15.000% 0.018731 214.409)",
+          "oklch(26.429% 0.018731 214.409)",
+          "oklch(37.857% 0.018731 214.409)",
+          "oklch(49.286% 0.018731 214.409)",
+          "oklch(60.714% 0.018731 214.409)",
+          "oklch(72.143% 0.018731 214.409)",
+          "oklch(83.571% 0.018731 214.409)",
+          "oklch(95.000% 0.018731 214.409)"
+        ]
+      },
+      "map-river": {
+        "role": "secondary",
+        "displayName": "Cartographic Water",
+        "description": "Synthetic river geometry; not a severity state.",
+        "tonalRamp": [
+          "oklch(15.000% 0.040462 196.367)",
+          "oklch(26.429% 0.040462 196.367)",
+          "oklch(37.857% 0.040462 196.367)",
+          "oklch(49.286% 0.040462 196.367)",
+          "oklch(60.714% 0.040462 196.367)",
+          "oklch(72.143% 0.040462 196.367)",
+          "oklch(83.571% 0.040462 196.367)",
+          "oklch(95.000% 0.040462 196.367)"
+        ]
+      },
+      "map-park": {
+        "role": "neutral",
+        "displayName": "Cartographic Land",
+        "description": "Synthetic park geometry; not a severity state.",
+        "tonalRamp": [
+          "oklch(15.000% 0.017235 196.842)",
+          "oklch(26.429% 0.017235 196.842)",
+          "oklch(37.857% 0.017235 196.842)",
+          "oklch(49.286% 0.017235 196.842)",
+          "oklch(60.714% 0.017235 196.842)",
+          "oklch(72.143% 0.017235 196.842)",
+          "oklch(83.571% 0.017235 196.842)",
+          "oklch(95.000% 0.017235 196.842)"
+        ]
+      },
+      "map-road": {
+        "role": "neutral",
+        "displayName": "Road Grey",
+        "description": "Ordinary road network over the white road casing.",
+        "tonalRamp": [
+          "oklch(15.000% 0.028577 214.539)",
+          "oklch(26.429% 0.028577 214.539)",
+          "oklch(37.857% 0.028577 214.539)",
+          "oklch(49.286% 0.028577 214.539)",
+          "oklch(60.714% 0.028577 214.539)",
+          "oklch(72.143% 0.028577 214.539)",
+          "oklch(83.571% 0.028577 214.539)",
+          "oklch(95.000% 0.028577 214.539)"
+        ]
+      },
+      "gauge-track": {
+        "role": "neutral",
+        "displayName": "Gauge Track",
+        "description": "Narrow level column behind the clamped water fill.",
+        "tonalRamp": [
+          "oklch(15.000% 0.011853 203.466)",
+          "oklch(26.429% 0.011853 203.466)",
+          "oklch(37.857% 0.011853 203.466)",
+          "oklch(49.286% 0.011853 203.466)",
+          "oklch(60.714% 0.011853 203.466)",
+          "oklch(72.143% 0.011853 203.466)",
+          "oklch(83.571% 0.011853 203.466)",
+          "oklch(95.000% 0.011853 203.466)"
+        ]
+      },
+      "gauge-stale": {
+        "role": "neutral",
+        "displayName": "Stale Water",
+        "description": "Retained or absent gauge observation, accompanied by a stale suffix.",
+        "tonalRamp": [
+          "oklch(15.000% 0.026690 222.783)",
+          "oklch(26.429% 0.026690 222.783)",
+          "oklch(37.857% 0.026690 222.783)",
+          "oklch(49.286% 0.026690 222.783)",
+          "oklch(60.714% 0.026690 222.783)",
+          "oklch(72.143% 0.026690 222.783)",
+          "oklch(83.571% 0.026690 222.783)",
+          "oklch(95.000% 0.026690 222.783)"
+        ]
+      },
+      "error-bg": {
+        "role": "secondary",
+        "displayName": "Error Sheet",
+        "description": "Inline alert background.",
+        "tonalRamp": [
+          "oklch(15.000% 0.007646 27.228)",
+          "oklch(26.429% 0.007646 27.228)",
+          "oklch(37.857% 0.007646 27.228)",
+          "oklch(49.286% 0.007646 27.228)",
+          "oklch(60.714% 0.007646 27.228)",
+          "oklch(72.143% 0.007646 27.228)",
+          "oklch(83.571% 0.007646 27.228)",
+          "oklch(95.000% 0.007646 27.228)"
+        ]
+      },
+      "error-border": {
+        "role": "secondary",
+        "displayName": "Error Edge",
+        "description": "Inline alert boundary.",
+        "tonalRamp": [
+          "oklch(15.000% 0.020005 21.382)",
+          "oklch(26.429% 0.020005 21.382)",
+          "oklch(37.857% 0.020005 21.382)",
+          "oklch(49.286% 0.020005 21.382)",
+          "oklch(60.714% 0.020005 21.382)",
+          "oklch(72.143% 0.020005 21.382)",
+          "oklch(83.571% 0.020005 21.382)",
+          "oklch(95.000% 0.020005 21.382)"
+        ]
+      },
+      "error-text": {
+        "role": "secondary",
+        "displayName": "Error Ink",
+        "description": "Inline alert icon and message.",
+        "tonalRamp": [
+          "oklch(15.000% 0.123795 21.668)",
+          "oklch(26.429% 0.123795 21.668)",
+          "oklch(37.857% 0.123795 21.668)",
+          "oklch(49.286% 0.123795 21.668)",
+          "oklch(60.714% 0.123795 21.668)",
+          "oklch(72.143% 0.123795 21.668)",
+          "oklch(83.571% 0.123795 21.668)",
+          "oklch(95.000% 0.123795 21.668)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page title",
+        "purpose": "Wide-screen page title; source h1."
+      },
+      "headline-compact": {
+        "displayName": "Compact page title",
+        "purpose": "Page title at max-width 1190px."
+      },
+      "headline-phone": {
+        "displayName": "Phone page title",
+        "purpose": "Page title at max-width 480px."
+      },
+      "title": {
+        "displayName": "Panel title",
+        "purpose": "Source h2 and ordinary panel headings."
+      },
+      "title-small": {
+        "displayName": "Subordinate title",
+        "purpose": "Source h3 for model, route and interpretation detail."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Global body reading size; also phone area-selector text."
+      },
+      "body-small": {
+        "displayName": "Evidence copy",
+        "purpose": "Compact source/evidence/navigation copy; local leading overrides remain in component CSS."
+      },
+      "form-phone": {
+        "displayName": "Phone form text",
+        "purpose": "Ordinary editable phone fields; coordinate inputs have an observed smaller exception."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels and selected navigation/tab text."
+      },
+      "action-label": {
+        "displayName": "Text action",
+        "purpose": "Unboxed sentence-case text buttons."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Units, source statements, date labels and chart annotations."
+      },
+      "value": {
+        "displayName": "Summary value",
+        "purpose": "Measured totals in the divided summary strip."
+      },
+      "area-value": {
+        "displayName": "Area index",
+        "purpose": "Relative selected-area index, with separate unit and missing-value text."
+      },
+      "gauge-value": {
+        "displayName": "Gauge value",
+        "purpose": "Local demo reading with its datum, age and units."
+      },
+      "button": {
+        "displayName": "Button label",
+        "purpose": "Primary and outlined action labels."
+      },
+      "status": {
+        "displayName": "State word",
+        "purpose": "Compact semibold risk and report/delivery state tags."
+      }
+    },
+    "shadows": [
+      {
+        "name": "flat-panels",
+        "value": "none",
+        "purpose": "Frame, sheet, summary strip, ordinary panels and map zoom controls use tone and hairlines."
+      },
+      {
+        "name": "map-tooltip",
+        "value": "0 4px 12px #21343d14",
+        "purpose": "Transient geographic tooltip only; permanent ward labels have no shadow."
+      },
+      {
+        "name": "moderator-dialog",
+        "value": "0 18px 64px #21343d33",
+        "purpose": "Temporary native sign-in dialog above translucent ink backdrop #21343d66."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "background-color 120ms ease-out, transform 120ms ease-out",
+        "purpose": "Primary, outlined and icon controls only; text buttons and loading placeholders remain static."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px)",
+        "purpose": "Enabled primary/outlined and icon controls on :active."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto !important;",
+        "purpose": "Global prefers-reduced-motion: reduce; also disables the Leaflet animated zoom transition."
+      },
+      {
+        "name": "map-resize",
+        "value": "fitBounds(bounds, { padding: [16, 16], animate: false })",
+        "purpose": "Map resizing refits the bounded synthetic geography without motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1190px"
+      },
+      {
+        "name": "menu-max",
+        "value": "1050px"
+      },
+      {
+        "name": "stack-max",
+        "value": "760px"
+      },
+      {
+        "name": "phone-max",
+        "value": "480px"
+      }
+    ],
+    "sourceFingerprint": {
+      "algorithm": "SHA-256",
+      "method": "SHA-256 of UTF-8 path + space + file SHA-256 lines; POSIX relative paths sorted by casefold(), joined with LF and no trailing LF.",
+      "sha256": "5b963177d57ddf902c4c38ad3f05ffe44f948b41b628d29ffa0207606a21721f",
+      "files": [
+        {
+          "path": "frontend/src/AlertsScreen.tsx",
+          "sha256": "2093c207149965cdb9488ab54e39560e2d70eb81071e430c38bfa0c91bb50721"
+        },
+        {
+          "path": "frontend/src/api.ts",
+          "sha256": "643cfa63f7665d0f19de2b1932e0638dff18e778ccd1672a569aa4d0db65edc6"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "sha256": "c8f0600949571e924d329fdbc23184894c4e778337e2e18ce4d9d34efe5a6cd6"
+        },
+        {
+          "path": "frontend/src/Charts.tsx",
+          "sha256": "5cfefb88a6ab092115858b8dae955871af2189e63499e4868e3954117e8c75be"
+        },
+        {
+          "path": "frontend/src/DataScreen.tsx",
+          "sha256": "0203a30bd60ebcf1855050e4560ed9c87775f6db9f66b635d41544252b8ba7b4"
+        },
+        {
+          "path": "frontend/src/main.tsx",
+          "sha256": "1477d5eb16f7eb524c3491fe2673889ab84582e531fe48d581abb9406c302490"
+        },
+        {
+          "path": "frontend/src/MapView.tsx",
+          "sha256": "99449c5b381900fa99d64b149017027c6408944c234790af51cfa6ec8362d4be"
+        },
+        {
+          "path": "frontend/src/Overview.tsx",
+          "sha256": "8081a0bf9bb7b358d49199650ef596b6ce9b137584c52c6315fea82247c262ba"
+        },
+        {
+          "path": "frontend/src/ReportsScreen.tsx",
+          "sha256": "a998f5d6f44c761bba3fe023b3d87fac7de7b76106289baff78a380c4e4d2b95"
+        },
+        {
+          "path": "frontend/src/ReviewScreen.tsx",
+          "sha256": "0237cf3385ce86cd1cac2ccb17a91e70372d2cf78dbd8165b1dec354c549d1c6"
+        },
+        {
+          "path": "frontend/src/RoutesScreen.tsx",
+          "sha256": "979cd8e57587165b76abb5b083c09adab21a21fad4f2befe9f38b10f9f7f5605"
+        },
+        {
+          "path": "frontend/src/styles.css",
+          "sha256": "2544f32f172caafe566627dd73cdb7aea412ca8089f1077db93584e64afa4eda"
+        },
+        {
+          "path": "frontend/src/types.ts",
+          "sha256": "97ecf8a3b4ed08ff11a5e16c52f6dc64a6a3fa2a46f8f6a39037bfa937e417fc"
+        },
+        {
+          "path": "frontend/src/ui.tsx",
+          "sha256": "98f73c5ac5c6d53f78206fce7fd6277bf9129286ed662b8cc2a21895073db9a3"
+        }
+      ],
+      "designMd": {
+        "path": "DESIGN.md",
+        "sha256": "6d215f5451c5cf0b3b2e2accafe9e6ec6f0ed80ce672577d0b9aa1d401109258"
+      },
+      "authorityFiles": [
+        {
+          "path": "PRODUCT.md",
+          "sha256": "9ce1cb6ec9910b20ec7a88c5880a80404f060521e8250e5a142edabe387ac632"
+        },
+        {
+          "path": "docs/UI_DIRECTION.md",
+          "sha256": "0c4ec8b48309f4a508b73a1b9f2d5c9b8016977cbb3bd5634ca4313be1da0603"
+        },
+        {
+          "path": ".taste-skill/direction.json",
+          "sha256": "fc4324c1db86d5a062d3efdac7b5f761ad4ccbad5d8e0ab823d8fff84b29c0c3"
+        }
+      ],
+      "browserAcceptance": {
+        "path": ".verification/browser-acceptance.json",
+        "sha256": "5cee4440cd97c501952d9454ef37bff811f3eec6dde8bed08a9bdf831f30176b",
+        "status": "passed",
+        "passedChecks": 13,
+        "compiledIndexPath": "frontend/dist/index.html",
+        "compiledIndexSha256": "bb60db144ba192d1a1e47ef7cb5ea0d5c051354b5828f6ba0de8b9c65b903d8b"
+      },
+      "visualEvidence": [
+        {
+          "path": ".impeccable/review/desktop.png",
+          "sha256": "273f3738d6462bb102ad29796034047558855ab01231f7700888830f759b8752",
+          "imageWidth": 1440,
+          "imageHeight": 1154,
+          "viewportWidth": 1440,
+          "viewportHeight": 900
+        },
+        {
+          "path": ".impeccable/review/mobile.png",
+          "sha256": "e1f687490daf3d38f1d248c5377882303d5e5413c2c4f94c27b393f3658e551b",
+          "imageWidth": 390,
+          "imageHeight": 2081,
+          "viewportWidth": 390,
+          "viewportHeight": 844
+        },
+        {
+          "path": ".impeccable/review/tablet.png",
+          "sha256": "3eac745cf8ad1dc5dbaed3ef85ea454c7e2ad2cc3da0670d133f9280b7269c4b",
+          "imageWidth": 1024,
+          "imageHeight": 1201,
+          "viewportWidth": 1024,
+          "viewportHeight": 900
+        },
+        {
+          "path": ".impeccable/review/small-phone.png",
+          "sha256": "d706abd66e0b676720f062b8eda7b6fafea439bd809736a7d473b6cc3722dccd",
+          "imageWidth": 320,
+          "imageHeight": 2285,
+          "viewportWidth": 320,
+          "viewportHeight": 800
+        },
+        {
+          "path": ".impeccable/review/report-form.png",
+          "sha256": "fcb4f0e7f6cc2cd679629102378f1deb35e887da8eb175a88165d20d51f39f5b",
+          "imageWidth": 1440,
+          "imageHeight": 949,
+          "viewportWidth": 1440,
+          "viewportHeight": 900
+        },
+        {
+          "path": ".impeccable/review/report-form-mobile.png",
+          "sha256": "23b4a4550ff0cd1981ce8275de5de6060df37c23a779ac5a12b93ec27f588c0a",
+          "imageWidth": 390,
+          "imageHeight": 1763,
+          "viewportWidth": 390,
+          "viewportHeight": 844
+        },
+        {
+          "path": ".impeccable/review/feed-outage.png",
+          "sha256": "dcddebb73cbf27c787b03199bb16b8f5e9a4b1a2c212d3e542e9965b1653d080",
+          "imageWidth": 1440,
+          "imageHeight": 1154,
+          "viewportWidth": 1440,
+          "viewportHeight": 900
+        },
+        {
+          "path": ".impeccable/review/feed-outage-mobile.png",
+          "sha256": "bdcac9e44a786c8a7a7deebddc645812cf8f43baf03150826eacbaf752466d71",
+          "imageWidth": 390,
+          "imageHeight": 2051,
+          "viewportWidth": 390,
+          "viewportHeight": 844
+        }
+      ],
+      "reviewFiles": [
+        {
+          "path": ".impeccable/review/finish-review.md",
+          "sha256": "3a8c80641e35d9e076e234051edffff0757331f3d9417cd75ddb13dfa83b4a97"
+        },
+        {
+          "path": ".impeccable/review/finish-verdict.md",
+          "sha256": "d57b552b97d9e6eed26d5cb5315324d7bfdfba0e26cb358ea4bcf99b2735cb22"
+        }
+      ],
+      "documentationLimits": [
+        "Source extraction and documentation do not supply an external quality ceiling: the committed code-led build has no approved comp or QUALITY BAR board.",
+        "The replacement verdict resolves only the two material fixes from the original full review.",
+        "Component snippets preserve CSS appearance and states. React/Leaflet data, persistence and native-dialog focus management remain in application source.",
+        "The eight visual captures are full-page images; viewport and PNG image dimensions are recorded separately.",
+        "Synthesized OKLCH ramps are panel metadata only. Hex frontmatter values remain normative; no generated ramp has been promoted to the application palette.",
+        "Coordinates, gauge datum, observations and geography are synthetic; this record does not establish forecast accuracy or physical-phone testing."
+      ],
+      "verification": {
+        "checkedAt": "2026-11-11T05:53:09Z",
+        "frontmatterSpec": "https://raw.githubusercontent.com/google-labs-code/design.md/main/docs/spec.md",
+        "frontmatterConstraints": "passed",
+        "sidecarSpec": "Impeccable reference/document.md, Step 4b, schemaVersion 2",
+        "sidecarConstraints": "passed",
+        "canonicalSections": 8,
+        "resolvedTokenReferences": 81,
+        "sourceColorsVerified": 36,
+        "sourceFilesVerified": 14,
+        "visualEvidenceHashesVerified": 8,
+        "browserAcceptanceChecksVerified": 13,
+        "shadowPreview": {
+          "count": 10,
+          "viewportWidths": [
+            1440,
+            390,
+            320
+          ],
+          "cssParsingAndVisibility": "passed",
+          "primaryHoverAndPress": "passed",
+          "keyboardFocus": "passed",
+          "phoneSizingAndOverflow": "passed",
+          "reducedMotion": "passed",
+          "liveCssVariableBinding": "passed",
+          "javascriptErrors": []
+        }
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Dark reporting/submission action with hover, keyboard focus, brief press feedback and phone sizing.",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\">Report waterlogging<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 9px 13px; min-height: 36px; line-height: 1.4; background: var(--primary, #21343d); color: var(--surface, #ffffff); border: 1px solid var(--primary, #21343d); border-radius: var(--radius-control, 6px); font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 13px; font-weight: 600; white-space: nowrap; cursor: pointer; user-select: none; touch-action: manipulation; -webkit-tap-highlight-color: transparent; transition: background-color 120ms ease-out, transform 120ms ease-out; } .ds-btn-primary:hover:not(:disabled) { background: #38515c; } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent, #087f82); outline-offset: 3px; } .ds-btn-primary:active:not(:disabled) { transform: translateY(1px); } .ds-btn-primary:disabled { cursor: default; opacity: .5; } @media (max-width: 480px) { .ds-btn-primary { min-height: 44px; padding: 10px 13px; } } @media (prefers-reduced-motion: reduce) { .ds-btn-primary { transition: none; } } .ds-btn-primary svg { flex-shrink: 0; }"
+    },
+    {
+      "name": "Outlined action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White secondary action with stronger control stroke and the shared interaction states.",
+      "html": "<button type=\"button\" class=\"ds-btn-secondary\">Refresh sources</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 9px 13px; min-height: 36px; line-height: 1.4; background: var(--surface, #ffffff); color: var(--text, #21343d); border: 1px solid var(--control, #b9c8cd); border-radius: var(--radius-control, 6px); font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 13px; font-weight: 600; white-space: nowrap; cursor: pointer; user-select: none; touch-action: manipulation; -webkit-tap-highlight-color: transparent; transition: background-color 120ms ease-out, transform 120ms ease-out; } .ds-btn-secondary:hover:not(:disabled) { background: var(--raised, #f6f8f8); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--accent, #087f82); outline-offset: 3px; } .ds-btn-secondary:active:not(:disabled) { transform: translateY(1px); } .ds-btn-secondary:disabled { cursor: default; opacity: .5; } @media (max-width: 480px) { .ds-btn-secondary { min-height: 44px; padding: 10px 13px; } } @media (prefers-reduced-motion: reduce) { .ds-btn-secondary { transition: none; } } .ds-btn-secondary svg { flex-shrink: 0; }"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Unboxed sentence-case action; hover is teal and underlined, with the shared focus outline.",
+      "html": "<button type=\"button\" class=\"ds-btn-text\">View reports<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></button>",
+      "css": ".ds-btn-text { display: inline-flex; align-items: center; gap: 5px; padding: 0; background: none; border: none; color: var(--text, #21343d); font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 13px; font-weight: 600; line-height: 1.55; text-decoration: none; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; } .ds-btn-text:hover { color: var(--accent, #087f82); text-decoration: underline; text-underline-offset: 3px; } .ds-btn-text:focus-visible { outline: 2px solid var(--accent, #087f82); outline-offset: 3px; } .ds-btn-text:disabled { cursor: default; opacity: .5; } @media (max-width: 480px) { .ds-btn-text { min-height: 36px; } } .ds-btn-text svg { flex-shrink: 0; }"
+    },
+    {
+      "name": "Icon action",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "Labelled compact refresh control; uses a quiet active wash, 1px press feedback and a larger phone target.",
+      "html": "<button type=\"button\" class=\"ds-btn-icon\" aria-label=\"Refresh map data\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8\"/><path d=\"M21 3v5h-5\"/><path d=\"M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16\"/><path d=\"M8 16H3v5\"/></svg></button>",
+      "css": ".ds-btn-icon { width: 32px; height: 32px; border: none; background: transparent; display: inline-flex; align-items: center; justify-content: center; color: var(--muted, #586a73); border-radius: 6px; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; transition: background-color 120ms ease-out, transform 120ms ease-out; } .ds-btn-icon:hover:not(:disabled) { background: var(--active, #e3ebed); color: var(--text, #21343d); } .ds-btn-icon:focus-visible { outline: 2px solid var(--accent, #087f82); outline-offset: 3px; } .ds-btn-icon:active:not(:disabled) { transform: translateY(1px); } .ds-btn-icon:disabled { cursor: default; opacity: .5; } @media (max-width: 480px) { .ds-btn-icon { width: 44px; height: 44px; } } @media (prefers-reduced-motion: reduce) { .ds-btn-icon { transition: none; } } .ds-btn-icon svg { flex-shrink: 0; }"
+    },
+    {
+      "name": "Labelled field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Visible label, stronger control stroke, placeholder, helper copy and keyboard focus. The source has no separate hover fill.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-username\">Username</label><input class=\"ds-input\" id=\"ds-username\" type=\"text\" autocomplete=\"username\" placeholder=\"Username\" value=\"moderator\" aria-describedby=\"ds-field-help\"/><span class=\"ds-field-help\" id=\"ds-field-help\">Moderator sign in</span></div>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 7px; margin-bottom: 16px; min-width: 0; color: var(--text, #21343d); font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); line-height: 1.55; } .ds-field label { font-size: 13px; font-weight: 650; } .ds-input { box-sizing: border-box; background: var(--surface, #ffffff); border: 1px solid var(--control, #b9c8cd); border-radius: 6px; padding: 10px; color: var(--text, #21343d); width: 100%; min-height: 38px; font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 13px; caret-color: var(--accent, #087f82); -webkit-tap-highlight-color: transparent; } .ds-input::placeholder { color: var(--faint, #5c6d75); opacity: 1; } .ds-input:focus-visible { outline: 2px solid var(--accent, #087f82); outline-offset: 3px; } .ds-field-help { color: var(--muted, #586a73); font-size: 12px; line-height: 1.5; } @media (max-width: 480px) { .ds-input { font-size: 16px; min-height: 44px; } }"
+    },
+    {
+      "name": "Navigation and screen tabs",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Ordinary labelled anchors use a neutral selected wash; secondary tabs use a teal underline. This preview shows CSS states, not the native mobile-dialog focus controller.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a class=\"ds-nav-link ds-nav-active\" href=\"#map\" aria-current=\"page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z\"/><path d=\"M15 5.764v15\"/><path d=\"M9 3.236v15\"/></svg><span>Flood map</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg></a><a class=\"ds-nav-link\" href=\"#reports\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg><span>Reports</span></a><a class=\"ds-nav-link\" href=\"#routes\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"6\" cy=\"19\" r=\"3\"/><path d=\"M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15\"/><circle cx=\"18\" cy=\"5\" r=\"3\"/></svg><span>Route suggestions</span></a></nav><div class=\"ds-tabs\"><button type=\"button\" class=\"ds-tab ds-tab-active\">Your reports</button><button type=\"button\" class=\"ds-tab\">Verified community reports</button></div>",
+      "css": ".ds-nav { display: flex; flex-direction: column; gap: 4px; width: 224px; max-width: 100%; background: var(--ground, #edf3f5); font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); line-height: 1.55; } .ds-nav-link { display: flex; align-items: center; gap: 11px; padding: 11px 12px; border-radius: 6px; text-decoration: none; font-size: 13px; color: var(--muted, #586a73); } .ds-nav-link > span { flex: 1; } .ds-nav-link:hover, .ds-nav-active { background: var(--active, #e3ebed); color: var(--text, #21343d); } .ds-nav-active { font-weight: 650; } .ds-nav-link:focus-visible, .ds-tab:focus-visible { outline: 2px solid var(--accent, #087f82); outline-offset: 3px; } .ds-tabs { display: flex; align-items: center; gap: 22px; border-bottom: 1px solid var(--border, #e2e9eb); margin: 20px 0; overflow-x: auto; font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); } .ds-tab { background: none; border: none; color: var(--muted, #586a73); font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 13px; padding: 10px 0 12px; white-space: nowrap; border-bottom: 2px solid transparent; cursor: pointer; touch-action: manipulation; } .ds-tab-active { color: var(--text, #21343d); border-bottom-color: var(--accent, #087f82); font-weight: 650; } @media (max-width: 1050px) { .ds-nav-link { min-height: 46px; font-size: 15px; } } .ds-nav-link svg { flex-shrink: 0; }"
+    },
+    {
+      "name": "Risk and lifecycle tags",
+      "kind": "chip",
+      "refersTo": "status-monitor",
+      "description": "Noninteractive state words with dot/check vocabulary. Neutral lifecycle states reuse the Unknown tag treatment; they are not toggles.",
+      "html": "<div class=\"ds-status-list\"><span class=\"ds-status ds-status-monitor\"><span class=\"ds-status-dot\" aria-hidden=\"true\"></span>Monitor</span><span class=\"ds-status ds-status-elevated\"><span class=\"ds-status-dot\" aria-hidden=\"true\"></span>Elevated</span><span class=\"ds-status ds-status-high\"><span class=\"ds-status-dot\" aria-hidden=\"true\"></span>High</span><span class=\"ds-status ds-status-unknown\"><span class=\"ds-status-dot\" aria-hidden=\"true\"></span>Unknown</span></div>",
+      "css": ".ds-status-list { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; } .ds-status { box-sizing: border-box; display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 2px 7px; font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 12px; font-weight: 650; border-radius: 4px; line-height: 1.3; white-space: nowrap; } .ds-status-dot { width: 5px; height: 5px; border-radius: 50%; background: currentColor; } .ds-status-monitor { background: #e7f1ec; color: var(--positive, #246755); } .ds-status-elevated { background: #f9efd6; color: var(--warning, #805d11); } .ds-status-high { background: #f8e8e7; color: var(--negative, #a73537); } .ds-status-unknown { background: #edf1f2; color: #52666e; } "
+    },
+    {
+      "name": "Flat panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "White panel with hairline edge, modest corners, compact heading and no hover lift or shadow.",
+      "html": "<section class=\"ds-panel\" aria-labelledby=\"ds-panel-title\"><div class=\"ds-panel-header\"><h2 id=\"ds-panel-title\">Environmental sources</h2><span class=\"ds-panel-meta\">Synthetic</span></div><p class=\"ds-panel-copy\">Original fixture files and SHA-256 checksums are included in the source bundle.</p></section>",
+      "css": ".ds-panel { min-width: 0; border: 1px solid var(--border, #e2e9eb); border-radius: var(--radius-card, 12px); background: var(--surface, #ffffff); color: var(--text, #21343d); padding: var(--card-pad, 20px); font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 14px; line-height: 1.55; } .ds-panel-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; min-height: 20px; } .ds-panel-header h2 { margin: 0; font-size: 16px; font-weight: 650; line-height: 1.35; text-wrap: balance; } .ds-panel-meta { font-size: 13px; color: var(--muted, #586a73); } .ds-panel-copy { margin: 0; font-size: 13px; color: var(--muted, #586a73); line-height: 1.5; } @media (max-width: 480px) { .ds-panel { padding: 16px; } }"
+    },
+    {
+      "name": "Gauge and freshness",
+      "kind": "custom",
+      "refersTo": "gauge-row",
+      "description": "Source level-mark signature, shown with a retained stale reading and its original times. The visual scale is aria-hidden because the text carries the value and datum.",
+      "html": "<div class=\"ds-gauge-row\"><div class=\"ds-gauge ds-gauge-stale\" aria-hidden=\"true\"><div class=\"ds-gauge-column\"><div class=\"ds-gauge-water\" style=\"height:65%\"></div></div><div class=\"ds-gauge-marks\"><span>8</span><span>6</span><span>4</span><span>2</span><span>0</span></div></div><div class=\"ds-gauge-reading\"><span class=\"ds-gauge-label\">Local demo gauge</span><strong>5.2<small> m · stale</small></strong><p>Observed 11:00 IST.<br/>Synthetic datum; not road-water depth.</p></div></div><div class=\"ds-validity\"><span>Issued 14:02 IST</span><span>Valid to 17:02 IST</span></div><details class=\"ds-reasons\"><summary>Rule and source details</summary><p>Relative demo index · No validated flood probability</p></details>",
+      "css": ".ds-gauge-row { display: flex; align-items: center; gap: 16px; padding: 12px; background: var(--raised, #f6f8f8); border-radius: 6px; font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); color: var(--text, #21343d); } .ds-gauge { display: flex; height: 68px; gap: 6px; align-items: stretch; } .ds-gauge-column { width: 17px; position: relative; background: #dde8e9; border-radius: 2px; overflow: hidden; } .ds-gauge-water { position: absolute; bottom: 0; left: 0; right: 0; background: var(--accent, #087f82); opacity: .75; } .ds-gauge-stale .ds-gauge-water { background: #81969e; } .ds-gauge-marks { display: flex; flex-direction: column; justify-content: space-between; font-size: 12px; line-height: 1; color: var(--muted, #586a73); font-variant-numeric: tabular-nums; } .ds-gauge-label { color: var(--muted, #586a73); font-size: 13px; } .ds-gauge-reading strong { display: block; font-size: 18px; line-height: 1.4; font-weight: 600; font-variant-numeric: tabular-nums; } .ds-gauge-reading small { font-size: 12px; font-weight: 400; color: var(--muted, #586a73); } .ds-gauge-reading p { font-size: 12px; color: var(--muted, #586a73); line-height: 1.45; margin: 3px 0 0; } .ds-validity { display: flex; justify-content: space-between; gap: 8px; margin-top: 13px; font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 12px; color: var(--muted, #586a73); } .ds-reasons { margin-top: 8px; font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); font-size: 13px; color: var(--text, #21343d); } .ds-reasons summary { cursor: pointer; font-weight: 600; padding: 5px 0; } .ds-reasons summary:focus-visible { outline: 2px solid var(--accent, #087f82); outline-offset: 3px; } .ds-reasons p { margin: 6px 0; color: var(--muted, #586a73); } @media (max-width: 480px) { .ds-reasons { margin-top: 12px; } .ds-reasons summary { min-height: 40px; padding: 10px 0; } }"
+    },
+    {
+      "name": "Map evidence symbols",
+      "kind": "custom",
+      "refersTo": "status-unknown",
+      "description": "Self-contained symbol sample using the implemented fills, 7px hatch, selected edge and hazard line. It is a documentation key, not the synthetic pilot map; the application renders the full geography with Leaflet.",
+      "html": "<figure class=\"ds-map-key\"><svg class=\"ds-map-symbols\" viewBox=\"0 0 260 134\" role=\"img\" aria-label=\"Map symbol sample: Monitor and High fills, a selected hatched Unknown cell and a dashed verified road hazard\"><defs><pattern id=\"ds-unknown-pattern\" patternUnits=\"userSpaceOnUse\" width=\"7\" height=\"7\"><rect class=\"ds-map-unknown-ground\" width=\"7\" height=\"7\"/><path class=\"ds-map-hatch\" d=\"M-1 1L1-1M0 7L7 0M6 8L8 6\"/></pattern></defs><rect class=\"ds-map-background\" width=\"260\" height=\"134\"/><rect class=\"ds-map-low\" x=\"16\" y=\"16\" width=\"76\" height=\"102\"/><rect class=\"ds-map-high\" x=\"92\" y=\"16\" width=\"76\" height=\"102\"/><rect class=\"ds-map-unknown\" x=\"168\" y=\"16\" width=\"76\" height=\"102\"/><path class=\"ds-road-case\" d=\"M30 77H228\"/><path class=\"ds-road\" d=\"M30 77H228\"/><path class=\"ds-hazard\" d=\"M103 77H156\"/></svg><figcaption class=\"ds-map-caption\">Unknown evidence is patterned. Verified road hazards remain a separate dashed layer.</figcaption></figure>",
+      "css": ".ds-map-key { margin: 0; font-family: var(--font, 'Manrope Variable', 'Manrope', sans-serif); } .ds-map-symbols { display: block; width: 100%; height: auto; } .ds-map-background { fill: #e5edef; } .ds-map-low { fill: #d4e7e7; fill-opacity: .85; stroke: var(--surface, #ffffff); stroke-width: 1.5; } .ds-map-high { fill: #dfb1ad; fill-opacity: .85; stroke: var(--surface, #ffffff); stroke-width: 1.5; } .ds-map-unknown-ground { fill: #e4e8e8; } .ds-map-hatch { stroke: #a3b3b7; stroke-width: 1; } .ds-map-unknown { fill: url(#ds-unknown-pattern); fill-opacity: .85; stroke: #185a64; stroke-width: 2.4; stroke-dasharray: 4 4; } .ds-road-case { fill: none; stroke: var(--surface, #ffffff); stroke-width: 7; stroke-opacity: .96; } .ds-road { fill: none; stroke: #7e969c; stroke-width: 1.5; stroke-opacity: .9; } .ds-hazard { fill: none; stroke: var(--negative, #a73537); stroke-width: 4.5; stroke-opacity: .9; stroke-dasharray: 7 5; } .ds-map-caption { padding: 8px 12px; background: var(--raised, #f6f8f8); color: var(--muted, #586a73); font-size: 12px; line-height: 1.4; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "River-embankment level marks",
+    "overview": "Floodline is a calm, precise information sheet for reading environmental evidence in daylight. A pale water-grey frame holds a white work surface. Manrope gives headings, ordinary web controls and measured figures one consistent voice. Compact labels, comparable rows and modest corners keep the map and its evidence easy to scan.\n\nDepth comes from tone and hairline boundaries. Environmental data carries teal; amber and red describe warning and failure states. Missing evidence has its own words and patterned geometry. The gauge and observation, issue and validity times make the age and meaning of a reading visible alongside its value. These are durable visual commitments drawn from the implementation and the confirmed direction; the synthetic pilot is always labelled.",
+    "keyCharacteristics": [
+      "Water-grey frame, white sheet and flat bordered panels.",
+      "Locally bundled Manrope with compact sentence-case labels and tabular figures.",
+      "Teal environmental evidence with separate amber, red and neutral state signals.",
+      "Patterned unknown areas, plain-language limitations and visible freshness.",
+      "Familiar navigation, keyboard focus and responsive resident forms."
+    ],
+    "rules": [
+      {
+        "name": "The Evidence Color Rule",
+        "body": "Keep ordinary navigation and controls neutral. Use teal for environmental data and amber/red/green for their documented state meanings; the map's geographic and severity colors retain their distinct roles.",
+        "section": "colors"
+      },
+      {
+        "name": "The Unknown Rule",
+        "body": "Missing or stale evidence stays visibly unknown. Use the neutral tag and hatched cell; show \"Unavailable\" or \"Not estimable\" where a current value cannot be supported.",
+        "section": "colors"
+      },
+      {
+        "name": "The Comparable Figures Rule",
+        "body": "Use tabular numerals for totals, timestamps, rainfall, the relative index and gauge marks. Keep the unit and observation context visible with the number.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Sheet Rule",
+        "body": "Keep the frame, work sheet and ordinary panels free of shadows. Preserve the small tooltip shadow and modal depth when those temporary layers are present.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do reuse the water-grey frame, white work sheet and flat panel hierarchy.",
+      "Do keep Manrope, sentence-case labels and tabular figures consistent across screens.",
+      "Do attach units, observation times, source meaning and validity to environmental values.",
+      "Do show Unknown with both a word and patterned geography, and keep stale readings visibly retained.",
+      "Do provide labelled controls, keyboard focus and a text route through map evidence.",
+      "Do preserve the shared gutters and verify resident flows at 1024px, 390px and 320px.",
+      "Do use the dedicated warning, failure and lifecycle states after the relevant action or evidence confirms them."
+    ],
+    "donts": [
+      "Don't turn missing or stale observations into zero rainfall, an all-clear result or a current estimate.",
+      "Don't give the frame, sheet or ordinary dashboard panels decorative shadows.",
+      "Don't use teal to imply that an observation is verified, or a risk fill to imply a road is closed.",
+      "Don't hide risk, freshness or submission state behind color alone.",
+      "Don't display a saved-state confirmation before the submission succeeds.",
+      "Don't expand the relative demo index into an asserted flood probability or unlabeled live forecast.",
+      "Don't replace standard screen navigation with gestures or map-only interaction."
+    ]
+  }
+}

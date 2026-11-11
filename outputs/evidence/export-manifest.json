@@ -1,0 +1,67 @@
+{
+  "mode": "synthetic",
+  "dataset_sha256": "4937de02e2deb6a6ada8ea8354c5755bb50690e999dc54992896a5b9e8babe43",
+  "split_fingerprint": "a747b0a2817f39a56c27292d0f52bc0160fadfd035a13ebadb5b109460cbf9f0",
+  "files": [
+    {
+      "path": "outputs/evidence/backend-acceptance.json",
+      "sha256": "87e7d091586babd88cc43eb1b63c4703c0c0033dc2d0bece9e17593ed452073b"
+    },
+    {
+      "path": "outputs/evidence/backend-tests.txt",
+      "sha256": "7f16c29af9a7983e42bda734b8c538980eafc793cefe8ea29edf429eca2d7054"
+    },
+    {
+      "path": "outputs/evidence/browser-acceptance.json",
+      "sha256": "09517d5d325be3925e95744c5006545ea1a6f6bfddd60eaf4e51e29cf565d43f"
+    },
+    {
+      "path": "outputs/evidence/confusion.pdf",
+      "sha256": "be021af30498f62fc8b420a509ce3a256b8cba3cde3be1b2af73552bbf9565ef"
+    },
+    {
+      "path": "outputs/evidence/confusion.png",
+      "sha256": "e9616c16e583482e6cbeeffdda1ee5adaeb6e525eddf44404d82411a934a953f"
+    },
+    {
+      "path": "outputs/evidence/error-map.pdf",
+      "sha256": "f7e65ea06b905db719d8b5625bd1d6cabf6701fb1599b8f5d54576549466591d"
+    },
+    {
+      "path": "outputs/evidence/error-map.png",
+      "sha256": "f91c035a30316785e21a7ff51c8fdea63410e63c475e41d263d3347c5020569e"
+    },
+    {
+      "path": "outputs/evidence/errors.csv",
+      "sha256": "bb6587af5807a942af7781256908269779129f362a154df014a47ea26e3cb1b7"
+    },
+    {
+      "path": "outputs/evidence/errors.geojson",
+      "sha256": "90615a83ac408bdd73b6c3a4af6e95f664107132b53a88896acf753809415120"
+    },
+    {
+      "path": "outputs/evidence/evaluation.json",
+      "sha256": "69c464cad05ffec9dbb740984e17a72ff885af5059a20ed0202f9f054288190c"
+    },
+    {
+      "path": "outputs/evidence/logistic_regression_unpromoted.joblib",
+      "sha256": "b6e80f2a063b3d2da528f441569db4d95488e9473ece94dea6406765a2a0fdc8"
+    },
+    {
+      "path": "outputs/evidence/openapi.json",
+      "sha256": "96ba43c02cdb71de66075f584ffcda394547212bb55f74a67da6292e70909ad6"
+    },
+    {
+      "path": "outputs/evidence/performance.json",
+      "sha256": "c140bb536ec3ca17b9663ae5fb8c00c395d8ef541e9d7afda0a3e2d454632523"
+    },
+    {
+      "path": "outputs/evidence/split-manifest.json",
+      "sha256": "8e60a2761056caa9c7c420c8b425ac3ed71f0262376e9fc27b128918d3d9da93"
+    },
+    {
+      "path": "outputs/evidence/synthetic-event-ledger.csv",
+      "sha256": "b4c11c171989e04dc0b7d60902010b6a0a7598bd2ef4e3b2177cd0e6a62fec19"
+    }
+  ]
+}

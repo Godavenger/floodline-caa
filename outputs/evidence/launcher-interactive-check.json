@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "prompt": "Press Enter to close this window:",
+  "failure": "Port 8000 is already in use.",
+  "exit_code": 1,
+  "scope": "A real interactive console waited at the startup failure prompt and exited with code 1 after Enter.",
+  "at": "2026-11-11T06:33:17.268Z",
+  "source_sha256": {
+    "start.bat": "dae4fdbd3316574317d712e2e0e86e391c00c0a5fc3a947cd7ce3bbec97a0c89",
+    "start.ps1": "53118b8f37ce2f387a0d7c5e5da5aba1747fe74cf6c56a987a7098255bf1e7d3"
+  }
+}

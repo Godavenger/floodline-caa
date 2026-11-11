@@ -1,0 +1,340 @@
+{
+  "type": "FeatureCollection",
+  "mode": "synthetic",
+  "dataset_sha256": "4937de02e2deb6a6ada8ea8354c5755bb50690e999dc54992896a5b9e8babe43",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.325,
+              22.56
+            ],
+            [
+              88.336,
+              22.56
+            ],
+            [
+              88.336,
+              22.57
+            ],
+            [
+              88.325,
+              22.57
+            ],
+            [
+              88.325,
+              22.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "A1",
+        "rows": 16,
+        "missed": 0,
+        "false_alarms": 8,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.325,
+              22.57
+            ],
+            [
+              88.336,
+              22.57
+            ],
+            [
+              88.336,
+              22.580000000000002
+            ],
+            [
+              88.325,
+              22.580000000000002
+            ],
+            [
+              88.325,
+              22.57
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "A2",
+        "rows": 16,
+        "missed": 0,
+        "false_alarms": 4,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.325,
+              22.58
+            ],
+            [
+              88.336,
+              22.58
+            ],
+            [
+              88.336,
+              22.59
+            ],
+            [
+              88.325,
+              22.59
+            ],
+            [
+              88.325,
+              22.58
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "A3",
+        "rows": 14,
+        "missed": 0,
+        "false_alarms": 4,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.336,
+              22.56
+            ],
+            [
+              88.347,
+              22.56
+            ],
+            [
+              88.347,
+              22.57
+            ],
+            [
+              88.336,
+              22.57
+            ],
+            [
+              88.336,
+              22.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "B1",
+        "rows": 16,
+        "missed": 0,
+        "false_alarms": 8,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.336,
+              22.57
+            ],
+            [
+              88.347,
+              22.57
+            ],
+            [
+              88.347,
+              22.580000000000002
+            ],
+            [
+              88.336,
+              22.580000000000002
+            ],
+            [
+              88.336,
+              22.57
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "B2",
+        "rows": 14,
+        "missed": 0,
+        "false_alarms": 4,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.336,
+              22.58
+            ],
+            [
+              88.347,
+              22.58
+            ],
+            [
+              88.347,
+              22.59
+            ],
+            [
+              88.336,
+              22.59
+            ],
+            [
+              88.336,
+              22.58
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "B3",
+        "rows": 15,
+        "missed": 0,
+        "false_alarms": 4,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.34700000000001,
+              22.56
+            ],
+            [
+              88.358,
+              22.56
+            ],
+            [
+              88.358,
+              22.57
+            ],
+            [
+              88.34700000000001,
+              22.57
+            ],
+            [
+              88.34700000000001,
+              22.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "C1",
+        "rows": 16,
+        "missed": 0,
+        "false_alarms": 4,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.34700000000001,
+              22.57
+            ],
+            [
+              88.358,
+              22.57
+            ],
+            [
+              88.358,
+              22.580000000000002
+            ],
+            [
+              88.34700000000001,
+              22.580000000000002
+            ],
+            [
+              88.34700000000001,
+              22.57
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "C2",
+        "rows": 16,
+        "missed": 0,
+        "false_alarms": 4,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.34700000000001,
+              22.58
+            ],
+            [
+              88.358,
+              22.58
+            ],
+            [
+              88.358,
+              22.59
+            ],
+            [
+              88.34700000000001,
+              22.59
+            ],
+            [
+              88.34700000000001,
+              22.58
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "area_id": "C3",
+        "rows": 15,
+        "missed": 0,
+        "false_alarms": 0,
+        "meaning": "Synthetic held-out classification errors; not real flood risk"
+      }
+    }
+  ]
+}

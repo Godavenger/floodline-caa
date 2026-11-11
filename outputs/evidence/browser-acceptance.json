@@ -1,0 +1,502 @@
+{
+  "status": "passed",
+  "started_at": "2026-11-11T05:16:56.260Z",
+  "mode": "synthetic",
+  "frontend_sha256": "bb60db144ba192d1a1e47ef7cb5ea0d5c051354b5828f6ba0de8b9c65b903d8b",
+  "checks": [
+    {
+      "name": "Map, evidence, synthetic scope and responsive layout",
+      "passed": true,
+      "cells": 9,
+      "warnings": 3,
+      "unknown": 1,
+      "active_hazards": 1
+    },
+    {
+      "name": "Mobile navigation traps focus, closes with Escape and restores focus",
+      "passed": true
+    },
+    {
+      "name": "Route excludes seeded hazard and handles disconnected destination",
+      "passed": true
+    },
+    {
+      "name": "Report with image stays private, validates location and supports correction",
+      "passed": true
+    },
+    {
+      "name": "Authenticated, privacy-reviewed publication changes route exclusions",
+      "passed": true
+    },
+    {
+      "name": "Moderator logout preserves resident report ownership",
+      "passed": true
+    },
+    {
+      "name": "Opt-in subscriptions and repeated-cycle alert deduplication",
+      "passed": true,
+      "initial_alerts": 4
+    },
+    {
+      "name": "Storm, stale-feed outage, expiry and recovery preserve honest data support",
+      "passed": true
+    },
+    {
+      "name": "Alert history distinguishes expired evidence and supports unsubscribe",
+      "passed": true
+    },
+    {
+      "name": "Resident evidence withdrawal removes owned text and image",
+      "passed": true
+    },
+    {
+      "name": "Synthetic model evidence, unpromoted candidate and offline API reference",
+      "passed": true
+    },
+    {
+      "name": "Refresh failure retains the timestamped map and recovers",
+      "passed": true
+    },
+    {
+      "name": "No uncaught JavaScript errors in the complete workflow",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "desktop",
+      "path": ".impeccable/review/desktop.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "273f3738d6462bb102ad29796034047558855ab01231f7700888830f759b8752",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false
+    },
+    {
+      "name": "tablet",
+      "path": ".impeccable/review/tablet.png",
+      "width": 1024,
+      "height": 900,
+      "sha256": "3eac745cf8ad1dc5dbaed3ef85ea454c7e2ad2cc3da0670d133f9280b7269c4b",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nFlood map\nSynthetic data\n14:02 IST\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVer",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false
+    },
+    {
+      "name": "mobile",
+      "path": ".impeccable/review/mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "e1f687490daf3d38f1d248c5377882303d5e5413c2c4f94c27b393f3658e551b",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false
+    },
+    {
+      "name": "small-phone",
+      "path": ".impeccable/review/small-phone.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "d706abd66e0b676720f062b8eda7b6fafea439bd809736a7d473b6cc3722dccd",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false
+    },
+    {
+      "name": "mobile-navigation",
+      "path": ".impeccable/review/mobile-navigation.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "95b3dc7479a55d2b0facbb37899a6bd0d8ff1b998227c06380785c1ad125727c",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": true
+    },
+    {
+      "name": "route-unavailable",
+      "path": ".impeccable/review/route-unavailable.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "58b804a50340c808f8f6b0c08ae7966e4033589ab4c679724aa9c310372cf3a2",
+      "heading": "Route around known hazards",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false
+    },
+    {
+      "name": "route-before",
+      "path": ".impeccable/review/route-before.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "e196783bf759a01a45d50984c1a98a76bc92c3e37c8b87d23bd8f883f4a1942c",
+      "heading": "Route around known hazards",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false
+    },
+    {
+      "name": "report-validation-error",
+      "path": ".impeccable/review/report-validation-error.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "84d727efc9915f2c699e723d7aafcb4794246dd22d1c822455c772190743dc6a",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false
+    },
+    {
+      "name": "report-form",
+      "path": ".impeccable/review/report-form.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "fcb4f0e7f6cc2cd679629102378f1deb35e887da8eb175a88165d20d51f39f5b",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false
+    },
+    {
+      "name": "report-form-mobile",
+      "path": ".impeccable/review/report-form-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "23b4a4550ff0cd1981ce8275de5de6060df37c23a779ac5a12b93ec27f588c0a",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nSynthetic data\nWaterlogging reports\n\nShare an observation, track its review and distinguish verified conditions from unreviewed evidence.\n\nSubmit an observation\nClose form\nWhat did you observe?\nReport existing evidence. Do n",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false
+    },
+    {
+      "name": "report-pending",
+      "path": ".impeccable/review/report-pending.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "1fd15dfcc98637f43e08cda038fb73e43ee3759176e743e6caad1e812fb41864",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "moderator-gate",
+      "path": ".impeccable/review/moderator-gate.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "b236c5fd591f9d8bdd5344c719e41367be7e3e223cf40b8bc3aa63c1ecdd6a5e",
+      "heading": "Report review",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "moderator-login-error",
+      "path": ".impeccable/review/moderator-login-error.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "d33fe8df091b66157ca75b7d1b8448692437251e9d091e1a922bc3dbc7e7cf4e",
+      "heading": "Report review",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": true
+    },
+    {
+      "name": "moderation",
+      "path": ".impeccable/review/moderation.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "2348739cba295efaec107f1697a55e16b08c1285c179391c001c581b0a5a1992",
+      "heading": "Evidence review",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "moderation-mobile",
+      "path": ".impeccable/review/moderation-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "f4ed8e4d08ca7a2d89c4845d65bdcfa4f6925ef3c4d83d4402176ef5808e6cfa",
+      "heading": "Evidence review",
+      "text": "Skip to content\nFloodline\nSynthetic data\n\nModerator access enabled. Review decisions are recorded in the audit trail.\n\nEvidence review\n\nVerify time and location before publishing observations or restricting a mapped road segment.\n\nRefresh queue\nRevie",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "route-after",
+      "path": ".impeccable/review/route-after.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "f1b607dbfcb9ced6bee60fdd7077ab945b3d14e9d0f195e3d9f2240cf087c67e",
+      "heading": "Route around known hazards",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 87,
+      "open_dialog": false
+    },
+    {
+      "name": "route-mobile",
+      "path": ".impeccable/review/route-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "f5a5003c06d5c5a64c552531d131c019f053b8f724debbcaae9ebc2bff2ebacc",
+      "heading": "Route around known hazards",
+      "text": "Skip to content\nFloodline\nSynthetic data\nRoute around known hazards\n\nFind a demonstration route that excludes current verified flooded road segments.\n\nChoose your journey\nFrom\nSchool\nLibrary\nMarket square\nStation\nCommunity hall\nClinic\nRiverside park\n",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 87,
+      "open_dialog": false
+    },
+    {
+      "name": "resident-verified-report",
+      "path": ".impeccable/review/resident-verified-report.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "42aed14cd2eb163c78c533797428a32c8ffb69a5ebcbe2b66cb7f87d52af2f9c",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "alerts-empty",
+      "path": ".impeccable/review/alerts-empty.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "069a92222b81baeff1ff710436dd2431a17dfd2a9f2472feb3282bc053112721",
+      "heading": "Your area alerts",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "alerts-active",
+      "path": ".impeccable/review/alerts-active.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "94236a4538800d9c219e8cd28d26249c7cc76e8ba0a9afc2c4cdafc05bb62260",
+      "heading": "Your area alerts",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "alerts-mobile",
+      "path": ".impeccable/review/alerts-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "4a9d4f02739b74e389cf5d3fe0a8752ee0445ec0f84e4e1268ec07a098a87aca",
+      "heading": "Your area alerts",
+      "text": "Skip to content\nFloodline\nSynthetic data\n\nArea subscription saved. Eligible demo warnings now appear in your in-app history.\n\nYour area alerts\n\nOpt in to demo warnings, inspect their evidence and withdraw a subscription at any time.\n\nRefresh history\n",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "heavy-rain-map",
+      "path": ".impeccable/review/heavy-rain-map.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "ded386392e250637a3cfbad5a915334c13cae06e54d1d8a25c382a669f1e2c21",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false
+    },
+    {
+      "name": "feed-outage",
+      "path": ".impeccable/review/feed-outage.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "dcddebb73cbf27c787b03199bb16b8f5e9a4b1a2c212d3e542e9965b1653d080",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 84,
+      "open_dialog": false
+    },
+    {
+      "name": "feed-outage-mobile",
+      "path": ".impeccable/review/feed-outage-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "bdcac9e44a786c8a7a7deebddc645812cf8f43baf03150826eacbaf752466d71",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\nAll 9 cells have unknown conditions because rainfall evidence is missing or stale. Current warnings cannot be estimated.\n\nReport waterlogging\nCells under warning\nUnavailable\nVerified road ",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 84,
+      "open_dialog": false
+    },
+    {
+      "name": "feed-recovery",
+      "path": ".impeccable/review/feed-recovery.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "d9aedd3c29e00ab229c60d53efea877b1936f73a53de7320e044d083d21dbc62",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 84,
+      "open_dialog": false
+    },
+    {
+      "name": "alerts-history",
+      "path": ".impeccable/review/alerts-history.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "4bced7da47b8123f9a928c826d6a6db26d61018c9154e77f1fe7a8b43919a2c9",
+      "heading": "Your area alerts",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "withdraw-confirmation",
+      "path": ".impeccable/review/withdraw-confirmation.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "2103f8c92a34b63a4f5f54283164e9db45a59465b12d9d2b2048c6bc34e20327",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "reports-empty",
+      "path": ".impeccable/review/reports-empty.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "c761dfa11b746f111760d0373bd9b3614d8c3e1677f4439a2a88de549b38ff2c",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "data-model",
+      "path": ".impeccable/review/data-model.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "0c7390c312fa18240460b4fddbcdea2f02e2c8121d65905692a88d5adc2f6741",
+      "heading": "Data and model evidence",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "data-model-mobile",
+      "path": ".impeccable/review/data-model-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "ab2405168cef4fc21728fdbe0ee152c8c90c886f6e01c8748eaf3ada58d300f9",
+      "heading": "Data and model evidence",
+      "text": "Skip to content\nFloodline\nSynthetic data\nData and model evidence\n\nTrace the inputs, understand the active fallback and identify what still needs real-world validation.\n\nRefresh sources\nEnvironmental sources\nSynthetic gauge replay\nSynthetic\nObservatio",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false
+    },
+    {
+      "name": "connection-error",
+      "path": ".impeccable/review/connection-error.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "d0498e6242647bd5177fb47ca993d9a7af15f7ee334f8eab896a1b3bb68a3cd9",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 84,
+      "open_dialog": false
+    }
+  ],
+  "javascript_errors": [],
+  "route_comparison": {
+    "before": {
+      "distance_m": 4444.9,
+      "edge_ids": [
+        "road-n0-1-n0-2",
+        "road-n0-2-n1-2",
+        "road-n1-2-n2-2",
+        "road-n2-2-n3-2",
+        "road-n3-2-n4-2",
+        "road-n4-1-n4-2-r"
+      ]
+    },
+    "after": {
+      "distance_m": 4444.9,
+      "edge_ids": [
+        "road-n0-1-n0-2",
+        "road-n0-2-n1-2",
+        "road-n1-2-n2-2",
+        "road-n2-2-n3-2",
+        "road-n3-1-n3-2-r",
+        "road-n3-1-n4-1"
+      ],
+      "excluded_edge_ids": [
+        "road-n2-1-n3-1",
+        "road-n2-1-n3-1-r",
+        "road-n4-1-n4-2",
+        "road-n4-1-n4-2-r"
+      ]
+    }
+  },
+  "finished_at": "2026-11-11T05:17:27.806Z"
+}
