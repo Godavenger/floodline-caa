@@ -1,0 +1,31 @@
+# Optional, untested local demo. The database port is not published.
+services:
+  db:
+    image: postgis/postgis:17-3.5
+    environment:
+      POSTGRES_USER: floodline
+      POSTGRES_PASSWORD: floodline-local-demo
+      POSTGRES_DB: floodline
+    volumes:
+      - database:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U floodline -d floodline"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+  app:
+    build: .
+    environment:
+      APP_MODE: synthetic
+      DATABASE_URL: postgresql://floodline:floodline-local-demo@db:5432/floodline
+      FLOODLINE_RUNTIME: /app/.runtime
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - runtime:/app/.runtime
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  database:
+  runtime:
