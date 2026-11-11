@@ -1,6 +1,6 @@
 ---
 name: Floodline
-description: "A daylight map and evidence sheet for a synthetic flood pilot."
+description: "A map and evidence sheet for a synthetic flood pilot, with Light, Dark and System appearance."
 colors:
   ground: "#edf3f5"
   surface: "#ffffff"
@@ -8,12 +8,13 @@ colors:
   active: "#e3ebed"
   border: "#e2e9eb"
   rule: "#eaf0f1"
-  control: "#b9c8cd"
+  control: "#7c8e95"
   text: "#21343d"
   muted: "#586a73"
-  faint: "#5c6d75"
+  faint: "#5b6c74"
   primary: "#21343d"
   primary-hover: "#38515c"
+  primary-ink: "#ffffff"
   accent: "#087f82"
   selected-map: "#185a64"
   positive: "#246755"
@@ -146,7 +147,7 @@ spacing:
 components:
   button-primary:
     backgroundColor: "{colors.primary}"
-    textColor: "{colors.surface}"
+    textColor: "{colors.primary-ink}"
     typography: "{typography.button}"
     rounded: "{rounded.control}"
     padding: "9px 13px"
@@ -154,7 +155,7 @@ components:
     backgroundColor: "{colors.primary-hover}"
   button-primary-phone:
     backgroundColor: "{colors.primary}"
-    textColor: "{colors.surface}"
+    textColor: "{colors.primary-ink}"
     typography: "{typography.button}"
     rounded: "{rounded.control}"
     padding: "10px 13px"
@@ -285,23 +286,44 @@ components:
 
 **Creative North Star: "River-embankment level marks"**
 
-Floodline is a calm, precise information sheet for reading environmental evidence in daylight. A pale water-grey frame holds a white work surface. Manrope gives headings, ordinary web controls and measured figures one consistent voice. Compact labels, comparable rows and modest corners keep the map and its evidence easy to scan.
+Floodline is a calm, precise information sheet for reading environmental evidence. Light appearance uses a pale water-grey frame and white work surface; Dark uses neutral charcoal surfaces and light ink. Manrope gives headings, ordinary web controls and measured figures one consistent voice. Compact labels, comparable rows and modest corners keep the map and its evidence easy to scan.
 
 Depth comes from tone and hairline boundaries. Environmental data carries teal; amber and red describe warning and failure states. Missing evidence has its own words and patterned geometry. The gauge and observation, issue and validity times make the age and meaning of a reading visible alongside its value. These are durable visual commitments drawn from the implementation and the confirmed direction; the synthetic pilot is always labelled.
 
 **Key Characteristics:**
 
-- Water-grey frame, white sheet and flat bordered panels.
+- Water-grey or charcoal frame, distinct work surfaces and flat bordered panels.
 - Locally bundled Manrope with compact sentence-case labels and tabular figures.
 - Teal environmental evidence with separate amber, red and neutral state signals.
 - Patterned unknown areas, plain-language limitations and visible freshness.
 - Familiar navigation, keyboard focus and responsive resident forms.
 
-Source extraction: `frontend/src/styles.css`, shared UI and the screens reached by `frontend/src/App.tsx`. The sidecar records each source hash and the eight reviewed captures. Source manifest SHA-256: `5b963177d57ddf902c4c38ad3f05ffe44f948b41b628d29ffa0207606a21721f`.
+The original v0.1.0 source extraction covered `frontend/src/styles.css`, shared UI and the screens reached by `frontend/src/App.tsx`. `.impeccable/design.json` preserves that baseline's source hashes and eight reviewed captures, with source manifest SHA-256 `5b963177d57ddf902c4c38ad3f05ffe44f948b41b628d29ffa0207606a21721f`. It is a historical extraction, not a fresh extraction of v0.1.1. This document records the appearance update; the current source tokens and checksummed Light/Dark browser acceptance are the authority for the current implementation.
 
 ## Colors
 
-The palette is a cool water-grey ground with dark blue-grey ink and restrained environmental and state colors. Frontmatter values are normative; descriptive names below explain their roles.
+Light appearance uses a cool water-grey ground with dark blue-grey ink and restrained environmental and state colors. Frontmatter values describe Light; `:root[data-theme="dark"]` overrides their roles in `frontend/src/styles.css` for Dark. Descriptive names below explain the light palette.
+
+### Appearance and dark tokens
+
+| Role | Light | Dark |
+| --- | --- | --- |
+| Frame / work surface / inset | `#edf3f5` / `#ffffff` / `#f6f8f8` | `#111111` / `#181818` / `#222222` |
+| Text / supporting text / captions | `#21343d` / `#586a73` / `#5b6c74` | `#ececec` / `#b4b4b4` / `#949494` |
+| Control stroke | `#7c8e95` | `#717171` |
+| Primary fill / primary ink | `#21343d` / `#ffffff` | `#e5e5e5` / `#181818` |
+| Environmental accent / selected map edge | `#087f82` / `#185a64` | `#67c8c4` / `#81d4cf` |
+| Verified / hazard / warning text | `#246755` / `#a73537` / `#805d11` | `#83c6a6` / `#efaaa5` / `#e1bf74` |
+| Monitor / Elevated / High map fills | `#d4e7e7` / `#f0dca6` / `#dfb1ad` | `#2e5051` / `#6b5936` / `#713f3c` |
+| Unknown fill / hatch | `#e4e8e8` / `#a3b3b7` | `#3a3a3a` / `#8a8a8a` |
+| Ordinary road / casing / map label | `#7e969c` / `#ffffff` / `#344e56` | `#b1b7b7` / `#252525` / `#ececec` |
+| Gauge track / stale water | `#dde8e9` / `#81969e` | `#3b3b3b` / `#909090` |
+
+Use the header moon/sun toggle for a manual Light/Dark choice. Its accessible label names the next action and `aria-pressed` exposes the active dark state. The navigation Appearance selector offers System, Light and Dark on desktop and in the mobile menu. System follows `prefers-color-scheme`; manual choices persist under `floodline-theme` and synchronize across tabs. Storage failures preserve functional in-memory controls.
+
+`frontend/public/assets/theme.js` runs synchronously before the application module, applies the saved or system choice and sets `color-scheme`. Its external script respects the API's `script-src 'self'` policy. React's shared appearance state updates the same root attribute; map layers read the theme's computed tokens without recreating the map. Optional third-party map tiles retain their provider's imagery.
+
+Keep risk meanings, unknown hatching, verified-hazard dashes and freshness wording in both themes. Theme acceptance verifies AA contrast for ordinary text, state labels, fields and focus controls, plus device changes, cleared/invalid storage, cross-tab changes and first-frame persistence. Current workflow evidence covers both themes at 1440, 1024, 390 and 320 px.
 
 ### Primary
 
@@ -390,7 +412,7 @@ The selected map cell has a stronger teal edge (2.4px) against ordinary white ed
 
 ### Buttons
 
-Quiet, direct controls with compact corners and clear words. The primary variant uses Action Ink on White Sheet; the secondary variant is white with a Control Stroke; text actions are unboxed. Frontmatter captures their colors, type and padding. The button minimum height is (36px) on desktop and (44px) on phones; actual height can grow with padding and text. Icon controls are (32 × 32px) before the phone increase. Disabled buttons halve opacity and stop press movement.
+Quiet, direct controls with compact corners and clear words. The primary variant uses the primary fill and dedicated primary-ink text, which reverse contrast in Dark. The secondary variant uses the theme's work surface with a Control Stroke; text actions are unboxed. Frontmatter captures their light colors, type and padding. The button minimum height is (36px) on desktop and (44px) on phones; actual height can grow with padding and text. Icon controls are (32 × 32px) before the phone increase. Disabled buttons halve opacity and stop press movement.
 
 Hover changes the background of primary, secondary and icon buttons; text actions turn teal and underline. Primary and icon press feedback moves down (1px), with background and transform transitions (120ms, ease-out). All interactive controls retain the shared focus outline (2px teal, offset 3px). The sidecar carries these behaviors because they are outside the frontmatter's component properties.
 
@@ -400,11 +422,11 @@ State words are compact tags, not toggles. They use a small rounded rectangle, m
 
 ### Cards / Containers
 
-Panels are white, flat and bordered with Hairline Edge. Standard inner padding uses `card-pad`; evidence uses `evidence-pad`; history and recent-report panels use compact padding (16px 18px). Map panels use no inner padding around the map and apply spacing to their headings, source strip and legend. The divided status strip shares one boundary; internal separators do not create four independent cards. Lists separate observations with the lighter Row Rule and let long evidence text wrap.
+Panels use the theme's work surface, stay flat and retain Hairline Edge. Standard inner padding uses `card-pad`; evidence uses `evidence-pad`; history and recent-report panels use compact padding (16px 18px). Map panels use no inner padding around the map and apply spacing to their headings, source strip and legend. The divided status strip shares one boundary; internal separators do not create four independent cards. Lists separate observations with Row Rule and let long evidence text wrap.
 
 ### Inputs / Fields
 
-Use visible sentence-case labels, white fields, a Control Stroke, gently curved corners and inner padding (10px). Field groups have a label-to-field gap (7px), a bottom gap (16px) and a minimum field height (38px). Textareas resize vertically and start at (90px). The dedicated area selector is compact on desktop (34px) and taller on phones (44px). Ordinary phone fields use the larger form typography; coordinate inputs retain their documented exception.
+Use visible sentence-case labels, fields on the theme's work surface, a Control Stroke, gently curved corners and inner padding (10px). Field groups have a label-to-field gap (7px), a bottom gap (16px) and a minimum field height (38px). Textareas resize vertically and start at (90px). The dedicated area selector is compact on desktop (34px) and taller on phones (44px). Ordinary phone fields use the larger form typography; coordinate inputs retain their documented exception.
 
 Focus is the shared visible outline; caret and native checkbox accent are teal. Errors use an inline alert with a message and optional Retry action. Location errors clear when a landmark, coordinate or map pin changes; unrelated form errors retain their own state. Submission guidance is future tense until the API confirms success. Image evidence remains optional and supports a text-only report. A successful save is shown through a dismissible status notice, not through a prematurely saved label.
 
@@ -432,7 +454,7 @@ Motion is limited to short control feedback and the map library's native behavio
 
 ### Do:
 
-- **Do** reuse the water-grey frame, white work sheet and flat panel hierarchy.
+- **Do** reuse the theme's frame, work sheet and flat panel hierarchy.
 - **Do** keep Manrope, sentence-case labels and tabular figures consistent across screens.
 - **Do** attach units, observation times, source meaning and validity to environmental values.
 - **Do** show Unknown with both a word and patterned geography, and keep stale readings visibly retained.

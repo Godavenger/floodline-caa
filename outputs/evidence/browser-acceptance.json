@@ -1,9 +1,358 @@
 {
   "status": "passed",
-  "started_at": "2026-11-11T05:16:56.260Z",
+  "started_at": "2026-11-11T07:43:25.106Z",
   "mode": "synthetic",
-  "frontend_sha256": "bb60db144ba192d1a1e47ef7cb5ea0d5c051354b5828f6ba0de8b9c65b903d8b",
+  "frontend_sha256": "196f34f9f2cf6263872a3e6276d9a1c71b6121102d0f13f37408cb336cba0c90",
+  "theme_bootstrap_sha256": "3d1491e57a41545cf5609ef34ac827c8eeb8ea28cf385a707a2a9b6a3c53e079",
   "checks": [
+    {
+      "name": "Light and dark appearance, saved preferences, cross-tab synchronization and contrast",
+      "passed": true,
+      "status": "passed",
+      "light": {
+        "theme": "light",
+        "pairs": [
+          {
+            "foreground": "--text",
+            "background": "--ground",
+            "minimum": 4.5,
+            "ratio": 11.545,
+            "passed": true
+          },
+          {
+            "foreground": "--muted",
+            "background": "--ground",
+            "minimum": 4.5,
+            "ratio": 5.032,
+            "passed": true
+          },
+          {
+            "foreground": "--faint",
+            "background": "--ground",
+            "minimum": 4.5,
+            "ratio": 4.878,
+            "passed": true
+          },
+          {
+            "foreground": "--text",
+            "background": "--surface",
+            "minimum": 4.5,
+            "ratio": 12.937,
+            "passed": true
+          },
+          {
+            "foreground": "--muted",
+            "background": "--surface",
+            "minimum": 4.5,
+            "ratio": 5.639,
+            "passed": true
+          },
+          {
+            "foreground": "--faint",
+            "background": "--surface",
+            "minimum": 4.5,
+            "ratio": 5.466,
+            "passed": true
+          },
+          {
+            "foreground": "--text",
+            "background": "--raised",
+            "minimum": 4.5,
+            "ratio": 12.137,
+            "passed": true
+          },
+          {
+            "foreground": "--muted",
+            "background": "--raised",
+            "minimum": 4.5,
+            "ratio": 5.29,
+            "passed": true
+          },
+          {
+            "foreground": "--faint",
+            "background": "--raised",
+            "minimum": 4.5,
+            "ratio": 5.128,
+            "passed": true
+          },
+          {
+            "foreground": "--text",
+            "background": "--active",
+            "minimum": 4.5,
+            "ratio": 10.702,
+            "passed": true
+          },
+          {
+            "foreground": "--muted",
+            "background": "--active",
+            "minimum": 4.5,
+            "ratio": 4.665,
+            "passed": true
+          },
+          {
+            "foreground": "--faint",
+            "background": "--active",
+            "minimum": 4.5,
+            "ratio": 4.522,
+            "passed": true
+          },
+          {
+            "foreground": "--primary-ink",
+            "background": "--primary",
+            "minimum": 4.5,
+            "ratio": 12.937,
+            "passed": true
+          },
+          {
+            "foreground": "--primary-ink",
+            "background": "--primary-hover",
+            "minimum": 4.5,
+            "ratio": 8.401,
+            "passed": true
+          },
+          {
+            "foreground": "--positive",
+            "background": "--status-positive-bg",
+            "minimum": 4.5,
+            "ratio": 5.782,
+            "passed": true
+          },
+          {
+            "foreground": "--negative",
+            "background": "--status-negative-bg",
+            "minimum": 4.5,
+            "ratio": 5.515,
+            "passed": true
+          },
+          {
+            "foreground": "--warning",
+            "background": "--status-warning-bg",
+            "minimum": 4.5,
+            "ratio": 5.254,
+            "passed": true
+          },
+          {
+            "foreground": "--status-neutral-text",
+            "background": "--status-neutral-bg",
+            "minimum": 4.5,
+            "ratio": 5.299,
+            "passed": true
+          },
+          {
+            "foreground": "--error-text",
+            "background": "--error-bg",
+            "minimum": 4.5,
+            "ratio": 7.388,
+            "passed": true
+          },
+          {
+            "foreground": "--text",
+            "background": "--selection-bg",
+            "minimum": 4.5,
+            "ratio": 8.837,
+            "passed": true
+          },
+          {
+            "foreground": "--control",
+            "background": "--surface",
+            "minimum": 3,
+            "ratio": 3.409,
+            "passed": true
+          },
+          {
+            "foreground": "--control",
+            "background": "--raised",
+            "minimum": 3,
+            "ratio": 3.198,
+            "passed": true
+          },
+          {
+            "foreground": "--accent",
+            "background": "--surface",
+            "minimum": 3,
+            "ratio": 4.807,
+            "passed": true
+          }
+        ]
+      },
+      "dark": {
+        "theme": "dark",
+        "pairs": [
+          {
+            "foreground": "--text",
+            "background": "--ground",
+            "minimum": 4.5,
+            "ratio": 15.984,
+            "passed": true
+          },
+          {
+            "foreground": "--muted",
+            "background": "--ground",
+            "minimum": 4.5,
+            "ratio": 9.107,
+            "passed": true
+          },
+          {
+            "foreground": "--faint",
+            "background": "--ground",
+            "minimum": 4.5,
+            "ratio": 6.225,
+            "passed": true
+          },
+          {
+            "foreground": "--text",
+            "background": "--surface",
+            "minimum": 4.5,
+            "ratio": 15.03,
+            "passed": true
+          },
+          {
+            "foreground": "--muted",
+            "background": "--surface",
+            "minimum": 4.5,
+            "ratio": 8.564,
+            "passed": true
+          },
+          {
+            "foreground": "--faint",
+            "background": "--surface",
+            "minimum": 4.5,
+            "ratio": 5.853,
+            "passed": true
+          },
+          {
+            "foreground": "--text",
+            "background": "--raised",
+            "minimum": 4.5,
+            "ratio": 13.467,
+            "passed": true
+          },
+          {
+            "foreground": "--muted",
+            "background": "--raised",
+            "minimum": 4.5,
+            "ratio": 7.673,
+            "passed": true
+          },
+          {
+            "foreground": "--faint",
+            "background": "--raised",
+            "minimum": 4.5,
+            "ratio": 5.245,
+            "passed": true
+          },
+          {
+            "foreground": "--text",
+            "background": "--active",
+            "minimum": 4.5,
+            "ratio": 11.821,
+            "passed": true
+          },
+          {
+            "foreground": "--muted",
+            "background": "--active",
+            "minimum": 4.5,
+            "ratio": 6.735,
+            "passed": true
+          },
+          {
+            "foreground": "--faint",
+            "background": "--active",
+            "minimum": 4.5,
+            "ratio": 4.604,
+            "passed": true
+          },
+          {
+            "foreground": "--primary-ink",
+            "background": "--primary",
+            "minimum": 4.5,
+            "ratio": 14.096,
+            "passed": true
+          },
+          {
+            "foreground": "--primary-ink",
+            "background": "--primary-hover",
+            "minimum": 4.5,
+            "ratio": 17.756,
+            "passed": true
+          },
+          {
+            "foreground": "--positive",
+            "background": "--status-positive-bg",
+            "minimum": 4.5,
+            "ratio": 6.611,
+            "passed": true
+          },
+          {
+            "foreground": "--negative",
+            "background": "--status-negative-bg",
+            "minimum": 4.5,
+            "ratio": 7.322,
+            "passed": true
+          },
+          {
+            "foreground": "--warning",
+            "background": "--status-warning-bg",
+            "minimum": 4.5,
+            "ratio": 7.449,
+            "passed": true
+          },
+          {
+            "foreground": "--status-neutral-text",
+            "background": "--status-neutral-bg",
+            "minimum": 4.5,
+            "ratio": 6.829,
+            "passed": true
+          },
+          {
+            "foreground": "--error-text",
+            "background": "--error-bg",
+            "minimum": 4.5,
+            "ratio": 8.282,
+            "passed": true
+          },
+          {
+            "foreground": "--text",
+            "background": "--selection-bg",
+            "minimum": 4.5,
+            "ratio": 7.149,
+            "passed": true
+          },
+          {
+            "foreground": "--control",
+            "background": "--surface",
+            "minimum": 3,
+            "ratio": 3.638,
+            "passed": true
+          },
+          {
+            "foreground": "--control",
+            "background": "--raised",
+            "minimum": 3,
+            "ratio": 3.26,
+            "passed": true
+          },
+          {
+            "foreground": "--accent",
+            "background": "--surface",
+            "minimum": 3,
+            "ratio": 8.993,
+            "passed": true
+          }
+        ]
+      },
+      "behaviour": [
+        "live device appearance changes",
+        "map repaints without remounting",
+        "explicit preference overrides device",
+        "pre-paint bootstrap without React",
+        "cross-tab synchronization",
+        "system restore and storage clearing",
+        "invalid stored preference fallback",
+        "storage-disabled fallback",
+        "browser colour scheme and theme colour"
+      ]
+    },
     {
       "name": "Map, evidence, synthetic scope and responsive layout",
       "passed": true,
@@ -68,406 +417,1217 @@
       "path": ".impeccable/review/desktop.png",
       "width": 1440,
       "height": 900,
-      "sha256": "273f3738d6462bb102ad29796034047558855ab01231f7700888830f759b8752",
+      "sha256": "ebfe3eaae05fde2a8068dcd2205e6f0f1c58e14d779f31968a323e49f44e1f37",
       "heading": "Community flood map",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 85,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "desktop-dark",
+      "path": ".impeccable/review/desktop-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "2052b8da225fac2c3a87548f62a047b80aa33ea32cb2f0ce179202d2d4313529",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "tablet",
       "path": ".impeccable/review/tablet.png",
       "width": 1024,
       "height": 900,
-      "sha256": "3eac745cf8ad1dc5dbaed3ef85ea454c7e2ad2cc3da0670d133f9280b7269c4b",
+      "sha256": "eec9bc30e4bb25e96e7b758711ed6666412462fed6eb36b158e57813eb3c789a",
       "heading": "Community flood map",
       "text": "Skip to content\nFloodline\nFlood map\nSynthetic data\n14:02 IST\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVer",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 85,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "tablet-dark",
+      "path": ".impeccable/review/tablet-dark.png",
+      "width": 1024,
+      "height": 900,
+      "sha256": "fe61f541daf60a3c0f9bb875537bfe7547a027bf9eec34f4bfe954a6fa82f538",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nFlood map\nSynthetic data\n14:02 IST\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVer",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "mobile",
       "path": ".impeccable/review/mobile.png",
       "width": 390,
       "height": 844,
-      "sha256": "e1f687490daf3d38f1d248c5377882303d5e5413c2c4f94c27b393f3658e551b",
+      "sha256": "4f873e448e76541a5c52453fce5a57e4ee54dd2161bb8695cee953326c285162",
       "heading": "Community flood map",
       "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 85,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "mobile-dark",
+      "path": ".impeccable/review/mobile-dark.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "9c26df1d8461e6702ed9421c7defc1dd61677714975f868e2ba37849f97164e6",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "small-phone",
       "path": ".impeccable/review/small-phone.png",
       "width": 320,
       "height": 800,
-      "sha256": "d706abd66e0b676720f062b8eda7b6fafea439bd809736a7d473b6cc3722dccd",
+      "sha256": "7a48bb0ad1ea2e46a13ae1fcbb02b27dda710d4bcc6ee00879a3524e4d0c889e",
       "heading": "Community flood map",
       "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 85,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "small-phone-dark",
+      "path": ".impeccable/review/small-phone-dark.png",
+      "width": 320,
+      "height": 800,
+      "sha256": "1fb6b6abfef9ca89ca381c3b6552f18a776f679d2f1c5ea7e94cadd491d8ce64",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "mobile-navigation",
       "path": ".impeccable/review/mobile-navigation.png",
       "width": 390,
       "height": 844,
-      "sha256": "95b3dc7479a55d2b0facbb37899a6bd0d8ff1b998227c06380785c1ad125727c",
+      "sha256": "a8995abec1f278faf1881c980eb3246268ebc9749137d398f227ee4ea158724e",
       "heading": "Community flood map",
       "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 85,
-      "open_dialog": true
+      "open_dialog": true,
+      "theme": "light"
+    },
+    {
+      "name": "mobile-navigation-dark",
+      "path": ".impeccable/review/mobile-navigation-dark.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "eb8f9df27675ab15acbaafb612811d437dfa0537aca7a0d7e2a03c982668ace8",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\n3 of 8 cells with current evidence meet the demo warning rule. 1 cell is unknown. Inspect the evidence before acting.\n\nReport waterlogging\nCells under warning\n3 / 8\nVerified road hazards\n1",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": true,
+      "theme": "dark"
     },
     {
       "name": "route-unavailable",
       "path": ".impeccable/review/route-unavailable.png",
       "width": 1440,
       "height": 900,
-      "sha256": "58b804a50340c808f8f6b0c08ae7966e4033589ab4c679724aa9c310372cf3a2",
+      "sha256": "55b6c46cc00b0d2181559b4e5d02cc7cb2f2b3ed83ec99d0f9315efee86a88dd",
       "heading": "Route around known hazards",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 85,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "route-unavailable-dark",
+      "path": ".impeccable/review/route-unavailable-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "dbddc3416048a64cb29f52e3221ce9e250af64eb06271d9ca7e6f5f4ff17c60a",
+      "heading": "Route around known hazards",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 85,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "route-before",
       "path": ".impeccable/review/route-before.png",
       "width": 1440,
       "height": 900,
-      "sha256": "e196783bf759a01a45d50984c1a98a76bc92c3e37c8b87d23bd8f883f4a1942c",
+      "sha256": "0d87ae3582f7c7ef1ab849fab642573ae19ad0bc469cec90552732a936b42859",
       "heading": "Route around known hazards",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 86,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "route-before-dark",
+      "path": ".impeccable/review/route-before-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "621c2c237fe342e453cf5fc9296c191ab251ff85945577a9bcee51ebdd96b352",
+      "heading": "Route around known hazards",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "report-validation-error",
       "path": ".impeccable/review/report-validation-error.png",
       "width": 1440,
       "height": 900,
-      "sha256": "84d727efc9915f2c699e723d7aafcb4794246dd22d1c822455c772190743dc6a",
+      "sha256": "ef05b484bfb8df3857c506f41eff3327cc9a9031817b0a941990d6b83e3c0da8",
       "heading": "Waterlogging reports",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 86,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "report-validation-error-dark",
+      "path": ".impeccable/review/report-validation-error-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "51255c5d1cbb394aa03250056c24cf7b39bf79434f39ec7c06af0522c6d19ab6",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "report-form",
       "path": ".impeccable/review/report-form.png",
       "width": 1440,
       "height": 900,
-      "sha256": "fcb4f0e7f6cc2cd679629102378f1deb35e887da8eb175a88165d20d51f39f5b",
+      "sha256": "ae2a03cae684c68271afdecd3e61c2ff5ef0fec5ed8bbdaf69a13fe7b0b17a9e",
       "heading": "Waterlogging reports",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 86,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "report-form-dark",
+      "path": ".impeccable/review/report-form-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "6d52b965822c56da1d4e3028506a09a3deff1bc6a23134ab71a24355930b8d84",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "report-form-mobile",
       "path": ".impeccable/review/report-form-mobile.png",
       "width": 390,
       "height": 844,
-      "sha256": "23b4a4550ff0cd1981ce8275de5de6060df37c23a779ac5a12b93ec27f588c0a",
+      "sha256": "36ff4302cd6b91ba790d5499c01eadd2002067a165e84a9c48b99dfb3fb2f22c",
       "heading": "Waterlogging reports",
       "text": "Skip to content\nFloodline\nSynthetic data\nWaterlogging reports\n\nShare an observation, track its review and distinguish verified conditions from unreviewed evidence.\n\nSubmit an observation\nClose form\nWhat did you observe?\nReport existing evidence. Do n",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 86,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "report-form-mobile-dark",
+      "path": ".impeccable/review/report-form-mobile-dark.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "9df9ab74ed277bf76e6d15fb4bd553791e19b06357294d20c09d22ec84cd3e76",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nSynthetic data\nWaterlogging reports\n\nShare an observation, track its review and distinguish verified conditions from unreviewed evidence.\n\nSubmit an observation\nClose form\nWhat did you observe?\nReport existing evidence. Do n",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "report-pending",
       "path": ".impeccable/review/report-pending.png",
       "width": 1440,
       "height": 900,
-      "sha256": "1fd15dfcc98637f43e08cda038fb73e43ee3759176e743e6caad1e812fb41864",
+      "sha256": "891c7001231e2d1686f913d8174ec4b1d536c6b2ac70c645979b837999313722",
       "heading": "Waterlogging reports",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "report-pending-dark",
+      "path": ".impeccable/review/report-pending-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "175389df1d5d5c138e30f015f625ffc0b9a646779dac7e2f43fa95c7622dee01",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "moderator-gate",
       "path": ".impeccable/review/moderator-gate.png",
       "width": 1440,
       "height": 900,
-      "sha256": "b236c5fd591f9d8bdd5344c719e41367be7e3e223cf40b8bc3aa63c1ecdd6a5e",
+      "sha256": "7fea01dc7db3dce5202e1cc9a58b8e971af3d5eefaa7d12a32da0e70dad58749",
       "heading": "Report review",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "moderator-gate-dark",
+      "path": ".impeccable/review/moderator-gate-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "f858417d6c543ab3019d39528264b749ce2ee2ca778e003f310b95ef51d70d5e",
+      "heading": "Report review",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "moderator-login-error",
       "path": ".impeccable/review/moderator-login-error.png",
       "width": 1440,
       "height": 900,
-      "sha256": "d33fe8df091b66157ca75b7d1b8448692437251e9d091e1a922bc3dbc7e7cf4e",
+      "sha256": "58f1dde385ff535dad932c7be7436a16c1272432cc3ee03a1449fba10aed38a3",
       "heading": "Report review",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": true
+      "open_dialog": true,
+      "theme": "light"
+    },
+    {
+      "name": "moderator-login-error-dark",
+      "path": ".impeccable/review/moderator-login-error-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "22ce343f928a38bcf5faecf1a8690bd137a2841036f24ddfea8c8dd296edda13",
+      "heading": "Report review",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": true,
+      "theme": "dark"
     },
     {
       "name": "moderation",
       "path": ".impeccable/review/moderation.png",
       "width": 1440,
       "height": 900,
-      "sha256": "2348739cba295efaec107f1697a55e16b08c1285c179391c001c581b0a5a1992",
+      "sha256": "5c704b850e696fe976f95f46956545bdf0f7503691f713ea8db9402a2e5f2bd8",
       "heading": "Evidence review",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "moderation-dark",
+      "path": ".impeccable/review/moderation-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "bad06c721310f97b0cff08bcfc0471497d23f5a96533babb647ddbdbe53b9588",
+      "heading": "Evidence review",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "moderation-mobile",
       "path": ".impeccable/review/moderation-mobile.png",
       "width": 390,
       "height": 844,
-      "sha256": "f4ed8e4d08ca7a2d89c4845d65bdcfa4f6925ef3c4d83d4402176ef5808e6cfa",
+      "sha256": "b5cd39a981e4f49198bd106bddaa74ad54231b8f1704d0bbc6657aa9f4ef1beb",
       "heading": "Evidence review",
       "text": "Skip to content\nFloodline\nSynthetic data\n\nModerator access enabled. Review decisions are recorded in the audit trail.\n\nEvidence review\n\nVerify time and location before publishing observations or restricting a mapped road segment.\n\nRefresh queue\nRevie",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "moderation-mobile-dark",
+      "path": ".impeccable/review/moderation-mobile-dark.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "04c222a4a821720618593156055296b17f5baea67c7016b93f9cf1553af5c566",
+      "heading": "Evidence review",
+      "text": "Skip to content\nFloodline\nSynthetic data\n\nModerator access enabled. Review decisions are recorded in the audit trail.\n\nEvidence review\n\nVerify time and location before publishing observations or restricting a mapped road segment.\n\nRefresh queue\nRevie",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "route-after",
       "path": ".impeccable/review/route-after.png",
       "width": 1440,
       "height": 900,
-      "sha256": "f1b607dbfcb9ced6bee60fdd7077ab945b3d14e9d0f195e3d9f2240cf087c67e",
+      "sha256": "23e8acb5c1c3df2d7459f3349446a5c3982585ddbeb9bdadcb6613a9a4ef901e",
       "heading": "Route around known hazards",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 87,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "route-after-dark",
+      "path": ".impeccable/review/route-after-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "86b701bf4df08c287ef3a77775323c292c3a40f9ab7a4f03daefbef34cab2eb0",
+      "heading": "Route around known hazards",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 87,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "route-mobile",
       "path": ".impeccable/review/route-mobile.png",
       "width": 390,
       "height": 844,
-      "sha256": "f5a5003c06d5c5a64c552531d131c019f053b8f724debbcaae9ebc2bff2ebacc",
+      "sha256": "ecc03a234be4a3e541393f704420bb9c9f6a34dd822ecb6768b963ce475e50b3",
       "heading": "Route around known hazards",
       "text": "Skip to content\nFloodline\nSynthetic data\nRoute around known hazards\n\nFind a demonstration route that excludes current verified flooded road segments.\n\nChoose your journey\nFrom\nSchool\nLibrary\nMarket square\nStation\nCommunity hall\nClinic\nRiverside park\n",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 87,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "route-mobile-dark",
+      "path": ".impeccable/review/route-mobile-dark.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "3ec049f03d3bd5ff22ee17904ea3d946f42458d497fd1a2a8f3682c3d5896d6f",
+      "heading": "Route around known hazards",
+      "text": "Skip to content\nFloodline\nSynthetic data\nRoute around known hazards\n\nFind a demonstration route that excludes current verified flooded road segments.\n\nChoose your journey\nFrom\nSchool\nLibrary\nMarket square\nStation\nCommunity hall\nClinic\nRiverside park\n",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 87,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "resident-verified-report",
       "path": ".impeccable/review/resident-verified-report.png",
       "width": 1440,
       "height": 900,
-      "sha256": "42aed14cd2eb163c78c533797428a32c8ffb69a5ebcbe2b66cb7f87d52af2f9c",
+      "sha256": "8d7e2c4b6303754dd9e967b226c2ffa9bd0300e0f3862337b1d36e65c95bcb61",
       "heading": "Waterlogging reports",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "resident-verified-report-dark",
+      "path": ".impeccable/review/resident-verified-report-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "b17f38aef02e25e6407745efd7496444bc155eea3952ddae0c367fa214eac4d9",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "alerts-empty",
       "path": ".impeccable/review/alerts-empty.png",
       "width": 1440,
       "height": 900,
-      "sha256": "069a92222b81baeff1ff710436dd2431a17dfd2a9f2472feb3282bc053112721",
+      "sha256": "571e150b49f58d203e94be34b00fd133ba39f0d4d004001e65f955661a272204",
       "heading": "Your area alerts",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "alerts-empty-dark",
+      "path": ".impeccable/review/alerts-empty-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "584f47f95fbca368f1cf2080c9eca4c09a73bb9a8e96c7fbc680d47bb99b91e1",
+      "heading": "Your area alerts",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "alerts-active",
       "path": ".impeccable/review/alerts-active.png",
       "width": 1440,
       "height": 900,
-      "sha256": "94236a4538800d9c219e8cd28d26249c7cc76e8ba0a9afc2c4cdafc05bb62260",
+      "sha256": "672eb7a7613bf21971250f3ade41e8f36125c4561cbbcadbe278a48886228720",
       "heading": "Your area alerts",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "alerts-active-dark",
+      "path": ".impeccable/review/alerts-active-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "610fd7d69efdce0cbfad8964979e075f603075f2924daf854b959a835a544e51",
+      "heading": "Your area alerts",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "alerts-mobile",
       "path": ".impeccable/review/alerts-mobile.png",
       "width": 390,
       "height": 844,
-      "sha256": "4a9d4f02739b74e389cf5d3fe0a8752ee0445ec0f84e4e1268ec07a098a87aca",
+      "sha256": "65723e819410251c6816afdc2e8d822b392e917c6f5679988284e4a069735356",
       "heading": "Your area alerts",
       "text": "Skip to content\nFloodline\nSynthetic data\n\nArea subscription saved. Eligible demo warnings now appear in your in-app history.\n\nYour area alerts\n\nOpt in to demo warnings, inspect their evidence and withdraw a subscription at any time.\n\nRefresh history\n",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "alerts-mobile-dark",
+      "path": ".impeccable/review/alerts-mobile-dark.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "1c2f3d7fcc8a9ca1d8e334bcb56099fa06441215337d3f2295512cb3de0b6932",
+      "heading": "Your area alerts",
+      "text": "Skip to content\nFloodline\nSynthetic data\n\nArea subscription saved. Eligible demo warnings now appear in your in-app history.\n\nYour area alerts\n\nOpt in to demo warnings, inspect their evidence and withdraw a subscription at any time.\n\nRefresh history\n",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "heavy-rain-map",
       "path": ".impeccable/review/heavy-rain-map.png",
       "width": 1440,
       "height": 900,
-      "sha256": "ded386392e250637a3cfbad5a915334c13cae06e54d1d8a25c382a669f1e2c21",
+      "sha256": "1c903b580d75bb38c3eee87d146bdfaab7fcb63ca6a96c78e6e1479ad545248c",
       "heading": "Community flood map",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 86,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "heavy-rain-map-dark",
+      "path": ".impeccable/review/heavy-rain-map-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "ff0dbc023bfbe032d346a1f68796300910769b9c6cf42b14caa872c69a562be7",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 86,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "feed-outage",
       "path": ".impeccable/review/feed-outage.png",
       "width": 1440,
       "height": 900,
-      "sha256": "dcddebb73cbf27c787b03199bb16b8f5e9a4b1a2c212d3e542e9965b1653d080",
+      "sha256": "a6c61f66c1191f3c30da57c9c3724ba5cc1bd1fea80a3b6115d7be38d22b811f",
       "heading": "Community flood map",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 84,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "feed-outage-dark",
+      "path": ".impeccable/review/feed-outage-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "9e664b53e9e75533a4ace41ef08a37b95421896f06a4e3547afa92b253386954",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 84,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "feed-outage-mobile",
       "path": ".impeccable/review/feed-outage-mobile.png",
       "width": 390,
       "height": 844,
-      "sha256": "bdcac9e44a786c8a7a7deebddc645812cf8f43baf03150826eacbaf752466d71",
+      "sha256": "2bc749889d78446572cd494238c35eaf6dcced84127baf00952dd3e565a1e8d2",
       "heading": "Community flood map",
       "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\nAll 9 cells have unknown conditions because rainfall evidence is missing or stale. Current warnings cannot be estimated.\n\nReport waterlogging\nCells under warning\nUnavailable\nVerified road ",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 84,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "feed-outage-mobile-dark",
+      "path": ".impeccable/review/feed-outage-mobile-dark.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "a5b0553c8734456bfbc1b94773da342943b28e63bd0f6254f11da2cccbcacfb5",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nSynthetic data\nCommunity flood map\n\nAll 9 cells have unknown conditions because rainfall evidence is missing or stale. Current warnings cannot be estimated.\n\nReport waterlogging\nCells under warning\nUnavailable\nVerified road ",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 84,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "feed-recovery",
       "path": ".impeccable/review/feed-recovery.png",
       "width": 1440,
       "height": 900,
-      "sha256": "d9aedd3c29e00ab229c60d53efea877b1936f73a53de7320e044d083d21dbc62",
+      "sha256": "aacd0c8b5a1a0e920ca87ec75c9606783f2dc998eafb774773de72fcc8c036f9",
       "heading": "Community flood map",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nCAA project · Six-pers",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 84,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "feed-recovery-dark",
+      "path": ".impeccable/review/feed-recovery-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "68266ed474a09adf5688a40c83f78fb0f060e9dd50287d3c4e97cdabc771728b",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nModerator · moderator\nAppearance\nSystem\nLigh",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 84,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "alerts-history",
       "path": ".impeccable/review/alerts-history.png",
       "width": 1440,
       "height": 900,
-      "sha256": "4bced7da47b8123f9a928c826d6a6db26d61018c9154e77f1fe7a8b43919a2c9",
+      "sha256": "97da69138a775a7207cd4227ede39d39f8a8b23d262716c2674d51939f157b74",
       "heading": "Your area alerts",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "alerts-history-dark",
+      "path": ".impeccable/review/alerts-history-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "bee31b656c99ca70424cd95b93f72a5b06383382c8e63c89f9dad0b36415b8ec",
+      "heading": "Your area alerts",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "withdraw-confirmation",
       "path": ".impeccable/review/withdraw-confirmation.png",
       "width": 1440,
       "height": 900,
-      "sha256": "2103f8c92a34b63a4f5f54283164e9db45a59465b12d9d2b2048c6bc34e20327",
+      "sha256": "823eb16b0ec53e767ee0a2bff0d5ea0f766b9509f8c069da8d701704bc587791",
       "heading": "Waterlogging reports",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "withdraw-confirmation-dark",
+      "path": ".impeccable/review/withdraw-confirmation-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "b626a9cca107f52ef9941ed589e3d4ac05ff6e39e8b0800e9adc70a2a56fdcf7",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "reports-empty",
       "path": ".impeccable/review/reports-empty.png",
       "width": 1440,
       "height": 900,
-      "sha256": "c761dfa11b746f111760d0373bd9b3614d8c3e1677f4439a2a88de549b38ff2c",
+      "sha256": "8a7bb0b533ec4b13abb85115a66751a783f45a0dabc075210ddd0e5c30f4cc65",
       "heading": "Waterlogging reports",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "reports-empty-dark",
+      "path": ".impeccable/review/reports-empty-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "9ee45ff25604910dfdf29fb2c4813cc3add5b51ad2d5ff985b99f005562848f6",
+      "heading": "Waterlogging reports",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "data-model",
       "path": ".impeccable/review/data-model.png",
       "width": 1440,
       "height": 900,
-      "sha256": "0c7390c312fa18240460b4fddbcdea2f02e2c8121d65905692a88d5adc2f6741",
+      "sha256": "4c8a94a1a149b6e5372745f881bdb1e9e17564c9eb211a2de009c369da966409",
       "heading": "Data and model evidence",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "data-model-dark",
+      "path": ".impeccable/review/data-model-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "94cc0a165db8ae501dffddad526b17c69ec103da75cbe04c854ca5f9ac04a6b5",
+      "heading": "Data and model evidence",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "data-model-mobile",
       "path": ".impeccable/review/data-model-mobile.png",
       "width": 390,
       "height": 844,
-      "sha256": "ab2405168cef4fc21728fdbe0ee152c8c90c886f6e01c8748eaf3ada58d300f9",
+      "sha256": "1d2b736dc3b17497af3717113a483454f19b75ca6aef65f778d929b8f985246b",
       "heading": "Data and model evidence",
       "text": "Skip to content\nFloodline\nSynthetic data\nData and model evidence\n\nTrace the inputs, understand the active fallback and identify what still needs real-world validation.\n\nRefresh sources\nEnvironmental sources\nSynthetic gauge replay\nSynthetic\nObservatio",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 0,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "data-model-mobile-dark",
+      "path": ".impeccable/review/data-model-mobile-dark.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "a31bbc4ec1e1aaa303a425f804eec5133630a8d038c6b401fe874d5a20546c84",
+      "heading": "Data and model evidence",
+      "text": "Skip to content\nFloodline\nSynthetic data\nData and model evidence\n\nTrace the inputs, understand the active fallback and identify what still needs real-world validation.\n\nRefresh sources\nEnvironmental sources\nSynthetic gauge replay\nSynthetic\nObservatio",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 0,
+      "open_dialog": false,
+      "theme": "dark"
     },
     {
       "name": "connection-error",
       "path": ".impeccable/review/connection-error.png",
       "width": 1440,
       "height": 900,
-      "sha256": "d0498e6242647bd5177fb47ca993d9a7af15f7ee334f8eab896a1b3bb68a3cd9",
+      "sha256": "a04a2b60b3878f426bc668531401a02f5695e9c5d4c0d76526ac6c1b1535575f",
       "heading": "Community flood map",
-      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nCAA proje",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
       "horizontal_overflow": 0,
       "loading": false,
       "map_paths": 84,
-      "open_dialog": false
+      "open_dialog": false,
+      "theme": "light"
+    },
+    {
+      "name": "connection-error-dark",
+      "path": ".impeccable/review/connection-error-dark.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "a8f8406c6d05ce0d8af6c18df4d7badfe7ef0f3b8b28f8047afacdd606292a3d",
+      "heading": "Community flood map",
+      "text": "Skip to content\nFloodline\nCommunity flood platform\nRiverside demo catchment\nFlood map\nReports\nRoute suggestions\nYour alerts\nData & model\nEvidence review\n\nSynthetic pilot\nDemo conditions. No live forecast.\n\nResident session\nModerator sign in\nAppearanc",
+      "horizontal_overflow": 0,
+      "loading": false,
+      "map_paths": 84,
+      "open_dialog": false,
+      "theme": "dark"
     }
   ],
   "javascript_errors": [],
+  "theme_acceptance": {
+    "status": "passed",
+    "light": {
+      "theme": "light",
+      "pairs": [
+        {
+          "foreground": "--text",
+          "background": "--ground",
+          "minimum": 4.5,
+          "ratio": 11.545,
+          "passed": true
+        },
+        {
+          "foreground": "--muted",
+          "background": "--ground",
+          "minimum": 4.5,
+          "ratio": 5.032,
+          "passed": true
+        },
+        {
+          "foreground": "--faint",
+          "background": "--ground",
+          "minimum": 4.5,
+          "ratio": 4.878,
+          "passed": true
+        },
+        {
+          "foreground": "--text",
+          "background": "--surface",
+          "minimum": 4.5,
+          "ratio": 12.937,
+          "passed": true
+        },
+        {
+          "foreground": "--muted",
+          "background": "--surface",
+          "minimum": 4.5,
+          "ratio": 5.639,
+          "passed": true
+        },
+        {
+          "foreground": "--faint",
+          "background": "--surface",
+          "minimum": 4.5,
+          "ratio": 5.466,
+          "passed": true
+        },
+        {
+          "foreground": "--text",
+          "background": "--raised",
+          "minimum": 4.5,
+          "ratio": 12.137,
+          "passed": true
+        },
+        {
+          "foreground": "--muted",
+          "background": "--raised",
+          "minimum": 4.5,
+          "ratio": 5.29,
+          "passed": true
+        },
+        {
+          "foreground": "--faint",
+          "background": "--raised",
+          "minimum": 4.5,
+          "ratio": 5.128,
+          "passed": true
+        },
+        {
+          "foreground": "--text",
+          "background": "--active",
+          "minimum": 4.5,
+          "ratio": 10.702,
+          "passed": true
+        },
+        {
+          "foreground": "--muted",
+          "background": "--active",
+          "minimum": 4.5,
+          "ratio": 4.665,
+          "passed": true
+        },
+        {
+          "foreground": "--faint",
+          "background": "--active",
+          "minimum": 4.5,
+          "ratio": 4.522,
+          "passed": true
+        },
+        {
+          "foreground": "--primary-ink",
+          "background": "--primary",
+          "minimum": 4.5,
+          "ratio": 12.937,
+          "passed": true
+        },
+        {
+          "foreground": "--primary-ink",
+          "background": "--primary-hover",
+          "minimum": 4.5,
+          "ratio": 8.401,
+          "passed": true
+        },
+        {
+          "foreground": "--positive",
+          "background": "--status-positive-bg",
+          "minimum": 4.5,
+          "ratio": 5.782,
+          "passed": true
+        },
+        {
+          "foreground": "--negative",
+          "background": "--status-negative-bg",
+          "minimum": 4.5,
+          "ratio": 5.515,
+          "passed": true
+        },
+        {
+          "foreground": "--warning",
+          "background": "--status-warning-bg",
+          "minimum": 4.5,
+          "ratio": 5.254,
+          "passed": true
+        },
+        {
+          "foreground": "--status-neutral-text",
+          "background": "--status-neutral-bg",
+          "minimum": 4.5,
+          "ratio": 5.299,
+          "passed": true
+        },
+        {
+          "foreground": "--error-text",
+          "background": "--error-bg",
+          "minimum": 4.5,
+          "ratio": 7.388,
+          "passed": true
+        },
+        {
+          "foreground": "--text",
+          "background": "--selection-bg",
+          "minimum": 4.5,
+          "ratio": 8.837,
+          "passed": true
+        },
+        {
+          "foreground": "--control",
+          "background": "--surface",
+          "minimum": 3,
+          "ratio": 3.409,
+          "passed": true
+        },
+        {
+          "foreground": "--control",
+          "background": "--raised",
+          "minimum": 3,
+          "ratio": 3.198,
+          "passed": true
+        },
+        {
+          "foreground": "--accent",
+          "background": "--surface",
+          "minimum": 3,
+          "ratio": 4.807,
+          "passed": true
+        }
+      ]
+    },
+    "dark": {
+      "theme": "dark",
+      "pairs": [
+        {
+          "foreground": "--text",
+          "background": "--ground",
+          "minimum": 4.5,
+          "ratio": 15.984,
+          "passed": true
+        },
+        {
+          "foreground": "--muted",
+          "background": "--ground",
+          "minimum": 4.5,
+          "ratio": 9.107,
+          "passed": true
+        },
+        {
+          "foreground": "--faint",
+          "background": "--ground",
+          "minimum": 4.5,
+          "ratio": 6.225,
+          "passed": true
+        },
+        {
+          "foreground": "--text",
+          "background": "--surface",
+          "minimum": 4.5,
+          "ratio": 15.03,
+          "passed": true
+        },
+        {
+          "foreground": "--muted",
+          "background": "--surface",
+          "minimum": 4.5,
+          "ratio": 8.564,
+          "passed": true
+        },
+        {
+          "foreground": "--faint",
+          "background": "--surface",
+          "minimum": 4.5,
+          "ratio": 5.853,
+          "passed": true
+        },
+        {
+          "foreground": "--text",
+          "background": "--raised",
+          "minimum": 4.5,
+          "ratio": 13.467,
+          "passed": true
+        },
+        {
+          "foreground": "--muted",
+          "background": "--raised",
+          "minimum": 4.5,
+          "ratio": 7.673,
+          "passed": true
+        },
+        {
+          "foreground": "--faint",
+          "background": "--raised",
+          "minimum": 4.5,
+          "ratio": 5.245,
+          "passed": true
+        },
+        {
+          "foreground": "--text",
+          "background": "--active",
+          "minimum": 4.5,
+          "ratio": 11.821,
+          "passed": true
+        },
+        {
+          "foreground": "--muted",
+          "background": "--active",
+          "minimum": 4.5,
+          "ratio": 6.735,
+          "passed": true
+        },
+        {
+          "foreground": "--faint",
+          "background": "--active",
+          "minimum": 4.5,
+          "ratio": 4.604,
+          "passed": true
+        },
+        {
+          "foreground": "--primary-ink",
+          "background": "--primary",
+          "minimum": 4.5,
+          "ratio": 14.096,
+          "passed": true
+        },
+        {
+          "foreground": "--primary-ink",
+          "background": "--primary-hover",
+          "minimum": 4.5,
+          "ratio": 17.756,
+          "passed": true
+        },
+        {
+          "foreground": "--positive",
+          "background": "--status-positive-bg",
+          "minimum": 4.5,
+          "ratio": 6.611,
+          "passed": true
+        },
+        {
+          "foreground": "--negative",
+          "background": "--status-negative-bg",
+          "minimum": 4.5,
+          "ratio": 7.322,
+          "passed": true
+        },
+        {
+          "foreground": "--warning",
+          "background": "--status-warning-bg",
+          "minimum": 4.5,
+          "ratio": 7.449,
+          "passed": true
+        },
+        {
+          "foreground": "--status-neutral-text",
+          "background": "--status-neutral-bg",
+          "minimum": 4.5,
+          "ratio": 6.829,
+          "passed": true
+        },
+        {
+          "foreground": "--error-text",
+          "background": "--error-bg",
+          "minimum": 4.5,
+          "ratio": 8.282,
+          "passed": true
+        },
+        {
+          "foreground": "--text",
+          "background": "--selection-bg",
+          "minimum": 4.5,
+          "ratio": 7.149,
+          "passed": true
+        },
+        {
+          "foreground": "--control",
+          "background": "--surface",
+          "minimum": 3,
+          "ratio": 3.638,
+          "passed": true
+        },
+        {
+          "foreground": "--control",
+          "background": "--raised",
+          "minimum": 3,
+          "ratio": 3.26,
+          "passed": true
+        },
+        {
+          "foreground": "--accent",
+          "background": "--surface",
+          "minimum": 3,
+          "ratio": 8.993,
+          "passed": true
+        }
+      ]
+    },
+    "behaviour": [
+      "live device appearance changes",
+      "map repaints without remounting",
+      "explicit preference overrides device",
+      "pre-paint bootstrap without React",
+      "cross-tab synchronization",
+      "system restore and storage clearing",
+      "invalid stored preference fallback",
+      "storage-disabled fallback",
+      "browser colour scheme and theme colour"
+    ]
+  },
   "route_comparison": {
     "before": {
       "distance_m": 4444.9,
@@ -498,5 +1658,5 @@
       ]
     }
   },
-  "finished_at": "2026-11-11T05:17:27.806Z"
+  "finished_at": "2026-11-11T07:45:10.215Z"
 }

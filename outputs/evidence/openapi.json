@@ -3,7 +3,7 @@
   "info": {
     "title": "Floodline synthetic flood-platform API",
     "description": "CAA prototype. Demo data and indices are not real-world forecasts.",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "paths": {
     "/api/health": {

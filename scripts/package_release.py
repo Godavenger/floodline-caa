@@ -19,8 +19,11 @@ import tempfile
 from datetime import datetime, timezone
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from backend.floodline import __version__
+
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.0"
+VERSION = __version__
 PREFIX = f"Floodline-{VERSION}"
 RELEASES = ROOT / "outputs" / "releases"
 
@@ -51,9 +54,10 @@ def collect_files() -> list[Path]:
     ]:
         files.add(project_file(ROOT / name))
     source_groups = {
+        ".github": {".yml", ".yaml"},
         "backend": {".py", ".sql", ".txt"},
         "frontend/src": {".tsx", ".ts", ".css"},
-        "frontend/public": {".svg", ".png", ".ico"},
+        "frontend/public": {".svg", ".png", ".ico", ".js"},
         "frontend/dist": {".html", ".js", ".css", ".svg", ".png", ".woff", ".woff2"},
         "scripts": {".py", ".mjs"},
         "data": {".json", ".csv"},
@@ -97,6 +101,8 @@ def preflight() -> None:
             raise ValueError("A Windows launcher input changed after acceptance; verify it again.")
     if browser["frontend_sha256"] != digest((ROOT / "frontend/dist/index.html").read_bytes()):
         raise ValueError("The built interface changed after browser acceptance; verify it again.")
+    if browser.get("theme_bootstrap_sha256") != digest((ROOT / "frontend/dist/assets/theme.js").read_bytes()):
+        raise ValueError("The early appearance script changed after browser acceptance; verify it again.")
     if evaluation["mode"] != "synthetic" or evaluation["candidate_promoted"]:
         raise ValueError("This release must retain its synthetic, unpromoted evaluation gate.")
     for shot in browser["screenshots"]:

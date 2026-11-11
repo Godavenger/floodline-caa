@@ -1,8 +1,10 @@
 # Dashboard direction
 
 This is an Operate surface: residents inspect a bounded map outdoors or on a
-phone; moderators review evidence on a laptop. A light surface keeps street
-geometry and risk text legible in daylight. The most frequent job is checking
+phone; moderators review evidence on a laptop. Light appearance supports
+daylight reading; Dark uses neutral surfaces with light ink and distinct map
+tokens. System follows the device, and saved manual choices are available in
+both desktop and mobile navigation. The most frequent job is checking
 an area and its evidence, with reporting one click away.
 
 ## Subject and data inventory
@@ -41,8 +43,10 @@ shell supplies one pale frame around a white work area, without panel shadows.
 THESIS: A risk word is useful only when the selected area and its evidence are
 visible together. The map and evidence lead; aggregate vanity metrics do not.
 
-OWN-WORLD: Pale water-grey frame, white work surface, Manrope, precise neutral
-controls, teal environmental data, amber/red warnings and patterned unknown cells.
+OWN-WORLD: Pale water-grey/white or neutral charcoal work surfaces, Manrope,
+precise neutral controls, teal environmental data, amber/red warnings and
+patterned unknown cells. Appearance preserves the established map/evidence
+composition and the meaning of every data state.
 
 STORY: Find a ward, inspect rainfall and freshness, distinguish observed hazards,
 then report evidence, subscribe or request a route through ordinary web controls.

@@ -1,0 +1,13 @@
+{
+  "conclusion": "success",
+  "created_at": "2026-11-11T08:03:20Z",
+  "event": "push",
+  "head_sha": "21103acc460435ce60b6261bbfbdcc711a3d2813",
+  "html_url": "https://github.com/Godavenger/floodline-caa/actions/runs/42984005876",
+  "id": 42984005876,
+  "run_attempt": 1,
+  "status": "completed",
+  "updated_at": "2026-11-11T08:05:23Z",
+  "scope": "Fresh Ubuntu GitHub Actions setup with Python 3.12 and Node 24; backend dependency installation, 44 backend tests, npm ci, production build and both-theme browser acceptance. Windows launcher acceptance is recorded separately.",
+  "workflow": ".github/workflows/verify.yml"
+}

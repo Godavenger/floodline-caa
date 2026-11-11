@@ -1,6 +1,6 @@
 # Floodline: Smart City Flood Platform
 
-Synthetic pilot implementation and acceptance report · 11 November 2026 · v0.1.0
+Synthetic pilot implementation and acceptance report · 11 November 2026 · v0.1.1
 
 ## Problem and agreed scope
 The supplied assignment asks for environmental-data analysis, GIS risk visualization, modelling against available historical evidence, community reports, alerts and route suggestions. The user approved a synthetic pilot and chose to lead with the map and ward evidence. The delivered system follows the supplied P1–P8 implementation pipeline.
@@ -20,6 +20,7 @@ The raw archive has 869 records. Initial ingestion accepts 866, ignores one exac
 
 ## Application and community evidence
 FastAPI and SQLite provide the tested local service. React, TypeScript and Leaflet provide the map/evidence dashboard, report form, route planner, subscriptions and moderator review. An optional PostgreSQL/PostGIS adapter and container preparation exist but have not been executed on this machine.
+The interface offers Light, Dark and System appearance. A header toggle switches modes, and the navigation's Appearance selector restores device preferences. The choice is applied before the first frame, survives reloads, synchronizes across tabs and still works when browser storage is unavailable. Map overlays, legends, gauges, charts, forms, status messages and dialogs share theme tokens.
 Resident sessions own private pending text/image reports. Images are validated, oriented, stripped of metadata and re-encoded. Moderator authentication, a documented reason, spatial matching and explicit privacy review control verification and publication. Verified current hazards exclude specific directed edges; unreviewed reports and coarse warning cells cannot close a road.
 Alerts require ward consent. Persistent decisions enforce idempotency, cooldown, severity escalation, bounded retries and expiry. Withdrawal, stale or superseded risk and resolved hazards stop queued delivery. The adapter is simulated and sends no real email or SMS.
 
@@ -37,16 +38,19 @@ All labels in these tables are synthetic. Four test storms cannot support stable
 ![Synthetic confusion matrices](../outputs/evidence/confusion.png)
 
 ## Failure handling and acceptance
-The backend acceptance suite passes 44 tests covering quality checks, temporal availability, privacy/access, upload validation, processed-image retention, moderation, road snapping, directed exclusions, consent, retries, staleness, expiry, worker-failure recovery, restore and rollback. Browser acceptance passes 13 flow checks with 31 captured states across desktop, tablet and phone sizes and no uncaught JavaScript errors.
+The backend acceptance suite passes 44 tests covering quality checks, temporal availability, privacy/access, upload validation, processed-image retention, moderation, road snapping, directed exclusions, consent, retries, staleness, expiry, worker-failure recovery, restore and rollback. Browser acceptance passes 14 flow checks with 62 captured states across desktop, tablet and phone sizes and no uncaught JavaScript errors.
+Each workflow state is captured in both Light and Dark appearance. Theme acceptance includes device changes, manual overrides, storage-disabled operation, first-frame persistence, cross-tab changes, map continuity and WCAG AA text/control contrast.
 The route demonstration excludes a newly verified segment and returns different edges. Both alternatives have the same 4444.9 m distance because the fixture contains tied routes. Feed outage preserves issue times and makes all nine cells unknown; synthetic recovery restores current evidence without pretending real missing observations were recovered.
-The production build and an offline clean frontend install pass. The frontend dependency audit reports zero known vulnerabilities at the recorded check. The Windows launcher prepares the local application successfully. Clean online Python installation and PostgreSQL/container deployment could not be verified under the local network/tool availability.
-A local test with 10 concurrent clients and 20 dashboard requests measured median 42.195 ms and p95 50.37 ms. This excludes upstream/provider latency and does not establish city-scale capacity.
+The production build and an offline clean frontend install pass. The frontend dependency audit reports zero known vulnerabilities at the recorded check. All 7 isolated Windows batch/PowerShell checks pass, including bundled startup, backup/data preservation, occupied ports, readable missing-interface guidance, invalid settings and offline first-install failure. Successful fresh online Windows dependency installation and PostgreSQL/container deployment remain outside the local checks.
+The recorded GitHub Actions run installs backend and frontend dependencies on a fresh Ubuntu runner with Python 3.12 and Node 24, then passes backend acceptance, the production build and both-theme browser workflows. Run evidence: https://github.com/Godavenger/floodline-caa/actions/runs/42984005876. This verifies the automated Linux setup; another team member's clean setup and demo rehearsal remain required.
+A local test with 10 concurrent clients and 20 dashboard requests measured median 41.955 ms and p95 57.42 ms. This excludes upstream/provider latency and does not establish city-scale capacity.
 
 ![Synthetic candidate error map](../outputs/evidence/error-map.png)
 
 ## Delivery and remaining evidence gates
 The package includes source, migrations, pinned dependencies, configuration, fixture/checksum records, event/split/error evidence, model card, API schemas, test logs, screenshots, launcher, runbook and contribution template. Original assignment and planning documents are preserved.
 M1–M6 remain proposed roles. Names, course deadline, actual hours, peer sign-offs and human usability outcomes must be completed by the team. A real pilot needs source/licence review, credible historical positives and negatives, event/receipt-time audits, field/GIS review, human language/accessibility checks and a separate promotion decision. The delivered synthetic software path is usable now; these real-world gates remain open.
+The public source repository is https://github.com/Godavenger/floodline-caa. Its history adds the P1–P8 modules separately before the appearance update. The completion checklist in docs/REMAINING_TASKS.md separates submission requirements from real-pilot gates and optional deployment work.
 
 ## Reference starting points
 Provided requirements: project description.docx, item 3; outputs/Smart_City_Flood_Prediction_CAA_Pipeline.md. Implementation references: FastAPI documentation (https://fastapi.tiangolo.com/), Leaflet reference (https://leafletjs.com/reference.html), scikit-learn model evaluation (https://scikit-learn.org/stable/modules/model_evaluation.html), PostGIS documentation (https://postgis.net/documentation/) and OWASP file-upload guidance (https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html).

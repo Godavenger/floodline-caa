@@ -1,15 +1,15 @@
 {
   "status": "passed",
-  "at": "2026-11-11T06:30:34.733689+00:00",
+  "at": "2026-11-11T07:58:25.306837+00:00",
   "tests": 7,
   "failures": 0,
   "errors": 0,
-  "elapsed_seconds": 46.813,
+  "elapsed_seconds": 57.047,
   "scope": "Real batch/PowerShell startup and HTTP requests in isolated folders with spaces, installed Python dependency reuse, Node blocked, and offline first-install failure. No fresh online installation or interactive console approval is claimed.",
   "source_sha256": {
     "start.bat": "dae4fdbd3316574317d712e2e0e86e391c00c0a5fc3a947cd7ce3bbec97a0c89",
     "start.cmd": "56294a63cf9216f558ab5c3e37ad2c152442111ec8753811a6485f83f39024b4",
-    "start.ps1": "53118b8f37ce2f387a0d7c5e5da5aba1747fe74cf6c56a987a7098255bf1e7d3",
+    "start.ps1": "74725a914b49d289a55a01f6875e1379522d5781799103c9bcbedef7e4f79f6f",
     "scripts/verify_launcher.py": "3ac84aeda44c3321e9f463fd62f2619d4d56b27c901ece6177da19639df3ca07"
   }
 }

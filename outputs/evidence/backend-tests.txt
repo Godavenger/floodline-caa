@@ -44,6 +44,6 @@ test_verification_creates_bounded_bidirectional_exclusions (test_pipeline.Pipeli
 test_worker_records_inference_failure_and_recovers_without_duplicates (test_pipeline.PipelineAcceptance.test_worker_records_inference_failure_and_recovers_without_duplicates) ... ok
 
 ----------------------------------------------------------------------
-Ran 44 tests in 12.961s
+Ran 44 tests in 12.389s
 
 OK

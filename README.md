@@ -9,12 +9,28 @@ labels are invented development fixtures. The displayed index is relative
 susceptibility and threshold evidence, not a validated flood probability. Alerts
 use a simulated in-app adapter; no SMS or email is sent.
 
+Source: [Godavenger/floodline-caa](https://github.com/Godavenger/floodline-caa).
+The [completion checklist](docs/REMAINING_TASKS.md) lists the remaining team,
+assessment and real-pilot tasks with owners and completion evidence.
+
+Use the moon/sun button in the header to switch appearance. The navigation's
+**Appearance** selector offers **System**, **Light** and **Dark**. The default
+follows your device; a manual choice is remembered across reloads and tabs.
+Maps, charts, status messages, forms and dialogs follow the selected theme.
+
+![Floodline's map and area evidence in Dark appearance](.impeccable/review/desktop-dark.png)
+
 ## Start on Windows
 
 Prerequisites: Python 3.12+ and internet access for the first dependency setup.
-The bundled demo runs without Node or npm. Node 22.12+ and npm are needed only
+The working folder and [demo ZIP](https://github.com/Godavenger/floodline-caa/releases)
+contain the bundled interface and run without Node or npm. Node 22.12+ and npm are needed only
 to rebuild the interface; Chrome or Edge is needed for browser verification.
 No API keys or PostgreSQL are needed for the local demo.
+
+A GitHub clone contains source. Install Node 22.12+ and npm, then run
+`start.bat -Rebuild` once to install frontend dependencies and build its interface.
+After that, ordinary `start.bat` uses the built interface.
 
 Double-click **start.bat**, or run it from this folder:
 
@@ -96,6 +112,12 @@ publication, changed routes, consent, deduplication, outage, recovery,
 withdrawal and error states. Evidence is written to
 .verification/browser-acceptance.json and .impeccable/review.
 
+Each recorded workflow state is captured in Light and Dark appearance. The
+appearance checks cover device changes, manual overrides, persistence before
+the application loads, cross-tab changes, unavailable browser storage and
+text/control contrast. GitHub Actions runs the backend, build and browser checks
+from a fresh Linux dependency setup on source changes and pull requests.
+
 ## What to demonstrate
 
 1. Inspect the map, select an area and open its rule/source details.
@@ -113,6 +135,7 @@ Follow the [ten-minute demonstration](docs/DEMO_RUNBOOK.md) for M1–M6.
 | Record | Purpose |
 | --- | --- |
 | [Pipeline status](docs/PROJECT_STATUS.md) | P1–P8 delivery and remaining real-pilot gates |
+| [Completion checklist](docs/REMAINING_TASKS.md) | Required submission tasks, owners and evidence; real-pilot and deployment gates |
 | [Architecture](docs/ARCHITECTURE.md) | Data → GIS → warnings → map → actions |
 | [Source register](docs/SOURCE_REGISTER.md) | Provenance, licences and real-data candidates |
 | [Data dictionary](docs/DATA_DICTIONARY.md) | Units, time semantics, features and state meanings |
