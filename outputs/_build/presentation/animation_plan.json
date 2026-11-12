@@ -1,0 +1,1590 @@
+[
+  {
+    "slide": 1,
+    "title": "Floodline — From rainfall to local decisions",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s01_heading_text_0",
+          "s01_heading_text_1"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "cover_wordmark",
+        "names": [
+          "s01_cover_wordmark_icon_4",
+          "s01_cover_wordmark_text_5",
+          "s01_cover_wordmark_text_6",
+          "s01_cover_wordmark_text_7",
+          "s01_cover_wordmark_shape_8",
+          "s01_cover_wordmark_text_9",
+          "s01_cover_wordmark_text_10"
+        ],
+        "delay": 0.03,
+        "effect": "float",
+        "duration": 0.5
+      },
+      {
+        "key": "cover_map",
+        "names": [
+          "s01_cover_map_shape_11",
+          "s01_cover_map_shape_12",
+          "s01_cover_map_text_13",
+          "s01_cover_map_shape_14",
+          "s01_cover_map_text_15",
+          "s01_cover_map_shape_16",
+          "s01_cover_map_text_17",
+          "s01_cover_map_shape_18",
+          "s01_cover_map_text_19",
+          "s01_cover_map_shape_20",
+          "s01_cover_map_text_21",
+          "s01_cover_map_shape_22",
+          "s01_cover_map_text_23",
+          "s01_cover_map_shape_24",
+          "s01_cover_map_text_25",
+          "s01_cover_map_shape_26",
+          "s01_cover_map_text_27",
+          "s01_cover_map_shape_28",
+          "s01_cover_map_text_29",
+          "s01_cover_map_shape_30",
+          "s01_cover_map_shape_31",
+          "s01_cover_map_shape_32",
+          "s01_cover_map_shape_33",
+          "s01_cover_map_shape_34",
+          "s01_cover_map_shape_35",
+          "s01_cover_map_shape_36",
+          "s01_cover_map_shape_37",
+          "s01_cover_map_shape_38",
+          "s01_cover_map_shape_39",
+          "s01_cover_map_shape_40",
+          "s01_cover_map_shape_41",
+          "s01_cover_map_shape_42",
+          "s01_cover_map_shape_43",
+          "s01_cover_map_shape_44",
+          "s01_cover_map_shape_45",
+          "s01_cover_map_shape_46",
+          "s01_cover_map_shape_47",
+          "s01_cover_map_shape_48",
+          "s01_cover_map_shape_49",
+          "s01_cover_map_shape_50",
+          "s01_cover_map_shape_51",
+          "s01_cover_map_shape_52",
+          "s01_cover_map_shape_53",
+          "s01_cover_map_shape_54",
+          "s01_cover_map_shape_55",
+          "s01_cover_map_shape_56",
+          "s01_cover_map_shape_57",
+          "s01_cover_map_shape_58",
+          "s01_cover_map_shape_59",
+          "s01_cover_map_shape_60",
+          "s01_cover_map_shape_61",
+          "s01_cover_map_shape_62",
+          "s01_cover_map_shape_63",
+          "s01_cover_map_shape_64",
+          "s01_cover_map_shape_65",
+          "s01_cover_map_shape_66",
+          "s01_cover_map_shape_67",
+          "s01_cover_map_shape_68",
+          "s01_cover_map_shape_69",
+          "s01_cover_map_shape_70",
+          "s01_cover_map_text_71"
+        ],
+        "delay": 0.18,
+        "effect": "float",
+        "duration": 0.55
+      },
+      {
+        "key": "cover_context",
+        "names": [
+          "s01_cover_context_shape_72",
+          "s01_cover_context_icon_73",
+          "s01_cover_context_text_74",
+          "s01_cover_context_text_75",
+          "s01_cover_context_shape_76",
+          "s01_cover_context_icon_77",
+          "s01_cover_context_text_78",
+          "s01_cover_context_text_79"
+        ],
+        "delay": 0.4,
+        "effect": "float",
+        "duration": 0.55
+      }
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "Limited data has to become a useful local decision.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s02_heading_text_0",
+          "s02_heading_text_1",
+          "s02_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "question_0",
+        "names": [
+          "s02_question_0_shape_5",
+          "s02_question_0_text_6",
+          "s02_question_0_icon_7",
+          "s02_question_0_text_8",
+          "s02_question_0_text_9"
+        ],
+        "delay": 0.14,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "question_1",
+        "names": [
+          "s02_question_1_shape_10",
+          "s02_question_1_text_11",
+          "s02_question_1_icon_12",
+          "s02_question_1_text_13",
+          "s02_question_1_text_14"
+        ],
+        "delay": 0.30000000000000004,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "question_2",
+        "names": [
+          "s02_question_2_shape_15",
+          "s02_question_2_text_16",
+          "s02_question_2_icon_17",
+          "s02_question_2_text_18",
+          "s02_question_2_text_19"
+        ],
+        "delay": 0.46,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "problem_takeaway",
+        "names": [
+          "s02_problem_takeaway_text_20"
+        ],
+        "delay": 0.67,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "One platform. Two evidence streams.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s03_heading_text_0",
+          "s03_heading_text_1",
+          "s03_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "environmental",
+        "names": [
+          "s03_environmental_shape_5",
+          "s03_environmental_icon_6",
+          "s03_environmental_text_7",
+          "s03_environmental_text_8"
+        ],
+        "delay": 0.14,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "community",
+        "names": [
+          "s03_community_shape_9",
+          "s03_community_icon_10",
+          "s03_community_text_11",
+          "s03_community_text_12"
+        ],
+        "delay": 0.3,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "joining",
+        "names": [
+          "s03_joining_shape_13",
+          "s03_joining_shape_14"
+        ],
+        "delay": 0.47,
+        "effect": "wipe",
+        "duration": 0.4
+      },
+      {
+        "key": "map_output",
+        "names": [
+          "s03_map_output_shape_15",
+          "s03_map_output_icon_16",
+          "s03_map_output_text_17",
+          "s03_map_output_text_18"
+        ],
+        "delay": 0.58,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "actions",
+        "names": [
+          "s03_actions_shape_19",
+          "s03_actions_shape_20",
+          "s03_actions_icon_21",
+          "s03_actions_text_22",
+          "s03_actions_text_23",
+          "s03_actions_shape_24",
+          "s03_actions_icon_25",
+          "s03_actions_text_26",
+          "s03_actions_text_27"
+        ],
+        "delay": 0.75,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 4,
+    "title": "The map is the starting point.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s04_heading_text_0",
+          "s04_heading_text_1",
+          "s04_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "actual_dashboard",
+        "names": [
+          "s04_actual_dashboard_shape_5",
+          "s04_actual_dashboard_image_6"
+        ],
+        "delay": 0.16,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "dashboard_stats",
+        "names": [
+          "s04_dashboard_stats_text_7",
+          "s04_dashboard_stats_text_8",
+          "s04_dashboard_stats_text_9",
+          "s04_dashboard_stats_text_10",
+          "s04_dashboard_stats_text_11",
+          "s04_dashboard_stats_text_12"
+        ],
+        "delay": 0.39,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 5,
+    "title": "Raw data becomes traceable evidence.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s05_heading_text_0",
+          "s05_heading_text_1",
+          "s05_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "ingestion_totals",
+        "names": [
+          "s05_ingestion_totals_shape_5",
+          "s05_ingestion_totals_icon_6",
+          "s05_ingestion_totals_text_7",
+          "s05_ingestion_totals_text_8",
+          "s05_ingestion_totals_text_9",
+          "s05_ingestion_totals_shape_10",
+          "s05_ingestion_totals_text_11",
+          "s05_ingestion_totals_shape_12",
+          "s05_ingestion_totals_text_13"
+        ],
+        "delay": 0.13,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "data_flow",
+        "names": [
+          "s05_data_flow_shape_14",
+          "s05_data_flow_icon_15",
+          "s05_data_flow_text_16",
+          "s05_data_flow_text_17",
+          "s05_data_flow_shape_18",
+          "s05_data_flow_icon_19",
+          "s05_data_flow_text_20",
+          "s05_data_flow_text_21"
+        ],
+        "delay": 0.29,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "receipt_timeline",
+        "names": [
+          "s05_receipt_timeline_shape_22",
+          "s05_receipt_timeline_text_23",
+          "s05_receipt_timeline_shape_24",
+          "s05_receipt_timeline_shape_25",
+          "s05_receipt_timeline_text_26",
+          "s05_receipt_timeline_shape_27",
+          "s05_receipt_timeline_text_28",
+          "s05_receipt_timeline_shape_29",
+          "s05_receipt_timeline_text_30",
+          "s05_receipt_timeline_text_31"
+        ],
+        "delay": 0.47,
+        "effect": "wipe",
+        "duration": 0.5
+      }
+    ]
+  },
+  {
+    "slide": 6,
+    "title": "GIS connects area context to a directed road graph.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s06_heading_text_0",
+          "s06_heading_text_1",
+          "s06_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "gis_map",
+        "names": [
+          "s06_gis_map_shape_5",
+          "s06_gis_map_shape_6",
+          "s06_gis_map_text_7",
+          "s06_gis_map_shape_8",
+          "s06_gis_map_text_9",
+          "s06_gis_map_shape_10",
+          "s06_gis_map_text_11",
+          "s06_gis_map_shape_12",
+          "s06_gis_map_text_13",
+          "s06_gis_map_shape_14",
+          "s06_gis_map_text_15",
+          "s06_gis_map_shape_16",
+          "s06_gis_map_text_17",
+          "s06_gis_map_shape_18",
+          "s06_gis_map_text_19",
+          "s06_gis_map_shape_20",
+          "s06_gis_map_text_21",
+          "s06_gis_map_shape_22",
+          "s06_gis_map_text_23",
+          "s06_gis_map_shape_24",
+          "s06_gis_map_shape_25",
+          "s06_gis_map_shape_26",
+          "s06_gis_map_shape_27",
+          "s06_gis_map_shape_28",
+          "s06_gis_map_shape_29",
+          "s06_gis_map_shape_30",
+          "s06_gis_map_shape_31",
+          "s06_gis_map_shape_32",
+          "s06_gis_map_shape_33",
+          "s06_gis_map_shape_34",
+          "s06_gis_map_shape_35",
+          "s06_gis_map_shape_36",
+          "s06_gis_map_shape_37",
+          "s06_gis_map_shape_38",
+          "s06_gis_map_shape_39",
+          "s06_gis_map_shape_40",
+          "s06_gis_map_shape_41",
+          "s06_gis_map_shape_42",
+          "s06_gis_map_shape_43",
+          "s06_gis_map_shape_44",
+          "s06_gis_map_shape_45",
+          "s06_gis_map_shape_46",
+          "s06_gis_map_shape_47",
+          "s06_gis_map_shape_48",
+          "s06_gis_map_shape_49",
+          "s06_gis_map_shape_50",
+          "s06_gis_map_shape_51",
+          "s06_gis_map_shape_52",
+          "s06_gis_map_shape_53",
+          "s06_gis_map_shape_54",
+          "s06_gis_map_shape_55",
+          "s06_gis_map_shape_56",
+          "s06_gis_map_shape_57",
+          "s06_gis_map_shape_58",
+          "s06_gis_map_shape_59",
+          "s06_gis_map_shape_60",
+          "s06_gis_map_shape_61",
+          "s06_gis_map_shape_62",
+          "s06_gis_map_shape_63",
+          "s06_gis_map_shape_64",
+          "s06_gis_map_shape_65",
+          "s06_gis_map_shape_66",
+          "s06_gis_map_shape_67",
+          "s06_gis_map_shape_68",
+          "s06_gis_map_shape_69",
+          "s06_gis_map_shape_70",
+          "s06_gis_map_shape_71",
+          "s06_gis_map_shape_72",
+          "s06_gis_map_shape_73",
+          "s06_gis_map_shape_74",
+          "s06_gis_map_shape_75",
+          "s06_gis_map_shape_76",
+          "s06_gis_map_shape_77",
+          "s06_gis_map_shape_78",
+          "s06_gis_map_shape_79",
+          "s06_gis_map_shape_80",
+          "s06_gis_map_shape_81",
+          "s06_gis_map_shape_82",
+          "s06_gis_map_shape_83",
+          "s06_gis_map_shape_84",
+          "s06_gis_map_shape_85",
+          "s06_gis_map_text_86",
+          "s06_gis_map_text_87",
+          "s06_gis_map_text_88"
+        ],
+        "delay": 0.16,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "gis_facts",
+        "names": [
+          "s06_gis_facts_shape_89",
+          "s06_gis_facts_icon_90",
+          "s06_gis_facts_text_91",
+          "s06_gis_facts_text_92",
+          "s06_gis_facts_shape_93",
+          "s06_gis_facts_icon_94",
+          "s06_gis_facts_text_95",
+          "s06_gis_facts_text_96",
+          "s06_gis_facts_text_97",
+          "s06_gis_facts_text_98"
+        ],
+        "delay": 0.37,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 7,
+    "title": "An interpretable rule runs the demo.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s07_heading_text_0",
+          "s07_heading_text_1",
+          "s07_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "active_equation",
+        "names": [
+          "s07_active_equation_shape_5",
+          "s07_active_equation_text_6",
+          "s07_active_equation_text_7",
+          "s07_active_equation_text_8",
+          "s07_active_equation_text_9",
+          "s07_active_equation_text_10",
+          "s07_active_equation_text_11"
+        ],
+        "delay": 0.17,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "rule_features",
+        "names": [
+          "s07_rule_features_shape_12",
+          "s07_rule_features_icon_13",
+          "s07_rule_features_text_14",
+          "s07_rule_features_text_15",
+          "s07_rule_features_shape_16",
+          "s07_rule_features_icon_17",
+          "s07_rule_features_text_18",
+          "s07_rule_features_text_19"
+        ],
+        "delay": 0.34,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "risk_thresholds",
+        "names": [
+          "s07_risk_thresholds_shape_20",
+          "s07_risk_thresholds_text_21",
+          "s07_risk_thresholds_text_22",
+          "s07_risk_thresholds_shape_23",
+          "s07_risk_thresholds_text_24",
+          "s07_risk_thresholds_text_25",
+          "s07_risk_thresholds_shape_26",
+          "s07_risk_thresholds_text_27",
+          "s07_risk_thresholds_text_28",
+          "s07_risk_thresholds_shape_29",
+          "s07_risk_thresholds_text_30",
+          "s07_risk_thresholds_text_31"
+        ],
+        "delay": 0.52,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 8,
+    "title": "The evidence is visible beside the map.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s08_heading_text_0",
+          "s08_heading_text_1",
+          "s08_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "evidence_map",
+        "names": [
+          "s08_evidence_map_shape_5",
+          "s08_evidence_map_image_6"
+        ],
+        "delay": 0.16,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "native_evidence",
+        "names": [
+          "s08_native_evidence_shape_7",
+          "s08_native_evidence_text_8",
+          "s08_native_evidence_shape_9",
+          "s08_native_evidence_text_10",
+          "s08_native_evidence_text_11",
+          "s08_native_evidence_text_12",
+          "s08_native_evidence_text_13",
+          "s08_native_evidence_text_14",
+          "s08_native_evidence_text_15"
+        ],
+        "delay": 0.39,
+        "effect": "float",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 9,
+    "title": "Reports earn trust through review.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s09_heading_text_0",
+          "s09_heading_text_1",
+          "s09_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "resident_report",
+        "names": [
+          "s09_resident_report_shape_5",
+          "s09_resident_report_shape_6",
+          "s09_resident_report_text_7",
+          "s09_resident_report_image_8",
+          "s09_resident_report_text_9",
+          "s09_resident_report_text_10"
+        ],
+        "delay": 0.16,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "review_bridge",
+        "names": [
+          "s09_review_bridge_shape_11"
+        ],
+        "delay": 0.38,
+        "effect": "wipe",
+        "duration": 0.4
+      },
+      {
+        "key": "moderation_review",
+        "names": [
+          "s09_moderation_review_shape_12",
+          "s09_moderation_review_shape_13",
+          "s09_moderation_review_text_14",
+          "s09_moderation_review_image_15",
+          "s09_moderation_review_text_16"
+        ],
+        "delay": 0.46,
+        "effect": "float",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 10,
+    "title": "Reviewed evidence changes the route.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s10_heading_text_0",
+          "s10_heading_text_1",
+          "s10_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "route_before",
+        "names": [
+          "s10_route_before_shape_5",
+          "s10_route_before_shape_6",
+          "s10_route_before_text_7",
+          "s10_route_before_shape_8",
+          "s10_route_before_shape_9",
+          "s10_route_before_shape_10",
+          "s10_route_before_shape_11",
+          "s10_route_before_shape_12",
+          "s10_route_before_shape_13",
+          "s10_route_before_shape_14",
+          "s10_route_before_shape_15",
+          "s10_route_before_shape_16",
+          "s10_route_before_shape_17",
+          "s10_route_before_shape_18",
+          "s10_route_before_shape_19",
+          "s10_route_before_shape_20",
+          "s10_route_before_shape_21",
+          "s10_route_before_shape_22",
+          "s10_route_before_shape_23",
+          "s10_route_before_shape_24",
+          "s10_route_before_shape_25",
+          "s10_route_before_shape_26",
+          "s10_route_before_shape_27",
+          "s10_route_before_shape_28",
+          "s10_route_before_shape_29",
+          "s10_route_before_shape_30",
+          "s10_route_before_shape_31",
+          "s10_route_before_shape_32",
+          "s10_route_before_shape_33",
+          "s10_route_before_shape_34",
+          "s10_route_before_shape_35",
+          "s10_route_before_shape_36",
+          "s10_route_before_shape_37",
+          "s10_route_before_shape_38",
+          "s10_route_before_shape_39",
+          "s10_route_before_shape_40",
+          "s10_route_before_shape_41",
+          "s10_route_before_shape_42",
+          "s10_route_before_shape_43",
+          "s10_route_before_shape_44",
+          "s10_route_before_shape_45",
+          "s10_route_before_shape_46",
+          "s10_route_before_shape_47",
+          "s10_route_before_shape_48",
+          "s10_route_before_shape_49",
+          "s10_route_before_shape_50",
+          "s10_route_before_shape_51",
+          "s10_route_before_shape_52",
+          "s10_route_before_shape_53",
+          "s10_route_before_shape_54",
+          "s10_route_before_shape_55",
+          "s10_route_before_shape_56",
+          "s10_route_before_shape_57",
+          "s10_route_before_shape_58",
+          "s10_route_before_text_59",
+          "s10_route_before_shape_60",
+          "s10_route_before_text_61"
+        ],
+        "delay": 0.16,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "route_after",
+        "names": [
+          "s10_route_after_shape_62",
+          "s10_route_after_shape_63",
+          "s10_route_after_text_64",
+          "s10_route_after_shape_65",
+          "s10_route_after_shape_66",
+          "s10_route_after_shape_67",
+          "s10_route_after_shape_68",
+          "s10_route_after_shape_69",
+          "s10_route_after_shape_70",
+          "s10_route_after_shape_71",
+          "s10_route_after_shape_72",
+          "s10_route_after_shape_73",
+          "s10_route_after_shape_74",
+          "s10_route_after_shape_75",
+          "s10_route_after_shape_76",
+          "s10_route_after_shape_77",
+          "s10_route_after_shape_78",
+          "s10_route_after_shape_79",
+          "s10_route_after_shape_80",
+          "s10_route_after_shape_81",
+          "s10_route_after_shape_82",
+          "s10_route_after_shape_83",
+          "s10_route_after_shape_84",
+          "s10_route_after_shape_85",
+          "s10_route_after_shape_86",
+          "s10_route_after_shape_87",
+          "s10_route_after_shape_88",
+          "s10_route_after_shape_89",
+          "s10_route_after_shape_90",
+          "s10_route_after_shape_91",
+          "s10_route_after_shape_92",
+          "s10_route_after_shape_93",
+          "s10_route_after_shape_94",
+          "s10_route_after_shape_95",
+          "s10_route_after_shape_96",
+          "s10_route_after_shape_97",
+          "s10_route_after_shape_98",
+          "s10_route_after_shape_99",
+          "s10_route_after_shape_100",
+          "s10_route_after_shape_101",
+          "s10_route_after_shape_102",
+          "s10_route_after_shape_103",
+          "s10_route_after_shape_104",
+          "s10_route_after_shape_105",
+          "s10_route_after_shape_106",
+          "s10_route_after_shape_107",
+          "s10_route_after_shape_108",
+          "s10_route_after_shape_109",
+          "s10_route_after_shape_110",
+          "s10_route_after_shape_111",
+          "s10_route_after_shape_112",
+          "s10_route_after_shape_113",
+          "s10_route_after_shape_114",
+          "s10_route_after_shape_115",
+          "s10_route_after_shape_116",
+          "s10_route_after_text_117",
+          "s10_route_after_shape_118",
+          "s10_route_after_text_119"
+        ],
+        "delay": 0.38,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "route_conclusion",
+        "names": [
+          "s10_route_conclusion_text_120",
+          "s10_route_conclusion_text_121"
+        ],
+        "delay": 0.58,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 11,
+    "title": "Alerts remember consent, retries and expiry.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s11_heading_text_0",
+          "s11_heading_text_1",
+          "s11_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "alert_capture",
+        "names": [
+          "s11_alert_capture_shape_5",
+          "s11_alert_capture_image_6"
+        ],
+        "delay": 0.16,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "alert_step_0",
+        "names": [
+          "s11_alert_step_0_icon_7",
+          "s11_alert_step_0_text_8",
+          "s11_alert_step_0_text_9"
+        ],
+        "delay": 0.32,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "alert_step_1",
+        "names": [
+          "s11_alert_step_1_icon_10",
+          "s11_alert_step_1_text_11",
+          "s11_alert_step_1_text_12"
+        ],
+        "delay": 0.44,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "alert_step_2",
+        "names": [
+          "s11_alert_step_2_icon_13",
+          "s11_alert_step_2_text_14",
+          "s11_alert_step_2_text_15"
+        ],
+        "delay": 0.56,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "alert_step_3",
+        "names": [
+          "s11_alert_step_3_icon_16",
+          "s11_alert_step_3_text_17",
+          "s11_alert_step_3_text_18"
+        ],
+        "delay": 0.6799999999999999,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 12,
+    "title": "Synthetic evaluation keeps events separate.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s12_heading_text_0",
+          "s12_heading_text_1",
+          "s12_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "split_0",
+        "names": [
+          "s12_split_0_shape_5",
+          "s12_split_0_text_6",
+          "s12_split_0_text_7",
+          "s12_split_0_text_8",
+          "s12_split_0_text_9"
+        ],
+        "delay": 0.15,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "split_1",
+        "names": [
+          "s12_split_1_shape_10",
+          "s12_split_1_text_11",
+          "s12_split_1_text_12",
+          "s12_split_1_text_13",
+          "s12_split_1_text_14"
+        ],
+        "delay": 0.33999999999999997,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "split_2",
+        "names": [
+          "s12_split_2_shape_15",
+          "s12_split_2_text_16",
+          "s12_split_2_text_17",
+          "s12_split_2_text_18",
+          "s12_split_2_text_19"
+        ],
+        "delay": 0.53,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "temporal_rule",
+        "names": [
+          "s12_temporal_rule_icon_20",
+          "s12_temporal_rule_text_21"
+        ],
+        "delay": 0.75,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 13,
+    "title": "Higher recall brought more false positives.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s13_heading_text_0",
+          "s13_heading_text_1",
+          "s13_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "metric_panel",
+        "names": [
+          "s13_metric_panel_shape_5"
+        ],
+        "delay": 0.13,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "metric_chart",
+        "names": [
+          "s13_metric_chart_chart_6"
+        ],
+        "delay": 0.28,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "error_table",
+        "names": [
+          "s13_error_table_shape_7",
+          "s13_error_table_text_8",
+          "s13_error_table_text_9",
+          "s13_error_table_text_10",
+          "s13_error_table_text_11",
+          "s13_error_table_text_12",
+          "s13_error_table_text_13",
+          "s13_error_table_text_14",
+          "s13_error_table_text_15",
+          "s13_error_table_text_16",
+          "s13_error_table_text_17"
+        ],
+        "delay": 0.47,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "promotion_decision",
+        "names": [
+          "s13_promotion_decision_text_18"
+        ],
+        "delay": 0.69,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 14,
+    "title": "Unknown data stays visibly unknown.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s14_heading_text_0",
+          "s14_heading_text_1",
+          "s14_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "outage_explanation",
+        "names": [
+          "s14_outage_explanation_text_5",
+          "s14_outage_explanation_text_6",
+          "s14_outage_explanation_shape_7",
+          "s14_outage_explanation_icon_8",
+          "s14_outage_explanation_text_9",
+          "s14_outage_explanation_text_10"
+        ],
+        "delay": 0.15,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "outage_capture",
+        "names": [
+          "s14_outage_capture_shape_11",
+          "s14_outage_capture_image_12"
+        ],
+        "delay": 0.36,
+        "effect": "float",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 15,
+    "title": "The delivery is backed by inspectable checks.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s15_heading_text_0",
+          "s15_heading_text_1",
+          "s15_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "check_0",
+        "names": [
+          "s15_check_0_shape_5",
+          "s15_check_0_icon_6",
+          "s15_check_0_text_7",
+          "s15_check_0_text_8"
+        ],
+        "delay": 0.15,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "check_1",
+        "names": [
+          "s15_check_1_shape_9",
+          "s15_check_1_icon_10",
+          "s15_check_1_text_11",
+          "s15_check_1_text_12"
+        ],
+        "delay": 0.26,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "check_2",
+        "names": [
+          "s15_check_2_shape_13",
+          "s15_check_2_icon_14",
+          "s15_check_2_text_15",
+          "s15_check_2_text_16"
+        ],
+        "delay": 0.37,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "check_3",
+        "names": [
+          "s15_check_3_shape_17",
+          "s15_check_3_icon_18",
+          "s15_check_3_text_19",
+          "s15_check_3_text_20"
+        ],
+        "delay": 0.48,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "acceptance_context",
+        "names": [
+          "s15_acceptance_context_shape_21",
+          "s15_acceptance_context_icon_22",
+          "s15_acceptance_context_text_23",
+          "s15_acceptance_context_text_24",
+          "s15_acceptance_context_shape_25",
+          "s15_acceptance_context_icon_26",
+          "s15_acceptance_context_text_27",
+          "s15_acceptance_context_text_28"
+        ],
+        "delay": 0.61,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 16,
+    "title": "A focused demo follows six actions.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s16_heading_text_0",
+          "s16_heading_text_1",
+          "s16_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "demo_0",
+        "names": [
+          "s16_demo_0_shape_5",
+          "s16_demo_0_text_6",
+          "s16_demo_0_icon_7",
+          "s16_demo_0_text_8",
+          "s16_demo_0_text_9"
+        ],
+        "delay": 0.16,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "demo_1",
+        "names": [
+          "s16_demo_1_shape_10",
+          "s16_demo_1_text_11",
+          "s16_demo_1_icon_12",
+          "s16_demo_1_text_13",
+          "s16_demo_1_text_14"
+        ],
+        "delay": 0.26,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "demo_2",
+        "names": [
+          "s16_demo_2_shape_15",
+          "s16_demo_2_text_16",
+          "s16_demo_2_icon_17",
+          "s16_demo_2_text_18",
+          "s16_demo_2_text_19"
+        ],
+        "delay": 0.36,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "demo_3",
+        "names": [
+          "s16_demo_3_shape_20",
+          "s16_demo_3_text_21",
+          "s16_demo_3_icon_22",
+          "s16_demo_3_text_23",
+          "s16_demo_3_text_24"
+        ],
+        "delay": 0.4600000000000001,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "demo_4",
+        "names": [
+          "s16_demo_4_shape_25",
+          "s16_demo_4_text_26",
+          "s16_demo_4_icon_27",
+          "s16_demo_4_text_28",
+          "s16_demo_4_text_29"
+        ],
+        "delay": 0.56,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "demo_5",
+        "names": [
+          "s16_demo_5_shape_30",
+          "s16_demo_5_text_31",
+          "s16_demo_5_icon_32",
+          "s16_demo_5_text_33",
+          "s16_demo_5_text_34"
+        ],
+        "delay": 0.66,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "demo_launch",
+        "names": [
+          "s16_demo_launch_shape_35",
+          "s16_demo_launch_text_36",
+          "s16_demo_launch_text_37"
+        ],
+        "delay": 0.83,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 17,
+    "title": "The path to a real pilot is clear.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s17_heading_text_0",
+          "s17_heading_text_1",
+          "s17_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "delivered_scope",
+        "names": [
+          "s17_delivered_scope_shape_5",
+          "s17_delivered_scope_icon_6",
+          "s17_delivered_scope_text_7",
+          "s17_delivered_scope_icon_8",
+          "s17_delivered_scope_text_9",
+          "s17_delivered_scope_icon_10",
+          "s17_delivered_scope_text_11",
+          "s17_delivered_scope_icon_12",
+          "s17_delivered_scope_text_13",
+          "s17_delivered_scope_icon_14",
+          "s17_delivered_scope_text_15",
+          "s17_delivered_scope_icon_16",
+          "s17_delivered_scope_text_17",
+          "s17_delivered_scope_shape_18",
+          "s17_delivered_scope_text_19"
+        ],
+        "delay": 0.16,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "gate_0",
+        "names": [
+          "s17_gate_0_icon_20",
+          "s17_gate_0_text_21",
+          "s17_gate_0_text_22"
+        ],
+        "delay": 0.3,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "gate_1",
+        "names": [
+          "s17_gate_1_icon_23",
+          "s17_gate_1_text_24",
+          "s17_gate_1_text_25"
+        ],
+        "delay": 0.42,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "gate_2",
+        "names": [
+          "s17_gate_2_icon_26",
+          "s17_gate_2_text_27",
+          "s17_gate_2_text_28"
+        ],
+        "delay": 0.54,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "gate_3",
+        "names": [
+          "s17_gate_3_icon_29",
+          "s17_gate_3_text_30",
+          "s17_gate_3_text_31"
+        ],
+        "delay": 0.6599999999999999,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 18,
+    "title": "Visible evidence supports useful local decisions.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s18_heading_text_0",
+          "s18_heading_text_1"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "closing_claim",
+        "names": [
+          "s18_closing_claim_text_4",
+          "s18_closing_claim_text_5"
+        ],
+        "delay": 0.17,
+        "effect": "float",
+        "duration": 0.55
+      },
+      {
+        "key": "takeaway_0",
+        "names": [
+          "s18_takeaway_0_shape_6",
+          "s18_takeaway_0_icon_7",
+          "s18_takeaway_0_text_8"
+        ],
+        "delay": 0.37,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "takeaway_1",
+        "names": [
+          "s18_takeaway_1_shape_9",
+          "s18_takeaway_1_icon_10",
+          "s18_takeaway_1_text_11"
+        ],
+        "delay": 0.47,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "takeaway_2",
+        "names": [
+          "s18_takeaway_2_shape_12",
+          "s18_takeaway_2_icon_13",
+          "s18_takeaway_2_text_14"
+        ],
+        "delay": 0.5700000000000001,
+        "effect": "float",
+        "duration": 0.45
+      },
+      {
+        "key": "questions",
+        "names": [
+          "s18_questions_text_15",
+          "s18_questions_text_16"
+        ],
+        "delay": 0.75,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 19,
+    "title": "Six responsibility areas connect the stack.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s19_heading_text_0",
+          "s19_heading_text_1",
+          "s19_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "role_0",
+        "names": [
+          "s19_role_0_shape_5",
+          "s19_role_0_shape_6",
+          "s19_role_0_text_7",
+          "s19_role_0_icon_8",
+          "s19_role_0_text_9",
+          "s19_role_0_text_10"
+        ],
+        "delay": 0.14,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "role_1",
+        "names": [
+          "s19_role_1_shape_11",
+          "s19_role_1_shape_12",
+          "s19_role_1_text_13",
+          "s19_role_1_icon_14",
+          "s19_role_1_text_15",
+          "s19_role_1_text_16"
+        ],
+        "delay": 0.22000000000000003,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "role_2",
+        "names": [
+          "s19_role_2_shape_17",
+          "s19_role_2_shape_18",
+          "s19_role_2_text_19",
+          "s19_role_2_icon_20",
+          "s19_role_2_text_21",
+          "s19_role_2_text_22"
+        ],
+        "delay": 0.30000000000000004,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "role_3",
+        "names": [
+          "s19_role_3_shape_23",
+          "s19_role_3_shape_24",
+          "s19_role_3_text_25",
+          "s19_role_3_icon_26",
+          "s19_role_3_text_27",
+          "s19_role_3_text_28"
+        ],
+        "delay": 0.38,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "role_4",
+        "names": [
+          "s19_role_4_shape_29",
+          "s19_role_4_shape_30",
+          "s19_role_4_text_31",
+          "s19_role_4_icon_32",
+          "s19_role_4_text_33",
+          "s19_role_4_text_34"
+        ],
+        "delay": 0.46,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "role_5",
+        "names": [
+          "s19_role_5_shape_35",
+          "s19_role_5_shape_36",
+          "s19_role_5_text_37",
+          "s19_role_5_icon_38",
+          "s19_role_5_text_39",
+          "s19_role_5_text_40"
+        ],
+        "delay": 0.54,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  },
+  {
+    "slide": 20,
+    "title": "Project requirements and evidence are linked.",
+    "transition": "fade",
+    "groups": [
+      {
+        "key": "heading",
+        "names": [
+          "s20_heading_text_0",
+          "s20_heading_text_1",
+          "s20_heading_text_2"
+        ],
+        "delay": 0,
+        "effect": "fade",
+        "duration": 0.4
+      },
+      {
+        "key": "project_records",
+        "names": [
+          "s20_project_records_shape_5",
+          "s20_project_records_icon_6",
+          "s20_project_records_text_7",
+          "s20_project_records_text_8",
+          "s20_project_records_text_9",
+          "s20_project_records_text_10",
+          "s20_project_records_text_11",
+          "s20_project_records_text_12",
+          "s20_project_records_text_13",
+          "s20_project_records_text_14",
+          "s20_project_records_text_15",
+          "s20_project_records_text_16",
+          "s20_project_records_text_17"
+        ],
+        "delay": 0.14,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "implementation_links",
+        "names": [
+          "s20_implementation_links_shape_18",
+          "s20_implementation_links_icon_19",
+          "s20_implementation_links_text_20",
+          "s20_implementation_links_text_21",
+          "s20_implementation_links_text_22",
+          "s20_implementation_links_text_23",
+          "s20_implementation_links_text_24"
+        ],
+        "delay": 0.32,
+        "effect": "fade",
+        "duration": 0.45
+      },
+      {
+        "key": "candidate_sources",
+        "names": [
+          "s20_candidate_sources_shape_25",
+          "s20_candidate_sources_icon_26",
+          "s20_candidate_sources_text_27",
+          "s20_candidate_sources_text_28",
+          "s20_candidate_sources_text_29"
+        ],
+        "delay": 0.47,
+        "effect": "fade",
+        "duration": 0.45
+      }
+    ]
+  }
+]

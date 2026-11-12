@@ -1,0 +1,7162 @@
+[
+  {
+    "slide": 1,
+    "name": "s01_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "CAA PROJECT PRESENTATION"
+  },
+  {
+    "slide": 1,
+    "name": "s01_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": ""
+  },
+  {
+    "slide": 1,
+    "name": "s01_static_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 1,
+    "name": "s01_static_text_3",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "01  /  20"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_wordmark_icon_4",
+    "type": "icon",
+    "x": 0.68,
+    "y": 1.03,
+    "w": 0.42,
+    "h": 0.42
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_wordmark_text_5",
+    "type": "text",
+    "x": 1.27,
+    "y": 1.02,
+    "w": 6.55,
+    "h": 0.8506944444444444,
+    "fontSize": 49,
+    "text": "FLOODLINE"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_wordmark_text_6",
+    "type": "text",
+    "x": 0.66,
+    "y": 2.25,
+    "w": 7.25,
+    "h": 1.73,
+    "fontSize": 42,
+    "text": "From rainfall\nto local decisions."
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_wordmark_text_7",
+    "type": "text",
+    "x": 0.69,
+    "y": 4.34,
+    "w": 6.55,
+    "h": 0.89,
+    "fontSize": 21,
+    "text": "Smart City Flood Prediction\n& Community Alert Platform"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_wordmark_shape_8",
+    "type": "shape",
+    "x": 0.7,
+    "y": 5.73,
+    "w": 3.2,
+    "h": 0.34
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_wordmark_text_9",
+    "type": "text",
+    "x": 0.82,
+    "y": 5.795000000000001,
+    "w": 2.96,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "SYNTHETIC PILOT  /  v0.1.1"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_wordmark_text_10",
+    "type": "text",
+    "x": 0.71,
+    "y": 6.32,
+    "w": 4.95,
+    "h": 0.26,
+    "fontSize": 14.4,
+    "text": "12 November 2026"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_11",
+    "type": "shape",
+    "x": 8.19,
+    "y": 2.24,
+    "w": 4.34,
+    "h": 3.69
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_12",
+    "type": "shape",
+    "x": 8.473999999999998,
+    "y": 4.517333333333219,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667813
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_13",
+    "type": "text",
+    "x": 8.569999999999999,
+    "y": 4.593333333333218,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "A1"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_14",
+    "type": "shape",
+    "x": 8.473999999999998,
+    "y": 3.550666666666438,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667804
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_15",
+    "type": "text",
+    "x": 8.569999999999999,
+    "y": 3.626666666666438,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "A2"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_16",
+    "type": "shape",
+    "x": 8.473999999999998,
+    "y": 2.584,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667809
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_17",
+    "type": "text",
+    "x": 8.569999999999999,
+    "y": 2.66,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "A3"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_18",
+    "type": "shape",
+    "x": 9.72399999999946,
+    "y": 4.517333333333219,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667813
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_19",
+    "type": "text",
+    "x": 9.81999999999946,
+    "y": 4.593333333333218,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "B1"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_20",
+    "type": "shape",
+    "x": 9.72399999999946,
+    "y": 3.550666666666438,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667804
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_21",
+    "type": "text",
+    "x": 9.81999999999946,
+    "y": 3.626666666666438,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "B2"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_22",
+    "type": "shape",
+    "x": 9.72399999999946,
+    "y": 2.584,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667809
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_23",
+    "type": "text",
+    "x": 9.81999999999946,
+    "y": 2.66,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "B3"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_24",
+    "type": "shape",
+    "x": 10.974000000000537,
+    "y": 4.517333333333219,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667813
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_25",
+    "type": "text",
+    "x": 11.070000000000537,
+    "y": 4.593333333333218,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "C1"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_26",
+    "type": "shape",
+    "x": 10.974000000000537,
+    "y": 3.550666666666438,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667804
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_27",
+    "type": "text",
+    "x": 11.070000000000537,
+    "y": 3.626666666666438,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "C2"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_28",
+    "type": "shape",
+    "x": 10.974000000000537,
+    "y": 2.584,
+    "w": 1.2019999999994617,
+    "h": 0.9186666666667809
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_29",
+    "type": "text",
+    "x": 11.070000000000537,
+    "y": 2.66,
+    "w": 1.0499999999994618,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "C3"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_30",
+    "type": "shape",
+    "x": 11.050000000000537,
+    "y": 2.7,
+    "w": 0.3200000000000003,
+    "h": 0.7066666666667807
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_31",
+    "type": "shape",
+    "x": 11.200000000000461,
+    "y": 2.7,
+    "w": 0.3200000000000003,
+    "h": 0.7066666666667807
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_32",
+    "type": "shape",
+    "x": 11.350000000000383,
+    "y": 2.7,
+    "w": 0.3200000000000003,
+    "h": 0.7066666666667807
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_33",
+    "type": "shape",
+    "x": 11.500000000000307,
+    "y": 2.7,
+    "w": 0.3200000000000003,
+    "h": 0.7066666666667807
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_34",
+    "type": "shape",
+    "x": 11.65000000000023,
+    "y": 2.7,
+    "w": 0.3200000000000003,
+    "h": 0.7066666666667807
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_35",
+    "type": "shape",
+    "x": 11.800000000000153,
+    "y": 2.7,
+    "w": 0.3200000000000003,
+    "h": 0.7066666666667807
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_36",
+    "type": "shape",
+    "x": 11.950000000000076,
+    "y": 2.7,
+    "w": 0.18999999999992312,
+    "h": 0.7066666666667807
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_37",
+    "type": "shape",
+    "x": 8.790909090909091,
+    "y": 5.17,
+    "w": 0.7386363636366315,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_38",
+    "type": "shape",
+    "x": 8.790909090909091,
+    "y": 4.396666666666437,
+    "w": 0,
+    "h": 0.7733333333335626
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_39",
+    "type": "shape",
+    "x": 9.529545454545723,
+    "y": 5.17,
+    "w": 0.7386363636350186,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_40",
+    "type": "shape",
+    "x": 9.529545454545723,
+    "y": 4.396666666666437,
+    "w": 0,
+    "h": 0.7733333333335626
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_41",
+    "type": "shape",
+    "x": 10.268181818180741,
+    "y": 5.17,
+    "w": 0.7386363636366315,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_42",
+    "type": "shape",
+    "x": 10.268181818180741,
+    "y": 4.396666666666437,
+    "w": 0,
+    "h": 0.7733333333335626
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_43",
+    "type": "shape",
+    "x": 11.006818181817373,
+    "y": 5.17,
+    "w": 0.7386363636366333,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_44",
+    "type": "shape",
+    "x": 11.006818181817373,
+    "y": 4.396666666666437,
+    "w": 0,
+    "h": 0.7733333333335626
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_45",
+    "type": "shape",
+    "x": 11.745454545454006,
+    "y": 4.396666666666437,
+    "w": 0,
+    "h": 0.7733333333335626
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_46",
+    "type": "shape",
+    "x": 8.790909090909091,
+    "y": 4.396666666666437,
+    "w": 0.7386363636366315,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_47",
+    "type": "shape",
+    "x": 8.790909090909091,
+    "y": 3.6233333333332185,
+    "w": 0,
+    "h": 0.7733333333332189
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_48",
+    "type": "shape",
+    "x": 9.529545454545723,
+    "y": 4.396666666666437,
+    "w": 0.7386363636350186,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_49",
+    "type": "shape",
+    "x": 9.529545454545723,
+    "y": 3.6233333333332185,
+    "w": 0,
+    "h": 0.7733333333332189
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_50",
+    "type": "shape",
+    "x": 10.268181818180741,
+    "y": 4.396666666666437,
+    "w": 0.7386363636366315,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_51",
+    "type": "shape",
+    "x": 10.268181818180741,
+    "y": 3.6233333333332185,
+    "w": 0,
+    "h": 0.7733333333332189
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_52",
+    "type": "shape",
+    "x": 11.006818181817373,
+    "y": 4.396666666666437,
+    "w": 0.7386363636366333,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_53",
+    "type": "shape",
+    "x": 11.006818181817373,
+    "y": 3.6233333333332185,
+    "w": 0,
+    "h": 0.7733333333332189
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_54",
+    "type": "shape",
+    "x": 11.745454545454006,
+    "y": 3.6233333333332185,
+    "w": 0,
+    "h": 0.7733333333332189
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_55",
+    "type": "shape",
+    "x": 8.790909090909091,
+    "y": 3.6233333333332185,
+    "w": 0.7386363636366315,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_56",
+    "type": "shape",
+    "x": 8.790909090909091,
+    "y": 2.85,
+    "w": 0,
+    "h": 0.7733333333332184
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_57",
+    "type": "shape",
+    "x": 9.529545454545723,
+    "y": 3.6233333333332185,
+    "w": 0.7386363636350186,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_58",
+    "type": "shape",
+    "x": 9.529545454545723,
+    "y": 2.85,
+    "w": 0,
+    "h": 0.7733333333332184
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_59",
+    "type": "shape",
+    "x": 10.268181818180741,
+    "y": 3.6233333333332185,
+    "w": 0.7386363636366315,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_60",
+    "type": "shape",
+    "x": 10.268181818180741,
+    "y": 2.85,
+    "w": 0,
+    "h": 0.7733333333332184
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_61",
+    "type": "shape",
+    "x": 11.006818181817373,
+    "y": 3.6233333333332185,
+    "w": 0.7386363636366333,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_62",
+    "type": "shape",
+    "x": 11.006818181817373,
+    "y": 2.85,
+    "w": 0,
+    "h": 0.7733333333332184
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_63",
+    "type": "shape",
+    "x": 11.745454545454006,
+    "y": 2.85,
+    "w": 0,
+    "h": 0.7733333333332184
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_64",
+    "type": "shape",
+    "x": 8.790909090909091,
+    "y": 2.85,
+    "w": 0.7386363636366315,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_65",
+    "type": "shape",
+    "x": 9.529545454545723,
+    "y": 2.85,
+    "w": 0.7386363636350186,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_66",
+    "type": "shape",
+    "x": 10.268181818180741,
+    "y": 2.85,
+    "w": 0.7386363636366315,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_67",
+    "type": "shape",
+    "x": 11.006818181817373,
+    "y": 2.85,
+    "w": 0.7386363636366333,
+    "h": 0
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_68",
+    "type": "shape",
+    "x": 11.85909090909091,
+    "y": 2.3666666666667813,
+    "w": 0.2272727272721884,
+    "h": 1.2566666666664372
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_69",
+    "type": "shape",
+    "x": 11.85909090909091,
+    "y": 3.6233333333332185,
+    "w": 0.2840909090906383,
+    "h": 0.9666666666667814
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_shape_70",
+    "type": "shape",
+    "x": 11.972727272726196,
+    "y": 4.59,
+    "w": 0.17045454545535144,
+    "h": 1.1600000000000001
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_map_text_71",
+    "type": "text",
+    "x": 8.49,
+    "y": 5.56,
+    "w": 3.49,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "INVENTED GEOGRAPHY  /  3 WARDS"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_context_shape_72",
+    "type": "shape",
+    "x": 9.32,
+    "y": 1.45,
+    "w": 3,
+    "h": 0.99
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_context_icon_73",
+    "type": "icon",
+    "x": 9.54,
+    "y": 1.72,
+    "w": 0.35,
+    "h": 0.35
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_context_text_74",
+    "type": "text",
+    "x": 10.07,
+    "y": 1.68,
+    "w": 2,
+    "h": 0.3211805555555556,
+    "fontSize": 18.5,
+    "text": "9 analysis cells"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_context_text_75",
+    "type": "text",
+    "x": 10.07,
+    "y": 2.05,
+    "w": 2,
+    "h": 0.1875,
+    "fontSize": 10.8,
+    "text": "Evidence at area level"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_context_shape_76",
+    "type": "shape",
+    "x": 7.75,
+    "y": 5.53,
+    "w": 3.84,
+    "h": 1.07
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_context_icon_77",
+    "type": "icon",
+    "x": 7.98,
+    "y": 5.84,
+    "w": 0.4,
+    "h": 0.4
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_context_text_78",
+    "type": "text",
+    "x": 8.55,
+    "y": 5.8,
+    "w": 2.78,
+    "h": 0.3159722222222222,
+    "fontSize": 18.2,
+    "text": "Review before action"
+  },
+  {
+    "slide": 1,
+    "name": "s01_cover_context_text_79",
+    "type": "text",
+    "x": 8.55,
+    "y": 6.19,
+    "w": 2.78,
+    "h": 0.18055555555555555,
+    "fontSize": 10.4,
+    "text": "Reports → verified road evidence"
+  },
+  {
+    "slide": 2,
+    "name": "s02_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "THE PROBLEM"
+  },
+  {
+    "slide": 2,
+    "name": "s02_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Limited data has to become a useful local decision."
+  },
+  {
+    "slide": 2,
+    "name": "s02_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "Residents and municipal reviewers need location, evidence and a supported next step."
+  },
+  {
+    "slide": 2,
+    "name": "s02_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 2,
+    "name": "s02_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "02  /  20"
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_0_shape_5",
+    "type": "shape",
+    "x": 0.65,
+    "y": 2.39,
+    "w": 3.81,
+    "h": 3.49
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_0_text_6",
+    "type": "text",
+    "x": 0.9,
+    "y": 2.61,
+    "w": 1.05,
+    "h": 0.9722222222222222,
+    "fontSize": 56,
+    "text": "01"
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_0_icon_7",
+    "type": "icon",
+    "x": 3.64,
+    "y": 2.74,
+    "w": 0.48,
+    "h": 0.48
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_0_text_8",
+    "type": "text",
+    "x": 0.91,
+    "y": 3.8,
+    "w": 3.23,
+    "h": 0.82,
+    "fontSize": 23.1,
+    "text": "Where is it vulnerable?"
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_0_text_9",
+    "type": "text",
+    "x": 0.91,
+    "y": 4.71,
+    "w": 3.19,
+    "h": 0.89,
+    "fontSize": 17.2,
+    "text": "Rainfall, terrain and drainage need a shared geographic context."
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_1_shape_10",
+    "type": "shape",
+    "x": 4.760000000000001,
+    "y": 2.39,
+    "w": 3.81,
+    "h": 3.49
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_1_text_11",
+    "type": "text",
+    "x": 5.010000000000001,
+    "y": 2.61,
+    "w": 1.05,
+    "h": 0.9722222222222222,
+    "fontSize": 56,
+    "text": "02"
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_1_icon_12",
+    "type": "icon",
+    "x": 7.750000000000001,
+    "y": 2.74,
+    "w": 0.48,
+    "h": 0.48
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_1_text_13",
+    "type": "text",
+    "x": 5.0200000000000005,
+    "y": 3.8,
+    "w": 3.23,
+    "h": 0.82,
+    "fontSize": 23.1,
+    "text": "What has been observed?"
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_1_text_14",
+    "type": "text",
+    "x": 5.0200000000000005,
+    "y": 4.71,
+    "w": 3.19,
+    "h": 0.89,
+    "fontSize": 17.2,
+    "text": "A report needs a time, a location and a reviewable account of conditions."
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_2_shape_15",
+    "type": "shape",
+    "x": 8.870000000000001,
+    "y": 2.39,
+    "w": 3.81,
+    "h": 3.49
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_2_text_16",
+    "type": "text",
+    "x": 9.120000000000001,
+    "y": 2.61,
+    "w": 1.05,
+    "h": 0.9722222222222222,
+    "fontSize": 56,
+    "text": "03"
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_2_icon_17",
+    "type": "icon",
+    "x": 11.860000000000001,
+    "y": 2.74,
+    "w": 0.48,
+    "h": 0.48
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_2_text_18",
+    "type": "text",
+    "x": 9.13,
+    "y": 3.8,
+    "w": 3.23,
+    "h": 0.82,
+    "fontSize": 23.1,
+    "text": "Which action is supported?"
+  },
+  {
+    "slide": 2,
+    "name": "s02_question_2_text_19",
+    "type": "text",
+    "x": 9.13,
+    "y": 4.71,
+    "w": 3.19,
+    "h": 0.89,
+    "fontSize": 17.2,
+    "text": "Warnings and routes must reflect current, verified evidence."
+  },
+  {
+    "slide": 2,
+    "name": "s02_problem_takeaway_text_20",
+    "type": "text",
+    "x": 0.65,
+    "y": 6.37,
+    "w": 11.6,
+    "h": 0.3645833333333333,
+    "fontSize": 21,
+    "text": "Floodline brings these decisions into one traceable workflow."
+  },
+  {
+    "slide": 3,
+    "name": "s03_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "SYSTEM CONCEPT"
+  },
+  {
+    "slide": 3,
+    "name": "s03_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "One platform. Two evidence streams."
+  },
+  {
+    "slide": 3,
+    "name": "s03_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "Environmental warnings and observed road conditions keep their own meanings."
+  },
+  {
+    "slide": 3,
+    "name": "s03_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 3,
+    "name": "s03_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "03  /  20"
+  },
+  {
+    "slide": 3,
+    "name": "s03_environmental_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.32,
+    "w": 4.48,
+    "h": 1.61
+  },
+  {
+    "slide": 3,
+    "name": "s03_environmental_icon_6",
+    "type": "icon",
+    "x": 0.92,
+    "y": 2.57,
+    "w": 0.46,
+    "h": 0.46
+  },
+  {
+    "slide": 3,
+    "name": "s03_environmental_text_7",
+    "type": "text",
+    "x": 1.6,
+    "y": 2.61,
+    "w": 3.2,
+    "h": 0.32,
+    "fontSize": 18,
+    "text": "Environmental evidence"
+  },
+  {
+    "slide": 3,
+    "name": "s03_environmental_text_8",
+    "type": "text",
+    "x": 0.95,
+    "y": 3.2,
+    "w": 3.83,
+    "h": 0.5972222222222222,
+    "fontSize": 17.2,
+    "text": "Rainfall + geographic features\n→ interpretable warning rule"
+  },
+  {
+    "slide": 3,
+    "name": "s03_community_shape_9",
+    "type": "shape",
+    "x": 0.66,
+    "y": 4.4,
+    "w": 4.48,
+    "h": 1.61
+  },
+  {
+    "slide": 3,
+    "name": "s03_community_icon_10",
+    "type": "icon",
+    "x": 0.92,
+    "y": 4.66,
+    "w": 0.46,
+    "h": 0.46
+  },
+  {
+    "slide": 3,
+    "name": "s03_community_text_11",
+    "type": "text",
+    "x": 1.6,
+    "y": 4.68,
+    "w": 3.2,
+    "h": 0.32,
+    "fontSize": 18,
+    "text": "Community observations"
+  },
+  {
+    "slide": 3,
+    "name": "s03_community_text_12",
+    "type": "text",
+    "x": 0.95,
+    "y": 5.27,
+    "w": 3.86,
+    "h": 0.5972222222222222,
+    "fontSize": 17.2,
+    "text": "Private report + moderator review\n→ current road-edge hazard"
+  },
+  {
+    "slide": 3,
+    "name": "s03_joining_shape_13",
+    "type": "shape",
+    "x": 5.22,
+    "y": 3.12,
+    "w": 1.1000000000000005,
+    "h": 0.7999999999999998
+  },
+  {
+    "slide": 3,
+    "name": "s03_joining_shape_14",
+    "type": "shape",
+    "x": 5.22,
+    "y": 4.24,
+    "w": 1.1000000000000005,
+    "h": 0.9399999999999995
+  },
+  {
+    "slide": 3,
+    "name": "s03_map_output_shape_15",
+    "type": "shape",
+    "x": 6.43,
+    "y": 3,
+    "w": 2.52,
+    "h": 2.5
+  },
+  {
+    "slide": 3,
+    "name": "s03_map_output_icon_16",
+    "type": "icon",
+    "x": 7.26,
+    "y": 3.32,
+    "w": 0.61,
+    "h": 0.61
+  },
+  {
+    "slide": 3,
+    "name": "s03_map_output_text_17",
+    "type": "text",
+    "x": 6.68,
+    "y": 4.13,
+    "w": 2.06,
+    "h": 0.3993055555555556,
+    "fontSize": 23,
+    "text": "Shared map"
+  },
+  {
+    "slide": 3,
+    "name": "s03_map_output_text_18",
+    "type": "text",
+    "x": 6.68,
+    "y": 4.79,
+    "w": 2.06,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "Source • time • support"
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_shape_19",
+    "type": "shape",
+    "x": 9.07,
+    "y": 4.23,
+    "w": 0.6500000000000004,
+    "h": 0
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_shape_20",
+    "type": "shape",
+    "x": 9.88,
+    "y": 2.7,
+    "w": 2.78,
+    "h": 1.84
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_icon_21",
+    "type": "icon",
+    "x": 10.110000000000001,
+    "y": 2.95,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_text_22",
+    "type": "text",
+    "x": 10.64,
+    "y": 2.96,
+    "w": 1.7799999999999998,
+    "h": 0.35,
+    "fontSize": 18.3,
+    "text": "Ward alerts"
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_text_23",
+    "type": "text",
+    "x": 10.120000000000001,
+    "y": 3.5300000000000002,
+    "w": 2.3,
+    "h": 0.8600000000000002,
+    "fontSize": 16.3,
+    "text": "Consent-based\nin-app delivery"
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_shape_24",
+    "type": "shape",
+    "x": 9.88,
+    "y": 4.92,
+    "w": 2.78,
+    "h": 1.84
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_icon_25",
+    "type": "icon",
+    "x": 10.110000000000001,
+    "y": 5.17,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_text_26",
+    "type": "text",
+    "x": 10.64,
+    "y": 5.18,
+    "w": 1.7799999999999998,
+    "h": 0.6354166666666666,
+    "fontSize": 18.3,
+    "text": "Route\nsuggestions"
+  },
+  {
+    "slide": 3,
+    "name": "s03_actions_text_27",
+    "type": "text",
+    "x": 10.120000000000001,
+    "y": 6.01,
+    "w": 2.3,
+    "h": 0.6,
+    "fontSize": 16.3,
+    "text": "Exclude active\nverified road hazards"
+  },
+  {
+    "slide": 4,
+    "name": "s04_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "WORKING PROTOTYPE"
+  },
+  {
+    "slide": 4,
+    "name": "s04_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "The map is the starting point."
+  },
+  {
+    "slide": 4,
+    "name": "s04_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "A real capture of the delivered interface, with ward evidence beside the geography."
+  },
+  {
+    "slide": 4,
+    "name": "s04_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 4,
+    "name": "s04_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "04  /  20"
+  },
+  {
+    "slide": 4,
+    "name": "s04_actual_dashboard_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.24,
+    "w": 8.59,
+    "h": 4.65
+  },
+  {
+    "slide": 4,
+    "name": "s04_actual_dashboard_image_6",
+    "type": "image",
+    "x": 0.8,
+    "y": 2.39,
+    "w": 8.3,
+    "h": 4.36
+  },
+  {
+    "slide": 4,
+    "name": "s04_dashboard_stats_text_7",
+    "type": "text",
+    "x": 9.76,
+    "y": 2.4,
+    "w": 2.75,
+    "h": 0.8506944444444444,
+    "fontSize": 49,
+    "text": "3"
+  },
+  {
+    "slide": 4,
+    "name": "s04_dashboard_stats_text_8",
+    "type": "text",
+    "x": 9.76,
+    "y": 3.26,
+    "w": 2.75,
+    "h": 0.55,
+    "fontSize": 16.5,
+    "text": "synthetic wards"
+  },
+  {
+    "slide": 4,
+    "name": "s04_dashboard_stats_text_9",
+    "type": "text",
+    "x": 9.76,
+    "y": 4.01,
+    "w": 2.75,
+    "h": 0.8506944444444444,
+    "fontSize": 49,
+    "text": "9"
+  },
+  {
+    "slide": 4,
+    "name": "s04_dashboard_stats_text_10",
+    "type": "text",
+    "x": 9.76,
+    "y": 4.87,
+    "w": 2.75,
+    "h": 0.55,
+    "fontSize": 16.5,
+    "text": "analysis cells"
+  },
+  {
+    "slide": 4,
+    "name": "s04_dashboard_stats_text_11",
+    "type": "text",
+    "x": 9.76,
+    "y": 5.62,
+    "w": 2.75,
+    "h": 0.8506944444444444,
+    "fontSize": 49,
+    "text": "61"
+  },
+  {
+    "slide": 4,
+    "name": "s04_dashboard_stats_text_12",
+    "type": "text",
+    "x": 9.76,
+    "y": 6.48,
+    "w": 2.75,
+    "h": 0.55,
+    "fontSize": 16.5,
+    "text": "directed road edges"
+  },
+  {
+    "slide": 5,
+    "name": "s05_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "DATA ENGINEERING"
+  },
+  {
+    "slide": 5,
+    "name": "s05_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Raw data becomes traceable evidence."
+  },
+  {
+    "slide": 5,
+    "name": "s05_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "Checksums, explicit units and receipt-time availability make the input reproducible."
+  },
+  {
+    "slide": 5,
+    "name": "s05_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 5,
+    "name": "s05_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "05  /  20"
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.3,
+    "w": 4.19,
+    "h": 3.72
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_icon_6",
+    "type": "icon",
+    "x": 0.93,
+    "y": 2.61,
+    "w": 0.45,
+    "h": 0.45
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_text_7",
+    "type": "text",
+    "x": 1.58,
+    "y": 2.67,
+    "w": 2.93,
+    "h": 0.3993055555555556,
+    "fontSize": 23,
+    "text": "869 raw records"
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_text_8",
+    "type": "text",
+    "x": 0.96,
+    "y": 3.47,
+    "w": 3.49,
+    "h": 0.8506944444444444,
+    "fontSize": 49,
+    "text": "866"
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_text_9",
+    "type": "text",
+    "x": 0.96,
+    "y": 4.33,
+    "w": 3.49,
+    "h": 0.55,
+    "fontSize": 16.5,
+    "text": "accepted observations"
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_shape_10",
+    "type": "shape",
+    "x": 0.96,
+    "y": 5.24,
+    "w": 1.75,
+    "h": 0.34
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_text_11",
+    "type": "text",
+    "x": 1.08,
+    "y": 5.305000000000001,
+    "w": 1.51,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "1 DUPLICATE"
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_shape_12",
+    "type": "shape",
+    "x": 2.89,
+    "y": 5.24,
+    "w": 1.67,
+    "h": 0.34
+  },
+  {
+    "slide": 5,
+    "name": "s05_ingestion_totals_text_13",
+    "type": "text",
+    "x": 3.0100000000000002,
+    "y": 5.305000000000001,
+    "w": 1.43,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "2 QUARANTINED"
+  },
+  {
+    "slide": 5,
+    "name": "s05_data_flow_shape_14",
+    "type": "shape",
+    "x": 5.28,
+    "y": 2.3,
+    "w": 3.43,
+    "h": 1.65
+  },
+  {
+    "slide": 5,
+    "name": "s05_data_flow_icon_15",
+    "type": "icon",
+    "x": 5.510000000000001,
+    "y": 2.55,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 5,
+    "name": "s05_data_flow_text_16",
+    "type": "text",
+    "x": 6.04,
+    "y": 2.5599999999999996,
+    "w": 2.43,
+    "h": 0.35,
+    "fontSize": 18.3,
+    "text": "Validate"
+  },
+  {
+    "slide": 5,
+    "name": "s05_data_flow_text_17",
+    "type": "text",
+    "x": 5.5200000000000005,
+    "y": 3.13,
+    "w": 2.95,
+    "h": 0.6699999999999999,
+    "fontSize": 16.3,
+    "text": "Units, ranges, timestamps\nand provenance"
+  },
+  {
+    "slide": 5,
+    "name": "s05_data_flow_shape_18",
+    "type": "shape",
+    "x": 9.09,
+    "y": 2.3,
+    "w": 3.55,
+    "h": 1.65
+  },
+  {
+    "slide": 5,
+    "name": "s05_data_flow_icon_19",
+    "type": "icon",
+    "x": 9.32,
+    "y": 2.55,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 5,
+    "name": "s05_data_flow_text_20",
+    "type": "text",
+    "x": 9.85,
+    "y": 2.5599999999999996,
+    "w": 2.55,
+    "h": 0.35,
+    "fontSize": 18.3,
+    "text": "Preserve reasons"
+  },
+  {
+    "slide": 5,
+    "name": "s05_data_flow_text_21",
+    "type": "text",
+    "x": 9.33,
+    "y": 3.13,
+    "w": 3.07,
+    "h": 0.6699999999999999,
+    "fontSize": 16.3,
+    "text": "Invalid records enter\na quarantine ledger"
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_shape_22",
+    "type": "shape",
+    "x": 5.28,
+    "y": 4.39,
+    "w": 7.36,
+    "h": 1.63
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_text_23",
+    "type": "text",
+    "x": 5.56,
+    "y": 4.63,
+    "w": 6.7,
+    "h": 0.3472222222222222,
+    "fontSize": 20,
+    "text": "What was available at issue time?"
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_shape_24",
+    "type": "shape",
+    "x": 5.93,
+    "y": 5.26,
+    "w": 6.01,
+    "h": 0
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_shape_25",
+    "type": "shape",
+    "x": 5.96,
+    "y": 5.1899999999999995,
+    "w": 0.14,
+    "h": 0.14
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_text_26",
+    "type": "text",
+    "x": 5.26,
+    "y": 5.53,
+    "w": 1.58,
+    "h": 0.24,
+    "fontSize": 12.5,
+    "text": "Observed"
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_shape_27",
+    "type": "shape",
+    "x": 8.86,
+    "y": 5.1899999999999995,
+    "w": 0.14,
+    "h": 0.14
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_text_28",
+    "type": "text",
+    "x": 8.16,
+    "y": 5.53,
+    "w": 1.58,
+    "h": 0.24,
+    "fontSize": 12.5,
+    "text": "Issued"
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_shape_29",
+    "type": "shape",
+    "x": 11.77,
+    "y": 5.1899999999999995,
+    "w": 0.14,
+    "h": 0.14
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_text_30",
+    "type": "text",
+    "x": 11.07,
+    "y": 5.53,
+    "w": 1.58,
+    "h": 0.24,
+    "fontSize": 12.5,
+    "text": "Received late"
+  },
+  {
+    "slide": 5,
+    "name": "s05_receipt_timeline_text_31",
+    "type": "text",
+    "x": 5.58,
+    "y": 6.43,
+    "w": 6.9,
+    "h": 0.3055555555555556,
+    "fontSize": 17.6,
+    "text": "This late record is excluded from the earlier snapshot."
+  },
+  {
+    "slide": 6,
+    "name": "s06_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "GEOGRAPHIC REASONING"
+  },
+  {
+    "slide": 6,
+    "name": "s06_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "GIS connects area context to a directed road graph."
+  },
+  {
+    "slide": 6,
+    "name": "s06_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "The illustration uses the supplied synthetic geometry and road connections."
+  },
+  {
+    "slide": 6,
+    "name": "s06_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 6,
+    "name": "s06_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "06  /  20"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.28,
+    "w": 7,
+    "h": 4.6
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_6",
+    "type": "shape",
+    "x": 1.054,
+    "y": 5.073999999999853,
+    "w": 1.945333333332475,
+    "h": 1.182000000000146
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_7",
+    "type": "text",
+    "x": 1.15,
+    "y": 5.149999999999853,
+    "w": 1.793333333332475,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "A1"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_8",
+    "type": "shape",
+    "x": 1.054,
+    "y": 3.843999999999708,
+    "w": 1.945333333332475,
+    "h": 1.1820000000001452
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_9",
+    "type": "text",
+    "x": 1.15,
+    "y": 3.919999999999708,
+    "w": 1.793333333332475,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "A2"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_10",
+    "type": "shape",
+    "x": 1.054,
+    "y": 2.6139999999999994,
+    "w": 1.945333333332475,
+    "h": 1.1820000000001456
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_11",
+    "type": "text",
+    "x": 1.15,
+    "y": 2.6899999999999995,
+    "w": 1.793333333332475,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "A3"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_12",
+    "type": "shape",
+    "x": 3.047333333332475,
+    "y": 5.073999999999853,
+    "w": 1.9453333333324747,
+    "h": 1.182000000000146
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_13",
+    "type": "text",
+    "x": 3.143333333332475,
+    "y": 5.149999999999853,
+    "w": 1.7933333333324748,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "B1"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_14",
+    "type": "shape",
+    "x": 3.047333333332475,
+    "y": 3.843999999999708,
+    "w": 1.9453333333324747,
+    "h": 1.1820000000001452
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_15",
+    "type": "text",
+    "x": 3.143333333332475,
+    "y": 3.919999999999708,
+    "w": 1.7933333333324748,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "B2"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_16",
+    "type": "shape",
+    "x": 3.047333333332475,
+    "y": 2.6139999999999994,
+    "w": 1.9453333333324747,
+    "h": 1.1820000000001456
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_17",
+    "type": "text",
+    "x": 3.143333333332475,
+    "y": 2.6899999999999995,
+    "w": 1.7933333333324748,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "B3"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_18",
+    "type": "shape",
+    "x": 5.0406666666675255,
+    "y": 5.073999999999853,
+    "w": 1.9453333333324752,
+    "h": 1.182000000000146
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_19",
+    "type": "text",
+    "x": 5.136666666667526,
+    "y": 5.149999999999853,
+    "w": 1.7933333333324752,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "C1"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_20",
+    "type": "shape",
+    "x": 5.0406666666675255,
+    "y": 3.843999999999708,
+    "w": 1.9453333333324752,
+    "h": 1.1820000000001452
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_21",
+    "type": "text",
+    "x": 5.136666666667526,
+    "y": 3.919999999999708,
+    "w": 1.7933333333324752,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "C2"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_22",
+    "type": "shape",
+    "x": 5.0406666666675255,
+    "y": 2.6139999999999994,
+    "w": 1.9453333333324752,
+    "h": 1.1820000000001456
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_23",
+    "type": "text",
+    "x": 5.136666666667526,
+    "y": 2.6899999999999995,
+    "w": 1.7933333333324752,
+    "h": 0.24,
+    "fontSize": 12.2,
+    "text": "C3"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_24",
+    "type": "shape",
+    "x": 5.116666666667525,
+    "y": 2.7299999999999995,
+    "w": 0.3200000000000003,
+    "h": 0.9700000000001454
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_25",
+    "type": "shape",
+    "x": 5.372857142857879,
+    "y": 2.7299999999999995,
+    "w": 0.3200000000000003,
+    "h": 0.9700000000001454
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_26",
+    "type": "shape",
+    "x": 5.629047619048232,
+    "y": 2.7299999999999995,
+    "w": 0.3200000000000003,
+    "h": 0.9700000000001454
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_27",
+    "type": "shape",
+    "x": 5.885238095238586,
+    "y": 2.7299999999999995,
+    "w": 0.3200000000000003,
+    "h": 0.9700000000001454
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_28",
+    "type": "shape",
+    "x": 6.141428571428939,
+    "y": 2.7299999999999995,
+    "w": 0.3200000000000003,
+    "h": 0.9700000000001454
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_29",
+    "type": "shape",
+    "x": 6.397619047619293,
+    "y": 2.7299999999999995,
+    "w": 0.3200000000000003,
+    "h": 0.9700000000001454
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_30",
+    "type": "shape",
+    "x": 6.653809523809647,
+    "y": 2.7299999999999995,
+    "w": 0.296190476190354,
+    "h": 0.9700000000001454
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_31",
+    "type": "shape",
+    "x": 1.5736363636363637,
+    "y": 5.911,
+    "w": 1.1778787878792172,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_32",
+    "type": "shape",
+    "x": 1.5736363636363637,
+    "y": 4.926999999999708,
+    "w": 0,
+    "h": 0.9840000000002913
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_33",
+    "type": "shape",
+    "x": 2.751515151515581,
+    "y": 5.911,
+    "w": 1.177878787876642,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_34",
+    "type": "shape",
+    "x": 2.751515151515581,
+    "y": 4.926999999999708,
+    "w": 0,
+    "h": 0.9840000000002913
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_35",
+    "type": "shape",
+    "x": 3.929393939392223,
+    "y": 5.911,
+    "w": 1.1778787878792176,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_36",
+    "type": "shape",
+    "x": 3.929393939392223,
+    "y": 4.926999999999708,
+    "w": 0,
+    "h": 0.9840000000002913
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_37",
+    "type": "shape",
+    "x": 5.10727272727144,
+    "y": 5.911,
+    "w": 1.1778787878792167,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_38",
+    "type": "shape",
+    "x": 5.10727272727144,
+    "y": 4.926999999999708,
+    "w": 0,
+    "h": 0.9840000000002913
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_39",
+    "type": "shape",
+    "x": 6.285151515150657,
+    "y": 4.926999999999708,
+    "w": 0,
+    "h": 0.9840000000002913
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_40",
+    "type": "shape",
+    "x": 1.5736363636363637,
+    "y": 4.926999999999708,
+    "w": 1.1778787878792172,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_41",
+    "type": "shape",
+    "x": 1.5736363636363637,
+    "y": 3.9429999999998535,
+    "w": 0,
+    "h": 0.9839999999998548
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_42",
+    "type": "shape",
+    "x": 2.751515151515581,
+    "y": 4.926999999999708,
+    "w": 1.177878787876642,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_43",
+    "type": "shape",
+    "x": 2.751515151515581,
+    "y": 3.9429999999998535,
+    "w": 0,
+    "h": 0.9839999999998548
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_44",
+    "type": "shape",
+    "x": 3.929393939392223,
+    "y": 4.926999999999708,
+    "w": 1.1778787878792176,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_45",
+    "type": "shape",
+    "x": 3.929393939392223,
+    "y": 3.9429999999998535,
+    "w": 0,
+    "h": 0.9839999999998548
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_46",
+    "type": "shape",
+    "x": 5.10727272727144,
+    "y": 4.926999999999708,
+    "w": 1.1778787878792167,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_47",
+    "type": "shape",
+    "x": 5.10727272727144,
+    "y": 3.9429999999998535,
+    "w": 0,
+    "h": 0.9839999999998548
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_48",
+    "type": "shape",
+    "x": 6.285151515150657,
+    "y": 3.9429999999998535,
+    "w": 0,
+    "h": 0.9839999999998548
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_49",
+    "type": "shape",
+    "x": 1.5736363636363637,
+    "y": 3.9429999999998535,
+    "w": 1.1778787878792172,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_50",
+    "type": "shape",
+    "x": 1.5736363636363637,
+    "y": 2.958999999999999,
+    "w": 0,
+    "h": 0.9839999999998543
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_51",
+    "type": "shape",
+    "x": 2.751515151515581,
+    "y": 3.9429999999998535,
+    "w": 1.177878787876642,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_52",
+    "type": "shape",
+    "x": 2.751515151515581,
+    "y": 2.958999999999999,
+    "w": 0,
+    "h": 0.9839999999998543
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_53",
+    "type": "shape",
+    "x": 3.929393939392223,
+    "y": 3.9429999999998535,
+    "w": 1.1778787878792176,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_54",
+    "type": "shape",
+    "x": 3.929393939392223,
+    "y": 2.958999999999999,
+    "w": 0,
+    "h": 0.9839999999998543
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_55",
+    "type": "shape",
+    "x": 5.10727272727144,
+    "y": 3.9429999999998535,
+    "w": 1.1778787878792167,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_56",
+    "type": "shape",
+    "x": 5.10727272727144,
+    "y": 2.958999999999999,
+    "w": 0,
+    "h": 0.9839999999998543
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_57",
+    "type": "shape",
+    "x": 6.285151515150657,
+    "y": 2.958999999999999,
+    "w": 0,
+    "h": 0.9839999999998543
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_58",
+    "type": "shape",
+    "x": 1.5736363636363637,
+    "y": 2.958999999999999,
+    "w": 1.1778787878792172,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_59",
+    "type": "shape",
+    "x": 2.751515151515581,
+    "y": 2.958999999999999,
+    "w": 1.177878787876642,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_60",
+    "type": "shape",
+    "x": 3.929393939392223,
+    "y": 2.958999999999999,
+    "w": 1.1778787878792176,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_61",
+    "type": "shape",
+    "x": 5.10727272727144,
+    "y": 2.958999999999999,
+    "w": 1.1778787878792167,
+    "h": 0
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_62",
+    "type": "shape",
+    "x": 6.466363636363637,
+    "y": 2.3440000000001455,
+    "w": 0.36242424242338434,
+    "h": 1.598999999999708
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_63",
+    "type": "shape",
+    "x": 6.466363636363637,
+    "y": 3.9429999999998535,
+    "w": 0.4530303030298741,
+    "h": 1.2300000000001456
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_64",
+    "type": "shape",
+    "x": 6.6475757575740415,
+    "y": 5.172999999999999,
+    "w": 0.2718181818194694,
+    "h": 1.476
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_65",
+    "type": "shape",
+    "x": 1.5426363636363638,
+    "y": 5.88,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_66",
+    "type": "shape",
+    "x": 2.7205151515155808,
+    "y": 5.88,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_67",
+    "type": "shape",
+    "x": 3.8983939393922227,
+    "y": 5.88,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_68",
+    "type": "shape",
+    "x": 5.076272727271441,
+    "y": 5.88,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_69",
+    "type": "shape",
+    "x": 6.2541515151506575,
+    "y": 5.88,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_70",
+    "type": "shape",
+    "x": 1.5426363636363638,
+    "y": 4.895999999999709,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_71",
+    "type": "shape",
+    "x": 2.7205151515155808,
+    "y": 4.895999999999709,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_72",
+    "type": "shape",
+    "x": 3.8983939393922227,
+    "y": 4.895999999999709,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_73",
+    "type": "shape",
+    "x": 5.076272727271441,
+    "y": 4.895999999999709,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_74",
+    "type": "shape",
+    "x": 6.2541515151506575,
+    "y": 4.895999999999709,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_75",
+    "type": "shape",
+    "x": 1.5426363636363638,
+    "y": 3.9119999999998534,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_76",
+    "type": "shape",
+    "x": 2.7205151515155808,
+    "y": 3.9119999999998534,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_77",
+    "type": "shape",
+    "x": 3.8983939393922227,
+    "y": 3.9119999999998534,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_78",
+    "type": "shape",
+    "x": 5.076272727271441,
+    "y": 3.9119999999998534,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_79",
+    "type": "shape",
+    "x": 6.2541515151506575,
+    "y": 3.9119999999998534,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_80",
+    "type": "shape",
+    "x": 1.5426363636363638,
+    "y": 2.927999999999999,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_81",
+    "type": "shape",
+    "x": 2.7205151515155808,
+    "y": 2.927999999999999,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_82",
+    "type": "shape",
+    "x": 3.8983939393922227,
+    "y": 2.927999999999999,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_83",
+    "type": "shape",
+    "x": 5.076272727271441,
+    "y": 2.927999999999999,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_84",
+    "type": "shape",
+    "x": 6.2541515151506575,
+    "y": 2.927999999999999,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_shape_85",
+    "type": "shape",
+    "x": 6.616575757574042,
+    "y": 2.682000000000145,
+    "w": 0.062,
+    "h": 0.062
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_86",
+    "type": "text",
+    "x": 1.14,
+    "y": 6.51,
+    "w": 1.79,
+    "h": 0.2,
+    "fontSize": 10.2,
+    "text": "WESTBANK"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_87",
+    "type": "text",
+    "x": 3.23,
+    "y": 6.51,
+    "w": 1.87,
+    "h": 0.2,
+    "fontSize": 10.2,
+    "text": "MARKET WARD"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_map_text_88",
+    "type": "text",
+    "x": 5.38,
+    "y": 6.51,
+    "w": 1.76,
+    "h": 0.2,
+    "fontSize": 10.2,
+    "text": "EASTBANK"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_shape_89",
+    "type": "shape",
+    "x": 8.02,
+    "y": 2.3,
+    "w": 4.6,
+    "h": 1.5
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_icon_90",
+    "type": "icon",
+    "x": 8.25,
+    "y": 2.55,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_text_91",
+    "type": "text",
+    "x": 8.78,
+    "y": 2.5599999999999996,
+    "w": 3.5999999999999996,
+    "h": 0.35,
+    "fontSize": 18.3,
+    "text": "9 analysis cells"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_text_92",
+    "type": "text",
+    "x": 8.26,
+    "y": 3.13,
+    "w": 4.119999999999999,
+    "h": 0.52,
+    "fontSize": 16.3,
+    "text": "Approximately 1 km spatial support"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_shape_93",
+    "type": "shape",
+    "x": 8.02,
+    "y": 4.02,
+    "w": 4.6,
+    "h": 1.5
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_icon_94",
+    "type": "icon",
+    "x": 8.25,
+    "y": 4.27,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_text_95",
+    "type": "text",
+    "x": 8.78,
+    "y": 4.279999999999999,
+    "w": 3.5999999999999996,
+    "h": 0.35,
+    "fontSize": 18.3,
+    "text": "21 nodes / 61 directed edges"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_text_96",
+    "type": "text",
+    "x": 8.26,
+    "y": 4.85,
+    "w": 4.119999999999999,
+    "h": 0.5659722222222222,
+    "fontSize": 16.3,
+    "text": "One-way and disconnected\ncases included"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_text_97",
+    "type": "text",
+    "x": 8.27,
+    "y": 5.73,
+    "w": 4.13,
+    "h": 0.6944444444444444,
+    "fontSize": 20,
+    "text": "WGS84 for display\nUTM 45N for distances"
+  },
+  {
+    "slide": 6,
+    "name": "s06_gis_facts_text_98",
+    "type": "text",
+    "x": 8.27,
+    "y": 6.54,
+    "w": 4.12,
+    "h": 0.44,
+    "fontSize": 12.2,
+    "text": "Area susceptibility and road-water depth require different evidence."
+  },
+  {
+    "slide": 7,
+    "name": "s07_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "ACTIVE BASELINE"
+  },
+  {
+    "slide": 7,
+    "name": "s07_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "An interpretable rule runs the demo."
+  },
+  {
+    "slide": 7,
+    "name": "s07_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "The current index combines static susceptibility with recent rainfall."
+  },
+  {
+    "slide": 7,
+    "name": "s07_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 7,
+    "name": "s07_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "07  /  20"
+  },
+  {
+    "slide": 7,
+    "name": "s07_active_equation_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.34,
+    "w": 11.99,
+    "h": 1.37
+  },
+  {
+    "slide": 7,
+    "name": "s07_active_equation_text_6",
+    "type": "text",
+    "x": 0.99,
+    "y": 2.73,
+    "w": 1.49,
+    "h": 0.3645833333333333,
+    "fontSize": 21,
+    "text": "INDEX"
+  },
+  {
+    "slide": 7,
+    "name": "s07_active_equation_text_7",
+    "type": "text",
+    "x": 2.47,
+    "y": 2.57,
+    "w": 0.56,
+    "h": 0.625,
+    "fontSize": 36,
+    "text": "="
+  },
+  {
+    "slide": 7,
+    "name": "s07_active_equation_text_8",
+    "type": "text",
+    "x": 3.25,
+    "y": 2.51,
+    "w": 3.2,
+    "h": 0.78125,
+    "fontSize": 45,
+    "text": "0.35 S"
+  },
+  {
+    "slide": 7,
+    "name": "s07_active_equation_text_9",
+    "type": "text",
+    "x": 6.77,
+    "y": 2.57,
+    "w": 0.58,
+    "h": 0.625,
+    "fontSize": 36,
+    "text": "+"
+  },
+  {
+    "slide": 7,
+    "name": "s07_active_equation_text_10",
+    "type": "text",
+    "x": 7.7,
+    "y": 2.51,
+    "w": 3.88,
+    "h": 0.78125,
+    "fontSize": 45,
+    "text": "0.65 R"
+  },
+  {
+    "slide": 7,
+    "name": "s07_active_equation_text_11",
+    "type": "text",
+    "x": 3.25,
+    "y": 3.3,
+    "w": 8.28,
+    "h": 0.203125,
+    "fontSize": 11.7,
+    "text": "Rounded relative warning index"
+  },
+  {
+    "slide": 7,
+    "name": "s07_rule_features_shape_12",
+    "type": "shape",
+    "x": 0.66,
+    "y": 4.13,
+    "w": 5.82,
+    "h": 1.58
+  },
+  {
+    "slide": 7,
+    "name": "s07_rule_features_icon_13",
+    "type": "icon",
+    "x": 0.89,
+    "y": 4.38,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 7,
+    "name": "s07_rule_features_text_14",
+    "type": "text",
+    "x": 1.42,
+    "y": 4.39,
+    "w": 4.82,
+    "h": 0.35,
+    "fontSize": 18.3,
+    "text": "S: static susceptibility"
+  },
+  {
+    "slide": 7,
+    "name": "s07_rule_features_text_15",
+    "type": "text",
+    "x": 0.9,
+    "y": 4.96,
+    "w": 5.34,
+    "h": 0.6000000000000001,
+    "fontSize": 16.3,
+    "text": "Imperviousness, drainage, relative\nelevation and distance to water"
+  },
+  {
+    "slide": 7,
+    "name": "s07_rule_features_shape_16",
+    "type": "shape",
+    "x": 6.83,
+    "y": 4.13,
+    "w": 5.82,
+    "h": 1.58
+  },
+  {
+    "slide": 7,
+    "name": "s07_rule_features_icon_17",
+    "type": "icon",
+    "x": 7.0600000000000005,
+    "y": 4.38,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 7,
+    "name": "s07_rule_features_text_18",
+    "type": "text",
+    "x": 7.59,
+    "y": 4.39,
+    "w": 4.82,
+    "h": 0.35,
+    "fontSize": 18.3,
+    "text": "R: recent rainfall"
+  },
+  {
+    "slide": 7,
+    "name": "s07_rule_features_text_19",
+    "type": "text",
+    "x": 7.07,
+    "y": 4.96,
+    "w": 5.34,
+    "h": 0.6000000000000001,
+    "fontSize": 16.3,
+    "text": "Three-hour rainfall scaled to\n75 mm, capped at 100"
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_shape_20",
+    "type": "shape",
+    "x": 0.68,
+    "y": 6.15,
+    "w": 2.72,
+    "h": 0.34
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_text_21",
+    "type": "text",
+    "x": 0.8,
+    "y": 6.215000000000001,
+    "w": 2.4800000000000004,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "MONITOR"
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_text_22",
+    "type": "text",
+    "x": 0.8,
+    "y": 6.64,
+    "w": 2.71,
+    "h": 0.24305555555555555,
+    "fontSize": 14,
+    "text": "Index < 55"
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_shape_23",
+    "type": "shape",
+    "x": 3.74,
+    "y": 6.15,
+    "w": 2.72,
+    "h": 0.34
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_text_24",
+    "type": "text",
+    "x": 3.8600000000000003,
+    "y": 6.215000000000001,
+    "w": 2.4800000000000004,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "ELEVATED"
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_text_25",
+    "type": "text",
+    "x": 3.8600000000000003,
+    "y": 6.64,
+    "w": 2.71,
+    "h": 0.24305555555555555,
+    "fontSize": 14,
+    "text": "55–74"
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_shape_26",
+    "type": "shape",
+    "x": 6.8,
+    "y": 6.15,
+    "w": 2.72,
+    "h": 0.34
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_text_27",
+    "type": "text",
+    "x": 6.92,
+    "y": 6.215000000000001,
+    "w": 2.4800000000000004,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "HIGH"
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_text_28",
+    "type": "text",
+    "x": 6.92,
+    "y": 6.64,
+    "w": 2.71,
+    "h": 0.24305555555555555,
+    "fontSize": 14,
+    "text": "≥ 75"
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_shape_29",
+    "type": "shape",
+    "x": 9.86,
+    "y": 6.15,
+    "w": 2.72,
+    "h": 0.34
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_text_30",
+    "type": "text",
+    "x": 9.979999999999999,
+    "y": 6.215000000000001,
+    "w": 2.4800000000000004,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "UNKNOWN"
+  },
+  {
+    "slide": 7,
+    "name": "s07_risk_thresholds_text_31",
+    "type": "text",
+    "x": 9.979999999999999,
+    "y": 6.64,
+    "w": 2.71,
+    "h": 0.24305555555555555,
+    "fontSize": 14,
+    "text": "Missing / stale rain"
+  },
+  {
+    "slide": 8,
+    "name": "s08_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "RESIDENT EXPERIENCE"
+  },
+  {
+    "slide": 8,
+    "name": "s08_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "The evidence is visible beside the map."
+  },
+  {
+    "slide": 8,
+    "name": "s08_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "Risk words, timestamps and support flags help a resident interpret the display."
+  },
+  {
+    "slide": 8,
+    "name": "s08_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 8,
+    "name": "s08_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "08  /  20"
+  },
+  {
+    "slide": 8,
+    "name": "s08_evidence_map_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.28,
+    "w": 7.24,
+    "h": 4.58
+  },
+  {
+    "slide": 8,
+    "name": "s08_evidence_map_image_6",
+    "type": "image",
+    "x": 0.79,
+    "y": 2.44,
+    "w": 6.98,
+    "h": 4.28
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_shape_7",
+    "type": "shape",
+    "x": 8.27,
+    "y": 2.28,
+    "w": 4.37,
+    "h": 4.58
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_text_8",
+    "type": "text",
+    "x": 8.57,
+    "y": 2.57,
+    "w": 3.74,
+    "h": 0.23,
+    "fontSize": 11.3,
+    "text": "EASTBANK · CENTRAL"
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_shape_9",
+    "type": "shape",
+    "x": 8.57,
+    "y": 3.09,
+    "w": 2.38,
+    "h": 0.34
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_text_10",
+    "type": "text",
+    "x": 8.69,
+    "y": 3.155,
+    "w": 2.1399999999999997,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "HIGH  /  DEMO RULE"
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_text_11",
+    "type": "text",
+    "x": 8.53,
+    "y": 3.67,
+    "w": 2.09,
+    "h": 1.1111111111111112,
+    "fontSize": 64,
+    "text": "81"
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_text_12",
+    "type": "text",
+    "x": 10.79,
+    "y": 4.03,
+    "w": 1.45,
+    "h": 0.3472222222222222,
+    "fontSize": 20,
+    "text": "/ 100"
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_text_13",
+    "type": "text",
+    "x": 8.58,
+    "y": 4.99,
+    "w": 3.75,
+    "h": 0.2986111111111111,
+    "fontSize": 17.2,
+    "text": "64.8 mm rain / past 3 hours"
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_text_14",
+    "type": "text",
+    "x": 8.58,
+    "y": 5.48,
+    "w": 3.69,
+    "h": 0.42,
+    "fontSize": 13.7,
+    "text": "Observed 14:00 IST  •  support: Limited"
+  },
+  {
+    "slide": 8,
+    "name": "s08_native_evidence_text_15",
+    "type": "text",
+    "x": 8.58,
+    "y": 6.29,
+    "w": 3.65,
+    "h": 0.33,
+    "fontSize": 13.5,
+    "text": "Relative index; no calibrated probability."
+  },
+  {
+    "slide": 9,
+    "name": "s09_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "COMMUNITY REPORTING"
+  },
+  {
+    "slide": 9,
+    "name": "s09_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Reports earn trust through review."
+  },
+  {
+    "slide": 9,
+    "name": "s09_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "An observation stays private while its time, location and publication permissions are checked."
+  },
+  {
+    "slide": 9,
+    "name": "s09_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 9,
+    "name": "s09_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "09  /  20"
+  },
+  {
+    "slide": 9,
+    "name": "s09_resident_report_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.31,
+    "w": 4.09,
+    "h": 4.57
+  },
+  {
+    "slide": 9,
+    "name": "s09_resident_report_shape_6",
+    "type": "shape",
+    "x": 0.91,
+    "y": 2.54,
+    "w": 2.3,
+    "h": 0.34
+  },
+  {
+    "slide": 9,
+    "name": "s09_resident_report_text_7",
+    "type": "text",
+    "x": 1.03,
+    "y": 2.605,
+    "w": 2.0599999999999996,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "RESIDENT / SUBMIT"
+  },
+  {
+    "slide": 9,
+    "name": "s09_resident_report_image_8",
+    "type": "image",
+    "x": 0.92,
+    "y": 3.1,
+    "w": 2.36,
+    "h": 2.88
+  },
+  {
+    "slide": 9,
+    "name": "s09_resident_report_text_9",
+    "type": "text",
+    "x": 3.49,
+    "y": 3.55,
+    "w": 1.02,
+    "h": 1.02,
+    "fontSize": 13.2,
+    "text": "Image +\nlocation +\nobserved time"
+  },
+  {
+    "slide": 9,
+    "name": "s09_resident_report_text_10",
+    "type": "text",
+    "x": 0.92,
+    "y": 6.3,
+    "w": 3.55,
+    "h": 0.55,
+    "fontSize": 15.5,
+    "text": "Pending reports and images\nremain private."
+  },
+  {
+    "slide": 9,
+    "name": "s09_review_bridge_shape_11",
+    "type": "shape",
+    "x": 4.89,
+    "y": 4.63,
+    "w": 0.6000000000000005,
+    "h": 0
+  },
+  {
+    "slide": 9,
+    "name": "s09_moderation_review_shape_12",
+    "type": "shape",
+    "x": 5.66,
+    "y": 2.31,
+    "w": 6.98,
+    "h": 4.57
+  },
+  {
+    "slide": 9,
+    "name": "s09_moderation_review_shape_13",
+    "type": "shape",
+    "x": 5.94,
+    "y": 2.54,
+    "w": 2.63,
+    "h": 0.34
+  },
+  {
+    "slide": 9,
+    "name": "s09_moderation_review_text_14",
+    "type": "text",
+    "x": 6.0600000000000005,
+    "y": 2.605,
+    "w": 2.3899999999999997,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "MODERATOR / VERIFY"
+  },
+  {
+    "slide": 9,
+    "name": "s09_moderation_review_image_15",
+    "type": "image",
+    "x": 5.94,
+    "y": 3.12,
+    "w": 6.42,
+    "h": 2.91
+  },
+  {
+    "slide": 9,
+    "name": "s09_moderation_review_text_16",
+    "type": "text",
+    "x": 5.95,
+    "y": 6.29,
+    "w": 6.29,
+    "h": 0.32,
+    "fontSize": 18.1,
+    "text": "Authenticated review → bounded road hazard"
+  },
+  {
+    "slide": 10,
+    "name": "s10_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "VERIFIED HAZARD ROUTING"
+  },
+  {
+    "slide": 10,
+    "name": "s10_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Reviewed evidence changes the route."
+  },
+  {
+    "slide": 10,
+    "name": "s10_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "The recorded Library → Station comparison excludes a newly verified segment."
+  },
+  {
+    "slide": 10,
+    "name": "s10_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 10,
+    "name": "s10_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "10  /  20"
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.29,
+    "w": 5.82,
+    "h": 3.76
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_6",
+    "type": "shape",
+    "x": 0.91,
+    "y": 2.51,
+    "w": 3.02,
+    "h": 0.34
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_text_7",
+    "type": "text",
+    "x": 1.03,
+    "y": 2.5749999999999997,
+    "w": 2.7800000000000002,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "BEFORE / 1 ACTIVE HAZARD"
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_8",
+    "type": "shape",
+    "x": 1.034,
+    "y": 4.7439999999998985,
+    "w": 1.6519999999992676,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_9",
+    "type": "shape",
+    "x": 1.034,
+    "y": 3.8839999999997965,
+    "w": 1.6519999999992676,
+    "h": 0.812000000000102
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_10",
+    "type": "shape",
+    "x": 1.034,
+    "y": 3.024,
+    "w": 1.6519999999992676,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_11",
+    "type": "shape",
+    "x": 2.7339999999992677,
+    "y": 4.7439999999998985,
+    "w": 1.6519999999992678,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_12",
+    "type": "shape",
+    "x": 2.7339999999992677,
+    "y": 3.8839999999997965,
+    "w": 1.6519999999992678,
+    "h": 0.812000000000102
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_13",
+    "type": "shape",
+    "x": 2.7339999999992677,
+    "y": 3.024,
+    "w": 1.6519999999992678,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_14",
+    "type": "shape",
+    "x": 4.434000000000732,
+    "y": 4.7439999999998985,
+    "w": 1.6519999999992674,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_15",
+    "type": "shape",
+    "x": 4.434000000000732,
+    "y": 3.8839999999997965,
+    "w": 1.6519999999992674,
+    "h": 0.812000000000102
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_16",
+    "type": "shape",
+    "x": 4.434000000000732,
+    "y": 3.024,
+    "w": 1.6519999999992674,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_17",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 5.322,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_18",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_19",
+    "type": "shape",
+    "x": 2.4781818181821844,
+    "y": 5.322,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_20",
+    "type": "shape",
+    "x": 2.4781818181821844,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_21",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 5.322,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_22",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_23",
+    "type": "shape",
+    "x": 4.487272727271629,
+    "y": 5.322,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_24",
+    "type": "shape",
+    "x": 4.487272727271629,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_25",
+    "type": "shape",
+    "x": 5.491818181817449,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_26",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 4.633999999999796,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_27",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_28",
+    "type": "shape",
+    "x": 2.4781818181821844,
+    "y": 4.633999999999796,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_29",
+    "type": "shape",
+    "x": 2.4781818181821844,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_30",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 4.633999999999796,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_31",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_32",
+    "type": "shape",
+    "x": 4.487272727271629,
+    "y": 4.633999999999796,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_33",
+    "type": "shape",
+    "x": 4.487272727271629,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_34",
+    "type": "shape",
+    "x": 5.491818181817449,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_35",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 3.945999999999898,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_36",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_37",
+    "type": "shape",
+    "x": 2.4781818181821844,
+    "y": 3.945999999999898,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_38",
+    "type": "shape",
+    "x": 2.4781818181821844,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_39",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 3.945999999999898,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_40",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_41",
+    "type": "shape",
+    "x": 4.487272727271629,
+    "y": 3.945999999999898,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_42",
+    "type": "shape",
+    "x": 4.487272727271629,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_43",
+    "type": "shape",
+    "x": 5.491818181817449,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_44",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 3.258,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_45",
+    "type": "shape",
+    "x": 2.4781818181821844,
+    "y": 3.258,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_46",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 3.258,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_47",
+    "type": "shape",
+    "x": 4.487272727271629,
+    "y": 3.258,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_48",
+    "type": "shape",
+    "x": 5.646363636363636,
+    "y": 2.828000000000102,
+    "w": 0.30909090909017767,
+    "h": 1.117999999999796
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_49",
+    "type": "shape",
+    "x": 5.646363636363636,
+    "y": 3.945999999999898,
+    "w": 0.38636363636326987,
+    "h": 0.860000000000102
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_50",
+    "type": "shape",
+    "x": 5.800909090907626,
+    "y": 4.806,
+    "w": 0.23181818181927927,
+    "h": 1.032
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_51",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 4.633999999999796,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_52",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_53",
+    "type": "shape",
+    "x": 1.4736363636363636,
+    "y": 3.945999999999898,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_54",
+    "type": "shape",
+    "x": 2.4781818181821844,
+    "y": 3.945999999999898,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_55",
+    "type": "shape",
+    "x": 3.4827272727258087,
+    "y": 3.945999999999898,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_56",
+    "type": "shape",
+    "x": 4.487272727271629,
+    "y": 3.945999999999898,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_57",
+    "type": "shape",
+    "x": 5.491818181817449,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_58",
+    "type": "shape",
+    "x": 1.4036363636363636,
+    "y": 4.563999999999796,
+    "w": 0.14,
+    "h": 0.14
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_text_59",
+    "type": "text",
+    "x": 1.0636363636363637,
+    "y": 4.793999999999796,
+    "w": 0.9,
+    "h": 0.23,
+    "fontSize": 11.8,
+    "text": "Library"
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_shape_60",
+    "type": "shape",
+    "x": 5.421818181817449,
+    "y": 4.563999999999796,
+    "w": 0.14,
+    "h": 0.14
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_before_text_61",
+    "type": "text",
+    "x": 5.081818181817449,
+    "y": 4.793999999999796,
+    "w": 0.9,
+    "h": 0.23,
+    "fontSize": 11.8,
+    "text": "Station"
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_62",
+    "type": "shape",
+    "x": 6.83,
+    "y": 2.29,
+    "w": 5.82,
+    "h": 3.76
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_63",
+    "type": "shape",
+    "x": 7.08,
+    "y": 2.51,
+    "w": 3.04,
+    "h": 0.34
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_text_64",
+    "type": "text",
+    "x": 7.2,
+    "y": 2.5749999999999997,
+    "w": 2.8,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "AFTER / 2 ACTIVE HAZARDS"
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_65",
+    "type": "shape",
+    "x": 7.204,
+    "y": 4.7439999999998985,
+    "w": 1.6519999999992674,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_66",
+    "type": "shape",
+    "x": 7.204,
+    "y": 3.8839999999997965,
+    "w": 1.6519999999992674,
+    "h": 0.812000000000102
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_67",
+    "type": "shape",
+    "x": 7.204,
+    "y": 3.024,
+    "w": 1.6519999999992674,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_68",
+    "type": "shape",
+    "x": 8.903999999999266,
+    "y": 4.7439999999998985,
+    "w": 1.6519999999992674,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_69",
+    "type": "shape",
+    "x": 8.903999999999266,
+    "y": 3.8839999999997965,
+    "w": 1.6519999999992674,
+    "h": 0.812000000000102
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_70",
+    "type": "shape",
+    "x": 8.903999999999266,
+    "y": 3.024,
+    "w": 1.6519999999992674,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_71",
+    "type": "shape",
+    "x": 10.604000000000731,
+    "y": 4.7439999999998985,
+    "w": 1.6519999999992674,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_72",
+    "type": "shape",
+    "x": 10.604000000000731,
+    "y": 3.8839999999997965,
+    "w": 1.6519999999992674,
+    "h": 0.812000000000102
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_73",
+    "type": "shape",
+    "x": 10.604000000000731,
+    "y": 3.024,
+    "w": 1.6519999999992674,
+    "h": 0.8120000000001015
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_74",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 5.322,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_75",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_76",
+    "type": "shape",
+    "x": 8.648181818182184,
+    "y": 5.322,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_77",
+    "type": "shape",
+    "x": 8.648181818182184,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_78",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 5.322,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_79",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_80",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 5.322,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_81",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_82",
+    "type": "shape",
+    "x": 11.661818181817448,
+    "y": 4.633999999999796,
+    "w": 0,
+    "h": 0.688000000000204
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_83",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 4.633999999999796,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_84",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_85",
+    "type": "shape",
+    "x": 8.648181818182184,
+    "y": 4.633999999999796,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_86",
+    "type": "shape",
+    "x": 8.648181818182184,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_87",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 4.633999999999796,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_88",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_89",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 4.633999999999796,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_90",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_91",
+    "type": "shape",
+    "x": 11.661818181817448,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_92",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 3.945999999999898,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_93",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_94",
+    "type": "shape",
+    "x": 8.648181818182184,
+    "y": 3.945999999999898,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_95",
+    "type": "shape",
+    "x": 8.648181818182184,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_96",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 3.945999999999898,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_97",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_98",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 3.945999999999898,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_99",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_100",
+    "type": "shape",
+    "x": 11.661818181817448,
+    "y": 3.258,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_101",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 3.258,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_102",
+    "type": "shape",
+    "x": 8.648181818182184,
+    "y": 3.258,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_103",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 3.258,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_104",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 3.258,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_105",
+    "type": "shape",
+    "x": 11.816363636363636,
+    "y": 2.828000000000102,
+    "w": 0.3090909090901768,
+    "h": 1.117999999999796
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_106",
+    "type": "shape",
+    "x": 11.816363636363636,
+    "y": 3.945999999999898,
+    "w": 0.386363636363269,
+    "h": 0.860000000000102
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_107",
+    "type": "shape",
+    "x": 11.970909090907625,
+    "y": 4.806,
+    "w": 0.23181818181928016,
+    "h": 1.032
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_108",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 4.633999999999796,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_109",
+    "type": "shape",
+    "x": 11.661818181817448,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_110",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_111",
+    "type": "shape",
+    "x": 7.643636363636364,
+    "y": 3.945999999999898,
+    "w": 1.0045454545458208,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_112",
+    "type": "shape",
+    "x": 8.648181818182184,
+    "y": 3.945999999999898,
+    "w": 1.0045454545436243,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_113",
+    "type": "shape",
+    "x": 9.652727272725809,
+    "y": 3.945999999999898,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_114",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 3.945999999999898,
+    "w": 0,
+    "h": 0.687999999999898
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_115",
+    "type": "shape",
+    "x": 10.657272727271629,
+    "y": 4.633999999999796,
+    "w": 1.00454545454582,
+    "h": 0
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_116",
+    "type": "shape",
+    "x": 7.573636363636363,
+    "y": 4.563999999999796,
+    "w": 0.14,
+    "h": 0.14
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_text_117",
+    "type": "text",
+    "x": 7.233636363636363,
+    "y": 4.793999999999796,
+    "w": 0.9,
+    "h": 0.23,
+    "fontSize": 11.8,
+    "text": "Library"
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_shape_118",
+    "type": "shape",
+    "x": 11.591818181817448,
+    "y": 4.563999999999796,
+    "w": 0.14,
+    "h": 0.14
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_after_text_119",
+    "type": "text",
+    "x": 11.251818181817448,
+    "y": 4.793999999999796,
+    "w": 0.9,
+    "h": 0.23,
+    "fontSize": 11.8,
+    "text": "Station"
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_conclusion_text_120",
+    "type": "text",
+    "x": 0.91,
+    "y": 6.4,
+    "w": 6.81,
+    "h": 0.4045138888888889,
+    "fontSize": 23.3,
+    "text": "Different edges. Same 4.445 km."
+  },
+  {
+    "slide": 10,
+    "name": "s10_route_conclusion_text_121",
+    "type": "text",
+    "x": 8.01,
+    "y": 6.37,
+    "w": 4.44,
+    "h": 0.4930555555555556,
+    "fontSize": 14.2,
+    "text": "The synthetic graph contains tied paths.\nOnly current, verified edge hazards are excluded."
+  },
+  {
+    "slide": 11,
+    "name": "s11_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "CONSENT AND DELIVERY"
+  },
+  {
+    "slide": 11,
+    "name": "s11_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Alerts remember consent, retries and expiry."
+  },
+  {
+    "slide": 11,
+    "name": "s11_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "Persistent decisions prevent repeated processing from becoming repeated messages."
+  },
+  {
+    "slide": 11,
+    "name": "s11_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 11,
+    "name": "s11_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "11  /  20"
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_capture_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.31,
+    "w": 6.08,
+    "h": 4.55
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_capture_image_6",
+    "type": "image",
+    "x": 0.81,
+    "y": 2.47,
+    "w": 5.78,
+    "h": 4.18
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_0_icon_7",
+    "type": "icon",
+    "x": 7.17,
+    "y": 2.4499999999999997,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_0_text_8",
+    "type": "text",
+    "x": 7.83,
+    "y": 2.4,
+    "w": 4.73,
+    "h": 0.3315972222222222,
+    "fontSize": 19.1,
+    "text": "Opt in to a ward"
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_0_text_9",
+    "type": "text",
+    "x": 7.83,
+    "y": 2.82,
+    "w": 4.71,
+    "h": 0.42,
+    "fontSize": 15.6,
+    "text": "A resident chooses subscriptions."
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_1_icon_10",
+    "type": "icon",
+    "x": 7.17,
+    "y": 3.57,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_1_text_11",
+    "type": "text",
+    "x": 7.83,
+    "y": 3.52,
+    "w": 4.73,
+    "h": 0.3315972222222222,
+    "fontSize": 19.1,
+    "text": "Deduplicate the trigger"
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_1_text_12",
+    "type": "text",
+    "x": 7.83,
+    "y": 3.94,
+    "w": 4.71,
+    "h": 0.5416666666666666,
+    "fontSize": 15.6,
+    "text": "Unchanged reminders use a\n30-minute cooldown."
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_2_icon_13",
+    "type": "icon",
+    "x": 7.17,
+    "y": 4.6899999999999995,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_2_text_14",
+    "type": "text",
+    "x": 7.83,
+    "y": 4.64,
+    "w": 4.73,
+    "h": 0.3315972222222222,
+    "fontSize": 19.1,
+    "text": "Bound delivery attempts"
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_2_text_15",
+    "type": "text",
+    "x": 7.83,
+    "y": 5.06,
+    "w": 4.71,
+    "h": 0.5416666666666666,
+    "fontSize": 15.6,
+    "text": "Retries after 30 and 60 seconds;\n3 attempts maximum."
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_3_icon_16",
+    "type": "icon",
+    "x": 7.17,
+    "y": 5.8100000000000005,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_3_text_17",
+    "type": "text",
+    "x": 7.83,
+    "y": 5.760000000000001,
+    "w": 4.73,
+    "h": 0.3315972222222222,
+    "fontSize": 19.1,
+    "text": "Cancel stale actions"
+  },
+  {
+    "slide": 11,
+    "name": "s11_alert_step_3_text_18",
+    "type": "text",
+    "x": 7.83,
+    "y": 6.180000000000001,
+    "w": 4.71,
+    "h": 0.5416666666666666,
+    "fontSize": 15.6,
+    "text": "Withdrawal, expiry and resolved\nhazards stop delivery."
+  },
+  {
+    "slide": 12,
+    "name": "s12_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "SOFTWARE EXPERIMENT"
+  },
+  {
+    "slide": 12,
+    "name": "s12_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Synthetic evaluation keeps events separate."
+  },
+  {
+    "slide": 12,
+    "name": "s12_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "18 invented storms supply 624 usable rows; later storms remain held out."
+  },
+  {
+    "slide": 12,
+    "name": "s12_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 12,
+    "name": "s12_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "12  /  20"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_0_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.45,
+    "w": 6.27,
+    "h": 3.28
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_0_text_6",
+    "type": "text",
+    "x": 0.92,
+    "y": 2.74,
+    "w": 5.75,
+    "h": 0.23,
+    "fontSize": 12,
+    "text": "TRAIN"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_0_text_7",
+    "type": "text",
+    "x": 0.88,
+    "y": 3.31,
+    "w": 5.81,
+    "h": 1.2326388888888888,
+    "fontSize": 71,
+    "text": "10"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_0_text_8",
+    "type": "text",
+    "x": 0.92,
+    "y": 4.63,
+    "w": 5.75,
+    "h": 0.46,
+    "fontSize": 17.1,
+    "text": "events / 345 rows"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_0_text_9",
+    "type": "text",
+    "x": 0.92,
+    "y": 5.19,
+    "w": 5.75,
+    "h": 0.27,
+    "fontSize": 14.5,
+    "text": "Fit preprocessing"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_1_shape_10",
+    "type": "shape",
+    "x": 7.27,
+    "y": 2.45,
+    "w": 2.51,
+    "h": 3.28
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_1_text_11",
+    "type": "text",
+    "x": 7.529999999999999,
+    "y": 2.74,
+    "w": 1.9899999999999998,
+    "h": 0.23,
+    "fontSize": 12,
+    "text": "VALIDATE"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_1_text_12",
+    "type": "text",
+    "x": 7.489999999999999,
+    "y": 3.31,
+    "w": 2.05,
+    "h": 1.2326388888888888,
+    "fontSize": 71,
+    "text": "4"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_1_text_13",
+    "type": "text",
+    "x": 7.529999999999999,
+    "y": 4.63,
+    "w": 1.9899999999999998,
+    "h": 0.46,
+    "fontSize": 17.1,
+    "text": "events / 141 rows"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_1_text_14",
+    "type": "text",
+    "x": 7.529999999999999,
+    "y": 5.19,
+    "w": 1.9899999999999998,
+    "h": 0.27,
+    "fontSize": 14.5,
+    "text": "Select F₂ threshold"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_2_shape_15",
+    "type": "shape",
+    "x": 10.12,
+    "y": 2.45,
+    "w": 2.51,
+    "h": 3.28
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_2_text_16",
+    "type": "text",
+    "x": 10.379999999999999,
+    "y": 2.74,
+    "w": 1.9899999999999998,
+    "h": 0.23,
+    "fontSize": 12,
+    "text": "TEST"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_2_text_17",
+    "type": "text",
+    "x": 10.34,
+    "y": 3.31,
+    "w": 2.05,
+    "h": 1.2326388888888888,
+    "fontSize": 71,
+    "text": "4"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_2_text_18",
+    "type": "text",
+    "x": 10.379999999999999,
+    "y": 4.63,
+    "w": 1.9899999999999998,
+    "h": 0.46,
+    "fontSize": 17.1,
+    "text": "events / 138 rows"
+  },
+  {
+    "slide": 12,
+    "name": "s12_split_2_text_19",
+    "type": "text",
+    "x": 10.379999999999999,
+    "y": 5.19,
+    "w": 1.9899999999999998,
+    "h": 0.27,
+    "fontSize": 14.5,
+    "text": "Freeze comparison"
+  },
+  {
+    "slide": 12,
+    "name": "s12_temporal_rule_icon_20",
+    "type": "icon",
+    "x": 0.87,
+    "y": 6.24,
+    "w": 0.43,
+    "h": 0.43
+  },
+  {
+    "slide": 12,
+    "name": "s12_temporal_rule_text_21",
+    "type": "text",
+    "x": 1.54,
+    "y": 6.28,
+    "w": 10.93,
+    "h": 0.3472222222222222,
+    "fontSize": 20,
+    "text": "Earlier events → later events. No row substitutes for an independent storm."
+  },
+  {
+    "slide": 13,
+    "name": "s13_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "EVALUATION RESULT"
+  },
+  {
+    "slide": 13,
+    "name": "s13_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Higher recall brought more false positives."
+  },
+  {
+    "slide": 13,
+    "name": "s13_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "Held-out synthetic rows compare the logistic candidate with a rainfall-only baseline."
+  },
+  {
+    "slide": 13,
+    "name": "s13_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 13,
+    "name": "s13_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "13  /  20"
+  },
+  {
+    "slide": 13,
+    "name": "s13_metric_panel_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.25,
+    "w": 7.65,
+    "h": 4.02
+  },
+  {
+    "slide": 13,
+    "name": "s13_metric_chart_chart_6",
+    "type": "chart",
+    "x": 0.93,
+    "y": 2.57,
+    "w": 7.04,
+    "h": 3.26
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_shape_7",
+    "type": "shape",
+    "x": 8.68,
+    "y": 2.25,
+    "w": 3.97,
+    "h": 4.02
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_8",
+    "type": "text",
+    "x": 8.97,
+    "y": 2.57,
+    "w": 3.36,
+    "h": 0.2,
+    "fontSize": 11.3,
+    "text": "TEST-ROW ERRORS"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_9",
+    "type": "text",
+    "x": 10.1,
+    "y": 3.15,
+    "w": 1.08,
+    "h": 0.2222222222222222,
+    "fontSize": 12.8,
+    "text": "Logistic"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_10",
+    "type": "text",
+    "x": 11.36,
+    "y": 3.15,
+    "w": 1.01,
+    "h": 0.2222222222222222,
+    "fontSize": 12.8,
+    "text": "Rain-only"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_11",
+    "type": "text",
+    "x": 8.96,
+    "y": 3.76,
+    "w": 1.22,
+    "h": 0.61,
+    "fontSize": 16.3,
+    "text": "False\npositives"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_12",
+    "type": "text",
+    "x": 10.12,
+    "y": 3.7,
+    "w": 1.06,
+    "h": 0.7291666666666666,
+    "fontSize": 42,
+    "text": "40"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_13",
+    "type": "text",
+    "x": 11.41,
+    "y": 3.7,
+    "w": 0.92,
+    "h": 0.7291666666666666,
+    "fontSize": 42,
+    "text": "8"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_14",
+    "type": "text",
+    "x": 8.96,
+    "y": 4.84,
+    "w": 1.22,
+    "h": 0.61,
+    "fontSize": 16.3,
+    "text": "Missed\npositives"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_15",
+    "type": "text",
+    "x": 10.12,
+    "y": 4.76,
+    "w": 1.06,
+    "h": 0.7291666666666666,
+    "fontSize": 42,
+    "text": "0"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_16",
+    "type": "text",
+    "x": 11.35,
+    "y": 4.76,
+    "w": 1.09,
+    "h": 0.7291666666666666,
+    "fontSize": 42,
+    "text": "12"
+  },
+  {
+    "slide": 13,
+    "name": "s13_error_table_text_17",
+    "type": "text",
+    "x": 8.97,
+    "y": 5.8,
+    "w": 3.36,
+    "h": 0.2309027777777778,
+    "fontSize": 13.3,
+    "text": "138 rows / 4 test storms"
+  },
+  {
+    "slide": 13,
+    "name": "s13_promotion_decision_text_18",
+    "type": "text",
+    "x": 0.89,
+    "y": 6.53,
+    "w": 11.48,
+    "h": 0.3697916666666667,
+    "fontSize": 21.3,
+    "text": "Candidate remains unpromoted: it flags every test row."
+  },
+  {
+    "slide": 14,
+    "name": "s14_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "FAILURE HANDLING"
+  },
+  {
+    "slide": 14,
+    "name": "s14_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Unknown data stays visibly unknown."
+  },
+  {
+    "slide": 14,
+    "name": "s14_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "The outage scenario preserves original issue times instead of refreshing stale evidence."
+  },
+  {
+    "slide": 14,
+    "name": "s14_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 14,
+    "name": "s14_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "14  /  20"
+  },
+  {
+    "slide": 14,
+    "name": "s14_outage_explanation_text_5",
+    "type": "text",
+    "x": 0.8,
+    "y": 2.42,
+    "w": 3.95,
+    "h": 0.8506944444444444,
+    "fontSize": 49,
+    "text": "9 / 9"
+  },
+  {
+    "slide": 14,
+    "name": "s14_outage_explanation_text_6",
+    "type": "text",
+    "x": 0.8,
+    "y": 3.28,
+    "w": 3.95,
+    "h": 0.5729166666666666,
+    "fontSize": 16.5,
+    "text": "cells become Unknown\nduring the recorded feed outage"
+  },
+  {
+    "slide": 14,
+    "name": "s14_outage_explanation_shape_7",
+    "type": "shape",
+    "x": 0.66,
+    "y": 4.61,
+    "w": 4.24,
+    "h": 1.84
+  },
+  {
+    "slide": 14,
+    "name": "s14_outage_explanation_icon_8",
+    "type": "icon",
+    "x": 0.89,
+    "y": 4.86,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 14,
+    "name": "s14_outage_explanation_text_9",
+    "type": "text",
+    "x": 1.42,
+    "y": 4.87,
+    "w": 3.24,
+    "h": 0.35,
+    "fontSize": 18.3,
+    "text": "Feed outage"
+  },
+  {
+    "slide": 14,
+    "name": "s14_outage_explanation_text_10",
+    "type": "text",
+    "x": 0.9,
+    "y": 5.44,
+    "w": 3.7600000000000002,
+    "h": 0.8600000000000002,
+    "fontSize": 16.3,
+    "text": "No invented observations\nand no zero-rain substitution"
+  },
+  {
+    "slide": 14,
+    "name": "s14_outage_capture_shape_11",
+    "type": "shape",
+    "x": 5.31,
+    "y": 2.31,
+    "w": 7.33,
+    "h": 4.57
+  },
+  {
+    "slide": 14,
+    "name": "s14_outage_capture_image_12",
+    "type": "image",
+    "x": 5.47,
+    "y": 2.47,
+    "w": 7.01,
+    "h": 4.23
+  },
+  {
+    "slide": 15,
+    "name": "s15_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "RECORDED ACCEPTANCE"
+  },
+  {
+    "slide": 15,
+    "name": "s15_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "The delivery is backed by inspectable checks."
+  },
+  {
+    "slide": 15,
+    "name": "s15_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "Acceptance evidence for the synthetic v0.1.1 release, recorded 11 November 2026."
+  },
+  {
+    "slide": 15,
+    "name": "s15_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 15,
+    "name": "s15_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "15  /  20"
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_0_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.35,
+    "w": 2.82,
+    "h": 2.2
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_0_icon_6",
+    "type": "icon",
+    "x": 2.71,
+    "y": 2.65,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_0_text_7",
+    "type": "text",
+    "x": 0.89,
+    "y": 2.74,
+    "w": 1.73,
+    "h": 1.0590277777777777,
+    "fontSize": 61,
+    "text": "44"
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_0_text_8",
+    "type": "text",
+    "x": 0.91,
+    "y": 3.86,
+    "w": 2.32,
+    "h": 0.32,
+    "fontSize": 15.8,
+    "text": "backend tests"
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_1_shape_9",
+    "type": "shape",
+    "x": 3.72,
+    "y": 2.35,
+    "w": 2.82,
+    "h": 2.2
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_1_icon_10",
+    "type": "icon",
+    "x": 5.77,
+    "y": 2.65,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_1_text_11",
+    "type": "text",
+    "x": 3.95,
+    "y": 2.74,
+    "w": 1.73,
+    "h": 1.0590277777777777,
+    "fontSize": 61,
+    "text": "14"
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_1_text_12",
+    "type": "text",
+    "x": 3.97,
+    "y": 3.86,
+    "w": 2.32,
+    "h": 0.32,
+    "fontSize": 15.8,
+    "text": "browser workflows"
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_2_shape_13",
+    "type": "shape",
+    "x": 6.78,
+    "y": 2.35,
+    "w": 2.82,
+    "h": 2.2
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_2_icon_14",
+    "type": "icon",
+    "x": 8.83,
+    "y": 2.65,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_2_text_15",
+    "type": "text",
+    "x": 7.010000000000001,
+    "y": 2.74,
+    "w": 1.73,
+    "h": 1.0590277777777777,
+    "fontSize": 61,
+    "text": "7"
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_2_text_16",
+    "type": "text",
+    "x": 7.03,
+    "y": 3.86,
+    "w": 2.32,
+    "h": 0.5486111111111112,
+    "fontSize": 15.8,
+    "text": "Windows launcher\nchecks"
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_3_shape_17",
+    "type": "shape",
+    "x": 9.84,
+    "y": 2.35,
+    "w": 2.82,
+    "h": 2.2
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_3_icon_18",
+    "type": "icon",
+    "x": 11.89,
+    "y": 2.65,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_3_text_19",
+    "type": "text",
+    "x": 10.07,
+    "y": 2.74,
+    "w": 1.73,
+    "h": 1.0590277777777777,
+    "fontSize": 61,
+    "text": "62"
+  },
+  {
+    "slide": 15,
+    "name": "s15_check_3_text_20",
+    "type": "text",
+    "x": 10.09,
+    "y": 3.86,
+    "w": 2.32,
+    "h": 0.32,
+    "fontSize": 15.8,
+    "text": "captured UI states"
+  },
+  {
+    "slide": 15,
+    "name": "s15_acceptance_context_shape_21",
+    "type": "shape",
+    "x": 0.66,
+    "y": 4.9,
+    "w": 5.82,
+    "h": 1.89
+  },
+  {
+    "slide": 15,
+    "name": "s15_acceptance_context_icon_22",
+    "type": "icon",
+    "x": 0.94,
+    "y": 5.19,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 15,
+    "name": "s15_acceptance_context_text_23",
+    "type": "text",
+    "x": 1.53,
+    "y": 5.2,
+    "w": 4.61,
+    "h": 0.3489583333333333,
+    "fontSize": 20.1,
+    "text": "Light + Dark / phone to desktop"
+  },
+  {
+    "slide": 15,
+    "name": "s15_acceptance_context_text_24",
+    "type": "text",
+    "x": 0.94,
+    "y": 5.87,
+    "w": 5.24,
+    "h": 0.5729166666666666,
+    "fontSize": 16.5,
+    "text": "320–1440 px captures, keyboard flows, consent,\nmoderation, routes, outage and recovery."
+  },
+  {
+    "slide": 15,
+    "name": "s15_acceptance_context_shape_25",
+    "type": "shape",
+    "x": 6.83,
+    "y": 4.9,
+    "w": 5.82,
+    "h": 1.89
+  },
+  {
+    "slide": 15,
+    "name": "s15_acceptance_context_icon_26",
+    "type": "icon",
+    "x": 7.11,
+    "y": 5.19,
+    "w": 0.4,
+    "h": 0.4
+  },
+  {
+    "slide": 15,
+    "name": "s15_acceptance_context_text_27",
+    "type": "text",
+    "x": 7.7,
+    "y": 5.2,
+    "w": 4.58,
+    "h": 0.3489583333333333,
+    "fontSize": 20.1,
+    "text": "Local dashboard p95: 57.42 ms"
+  },
+  {
+    "slide": 15,
+    "name": "s15_acceptance_context_text_28",
+    "type": "text",
+    "x": 7.11,
+    "y": 5.87,
+    "w": 5.25,
+    "h": 0.5729166666666666,
+    "fontSize": 16.5,
+    "text": "10 clients / 20 loopback requests / SQLite.\nFresh Linux CI passes the automated workflow."
+  },
+  {
+    "slide": 16,
+    "name": "s16_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "PRESENTATION DEMO"
+  },
+  {
+    "slide": 16,
+    "name": "s16_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "A focused demo follows six actions."
+  },
+  {
+    "slide": 16,
+    "name": "s16_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "The same workflow can be shown live or explained using the preceding captures."
+  },
+  {
+    "slide": 16,
+    "name": "s16_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 16,
+    "name": "s16_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "16  /  20"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_0_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.3,
+    "w": 3.8,
+    "h": 1.73
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_0_text_6",
+    "type": "text",
+    "x": 0.9,
+    "y": 2.57,
+    "w": 0.7,
+    "h": 0.4409722222222222,
+    "fontSize": 25.4,
+    "text": "01"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_0_icon_7",
+    "type": "icon",
+    "x": 3.74,
+    "y": 2.5999999999999996,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_0_text_8",
+    "type": "text",
+    "x": 1.6600000000000001,
+    "y": 2.58,
+    "w": 1.97,
+    "h": 0.3819444444444444,
+    "fontSize": 22,
+    "text": "Inspect"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_0_text_9",
+    "type": "text",
+    "x": 0.91,
+    "y": 3.2199999999999998,
+    "w": 3.24,
+    "h": 0.5798611111111112,
+    "fontSize": 16.7,
+    "text": "Select an area and\ncheck its evidence."
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_1_shape_10",
+    "type": "shape",
+    "x": 4.7700000000000005,
+    "y": 2.3,
+    "w": 3.8,
+    "h": 1.73
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_1_text_11",
+    "type": "text",
+    "x": 5.010000000000001,
+    "y": 2.57,
+    "w": 0.7,
+    "h": 0.4409722222222222,
+    "fontSize": 25.4,
+    "text": "02"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_1_icon_12",
+    "type": "icon",
+    "x": 7.8500000000000005,
+    "y": 2.5999999999999996,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_1_text_13",
+    "type": "text",
+    "x": 5.7700000000000005,
+    "y": 2.58,
+    "w": 1.97,
+    "h": 0.3819444444444444,
+    "fontSize": 22,
+    "text": "Report"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_1_text_14",
+    "type": "text",
+    "x": 5.0200000000000005,
+    "y": 3.2199999999999998,
+    "w": 3.24,
+    "h": 0.5798611111111112,
+    "fontSize": 16.7,
+    "text": "Submit time, location\nand an observation."
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_2_shape_15",
+    "type": "shape",
+    "x": 8.88,
+    "y": 2.3,
+    "w": 3.8,
+    "h": 1.73
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_2_text_16",
+    "type": "text",
+    "x": 9.120000000000001,
+    "y": 2.57,
+    "w": 0.7,
+    "h": 0.4409722222222222,
+    "fontSize": 25.4,
+    "text": "03"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_2_icon_17",
+    "type": "icon",
+    "x": 11.96,
+    "y": 2.5999999999999996,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_2_text_18",
+    "type": "text",
+    "x": 9.88,
+    "y": 2.58,
+    "w": 1.97,
+    "h": 0.3819444444444444,
+    "fontSize": 22,
+    "text": "Verify"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_2_text_19",
+    "type": "text",
+    "x": 9.13,
+    "y": 3.2199999999999998,
+    "w": 3.24,
+    "h": 0.5798611111111112,
+    "fontSize": 16.7,
+    "text": "Review evidence and\nmatch a road segment."
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_3_shape_20",
+    "type": "shape",
+    "x": 0.66,
+    "y": 4.359999999999999,
+    "w": 3.8,
+    "h": 1.73
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_3_text_21",
+    "type": "text",
+    "x": 0.9,
+    "y": 4.629999999999999,
+    "w": 0.7,
+    "h": 0.4409722222222222,
+    "fontSize": 25.4,
+    "text": "04"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_3_icon_22",
+    "type": "icon",
+    "x": 3.74,
+    "y": 4.659999999999999,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_3_text_23",
+    "type": "text",
+    "x": 1.6600000000000001,
+    "y": 4.64,
+    "w": 1.97,
+    "h": 0.3819444444444444,
+    "fontSize": 22,
+    "text": "Reroute"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_3_text_24",
+    "type": "text",
+    "x": 0.91,
+    "y": 5.279999999999999,
+    "w": 3.24,
+    "h": 0.5798611111111112,
+    "fontSize": 16.7,
+    "text": "Compare changed edges\nafter verification."
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_4_shape_25",
+    "type": "shape",
+    "x": 4.7700000000000005,
+    "y": 4.359999999999999,
+    "w": 3.8,
+    "h": 1.73
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_4_text_26",
+    "type": "text",
+    "x": 5.010000000000001,
+    "y": 4.629999999999999,
+    "w": 0.7,
+    "h": 0.4409722222222222,
+    "fontSize": 25.4,
+    "text": "05"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_4_icon_27",
+    "type": "icon",
+    "x": 7.8500000000000005,
+    "y": 4.659999999999999,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_4_text_28",
+    "type": "text",
+    "x": 5.7700000000000005,
+    "y": 4.64,
+    "w": 1.97,
+    "h": 0.3819444444444444,
+    "fontSize": 22,
+    "text": "Subscribe"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_4_text_29",
+    "type": "text",
+    "x": 5.0200000000000005,
+    "y": 5.279999999999999,
+    "w": 3.24,
+    "h": 0.5798611111111112,
+    "fontSize": 16.7,
+    "text": "Opt in to a ward and\ninspect delivery history."
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_5_shape_30",
+    "type": "shape",
+    "x": 8.88,
+    "y": 4.359999999999999,
+    "w": 3.8,
+    "h": 1.73
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_5_text_31",
+    "type": "text",
+    "x": 9.120000000000001,
+    "y": 4.629999999999999,
+    "w": 0.7,
+    "h": 0.4409722222222222,
+    "fontSize": 25.4,
+    "text": "06"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_5_icon_32",
+    "type": "icon",
+    "x": 11.96,
+    "y": 4.659999999999999,
+    "w": 0.37,
+    "h": 0.37
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_5_text_33",
+    "type": "text",
+    "x": 9.88,
+    "y": 4.64,
+    "w": 1.97,
+    "h": 0.3819444444444444,
+    "fontSize": 22,
+    "text": "Replay"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_5_text_34",
+    "type": "text",
+    "x": 9.13,
+    "y": 5.279999999999999,
+    "w": 3.24,
+    "h": 0.5798611111111112,
+    "fontSize": 16.7,
+    "text": "Run heavy rain, outage\nand synthetic recovery."
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_launch_shape_35",
+    "type": "shape",
+    "x": 0.69,
+    "y": 6.7,
+    "w": 2.18,
+    "h": 0.34
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_launch_text_36",
+    "type": "text",
+    "x": 0.8099999999999999,
+    "y": 6.765000000000001,
+    "w": 1.9400000000000002,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "OPEN LOCAL DEMO"
+  },
+  {
+    "slide": 16,
+    "name": "s16_demo_launch_text_37",
+    "type": "text",
+    "x": 3.19,
+    "y": 6.75,
+    "w": 9.22,
+    "h": 0.24305555555555555,
+    "fontSize": 14,
+    "text": "Launch start.bat beforehand. The console shows the selected address."
+  },
+  {
+    "slide": 17,
+    "name": "s17_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "NEXT EVIDENCE GATES"
+  },
+  {
+    "slide": 17,
+    "name": "s17_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "The path to a real pilot is clear."
+  },
+  {
+    "slide": 17,
+    "name": "s17_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "The synthetic software workflow is delivered. Real-world readiness needs its own evidence."
+  },
+  {
+    "slide": 17,
+    "name": "s17_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 17,
+    "name": "s17_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "17  /  20"
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.32,
+    "w": 4.2,
+    "h": 4.54
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_icon_6",
+    "type": "icon",
+    "x": 0.96,
+    "y": 2.62,
+    "w": 0.52,
+    "h": 0.52
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_text_7",
+    "type": "text",
+    "x": 1.72,
+    "y": 2.67,
+    "w": 2.72,
+    "h": 0.3993055555555556,
+    "fontSize": 23,
+    "text": "Delivered now"
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_icon_8",
+    "type": "icon",
+    "x": 0.99,
+    "y": 3.56,
+    "w": 0.24,
+    "h": 0.24
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_text_9",
+    "type": "text",
+    "x": 1.48,
+    "y": 3.54,
+    "w": 3.08,
+    "h": 0.29,
+    "fontSize": 15.5,
+    "text": "Local map and area evidence"
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_icon_10",
+    "type": "icon",
+    "x": 0.99,
+    "y": 4.09,
+    "w": 0.24,
+    "h": 0.24
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_text_11",
+    "type": "text",
+    "x": 1.48,
+    "y": 4.07,
+    "w": 3.08,
+    "h": 0.29,
+    "fontSize": 15.5,
+    "text": "Private reports + moderation"
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_icon_12",
+    "type": "icon",
+    "x": 0.99,
+    "y": 4.62,
+    "w": 0.24,
+    "h": 0.24
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_text_13",
+    "type": "text",
+    "x": 1.48,
+    "y": 4.6,
+    "w": 3.08,
+    "h": 0.29,
+    "fontSize": 15.5,
+    "text": "Verified road exclusions"
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_icon_14",
+    "type": "icon",
+    "x": 0.99,
+    "y": 5.15,
+    "w": 0.24,
+    "h": 0.24
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_text_15",
+    "type": "text",
+    "x": 1.48,
+    "y": 5.13,
+    "w": 3.08,
+    "h": 0.29,
+    "fontSize": 15.5,
+    "text": "Consent-based alert lifecycle"
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_icon_16",
+    "type": "icon",
+    "x": 0.99,
+    "y": 5.68,
+    "w": 0.24,
+    "h": 0.24
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_text_17",
+    "type": "text",
+    "x": 1.48,
+    "y": 5.66,
+    "w": 3.08,
+    "h": 0.29,
+    "fontSize": 15.5,
+    "text": "Evaluation and release records"
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_shape_18",
+    "type": "shape",
+    "x": 0.98,
+    "y": 6.24,
+    "w": 3.53,
+    "h": 0.34
+  },
+  {
+    "slide": 17,
+    "name": "s17_delivered_scope_text_19",
+    "type": "text",
+    "x": 1.1,
+    "y": 6.305000000000001,
+    "w": 3.29,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "SYNTHETIC DEMONSTRATION"
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_0_icon_20",
+    "type": "icon",
+    "x": 5.32,
+    "y": 2.46,
+    "w": 0.43,
+    "h": 0.43
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_0_text_21",
+    "type": "text",
+    "x": 6.03,
+    "y": 2.42,
+    "w": 6.47,
+    "h": 0.3420138888888889,
+    "fontSize": 19.7,
+    "text": "Choose a pilot and licensed inputs"
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_0_text_22",
+    "type": "text",
+    "x": 6.03,
+    "y": 2.87,
+    "w": 6.34,
+    "h": 0.31,
+    "fontSize": 15.9,
+    "text": "Audit source access, coverage and time semantics."
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_1_icon_23",
+    "type": "icon",
+    "x": 5.32,
+    "y": 3.58,
+    "w": 0.43,
+    "h": 0.43
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_1_text_24",
+    "type": "text",
+    "x": 6.03,
+    "y": 3.54,
+    "w": 6.47,
+    "h": 0.3420138888888889,
+    "fontSize": 19.7,
+    "text": "Validate with historical flood events"
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_1_text_25",
+    "type": "text",
+    "x": 6.03,
+    "y": 3.99,
+    "w": 6.34,
+    "h": 0.31,
+    "fontSize": 15.9,
+    "text": "Use credible labels and separated held-out events."
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_2_icon_26",
+    "type": "icon",
+    "x": 5.32,
+    "y": 4.7,
+    "w": 0.43,
+    "h": 0.43
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_2_text_27",
+    "type": "text",
+    "x": 6.03,
+    "y": 4.66,
+    "w": 6.47,
+    "h": 0.3420138888888889,
+    "fontSize": 19.7,
+    "text": "Run field and human reviews"
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_2_text_28",
+    "type": "text",
+    "x": 6.03,
+    "y": 5.11,
+    "w": 6.34,
+    "h": 0.31,
+    "fontSize": 15.9,
+    "text": "GIS, usability, local language and team sign-offs."
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_3_icon_29",
+    "type": "icon",
+    "x": 5.32,
+    "y": 5.82,
+    "w": 0.43,
+    "h": 0.43
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_3_text_30",
+    "type": "text",
+    "x": 6.03,
+    "y": 5.78,
+    "w": 6.47,
+    "h": 0.3420138888888889,
+    "fontSize": 19.7,
+    "text": "Accept the deployment environment"
+  },
+  {
+    "slide": 17,
+    "name": "s17_gate_3_text_31",
+    "type": "text",
+    "x": 6.03,
+    "y": 6.23,
+    "w": 6.34,
+    "h": 0.31,
+    "fontSize": 15.9,
+    "text": "Test PostGIS, hosting and real notification delivery."
+  },
+  {
+    "slide": 18,
+    "name": "s18_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "TAKEAWAYS"
+  },
+  {
+    "slide": 18,
+    "name": "s18_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Visible evidence supports useful local decisions."
+  },
+  {
+    "slide": 18,
+    "name": "s18_static_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 18,
+    "name": "s18_static_text_3",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "18  /  20"
+  },
+  {
+    "slide": 18,
+    "name": "s18_closing_claim_text_4",
+    "type": "text",
+    "x": 0.72,
+    "y": 2.33,
+    "w": 10.77,
+    "h": 1.1111111111111112,
+    "fontSize": 64,
+    "text": "FLOODLINE"
+  },
+  {
+    "slide": 18,
+    "name": "s18_closing_claim_text_5",
+    "type": "text",
+    "x": 0.75,
+    "y": 3.6,
+    "w": 11.37,
+    "h": 0.49,
+    "fontSize": 24,
+    "text": "Trace the data. Review the observation. Explain the action."
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_0_shape_6",
+    "type": "shape",
+    "x": 0.74,
+    "y": 4.6,
+    "w": 3.76,
+    "h": 1.08
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_0_icon_7",
+    "type": "icon",
+    "x": 0.98,
+    "y": 4.91,
+    "w": 0.4,
+    "h": 0.4
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_0_text_8",
+    "type": "text",
+    "x": 1.6600000000000001,
+    "y": 4.96,
+    "w": 2.62,
+    "h": 0.3125,
+    "fontSize": 18,
+    "text": "Traceable inputs"
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_1_shape_9",
+    "type": "shape",
+    "x": 4.82,
+    "y": 4.6,
+    "w": 3.76,
+    "h": 1.08
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_1_icon_10",
+    "type": "icon",
+    "x": 5.0600000000000005,
+    "y": 4.91,
+    "w": 0.4,
+    "h": 0.4
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_1_text_11",
+    "type": "text",
+    "x": 5.74,
+    "y": 4.96,
+    "w": 2.62,
+    "h": 0.3125,
+    "fontSize": 18,
+    "text": "Reviewed reports"
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_2_shape_12",
+    "type": "shape",
+    "x": 8.9,
+    "y": 4.6,
+    "w": 3.76,
+    "h": 1.08
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_2_icon_13",
+    "type": "icon",
+    "x": 9.14,
+    "y": 4.91,
+    "w": 0.4,
+    "h": 0.4
+  },
+  {
+    "slide": 18,
+    "name": "s18_takeaway_2_text_14",
+    "type": "text",
+    "x": 9.82,
+    "y": 4.96,
+    "w": 2.62,
+    "h": 0.3125,
+    "fontSize": 18,
+    "text": "Accountable actions"
+  },
+  {
+    "slide": 18,
+    "name": "s18_questions_text_15",
+    "type": "text",
+    "x": 0.77,
+    "y": 6.28,
+    "w": 5.7,
+    "h": 0.4340277777777778,
+    "fontSize": 25,
+    "text": "Questions & discussion"
+  },
+  {
+    "slide": 18,
+    "name": "s18_questions_text_16",
+    "type": "text",
+    "x": 7.18,
+    "y": 6.46,
+    "w": 5.27,
+    "h": 0.28,
+    "fontSize": 15.5,
+    "text": "github.com/Godavenger/floodline-caa"
+  },
+  {
+    "slide": 19,
+    "name": "s19_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "APPENDIX / TECHNICAL HANDOFFS"
+  },
+  {
+    "slide": 19,
+    "name": "s19_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Six responsibility areas connect the stack."
+  },
+  {
+    "slide": 19,
+    "name": "s19_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "M1–M6 are proposed team labels from the pipeline; named contribution records remain to be completed."
+  },
+  {
+    "slide": 19,
+    "name": "s19_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 19,
+    "name": "s19_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "19  /  20"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_0_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.31,
+    "w": 3.8,
+    "h": 1.83
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_0_shape_6",
+    "type": "shape",
+    "x": 0.91,
+    "y": 2.54,
+    "w": 0.67,
+    "h": 0.34
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_0_text_7",
+    "type": "text",
+    "x": 1.03,
+    "y": 2.605,
+    "w": 0.43000000000000005,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "M1"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_0_icon_8",
+    "type": "icon",
+    "x": 3.74,
+    "y": 2.59,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_0_text_9",
+    "type": "text",
+    "x": 0.92,
+    "y": 3.16,
+    "w": 3.31,
+    "h": 0.34,
+    "fontSize": 18,
+    "text": "Data and sources"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_0_text_10",
+    "type": "text",
+    "x": 0.92,
+    "y": 3.69,
+    "w": 3.25,
+    "h": 0.28,
+    "fontSize": 13,
+    "text": "Python • provenance • quality checks"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_1_shape_11",
+    "type": "shape",
+    "x": 4.7700000000000005,
+    "y": 2.31,
+    "w": 3.8,
+    "h": 1.83
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_1_shape_12",
+    "type": "shape",
+    "x": 5.0200000000000005,
+    "y": 2.54,
+    "w": 0.67,
+    "h": 0.34
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_1_text_13",
+    "type": "text",
+    "x": 5.140000000000001,
+    "y": 2.605,
+    "w": 0.43000000000000005,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "M2"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_1_icon_14",
+    "type": "icon",
+    "x": 7.8500000000000005,
+    "y": 2.59,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_1_text_15",
+    "type": "text",
+    "x": 5.03,
+    "y": 3.16,
+    "w": 3.31,
+    "h": 0.34,
+    "fontSize": 18,
+    "text": "GIS and routing"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_1_text_16",
+    "type": "text",
+    "x": 5.03,
+    "y": 3.69,
+    "w": 3.25,
+    "h": 0.28,
+    "fontSize": 13,
+    "text": "Shapely • PyProj • NetworkX"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_2_shape_17",
+    "type": "shape",
+    "x": 8.88,
+    "y": 2.31,
+    "w": 3.8,
+    "h": 1.83
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_2_shape_18",
+    "type": "shape",
+    "x": 9.13,
+    "y": 2.54,
+    "w": 0.67,
+    "h": 0.34
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_2_text_19",
+    "type": "text",
+    "x": 9.25,
+    "y": 2.605,
+    "w": 0.43000000000000005,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "M3"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_2_icon_20",
+    "type": "icon",
+    "x": 11.96,
+    "y": 2.59,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_2_text_21",
+    "type": "text",
+    "x": 9.14,
+    "y": 3.16,
+    "w": 3.31,
+    "h": 0.34,
+    "fontSize": 18,
+    "text": "Baseline and evaluation"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_2_text_22",
+    "type": "text",
+    "x": 9.14,
+    "y": 3.69,
+    "w": 3.25,
+    "h": 0.28,
+    "fontSize": 13,
+    "text": "Interpretable rule • scikit-learn"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_3_shape_23",
+    "type": "shape",
+    "x": 0.66,
+    "y": 4.51,
+    "w": 3.8,
+    "h": 1.83
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_3_shape_24",
+    "type": "shape",
+    "x": 0.91,
+    "y": 4.74,
+    "w": 0.67,
+    "h": 0.34
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_3_text_25",
+    "type": "text",
+    "x": 1.03,
+    "y": 4.805000000000001,
+    "w": 0.43000000000000005,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "M4"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_3_icon_26",
+    "type": "icon",
+    "x": 3.74,
+    "y": 4.79,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_3_text_27",
+    "type": "text",
+    "x": 0.92,
+    "y": 5.359999999999999,
+    "w": 3.31,
+    "h": 0.34,
+    "fontSize": 18,
+    "text": "Backend and integration"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_3_text_28",
+    "type": "text",
+    "x": 0.92,
+    "y": 5.89,
+    "w": 3.25,
+    "h": 0.28,
+    "fontSize": 13,
+    "text": "FastAPI • SQLite • authenticated APIs"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_4_shape_29",
+    "type": "shape",
+    "x": 4.7700000000000005,
+    "y": 4.51,
+    "w": 3.8,
+    "h": 1.83
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_4_shape_30",
+    "type": "shape",
+    "x": 5.0200000000000005,
+    "y": 4.74,
+    "w": 0.67,
+    "h": 0.34
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_4_text_31",
+    "type": "text",
+    "x": 5.140000000000001,
+    "y": 4.805000000000001,
+    "w": 0.43000000000000005,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "M5"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_4_icon_32",
+    "type": "icon",
+    "x": 7.8500000000000005,
+    "y": 4.79,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_4_text_33",
+    "type": "text",
+    "x": 5.03,
+    "y": 5.359999999999999,
+    "w": 3.31,
+    "h": 0.34,
+    "fontSize": 18,
+    "text": "Resident and moderator UI"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_4_text_34",
+    "type": "text",
+    "x": 5.03,
+    "y": 5.89,
+    "w": 3.25,
+    "h": 0.28,
+    "fontSize": 13,
+    "text": "React • TypeScript • Leaflet"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_5_shape_35",
+    "type": "shape",
+    "x": 8.88,
+    "y": 4.51,
+    "w": 3.8,
+    "h": 1.83
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_5_shape_36",
+    "type": "shape",
+    "x": 9.13,
+    "y": 4.74,
+    "w": 0.67,
+    "h": 0.34
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_5_text_37",
+    "type": "text",
+    "x": 9.25,
+    "y": 4.805000000000001,
+    "w": 0.43000000000000005,
+    "h": 0.2,
+    "fontSize": 10.1,
+    "text": "M6"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_5_icon_38",
+    "type": "icon",
+    "x": 11.96,
+    "y": 4.79,
+    "w": 0.38,
+    "h": 0.38
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_5_text_39",
+    "type": "text",
+    "x": 9.14,
+    "y": 5.359999999999999,
+    "w": 3.31,
+    "h": 0.34,
+    "fontSize": 18,
+    "text": "Alerts and acceptance"
+  },
+  {
+    "slide": 19,
+    "name": "s19_role_5_text_40",
+    "type": "text",
+    "x": 9.14,
+    "y": 5.89,
+    "w": 3.25,
+    "h": 0.28,
+    "fontSize": 13,
+    "text": "Delivery state • tests • release evidence"
+  },
+  {
+    "slide": 20,
+    "name": "s20_heading_text_0",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.43,
+    "w": 11.7,
+    "h": 0.19,
+    "fontSize": 10.1,
+    "text": "APPENDIX / SOURCES"
+  },
+  {
+    "slide": 20,
+    "name": "s20_heading_text_1",
+    "type": "text",
+    "x": 0.65,
+    "y": 0.86,
+    "w": 12.03,
+    "h": 0.64,
+    "fontSize": 36,
+    "text": "Project requirements and evidence are linked."
+  },
+  {
+    "slide": 20,
+    "name": "s20_heading_text_2",
+    "type": "text",
+    "x": 0.65,
+    "y": 1.57,
+    "w": 11.85,
+    "h": 0.46,
+    "fontSize": 16.4,
+    "text": "Project-authored synthetic fixtures supply this release’s data."
+  },
+  {
+    "slide": 20,
+    "name": "s20_static_text_3",
+    "type": "text",
+    "x": 0.65,
+    "y": 7.08,
+    "w": 5,
+    "h": 0.16,
+    "fontSize": 9.2,
+    "text": "FLOODLINE  /  CAA PROJECT"
+  },
+  {
+    "slide": 20,
+    "name": "s20_static_text_4",
+    "type": "text",
+    "x": 11.67,
+    "y": 7.08,
+    "w": 1.03,
+    "h": 0.18,
+    "fontSize": 9.2,
+    "text": "20  /  20"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_shape_5",
+    "type": "shape",
+    "x": 0.66,
+    "y": 2.31,
+    "w": 5.82,
+    "h": 4.55
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_icon_6",
+    "type": "icon",
+    "x": 0.94,
+    "y": 2.62,
+    "w": 0.42,
+    "h": 0.42
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_7",
+    "type": "text",
+    "x": 1.6,
+    "y": 2.68,
+    "w": 4.39,
+    "h": 0.3819444444444444,
+    "fontSize": 22,
+    "text": "Project records"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_8",
+    "type": "text",
+    "x": 0.96,
+    "y": 3.47,
+    "w": 4.95,
+    "h": 0.2725694444444444,
+    "fontSize": 15.7,
+    "text": "Assignment"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_9",
+    "type": "text",
+    "x": 0.96,
+    "y": 3.7800000000000002,
+    "w": 5.11,
+    "h": 0.21354166666666666,
+    "fontSize": 12.3,
+    "text": "project description.docx, item 3"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_10",
+    "type": "text",
+    "x": 0.96,
+    "y": 4.07,
+    "w": 4.95,
+    "h": 0.2725694444444444,
+    "fontSize": 15.7,
+    "text": "Implementation plan"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_11",
+    "type": "text",
+    "x": 0.96,
+    "y": 4.38,
+    "w": 5.11,
+    "h": 0.21354166666666666,
+    "fontSize": 12.3,
+    "text": "Smart_City_Flood_Prediction_CAA_Pipeline.md"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_12",
+    "type": "text",
+    "x": 0.96,
+    "y": 4.67,
+    "w": 4.95,
+    "h": 0.2725694444444444,
+    "fontSize": 15.7,
+    "text": "Release and limits"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_13",
+    "type": "text",
+    "x": 0.96,
+    "y": 4.9799999999999995,
+    "w": 5.11,
+    "h": 0.21354166666666666,
+    "fontSize": 12.3,
+    "text": "PROJECT_REPORT.md / MODEL_CARD.md"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_14",
+    "type": "text",
+    "x": 0.96,
+    "y": 5.27,
+    "w": 4.95,
+    "h": 0.2725694444444444,
+    "fontSize": 15.7,
+    "text": "Measured evidence"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_15",
+    "type": "text",
+    "x": 0.96,
+    "y": 5.579999999999999,
+    "w": 5.11,
+    "h": 0.21354166666666666,
+    "fontSize": 12.3,
+    "text": "evaluation.json / acceptance records"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_16",
+    "type": "text",
+    "x": 0.96,
+    "y": 5.87,
+    "w": 4.95,
+    "h": 0.2725694444444444,
+    "fontSize": 15.7,
+    "text": "Data provenance"
+  },
+  {
+    "slide": 20,
+    "name": "s20_project_records_text_17",
+    "type": "text",
+    "x": 0.96,
+    "y": 6.18,
+    "w": 5.11,
+    "h": 0.21354166666666666,
+    "fontSize": 12.3,
+    "text": "SOURCE_REGISTER.md / data/manifest.json"
+  },
+  {
+    "slide": 20,
+    "name": "s20_implementation_links_shape_18",
+    "type": "shape",
+    "x": 6.83,
+    "y": 2.31,
+    "w": 5.82,
+    "h": 2.28
+  },
+  {
+    "slide": 20,
+    "name": "s20_implementation_links_icon_19",
+    "type": "icon",
+    "x": 7.1,
+    "y": 2.62,
+    "w": 0.41,
+    "h": 0.41
+  },
+  {
+    "slide": 20,
+    "name": "s20_implementation_links_text_20",
+    "type": "text",
+    "x": 7.76,
+    "y": 2.68,
+    "w": 4.51,
+    "h": 0.3645833333333333,
+    "fontSize": 21,
+    "text": "Implementation references"
+  },
+  {
+    "slide": 20,
+    "name": "s20_implementation_links_text_21",
+    "type": "text",
+    "x": 7.12,
+    "y": 3.43,
+    "w": 2.28,
+    "h": 0.2986111111111111,
+    "fontSize": 17.2,
+    "text": "FastAPI"
+  },
+  {
+    "slide": 20,
+    "name": "s20_implementation_links_text_22",
+    "type": "text",
+    "x": 9.74,
+    "y": 3.43,
+    "w": 2.28,
+    "h": 0.2986111111111111,
+    "fontSize": 17.2,
+    "text": "Leaflet"
+  },
+  {
+    "slide": 20,
+    "name": "s20_implementation_links_text_23",
+    "type": "text",
+    "x": 7.12,
+    "y": 3.89,
+    "w": 2.28,
+    "h": 0.2986111111111111,
+    "fontSize": 17.2,
+    "text": "scikit-learn"
+  },
+  {
+    "slide": 20,
+    "name": "s20_implementation_links_text_24",
+    "type": "text",
+    "x": 9.74,
+    "y": 3.89,
+    "w": 2.28,
+    "h": 0.2986111111111111,
+    "fontSize": 17.2,
+    "text": "PostGIS"
+  },
+  {
+    "slide": 20,
+    "name": "s20_candidate_sources_shape_25",
+    "type": "shape",
+    "x": 6.83,
+    "y": 4.92,
+    "w": 5.82,
+    "h": 1.94
+  },
+  {
+    "slide": 20,
+    "name": "s20_candidate_sources_icon_26",
+    "type": "icon",
+    "x": 7.1,
+    "y": 5.21,
+    "w": 0.41,
+    "h": 0.41
+  },
+  {
+    "slide": 20,
+    "name": "s20_candidate_sources_text_27",
+    "type": "text",
+    "x": 7.76,
+    "y": 5.25,
+    "w": 4.45,
+    "h": 0.3645833333333333,
+    "fontSize": 21,
+    "text": "Real-pilot candidates"
+  },
+  {
+    "slide": 20,
+    "name": "s20_candidate_sources_text_28",
+    "type": "text",
+    "x": 7.12,
+    "y": 5.84,
+    "w": 5.21,
+    "h": 0.5902777777777778,
+    "fontSize": 17,
+    "text": "IMD • India-WRIS/CWC • NASA IMERG\nOpen-Meteo • municipal records • OSM"
+  },
+  {
+    "slide": 20,
+    "name": "s20_candidate_sources_text_29",
+    "type": "text",
+    "x": 7.12,
+    "y": 6.53,
+    "w": 5.21,
+    "h": 0.22743055555555555,
+    "fontSize": 13.1,
+    "text": "Access and suitability remain unverified."
+  }
+]

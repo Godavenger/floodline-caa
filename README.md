@@ -13,6 +13,15 @@ Source: [Godavenger/floodline-caa](https://github.com/Godavenger/floodline-caa).
 The [completion checklist](docs/REMAINING_TASKS.md) lists the remaining team,
 assessment and real-pilot tasks with owners and completion evidence.
 
+The illustrated [user guide](docs/USER_GUIDE.md) explains every screen, a guided
+practice exercise, the technology used to build the app and its completion
+status. It is also available as a [printable PDF](outputs/Floodline_User_Guide.pdf)
+and an [editable Word document](outputs/Floodline_User_Guide.docx).
+
+The [20-slide presentation](outputs/Floodline_CAA_Presentation.pptx) is also
+available as a [PDF](outputs/Floodline_CAA_Presentation.pdf) and a
+[PowerPoint slideshow](outputs/Floodline_CAA_Slideshow.ppsx).
+
 Use the moon/sun button in the header to switch appearance. The navigation's
 **Appearance** selector offers **System**, **Light** and **Dark**. The default
 follows your device; a manual choice is remembered across reloads and tabs.

@@ -1,0 +1,162 @@
+[
+  {
+    "slide": 1,
+    "title": "Floodline — From rainfall to local decisions",
+    "summary": "Floodline connects environmental context and reviewed community observations to understandable local actions.",
+    "script": "Introduce the project with its full assignment title. Floodline is the project name. Say early that this is a working synthetic pilot: the wards, rainfall, gauges and roads are development fixtures. We will show the data-to-action pipeline, the working interface, recorded checks, and the evidence required for a real pilot. Do not describe the displayed index as a probability.",
+    "sources": "project description.docx, item 3; PRODUCT.md; docs/PROJECT_REPORT.md; docs/PROJECT_STATUS.md.",
+    "duration": "30 seconds"
+  },
+  {
+    "slide": 2,
+    "title": "Limited data has to become a useful local decision.",
+    "summary": "The assignment challenge is turning limited environmental data into timely, understandable information.",
+    "script": "Frame the problem through these three questions. A rainfall value alone cannot establish water on a particular street. A community report alone is not yet a verified road closure. The platform gives environmental evidence and reported conditions their own review paths, then joins them in an understandable map and action workflow. The disciplines are computer science, geography, civil engineering, meteorology and disaster management.",
+    "sources": "project description.docx, item 3; PRODUCT.md; docs/PROJECT_REPORT.md.",
+    "duration": "40 seconds"
+  },
+  {
+    "slide": 3,
+    "title": "One platform. Two evidence streams.",
+    "summary": "Environmental risk context and moderator-verified road hazards are separate action streams.",
+    "script": "Walk left to right as the diagram builds. The environmental stream validates observations and combines recent rain with synthetic static susceptibility. The community stream keeps pending observations private and requires authenticated review before creating a bounded road restriction. Both streams appear in the map with source and validity information. Alerts use consent and a persistent delivery lifecycle. Routes exclude active verified edges; a coarse risk cell does not automatically close roads. Community reports do not automatically become model training labels.",
+    "sources": "docs/ARCHITECTURE.md; docs/API_CONTRACTS.md; docs/MODEL_CARD.md.",
+    "duration": "45 seconds"
+  },
+  {
+    "slide": 4,
+    "title": "The map is the starting point.",
+    "summary": "The application leads with a map and evidence, rather than hiding the data behind a single score.",
+    "script": "Point out the map, the warning summary, the selected area and source-support panel. In the recorded initial state, three of the eight evaluated cells meet the warning rule and one cell is unknown. The geometry is invented, although its display uses WGS84 coordinates. The interface has resident reporting, routing, alerts, data/model details and moderator review. Light, Dark and System appearance are implemented. The screenshot is from the accepted dark-mode workflow and is a backup if the live demonstration is unavailable.",
+    "sources": ".impeccable/review/desktop-dark.png; docs/ACCEPTANCE.md; data/fixtures/pilot.json.",
+    "duration": "35 seconds"
+  },
+  {
+    "slide": 5,
+    "title": "Raw data becomes traceable evidence.",
+    "summary": "Quality checks and receipt time prevent invalid inputs and temporal leakage.",
+    "script": "The initial raw archive has 869 records: 866 accepted, one exact duplicate ignored, and two invalid records quarantined with reasons. SHA-256 manifests freeze the fixture inputs. Units are converted explicitly. Explain the timeline: a reading may have an earlier observation timestamp but arrive after a warning was issued, so it cannot be used in that earlier feature snapshot. Missing intervals remain missing; absence does not become zero rainfall.",
+    "sources": "docs/PROJECT_REPORT.md, Data and GIS; docs/DATA_DICTIONARY.md; data/manifest.json; outputs/evidence/backend-acceptance.json.",
+    "duration": "40 seconds"
+  },
+  {
+    "slide": 6,
+    "title": "GIS connects area context to a directed road graph.",
+    "summary": "GIS keeps map display, distance calculation and road restrictions at the appropriate spatial scales.",
+    "script": "Explain the nine approximately one-kilometre cells and the directed road graph of 21 nodes and 61 edges. Display coordinates are WGS84, but distances and spatial matching are projected to EPSG:32645, UTM zone 45N. The test fixture includes one-way and disconnected routes. A kilometre-scale warning cell cannot determine water depth on a street. Road exclusions require reviewed evidence matched to a particular edge. The colored cells reproduce the recorded initial-state schematic, and all geography remains synthetic.",
+    "sources": "data/fixtures/pilot.json; docs/ARCHITECTURE.md; docs/PROJECT_REPORT.md; backend/floodline/geo.py.",
+    "duration": "40 seconds"
+  },
+  {
+    "slide": 7,
+    "title": "An interpretable rule runs the demo.",
+    "summary": "The active service uses a transparent threshold rule, not the unpromoted logistic model.",
+    "script": "The active version is demo-threshold-v1. Static susceptibility S equals 100 times 0.35 times impervious fraction, plus 0.35 times drainage constraint, plus 0.20 times max(0,1-relative elevation/10), plus 0.10 times max(0,1-distance to water/1500), rounded. R is min(100, rainfall in three hours / 75 times 100). The current index is round(0.35 S + 0.65 R). High begins at 75, Elevated at 55, otherwise Monitor. Missing rainfall, rain older than 90 minutes, or under 75 percent expected interval coverage gives Unknown with a null index. Gauge values are contextual and affect support flags, not this numeric index. All weights and thresholds are demo assumptions. The three-hour validity limit is a record lifetime, not an established forecasting horizon.",
+    "sources": "docs/MODEL_CARD.md, Active rule; backend/floodline/prediction.py.",
+    "duration": "45 seconds"
+  },
+  {
+    "slide": 8,
+    "title": "The evidence is visible beside the map.",
+    "summary": "The interface separates the warning index from the quality and time support of its evidence.",
+    "script": "This native summary reproduces the selected C2 area in the captured dashboard: High, index 81 out of 100, 64.8 millimetres known rainfall in the past three hours, observed at 14:00 IST, and Limited support. The source panel also shows a stale synthetic gauge reading of 5.2 metres with an arbitrary datum. Explain that a large index does not mean an 81 percent flood probability. Unknown cells remain visibly different and appear in the summary denominator. The accessible interface uses words as well as color, a text alternative to map-only information, and keyboard focus.",
+    "sources": ".impeccable/review/desktop-dark.png; docs/MODEL_CARD.md; docs/ACCEPTANCE.md.",
+    "duration": "35 seconds"
+  },
+  {
+    "slide": 9,
+    "title": "Reports earn trust through review.",
+    "summary": "Reports become actionable only after authenticated and documented review.",
+    "script": "A resident supplies observed conditions, a location pin or coordinates, time, optional image, and publication permissions. Pending reports and images belong to the resident session and are private. Uploads are size and content validated, oriented, stripped of EXIF metadata, and re-encoded. A moderator checks time and location, records a reason, matches evidence to an appropriate road segment, and confirms privacy handling before verification. Publication is a separate explicit choice. Verified current restrictions can then affect routes and alerts. An unreviewed report cannot block a road. Do not invent human testing or field verification; these are software workflow demonstrations.",
+    "sources": ".impeccable/review/report-form-dark.png; .impeccable/review/moderation-dark.png; docs/API_CONTRACTS.md; docs/ACCEPTANCE.md.",
+    "duration": "40 seconds"
+  },
+  {
+    "slide": 10,
+    "title": "Reviewed evidence changes the route.",
+    "summary": "The route behavior is demonstrated with different edges, without claiming a shorter or universally safe path.",
+    "script": "Both recorded routes are 4444.9 metres long because the fixture has tied alternatives. Initially the route follows the north approach to Station. After verification, both directions of that approach are excluded along with the already-active hazard. The recalculated route uses different edges. The diagrams are editable renderings of the exact before/after edge IDs in browser-acceptance.json. The service handles one-way rules and unreachable destinations. A route avoids currently verified hazards on the mapped graph; other unreported hazards and original-pin connectors may still exist.",
+    "sources": "outputs/evidence/browser-acceptance.json, route_comparison; data/fixtures/pilot.json; .impeccable/review/route-before-dark.png; .impeccable/review/route-after-dark.png.",
+    "duration": "40 seconds"
+  },
+  {
+    "slide": 11,
+    "title": "Alerts remember consent, retries and expiry.",
+    "summary": "The notification lifecycle is implemented and tested, using a simulated in-app adapter.",
+    "script": "Residents must opt in to a ward. Persistent idempotency prevents duplicate deliveries for the same trigger. A 30-minute cooldown applies to unchanged warning reminders, while severity escalation may bypass it. A simulated failed attempt retries after 30 seconds, then after 60 seconds, with three attempts in total. Withdrawn consent, stale or superseded evidence, resolved hazards and expiry stop queued delivery. These are in-app simulation records; no real email or SMS is sent. The captured interface is the actual delivery-history screen.",
+    "sources": "docs/DEMO_RUNBOOK.md, Replay controls and delivery; docs/ACCEPTANCE.md; .impeccable/review/alerts-active-dark.png.",
+    "duration": "40 seconds"
+  },
+  {
+    "slide": 12,
+    "title": "Synthetic evaluation keeps events separate.",
+    "summary": "The logistic candidate is a separate software experiment with chronological event-level splits.",
+    "script": "There are 18 synthetic storms and 624 usable rows. Twenty-four unknown-label rows are excluded. Ten training events produce 345 rows, four validation events 141 rows, and four final-test events 138 rows. Positive onset times fall after issue time within the three-hour target window. Imputation, missing indicators, scaling and class weighting are fitted on training only. Validation F2 selects a threshold of 0.3, which is frozen before the final test. Storm groups are separated chronologically, and target/look-back overlaps are purged as whole groups if present. This dataset has no real historical validation.",
+    "sources": "outputs/evidence/evaluation.json; outputs/evidence/split-manifest.json; docs/MODEL_CARD.md.",
+    "duration": "40 seconds"
+  },
+  {
+    "slide": 13,
+    "title": "Higher recall brought more false positives.",
+    "summary": "The candidate’s perfect synthetic recall comes with an unacceptable false-positive burden for promotion.",
+    "script": "At the validation-selected 0.3 threshold, the logistic candidate flags all 138 test rows: 98 true positives, 40 false positives, zero true negatives and zero missed positives. Recall is 1.0 and precision 0.7101. The separate 75 mm rainfall-only comparator has 86 true positives, 32 true negatives, eight false positives and 12 misses: recall 0.8776 and precision 0.9149. The rainfall-only comparator is not the composite rule running in the map. These correlated rows are decision opportunities, not distinct delivered messages or independent storms. Four synthetic test storms cannot support stable calibration, metric intervals, city-level accuracy or model promotion. The running application never loads the candidate for decisions.",
+    "sources": "outputs/evidence/evaluation.json; docs/MODEL_CARD.md; docs/PROJECT_REPORT.md, Baseline and separate model experiment.",
+    "duration": "50 seconds"
+  },
+  {
+    "slide": 14,
+    "title": "Unknown data stays visibly unknown.",
+    "summary": "The tested outage path represents missing support honestly and suppresses stale actions.",
+    "script": "The moderator’s Feed outage control advances demo time by 105 minutes without inserting rainfall. All nine cells become Unknown with null current indices, and previous issue times are retained. Stale or expired evidence stops queued alert delivery. Recover feed advances synthetic time by 15 minutes and reconstructs a clearly labelled synthetic history; it does not pretend missing observations from a real outage were recovered. The backend suite also injects a worker inference failure, logs its class, rolls back related writes, and verifies recovery without duplicate decisions.",
+    "sources": ".impeccable/review/feed-outage-dark.png; outputs/evidence/browser-acceptance.json; docs/ACCEPTANCE.md; docs/DEMO_RUNBOOK.md.",
+    "duration": "35 seconds"
+  },
+  {
+    "slide": 15,
+    "title": "The delivery is backed by inspectable checks.",
+    "summary": "Recorded software acceptance covers functional and failure paths, with transparent performance scope.",
+    "script": "Report these as recorded results dated 11 November 2026, not as tests newly executed while creating the slides: 44 backend tests, 14 browser flow checks, seven isolated Windows launcher checks and 62 screenshots across Light and Dark at 1440, 1024, 390 and 320 pixel widths. Browser acceptance records no uncaught JavaScript errors or horizontal overflow. Device/System appearance, persistence and AA text/control contrast are checked. The local p95 is 57.42 milliseconds and median 41.955 milliseconds for 20 dashboard requests from ten concurrent loopback clients using SQLite; upstream latency and city-scale load are outside this measurement. The recorded fresh Ubuntu CI installs dependencies and passes backend, production build and browser checks. Automated checks are not human usability studies.",
+    "sources": "docs/ACCEPTANCE.md; outputs/evidence/backend-acceptance.json; browser-acceptance.json; launcher-acceptance.json; performance.json; github-actions.json.",
+    "duration": "45 seconds"
+  },
+  {
+    "slide": 16,
+    "title": "A focused demo follows six actions.",
+    "summary": "The supplied demo runbook gives a reproducible six-person, ten-minute live workflow.",
+    "script": "If a live demo is included, pause the deck here. Launch start.bat from the project root before presenting; it opens the dashboard when ready, normally at http://127.0.0.1:8000, or the next available port. Use a separate rehearsal runtime to preserve normal data. The runbook’s proposed roles and timings are M1 scope/data 0:00–1:15; M2 GIS/route 1:15–2:30; M3 evaluation 2:30–4:00; M4 submission/privacy 4:00–5:30; M5 verification/reroute/mobile 5:30–7:00; M6 consent/alerts/failure replay 7:00–10:00. Use the displayed demo clock for observations. At Station, verify the north approach only when the submitted pin supports it. The moderator login in the local app is documented in the runbook. If time is short, describe the six actions using the preceding screenshots. The team labels are proposed responsibilities; named contributions are not yet supplied.",
+    "sources": "docs/DEMO_RUNBOOK.md; README.md; docs/TEAM_CONTRIBUTIONS.md.",
+    "duration": "30 seconds, plus optional live demo"
+  },
+  {
+    "slide": 17,
+    "title": "The path to a real pilot is clear.",
+    "summary": "The next steps are evidence collection and validation gates, not unsupported claims of deployment readiness.",
+    "script": "The synthetic implementation closes the local software path. Real pilot selection and source/licence access remain open. Historical forecasting requires credible positive and negative event labels, receipt-time leakage checks, enough event-separated data and a frozen comparison at an acceptable alert burden. The team must complete named contributions, peer review and rehearsal. Field GIS review, five consenting human usability testers and a fluent local-language reviewer have not been recorded. The optional PostgreSQL/PostGIS adapter and container preparation are supplied but untested locally; hosting, real providers and multi-worker operation require separate acceptance.",
+    "sources": "docs/REMAINING_TASKS.md; docs/PROJECT_STATUS.md; docs/MODEL_CARD.md; docs/TEAM_CONTRIBUTIONS.md.",
+    "duration": "40 seconds"
+  },
+  {
+    "slide": 18,
+    "title": "Visible evidence supports useful local decisions.",
+    "summary": "The delivered project’s value is a traceable local workflow, with honest limits.",
+    "script": "Close on three ideas: traceable data, reviewed community evidence and accountable actions. The platform demonstrates the complete local pipeline now, while explicitly leaving real forecasting validity and deployment approval to later evidence. Invite questions. If asked about accuracy, refer to slide 13 and its false-positive burden rather than quoting perfect recall alone. If asked about responsibilities or sources, the next two appendix slides provide backup. The repository link is clickable.",
+    "sources": "docs/PROJECT_REPORT.md; docs/PROJECT_STATUS.md; https://github.com/Godavenger/floodline-caa.",
+    "duration": "25 seconds"
+  },
+  {
+    "slide": 19,
+    "title": "Six responsibility areas connect the stack.",
+    "summary": "The implementation follows the proposed six-person module handoffs without inventing individual contributions.",
+    "script": "These labels come from the supplied pipeline and contribution template. Do not assign real people or claim hours, peer review or human usability results that have not been supplied. The delivered local architecture is Python/FastAPI and SQLite, React/TypeScript/Leaflet, Shapely/PyProj/NetworkX for GIS and scikit-learn for the separate experiment. PostgreSQL/PostGIS preparation exists as an optional path and is untested locally. Each member should be able to explain the entire data-to-action flow and one failure case, in addition to their proposed primary module.",
+    "sources": "docs/TEAM_CONTRIBUTIONS.md; docs/ARCHITECTURE.md; outputs/Smart_City_Flood_Prediction_CAA_Pipeline.md.",
+    "duration": "Backup slide"
+  },
+  {
+    "slide": 20,
+    "title": "Project requirements and evidence are linked.",
+    "summary": "The project evidence and implementation references are distinguishable from future real-data candidates.",
+    "script": "All environmental observations, event labels, wards and road geometry used by this release are project-authored synthetic fixtures. The assignment and pipeline define the scope. The source register records provenance, rights and candidate-source limitations. FastAPI, Leaflet, scikit-learn and PostGIS are implementation references, not evidence of flood-prediction accuracy. IMD, CWC/India-WRIS, NASA IMERG, Open-Meteo, municipalities and OSM are future candidates; their data has not been accessed or ingested in this release. Inspect access, licences, timestamp semantics, resolution and geographic relevance before accepting a real adapter. All displayed reference names on the implementation panel have clickable external links.",
+    "sources": "docs/SOURCE_REGISTER.md; docs/PROJECT_REPORT.md, Reference starting points; THIRD_PARTY.md; data/manifest.json.",
+    "duration": "Backup slide"
+  }
+]

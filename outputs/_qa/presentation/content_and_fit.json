@@ -1,0 +1,70 @@
+{
+  "text_overflow": [
+    {
+      "slide": 2,
+      "name": "s02_question_0_text_8",
+      "text": "Where is it vulnerable?",
+      "font": "Arial",
+      "size": 23.100000381469727,
+      "height": 46.79999923706055,
+      "bound_height": 55.439998626708984,
+      "height_excess": 8.64,
+      "width_excess": -96.43
+    },
+    {
+      "slide": 2,
+      "name": "s02_question_1_text_13",
+      "text": "What has been observed?",
+      "font": "Arial",
+      "size": 23.100000381469727,
+      "height": 46.79999923706055,
+      "bound_height": 55.439998626708984,
+      "height_excess": 8.64,
+      "width_excess": -63.06
+    },
+    {
+      "slide": 2,
+      "name": "s02_question_2_text_18",
+      "text": "Which action is supported?",
+      "font": "Arial",
+      "size": 23.100000381469727,
+      "height": 46.79999923706055,
+      "bound_height": 55.439998626708984,
+      "height_excess": 8.64,
+      "width_excess": -56.81
+    },
+    {
+      "slide": 19,
+      "name": "s19_role_4_text_33",
+      "text": "Resident and moderator UI",
+      "font": "Arial",
+      "size": 19.0,
+      "height": 24.479999542236328,
+      "bound_height": 45.599998474121094,
+      "height_excess": 21.12,
+      "width_excess": -14.07
+    }
+  ],
+  "text_overlaps": [
+    {
+      "slide": 19,
+      "first": "s19_role_4_text_33",
+      "first_text": "Resident and moderator UI",
+      "second": "s19_role_4_text_34",
+      "second_text": "React \u2022 TypeScript \u2022 Leaflet",
+      "overlap_points": [
+        161.55,
+        7.44
+      ]
+    }
+  ],
+  "text_boxes": 339,
+  "off_slide": [],
+  "slide_count": 20,
+  "speaker_note_count": 20,
+  "native_chart_count": 1,
+  "animation_slide_count": 20,
+  "transition_slide_count": 20,
+  "placeholder_matches": [],
+  "pdf_pages": 20
+}

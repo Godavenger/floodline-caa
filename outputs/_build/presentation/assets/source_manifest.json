@@ -1,0 +1,119 @@
+{
+  "dashboard": {
+    "source": ".impeccable\\review\\desktop-dark.png",
+    "crop": [
+      224,
+      48,
+      1434,
+      820
+    ],
+    "size": [
+      1210,
+      772
+    ]
+  },
+  "dashboard_map": {
+    "source": ".impeccable\\review\\desktop-dark.png",
+    "crop": [
+      249,
+      281,
+      1051,
+      809
+    ],
+    "size": [
+      802,
+      528
+    ]
+  },
+  "area_evidence": {
+    "source": ".impeccable\\review\\desktop-dark.png",
+    "crop": [
+      1067,
+      281,
+      1407,
+      809
+    ],
+    "size": [
+      340,
+      528
+    ]
+  },
+  "evidence_focus": {
+    "source": ".impeccable\\review\\desktop-dark.png",
+    "crop": [
+      1084,
+      332,
+      1395,
+      574
+    ],
+    "size": [
+      311,
+      242
+    ]
+  },
+  "report_form": {
+    "source": ".impeccable\\review\\report-form-dark.png",
+    "crop": [
+      248,
+      174,
+      830,
+      884
+    ],
+    "size": [
+      582,
+      710
+    ]
+  },
+  "moderation": {
+    "source": ".impeccable\\review\\moderation-dark.png",
+    "crop": [
+      249,
+      164,
+      1406,
+      944
+    ],
+    "size": [
+      1157,
+      780
+    ]
+  },
+  "alerts": {
+    "source": ".impeccable\\review\\alerts-active-dark.png",
+    "crop": [
+      248,
+      182,
+      1407,
+      1020
+    ],
+    "size": [
+      1159,
+      838
+    ]
+  },
+  "outage_map": {
+    "source": ".impeccable\\review\\feed-outage-dark.png",
+    "crop": [
+      249,
+      281,
+      1051,
+      809
+    ],
+    "size": [
+      802,
+      528
+    ]
+  },
+  "phone": {
+    "source": ".impeccable\\review\\mobile-dark.png",
+    "crop": [
+      0,
+      0,
+      390,
+      938
+    ],
+    "size": [
+      390,
+      938
+    ]
+  }
+}

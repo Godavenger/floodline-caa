@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "built_at": "2026-11-12T12:29:20.264245+00:00",
+  "pages": 22,
+  "sections": 20,
+  "links": 40,
+  "missing_sections": [],
+  "characters_per_page": [
+    678,
+    1042,
+    1843,
+    1987,
+    1562,
+    1420,
+    2060,
+    1563,
+    1738,
+    1642,
+    1637,
+    1717,
+    1812,
+    2006,
+    2201,
+    1864,
+    1992,
+    2536,
+    2305,
+    2361,
+    2878,
+    2478
+  ],
+  "pdf_engine": "Microsoft Word",
+  "files": [
+    {
+      "file": "outputs\\Floodline_User_Guide.pdf",
+      "bytes": 1125173,
+      "sha256": "4e2a0a3922efc4e621e5bfd7e1437643990c898b295252fb1aade8fba511de81"
+    },
+    {
+      "file": "outputs\\Floodline_User_Guide.docx",
+      "bytes": 1108212,
+      "sha256": "f08977b61982453ca75287e02ca2b5bd48eeb0194d19a872690e9ef999ae2a7c"
+    },
+    {
+      "file": "docs\\USER_GUIDE.md",
+      "bytes": 42641,
+      "sha256": "908323728c521b1f30534c36f4313adddcf6f980dadaeb21710ee29e380f759c"
+    }
+  ]
+}

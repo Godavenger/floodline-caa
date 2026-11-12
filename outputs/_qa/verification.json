@@ -1,0 +1,134 @@
+{
+  "pdf": "C:\\Users\\Sharanya\\Documents\\Snigdha CAA assignment\\outputs\\Smart_City_Flood_Prediction_CAA_Pipeline.pdf",
+  "pages": 18,
+  "size_bytes": 126887,
+  "total_words": 6542,
+  "checks": [
+    {
+      "page": 1,
+      "expected_title": "Smart City",
+      "title_present": true,
+      "word_count": 147,
+      "link_count": 0
+    },
+    {
+      "page": 2,
+      "expected_title": "Project brief and scope",
+      "title_present": true,
+      "word_count": 357,
+      "link_count": 0
+    },
+    {
+      "page": 3,
+      "expected_title": "End-to-end implementation pipeline",
+      "title_present": true,
+      "word_count": 321,
+      "link_count": 0
+    },
+    {
+      "page": 4,
+      "expected_title": "Work allocation for six people",
+      "title_present": true,
+      "word_count": 423,
+      "link_count": 0
+    },
+    {
+      "page": 5,
+      "expected_title": "Work packages and integration contracts",
+      "title_present": true,
+      "word_count": 373,
+      "link_count": 0
+    },
+    {
+      "page": 6,
+      "expected_title": "Data sourcing and collection",
+      "title_present": true,
+      "word_count": 392,
+      "link_count": 0
+    },
+    {
+      "page": 7,
+      "expected_title": "Cleaning, GIS and feature engineering",
+      "title_present": true,
+      "word_count": 414,
+      "link_count": 0
+    },
+    {
+      "page": 8,
+      "expected_title": "Prediction target and modelling plan",
+      "title_present": true,
+      "word_count": 378,
+      "link_count": 0
+    },
+    {
+      "page": 9,
+      "expected_title": "Historical validation and uncertainty",
+      "title_present": true,
+      "word_count": 406,
+      "link_count": 0
+    },
+    {
+      "page": 10,
+      "expected_title": "Architecture, database and APIs",
+      "title_present": true,
+      "word_count": 370,
+      "link_count": 0
+    },
+    {
+      "page": 11,
+      "expected_title": "Community reports and moderation",
+      "title_present": true,
+      "word_count": 373,
+      "link_count": 0
+    },
+    {
+      "page": 12,
+      "expected_title": "Alert decisions and communication",
+      "title_present": true,
+      "word_count": 395,
+      "link_count": 0
+    },
+    {
+      "page": 13,
+      "expected_title": "GIS dashboard and route suggestions",
+      "title_present": true,
+      "word_count": 391,
+      "link_count": 0
+    },
+    {
+      "page": 14,
+      "expected_title": "Eight-week execution plan",
+      "title_present": true,
+      "word_count": 400,
+      "link_count": 0
+    },
+    {
+      "page": 15,
+      "expected_title": "Testing and acceptance checklist",
+      "title_present": true,
+      "word_count": 368,
+      "link_count": 0
+    },
+    {
+      "page": 16,
+      "expected_title": "Deployment, budget and project risks",
+      "title_present": true,
+      "word_count": 349,
+      "link_count": 0
+    },
+    {
+      "page": 17,
+      "expected_title": "Demonstration and submission package",
+      "title_present": true,
+      "word_count": 355,
+      "link_count": 0
+    },
+    {
+      "page": 18,
+      "expected_title": "References and first-week checklist",
+      "title_present": true,
+      "word_count": 330,
+      "link_count": 14
+    }
+  ]
+}

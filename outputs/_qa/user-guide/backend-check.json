@@ -1,0 +1,10 @@
+{
+  "checked_on": "2026-11-12",
+  "command": ".venv/Scripts/python.exe -m unittest discover -s backend/tests -v",
+  "tests": 44,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "elapsed_seconds": 19.1,
+  "scope": "Fresh backend acceptance run for the current source; independent of the illustrated browser walkthrough."
+}

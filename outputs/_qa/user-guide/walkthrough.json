@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "captured_at": "2026-11-12T12:18:02.311933+00:00",
+  "version": "0.1.1",
+  "mode": "synthetic",
+  "checks": [
+    {
+      "name": "Fresh map and synthetic starting state",
+      "passed": true,
+      "detail": {
+        "cells": 9,
+        "warnings": 3,
+        "unknown": 1,
+        "active_hazards": 1
+      }
+    },
+    {
+      "name": "Area selection and rule/source details",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Appearance selector and mobile navigation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Library to Station route",
+      "passed": true,
+      "detail": {
+        "status": "available",
+        "distance_m": 4444.9
+      }
+    },
+    {
+      "name": "Resident report is pending and creates no road restriction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Pending report description correction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Explicit ward consent and simulated in-app alert history",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Data sources and unpromoted model evaluation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Authenticated report verification and matched road exclusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recalculated route excludes the new restriction",
+      "passed": true,
+      "detail": {
+        "distance_before_m": 4444.9,
+        "distance_after_m": 4444.9
+      }
+    },
+    {
+      "name": "Disconnected destination shows Route unavailable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Outage shows all nine cells unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Explicit synthetic feed recovery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Moderator sign-out preserves resident report ownership",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "captures": [
+    {
+      "name": "01-flood-map",
+      "file": "docs\\user-guide\\images\\01-flood-map.png",
+      "sha256": "39b89c0916cb3db78e6aa8c8a5982f142f8b6f6b51b1ac507ebfa02978e2a275",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "02-area-evidence",
+      "file": "docs\\user-guide\\images\\02-area-evidence.png",
+      "sha256": "82a351677e7fc38fb202484572be722adfa25492b42397fa4060a509a412b976",
+      "size": [
+        340,
+        693
+      ]
+    },
+    {
+      "name": "03-dark-map",
+      "file": "docs\\user-guide\\images\\03-dark-map.png",
+      "sha256": "32af987d7c763cd894e4c51f9b8f0b961329d08846392569db556baffe80a259",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "04-mobile-navigation",
+      "file": "docs\\user-guide\\images\\04-mobile-navigation.png",
+      "sha256": "b49460ae6ca48366e940f0057bfd702cfef24aec53145416fb357019652d1513",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "05-mobile-map",
+      "file": "docs\\user-guide\\images\\05-mobile-map.png",
+      "sha256": "e3aa8a85f6351e9ef2aed2d70e2a7b41a4ef7fdd499e416bb52c20c5473b7cf5",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "06-route-found",
+      "file": "docs\\user-guide\\images\\06-route-found.png",
+      "sha256": "e207b63c1d8dfee3891877b6a2205481ef2eab68822f14ad139464eaa7f053aa",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "07-report-form",
+      "file": "docs\\user-guide\\images\\07-report-form.png",
+      "sha256": "5d57ef749d76d1b030007773178a9bbfef8bd847472742e8806820580fb76ee1",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "08-pending-report",
+      "file": "docs\\user-guide\\images\\08-pending-report.png",
+      "sha256": "4ddfd200d1b162fcb2afa655a1148b1c2199759aba0eadbd203bf60d2ec93ff9",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "09-alerts",
+      "file": "docs\\user-guide\\images\\09-alerts.png",
+      "sha256": "15f8a1f8256d23b39348db4318a246afa24e0c02e12cbf4651164fe90f73b843",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "10-data-model",
+      "file": "docs\\user-guide\\images\\10-data-model.png",
+      "sha256": "4bffe58ebbd5101d1181eeb2c6600b34789add1b692b70963f53209873bc9424",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "11-moderator-sign-in",
+      "file": "docs\\user-guide\\images\\11-moderator-sign-in.png",
+      "sha256": "6fb852c4bafc28a3423909b8e5b430193ebc0072f2fc7034b84289d37d9e225a",
+      "size": [
+        420,
+        410
+      ]
+    },
+    {
+      "name": "12-evidence-review",
+      "file": "docs\\user-guide\\images\\12-evidence-review.png",
+      "sha256": "b8d3cbf24589596865f4726af8b23d3e2295079715d4832e9242652c70ad6e5c",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "13-replay-health",
+      "file": "docs\\user-guide\\images\\13-replay-health.png",
+      "sha256": "0f729fd0006daf2d701a18d329974ab839b1730a9726a5949a8c54eec8e2c08c",
+      "size": [
+        1158,
+        175
+      ]
+    },
+    {
+      "name": "14-route-after-review",
+      "file": "docs\\user-guide\\images\\14-route-after-review.png",
+      "sha256": "182eebf7789c26cd24d7e0f2239f514e2422359dadeaaf62fa514b5e2319ced9",
+      "size": [
+        1440,
+        960
+      ]
+    },
+    {
+      "name": "15-route-unavailable",
+      "file": "docs\\user-guide\\images\\15-route-unavailable.png",
+      "sha256": "06ec3b84918c425d4d71a47a256ed68f37b986944ebe9465ae93b790632256e9",
+      "size": [
+        320,
+        561
+      ]
+    },
+    {
+      "name": "16-feed-outage",
+      "file": "docs\\user-guide\\images\\16-feed-outage.png",
+      "sha256": "b8bbe8172a59986ec6357b3a9c53a01163ee64e85a9ec2dacb333a152622fce6",
+      "size": [
+        1440,
+        960
+      ]
+    }
+  ],
+  "javascript_errors": [],
+  "scope": "Illustrated guide walkthrough in a new SQLite runtime using headless Edge. Separate from the recorded full browser acceptance and from human usability testing.",
+  "evaluation_summary": {
+    "status": "software_experiment_complete",
+    "mode": "synthetic",
+    "independent_events": 18,
+    "usable_rows": 624,
+    "historical_accuracy_established": false,
+    "candidate_promoted": false
+  }
+}

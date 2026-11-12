@@ -1,0 +1,1481 @@
+{
+  "text_overflow": [
+    {
+      "slide": 1,
+      "name": "s01_cover_wordmark_text_5",
+      "text": "FLOODLINE",
+      "font": "Arial",
+      "size": 49.0,
+      "height": 51.84000015258789,
+      "bound_height": 58.79999923706055,
+      "height_excess": 6.96,
+      "width_excess": -166.1
+    },
+    {
+      "slide": 1,
+      "name": "s01_cover_context_text_74",
+      "text": "9 analysis cells",
+      "font": "Arial",
+      "size": 18.5,
+      "height": 20.15999984741211,
+      "bound_height": 22.200000762939453,
+      "height_excess": 2.04,
+      "width_excess": -4.62
+    },
+    {
+      "slide": 2,
+      "name": "s02_question_0_text_6",
+      "text": "01",
+      "font": "Arial",
+      "size": 56.0,
+      "height": 57.599998474121094,
+      "bound_height": 67.19999694824219,
+      "height_excess": 9.6,
+      "width_excess": -1.65
+    },
+    {
+      "slide": 2,
+      "name": "s02_question_0_text_8",
+      "text": "Where is it vulnerable?",
+      "font": "Arial",
+      "size": 23.100000381469727,
+      "height": 46.79999923706055,
+      "bound_height": 55.439998626708984,
+      "height_excess": 8.64,
+      "width_excess": -96.43
+    },
+    {
+      "slide": 2,
+      "name": "s02_question_1_text_11",
+      "text": "02",
+      "font": "Arial",
+      "size": 56.0,
+      "height": 57.599998474121094,
+      "bound_height": 67.19999694824219,
+      "height_excess": 9.6,
+      "width_excess": -1.65
+    },
+    {
+      "slide": 2,
+      "name": "s02_question_1_text_13",
+      "text": "What has been observed?",
+      "font": "Arial",
+      "size": 23.100000381469727,
+      "height": 46.79999923706055,
+      "bound_height": 55.439998626708984,
+      "height_excess": 8.64,
+      "width_excess": -63.06
+    },
+    {
+      "slide": 2,
+      "name": "s02_question_2_text_16",
+      "text": "03",
+      "font": "Arial",
+      "size": 56.0,
+      "height": 57.599998474121094,
+      "bound_height": 67.19999694824219,
+      "height_excess": 9.6,
+      "width_excess": -1.65
+    },
+    {
+      "slide": 2,
+      "name": "s02_question_2_text_18",
+      "text": "Which action is supported?",
+      "font": "Arial",
+      "size": 23.100000381469727,
+      "height": 46.79999923706055,
+      "bound_height": 55.439998626708984,
+      "height_excess": 8.64,
+      "width_excess": -56.81
+    },
+    {
+      "slide": 3,
+      "name": "s03_environmental_text_7",
+      "text": "Environmental evidence",
+      "font": "Arial",
+      "size": 20.0,
+      "height": 23.040000915527344,
+      "bound_height": 24.0,
+      "height_excess": 0.96,
+      "width_excess": 5.1
+    },
+    {
+      "slide": 3,
+      "name": "s03_environmental_text_8",
+      "text": "Rainfall + geographic features\r\u2192 interpretable warning rule",
+      "font": "",
+      "size": 17.200000762939453,
+      "height": 35.279998779296875,
+      "bound_height": 41.279998779296875,
+      "height_excess": 6.0,
+      "width_excess": -41.13
+    },
+    {
+      "slide": 3,
+      "name": "s03_community_text_11",
+      "text": "Community observations",
+      "font": "Arial",
+      "size": 20.0,
+      "height": 23.040000915527344,
+      "bound_height": 48.0,
+      "height_excess": 24.96,
+      "width_excess": -100.4
+    },
+    {
+      "slide": 3,
+      "name": "s03_community_text_12",
+      "text": "Private report + moderator review\r\u2192 current road-edge hazard",
+      "font": "",
+      "size": 17.200000762939453,
+      "height": 35.279998779296875,
+      "bound_height": 41.279998779296875,
+      "height_excess": 6.0,
+      "width_excess": -16.67
+    },
+    {
+      "slide": 3,
+      "name": "s03_map_output_text_17",
+      "text": "Shared map",
+      "font": "Arial",
+      "size": 23.0,
+      "height": 25.920000076293945,
+      "bound_height": 27.600000381469727,
+      "height_excess": 1.68,
+      "width_excess": -10.45
+    },
+    {
+      "slide": 3,
+      "name": "s03_actions_text_26",
+      "text": "Route suggestions",
+      "font": "Arial",
+      "size": 19.299999237060547,
+      "height": 25.200000762939453,
+      "bound_height": 46.31999969482422,
+      "height_excess": 21.12,
+      "width_excess": -9.28
+    },
+    {
+      "slide": 4,
+      "name": "s04_dashboard_stats_text_7",
+      "text": "3",
+      "font": "Arial",
+      "size": 49.0,
+      "height": 54.720001220703125,
+      "bound_height": 58.79999923706055,
+      "height_excess": 4.08,
+      "width_excess": -158.22
+    },
+    {
+      "slide": 4,
+      "name": "s04_dashboard_stats_text_9",
+      "text": "9",
+      "font": "Arial",
+      "size": 49.0,
+      "height": 54.720001220703125,
+      "bound_height": 58.79999923706055,
+      "height_excess": 4.08,
+      "width_excess": -158.22
+    },
+    {
+      "slide": 4,
+      "name": "s04_dashboard_stats_text_11",
+      "text": "61",
+      "font": "Arial",
+      "size": 49.0,
+      "height": 54.720001220703125,
+      "bound_height": 58.79999923706055,
+      "height_excess": 4.08,
+      "width_excess": -132.07
+    },
+    {
+      "slide": 5,
+      "name": "s05_ingestion_totals_text_7",
+      "text": "869 raw records",
+      "font": "Arial",
+      "size": 23.0,
+      "height": 25.200000762939453,
+      "bound_height": 27.600000381469727,
+      "height_excess": 2.4,
+      "width_excess": -29.71
+    },
+    {
+      "slide": 5,
+      "name": "s05_ingestion_totals_text_8",
+      "text": "866",
+      "font": "Arial",
+      "size": 49.0,
+      "height": 54.720001220703125,
+      "bound_height": 58.79999923706055,
+      "height_excess": 4.08,
+      "width_excess": -159.2
+    },
+    {
+      "slide": 5,
+      "name": "s05_receipt_timeline_text_23",
+      "text": "What was available at issue time?",
+      "font": "Arial",
+      "size": 20.0,
+      "height": 21.600000381469727,
+      "bound_height": 24.0,
+      "height_excess": 2.4,
+      "width_excess": -156.27
+    },
+    {
+      "slide": 5,
+      "name": "s05_receipt_timeline_text_31",
+      "text": "This late record is excluded from the earlier snapshot.",
+      "font": "Arial",
+      "size": 17.600000381469727,
+      "height": 19.440000534057617,
+      "bound_height": 21.1200008392334,
+      "height_excess": 1.68,
+      "width_excess": -74.8
+    },
+    {
+      "slide": 6,
+      "name": "s06_gis_facts_text_95",
+      "text": "21 nodes / 61 directed edges",
+      "font": "Arial",
+      "size": 19.299999237060547,
+      "height": 25.200000762939453,
+      "bound_height": 46.31999969482422,
+      "height_excess": 21.12,
+      "width_excess": -52.2
+    },
+    {
+      "slide": 6,
+      "name": "s06_gis_facts_text_96",
+      "text": "One-way and disconnected cases included",
+      "font": "Arial",
+      "size": 16.299999237060547,
+      "height": 26.639999389648438,
+      "bound_height": 39.119998931884766,
+      "height_excess": 12.48,
+      "width_excess": -47.01
+    },
+    {
+      "slide": 6,
+      "name": "s06_gis_facts_text_97",
+      "text": "WGS84 for display\rUTM 45N for distances",
+      "font": "",
+      "size": 20.0,
+      "height": 46.08000183105469,
+      "bound_height": 48.0,
+      "height_excess": 1.92,
+      "width_excess": -76.36
+    },
+    {
+      "slide": 6,
+      "name": "s06_gis_facts_text_98",
+      "text": "Area susceptibility and road-water depth require different evidence.",
+      "font": "Arial",
+      "size": 13.100000381469727,
+      "height": 27.360000610351562,
+      "bound_height": 31.440000534057617,
+      "height_excess": 4.08,
+      "width_excess": -16.01
+    },
+    {
+      "slide": 7,
+      "name": "s07_active_equation_text_6",
+      "text": "INDEX",
+      "font": "Arial",
+      "size": 21.0,
+      "height": 23.760000228881836,
+      "bound_height": 25.200000762939453,
+      "height_excess": 1.44,
+      "width_excess": -37.28
+    },
+    {
+      "slide": 7,
+      "name": "s07_active_equation_text_8",
+      "text": "0.35 S",
+      "font": "Arial",
+      "size": 45.0,
+      "height": 50.400001525878906,
+      "bound_height": 54.0,
+      "height_excess": 3.6,
+      "width_excess": -87.9
+    },
+    {
+      "slide": 7,
+      "name": "s07_active_equation_text_10",
+      "text": "0.65 R",
+      "font": "Arial",
+      "size": 45.0,
+      "height": 50.400001525878906,
+      "bound_height": 54.0,
+      "height_excess": 3.6,
+      "width_excess": -134.36
+    },
+    {
+      "slide": 7,
+      "name": "s07_active_equation_text_11",
+      "text": "Rounded relative warning index",
+      "font": "Arial",
+      "size": 11.699999809265137,
+      "height": 12.960000038146973,
+      "bound_height": 14.039999961853027,
+      "height_excess": 1.08,
+      "width_excess": -428.91
+    },
+    {
+      "slide": 8,
+      "name": "s08_native_evidence_text_11",
+      "text": "81",
+      "font": "Arial",
+      "size": 64.0,
+      "height": 69.83999633789062,
+      "bound_height": 76.80000305175781,
+      "height_excess": 6.96,
+      "width_excess": -65.48
+    },
+    {
+      "slide": 8,
+      "name": "s08_native_evidence_text_12",
+      "text": "/ 100",
+      "font": "Arial",
+      "size": 20.0,
+      "height": 21.600000381469727,
+      "bound_height": 24.0,
+      "height_excess": 2.4,
+      "width_excess": -54.52
+    },
+    {
+      "slide": 8,
+      "name": "s08_native_evidence_text_13",
+      "text": "64.8 mm rain / past 3 hours",
+      "font": "Arial",
+      "size": 17.200000762939453,
+      "height": 19.440000534057617,
+      "bound_height": 20.639999389648438,
+      "height_excess": 1.2,
+      "width_excess": -43.25
+    },
+    {
+      "slide": 9,
+      "name": "s09_resident_report_text_9",
+      "text": "Image + location\r+ observed time",
+      "font": "",
+      "size": 14.399999618530273,
+      "height": 61.20000076293945,
+      "bound_height": 86.4000015258789,
+      "height_excess": 25.2,
+      "width_excess": -5.56
+    },
+    {
+      "slide": 9,
+      "name": "s09_resident_report_text_10",
+      "text": "Pending reports and images remain private.",
+      "font": "Arial",
+      "size": 15.5,
+      "height": 26.639999389648438,
+      "bound_height": 37.20000076293945,
+      "height_excess": 10.56,
+      "width_excess": -5.97
+    },
+    {
+      "slide": 10,
+      "name": "s10_route_conclusion_text_120",
+      "text": "Different edges. Same 4.445 km.",
+      "font": "Arial",
+      "size": 23.299999237060547,
+      "height": 26.639999389648438,
+      "bound_height": 27.959999084472656,
+      "height_excess": 1.32,
+      "width_excess": -126.82
+    },
+    {
+      "slide": 10,
+      "name": "s10_route_conclusion_text_121",
+      "text": "The synthetic graph contains tied paths.\rOnly current, verified edge hazards are excluded.",
+      "font": "",
+      "size": 14.199999809265137,
+      "height": 33.119998931884766,
+      "bound_height": 34.08000183105469,
+      "height_excess": 0.96,
+      "width_excess": 1.9
+    },
+    {
+      "slide": 11,
+      "name": "s11_alert_step_0_text_8",
+      "text": "Opt in to a ward",
+      "font": "Arial",
+      "size": 19.100000381469727,
+      "height": 20.8799991607666,
+      "bound_height": 22.920000076293945,
+      "height_excess": 2.04,
+      "width_excess": -191.43
+    },
+    {
+      "slide": 11,
+      "name": "s11_alert_step_1_text_11",
+      "text": "Deduplicate the trigger",
+      "font": "Arial",
+      "size": 19.100000381469727,
+      "height": 20.8799991607666,
+      "bound_height": 22.920000076293945,
+      "height_excess": 2.04,
+      "width_excess": -127.93
+    },
+    {
+      "slide": 11,
+      "name": "s11_alert_step_1_text_12",
+      "text": "Unchanged reminders use a 30-minute cooldown.",
+      "font": "Arial",
+      "size": 15.600000381469727,
+      "height": 30.239999771118164,
+      "bound_height": 37.439998626708984,
+      "height_excess": 7.2,
+      "width_excess": -65.74
+    },
+    {
+      "slide": 11,
+      "name": "s11_alert_step_2_text_14",
+      "text": "Bound delivery attempts",
+      "font": "Arial",
+      "size": 19.100000381469727,
+      "height": 20.8799991607666,
+      "bound_height": 22.920000076293945,
+      "height_excess": 2.04,
+      "width_excess": -112.93
+    },
+    {
+      "slide": 11,
+      "name": "s11_alert_step_2_text_15",
+      "text": "Retries after 30 and 60 seconds; 3 attempts maximum.",
+      "font": "Arial",
+      "size": 15.600000381469727,
+      "height": 30.239999771118164,
+      "bound_height": 37.439998626708984,
+      "height_excess": 7.2,
+      "width_excess": -32.62
+    },
+    {
+      "slide": 11,
+      "name": "s11_alert_step_3_text_17",
+      "text": "Cancel stale actions",
+      "font": "Arial",
+      "size": 19.100000381469727,
+      "height": 20.8799991607666,
+      "bound_height": 22.920000076293945,
+      "height_excess": 2.04,
+      "width_excess": -152.06
+    },
+    {
+      "slide": 11,
+      "name": "s11_alert_step_3_text_18",
+      "text": "Withdrawal, expiry and resolved hazards stop delivery.",
+      "font": "Arial",
+      "size": 15.600000381469727,
+      "height": 30.239999771118164,
+      "bound_height": 37.439998626708984,
+      "height_excess": 7.2,
+      "width_excess": -20.62
+    },
+    {
+      "slide": 12,
+      "name": "s12_split_0_text_7",
+      "text": "10",
+      "font": "Arial",
+      "size": 71.0,
+      "height": 73.44000244140625,
+      "bound_height": 85.19999694824219,
+      "height_excess": 11.76,
+      "width_excess": -323.57
+    },
+    {
+      "slide": 12,
+      "name": "s12_split_1_text_12",
+      "text": "4",
+      "font": "Arial",
+      "size": 71.0,
+      "height": 73.44000244140625,
+      "bound_height": 85.19999694824219,
+      "height_excess": 11.76,
+      "width_excess": -90.35
+    },
+    {
+      "slide": 12,
+      "name": "s12_split_2_text_17",
+      "text": "4",
+      "font": "Arial",
+      "size": 71.0,
+      "height": 73.44000244140625,
+      "bound_height": 85.19999694824219,
+      "height_excess": 11.76,
+      "width_excess": -90.35
+    },
+    {
+      "slide": 12,
+      "name": "s12_split_2_text_19",
+      "text": "Freeze final comparison",
+      "font": "Arial",
+      "size": 14.5,
+      "height": 19.440000534057617,
+      "bound_height": 34.79999923706055,
+      "height_excess": 15.36,
+      "width_excess": -56.9
+    },
+    {
+      "slide": 13,
+      "name": "s13_error_table_text_12",
+      "text": "40",
+      "font": "Arial",
+      "size": 42.0,
+      "height": 48.959999084472656,
+      "bound_height": 50.400001525878906,
+      "height_excess": 1.44,
+      "width_excess": -17.94
+    },
+    {
+      "slide": 13,
+      "name": "s13_error_table_text_13",
+      "text": "8",
+      "font": "Arial",
+      "size": 42.0,
+      "height": 48.959999084472656,
+      "bound_height": 50.400001525878906,
+      "height_excess": 1.44,
+      "width_excess": -31.24
+    },
+    {
+      "slide": 13,
+      "name": "s13_error_table_text_15",
+      "text": "0",
+      "font": "Arial",
+      "size": 42.0,
+      "height": 48.959999084472656,
+      "bound_height": 50.400001525878906,
+      "height_excess": 1.44,
+      "width_excess": -41.32
+    },
+    {
+      "slide": 13,
+      "name": "s13_error_table_text_16",
+      "text": "12",
+      "font": "Arial",
+      "size": 42.0,
+      "height": 48.959999084472656,
+      "bound_height": 50.400001525878906,
+      "height_excess": 1.44,
+      "width_excess": -20.1
+    },
+    {
+      "slide": 14,
+      "name": "s14_outage_explanation_text_5",
+      "text": "9 / 9",
+      "font": "Arial",
+      "size": 49.0,
+      "height": 54.720001220703125,
+      "bound_height": 58.79999923706055,
+      "height_excess": 4.08,
+      "width_excess": -180.9
+    },
+    {
+      "slide": 15,
+      "name": "s15_check_0_text_7",
+      "text": "44",
+      "font": "Arial",
+      "size": 61.0,
+      "height": 66.23999786376953,
+      "bound_height": 73.19999694824219,
+      "height_excess": 6.96,
+      "width_excess": -43.21
+    },
+    {
+      "slide": 15,
+      "name": "s15_check_1_text_11",
+      "text": "14",
+      "font": "Arial",
+      "size": 61.0,
+      "height": 66.23999786376953,
+      "bound_height": 73.19999694824219,
+      "height_excess": 6.96,
+      "width_excess": -43.21
+    },
+    {
+      "slide": 15,
+      "name": "s15_check_2_text_15",
+      "text": "7",
+      "font": "Arial",
+      "size": 61.0,
+      "height": 66.23999786376953,
+      "bound_height": 73.19999694824219,
+      "height_excess": 6.96,
+      "width_excess": -75.38
+    },
+    {
+      "slide": 15,
+      "name": "s15_check_2_text_16",
+      "text": "Windows launcher checks",
+      "font": "Arial",
+      "size": 15.800000190734863,
+      "height": 23.040000915527344,
+      "bound_height": 37.91999816894531,
+      "height_excess": 14.88,
+      "width_excess": -34.04
+    },
+    {
+      "slide": 15,
+      "name": "s15_check_3_text_19",
+      "text": "62",
+      "font": "Arial",
+      "size": 61.0,
+      "height": 66.23999786376953,
+      "bound_height": 73.19999694824219,
+      "height_excess": 6.96,
+      "width_excess": -43.21
+    },
+    {
+      "slide": 15,
+      "name": "s15_acceptance_context_text_23",
+      "text": "Light + Dark / phone to desktop",
+      "font": "Arial",
+      "size": 20.100000381469727,
+      "height": 23.040000915527344,
+      "bound_height": 24.1200008392334,
+      "height_excess": 1.08,
+      "width_excess": -25.42
+    },
+    {
+      "slide": 15,
+      "name": "s15_acceptance_context_text_24",
+      "text": "320\u20131440 px captures, keyboard flows, consent,\rmoderation, routes, outage and recovery.",
+      "font": "",
+      "size": 16.5,
+      "height": 38.15999984741211,
+      "bound_height": 39.599998474121094,
+      "height_excess": 1.44,
+      "width_excess": -19.4
+    },
+    {
+      "slide": 15,
+      "name": "s15_acceptance_context_text_27",
+      "text": "Local dashboard p95: 57.42 ms",
+      "font": "Arial",
+      "size": 20.100000381469727,
+      "height": 23.040000915527344,
+      "bound_height": 24.1200008392334,
+      "height_excess": 1.08,
+      "width_excess": -26.38
+    },
+    {
+      "slide": 15,
+      "name": "s15_acceptance_context_text_28",
+      "text": "10 clients / 20 loopback requests / SQLite.\rFresh Linux CI also passes the automated workflow.",
+      "font": "",
+      "size": 16.5,
+      "height": 38.15999984741211,
+      "bound_height": 59.400001525878906,
+      "height_excess": 21.24,
+      "width_excess": -64.75
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_0_text_6",
+      "text": "01",
+      "font": "Arial",
+      "size": 25.399999618530273,
+      "height": 27.360000610351562,
+      "bound_height": 30.479999542236328,
+      "height_excess": 3.12,
+      "width_excess": -15.15
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_0_text_9",
+      "text": "Select an area and\rcheck its evidence.",
+      "font": "",
+      "size": 16.700000762939453,
+      "height": 38.880001068115234,
+      "bound_height": 40.08000183105469,
+      "height_excess": 1.2,
+      "width_excess": -87.65
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_1_text_11",
+      "text": "02",
+      "font": "Arial",
+      "size": 25.399999618530273,
+      "height": 27.360000610351562,
+      "bound_height": 30.479999542236328,
+      "height_excess": 3.12,
+      "width_excess": -15.15
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_1_text_14",
+      "text": "Submit time, location\rand an observation.",
+      "font": "",
+      "size": 16.700000762939453,
+      "height": 38.880001068115234,
+      "bound_height": 40.08000183105469,
+      "height_excess": 1.2,
+      "width_excess": -73.9
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_2_text_16",
+      "text": "03",
+      "font": "Arial",
+      "size": 25.399999618530273,
+      "height": 27.360000610351562,
+      "bound_height": 30.479999542236328,
+      "height_excess": 3.12,
+      "width_excess": -15.15
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_2_text_19",
+      "text": "Review evidence and\rmatch a road segment.",
+      "font": "",
+      "size": 16.700000762939453,
+      "height": 38.880001068115234,
+      "bound_height": 40.08000183105469,
+      "height_excess": 1.2,
+      "width_excess": -58.4
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_3_text_21",
+      "text": "04",
+      "font": "Arial",
+      "size": 25.399999618530273,
+      "height": 27.360000610351562,
+      "bound_height": 30.479999542236328,
+      "height_excess": 3.12,
+      "width_excess": -15.15
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_3_text_24",
+      "text": "Compare changed edges\rafter verification.",
+      "font": "",
+      "size": 16.700000762939453,
+      "height": 38.880001068115234,
+      "bound_height": 40.08000183105469,
+      "height_excess": 1.2,
+      "width_excess": -41.78
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_4_text_26",
+      "text": "05",
+      "font": "Arial",
+      "size": 25.399999618530273,
+      "height": 27.360000610351562,
+      "bound_height": 30.479999542236328,
+      "height_excess": 3.12,
+      "width_excess": -15.15
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_4_text_29",
+      "text": "Opt in to a ward and\rinspect delivery history.",
+      "font": "",
+      "size": 16.700000762939453,
+      "height": 38.880001068115234,
+      "bound_height": 40.08000183105469,
+      "height_excess": 1.2,
+      "width_excess": -56.52
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_5_text_31",
+      "text": "06",
+      "font": "Arial",
+      "size": 25.399999618530273,
+      "height": 27.360000610351562,
+      "bound_height": 30.479999542236328,
+      "height_excess": 3.12,
+      "width_excess": -15.15
+    },
+    {
+      "slide": 16,
+      "name": "s16_demo_5_text_34",
+      "text": "Run heavy rain, outage\rand synthetic recovery.",
+      "font": "",
+      "size": 16.700000762939453,
+      "height": 38.880001068115234,
+      "bound_height": 40.08000183105469,
+      "height_excess": 1.2,
+      "width_excess": -56.53
+    },
+    {
+      "slide": 17,
+      "name": "s17_delivered_scope_text_7",
+      "text": "Delivered now",
+      "font": "Arial",
+      "size": 23.0,
+      "height": 25.200000762939453,
+      "bound_height": 27.600000381469727,
+      "height_excess": 2.4,
+      "width_excess": -33.84
+    },
+    {
+      "slide": 17,
+      "name": "s17_delivered_scope_text_9",
+      "text": "Local map and area evidence",
+      "font": "Arial",
+      "size": 16.5,
+      "height": 20.8799991607666,
+      "bound_height": 39.599998474121094,
+      "height_excess": 18.72,
+      "width_excess": -59.52
+    },
+    {
+      "slide": 17,
+      "name": "s17_delivered_scope_text_11",
+      "text": "Private reports + moderation",
+      "font": "Arial",
+      "size": 16.5,
+      "height": 20.8799991607666,
+      "bound_height": 19.799999237060547,
+      "height_excess": -1.08,
+      "width_excess": 3.36
+    },
+    {
+      "slide": 17,
+      "name": "s17_delivered_scope_text_15",
+      "text": "Consent-based alert lifecycle",
+      "font": "Arial",
+      "size": 16.5,
+      "height": 20.8799991607666,
+      "bound_height": 39.599998474121094,
+      "height_excess": 18.72,
+      "width_excess": -56.77
+    },
+    {
+      "slide": 17,
+      "name": "s17_delivered_scope_text_17",
+      "text": "Evaluation and release records",
+      "font": "Arial",
+      "size": 16.5,
+      "height": 20.8799991607666,
+      "bound_height": 39.599998474121094,
+      "height_excess": 18.72,
+      "width_excess": -37.64
+    },
+    {
+      "slide": 18,
+      "name": "s18_closing_claim_text_4",
+      "text": "FLOODLINE",
+      "font": "Arial",
+      "size": 64.0,
+      "height": 68.4000015258789,
+      "bound_height": 76.80000305175781,
+      "height_excess": 8.4,
+      "width_excess": -369.81
+    },
+    {
+      "slide": 18,
+      "name": "s18_takeaway_2_text_14",
+      "text": "Accountable actions",
+      "font": "Arial",
+      "size": 18.799999237060547,
+      "height": 22.31999969482422,
+      "bound_height": 45.119998931884766,
+      "height_excess": 22.8,
+      "width_excess": -65.94
+    },
+    {
+      "slide": 19,
+      "name": "s19_role_3_text_27",
+      "text": "Backend and integration",
+      "font": "Arial",
+      "size": 20.0,
+      "height": 24.479999542236328,
+      "bound_height": 24.0,
+      "height_excess": -0.48,
+      "width_excess": 2.72
+    },
+    {
+      "slide": 19,
+      "name": "s19_role_4_text_33",
+      "text": "Resident and moderator UI",
+      "font": "Arial",
+      "size": 20.0,
+      "height": 24.479999542236328,
+      "bound_height": 48.0,
+      "height_excess": 23.52,
+      "width_excess": -0.66
+    },
+    {
+      "slide": 19,
+      "name": "s19_role_5_text_40",
+      "text": "Delivery state \u2022 tests \u2022 release evidence",
+      "font": "Arial",
+      "size": 13.600000381469727,
+      "height": 20.15999984741211,
+      "bound_height": 32.63999938964844,
+      "height_excess": 12.48,
+      "width_excess": -50.0
+    },
+    {
+      "slide": 20,
+      "name": "s20_heading_text_1",
+      "text": "Requirements, implementation and evidence are linked.",
+      "font": "Arial",
+      "size": 36.0,
+      "height": 46.08000183105469,
+      "bound_height": 86.4000015258789,
+      "height_excess": 40.32,
+      "width_excess": -64.96
+    },
+    {
+      "slide": 20,
+      "name": "s20_project_records_text_7",
+      "text": "Project records",
+      "font": "Arial",
+      "size": 22.0,
+      "height": 23.760000228881836,
+      "bound_height": 26.399999618530273,
+      "height_excess": 2.64,
+      "width_excess": -148.45
+    },
+    {
+      "slide": 20,
+      "name": "s20_project_records_text_8",
+      "text": "Assignment",
+      "font": "Arial",
+      "size": 15.699999809265137,
+      "height": 17.280000686645508,
+      "bound_height": 18.84000015258789,
+      "height_excess": 1.56,
+      "width_excess": -261.9
+    },
+    {
+      "slide": 20,
+      "name": "s20_project_records_text_10",
+      "text": "Implementation plan",
+      "font": "Arial",
+      "size": 15.699999809265137,
+      "height": 17.280000686645508,
+      "bound_height": 18.84000015258789,
+      "height_excess": 1.56,
+      "width_excess": -198.9
+    },
+    {
+      "slide": 20,
+      "name": "s20_project_records_text_12",
+      "text": "Release and limits",
+      "font": "Arial",
+      "size": 15.699999809265137,
+      "height": 17.280000686645508,
+      "bound_height": 18.84000015258789,
+      "height_excess": 1.56,
+      "width_excess": -214.65
+    },
+    {
+      "slide": 20,
+      "name": "s20_project_records_text_14",
+      "text": "Measured evidence",
+      "font": "Arial",
+      "size": 15.699999809265137,
+      "height": 17.280000686645508,
+      "bound_height": 18.84000015258789,
+      "height_excess": 1.56,
+      "width_excess": -206.77
+    },
+    {
+      "slide": 20,
+      "name": "s20_project_records_text_16",
+      "text": "Data provenance",
+      "font": "Arial",
+      "size": 15.699999809265137,
+      "height": 17.280000686645508,
+      "bound_height": 18.84000015258789,
+      "height_excess": 1.56,
+      "width_excess": -225.15
+    },
+    {
+      "slide": 20,
+      "name": "s20_implementation_links_text_20",
+      "text": "Implementation references",
+      "font": "Arial",
+      "size": 21.0,
+      "height": 22.31999969482422,
+      "bound_height": 25.200000762939453,
+      "height_excess": 2.88,
+      "width_excess": -51.84
+    },
+    {
+      "slide": 20,
+      "name": "s20_implementation_links_text_21",
+      "text": "FastAPI",
+      "font": "Arial",
+      "size": 17.200000762939453,
+      "height": 19.440000534057617,
+      "bound_height": 20.639999389648438,
+      "height_excess": 1.2,
+      "width_excess": -98.16
+    },
+    {
+      "slide": 20,
+      "name": "s20_implementation_links_text_22",
+      "text": "Leaflet",
+      "font": "Arial",
+      "size": 17.200000762939453,
+      "height": 19.440000534057617,
+      "bound_height": 20.639999389648438,
+      "height_excess": 1.2,
+      "width_excess": -107.53
+    },
+    {
+      "slide": 20,
+      "name": "s20_implementation_links_text_23",
+      "text": "scikit-learn",
+      "font": "Arial",
+      "size": 17.200000762939453,
+      "height": 19.440000534057617,
+      "bound_height": 20.639999389648438,
+      "height_excess": 1.2,
+      "width_excess": -76.78
+    },
+    {
+      "slide": 20,
+      "name": "s20_implementation_links_text_24",
+      "text": "PostGIS",
+      "font": "Arial",
+      "size": 17.200000762939453,
+      "height": 19.440000534057617,
+      "bound_height": 20.639999389648438,
+      "height_excess": 1.2,
+      "width_excess": -95.28
+    },
+    {
+      "slide": 20,
+      "name": "s20_candidate_sources_text_27",
+      "text": "Real-pilot candidates",
+      "font": "Arial",
+      "size": 21.0,
+      "height": 22.31999969482422,
+      "bound_height": 25.200000762939453,
+      "height_excess": 2.88,
+      "width_excess": -103.27
+    },
+    {
+      "slide": 20,
+      "name": "s20_candidate_sources_text_28",
+      "text": "IMD \u2022 India-WRIS/CWC \u2022 NASA IMERG\rOpen-Meteo \u2022 municipal records \u2022 OSM",
+      "font": "",
+      "size": 17.0,
+      "height": 38.880001068115234,
+      "bound_height": 40.79999923706055,
+      "height_excess": 1.92,
+      "width_excess": -70.06
+    }
+  ],
+  "text_boxes": 339,
+  "off_slide": [
+    {
+      "slide": 1,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 1,
+      "text": "01  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 2,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 2,
+      "text": "02  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 3,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 3,
+      "text": "03  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 4,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 4,
+      "text": "04  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 5,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 5,
+      "text": "05  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 6,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 6,
+      "text": "06  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 7,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 7,
+      "text": "07  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 8,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 8,
+      "text": "08  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 9,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 9,
+      "text": "09  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 10,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 10,
+      "text": "10  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 11,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 11,
+      "text": "11  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 12,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 12,
+      "text": "12  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 13,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 13,
+      "text": "13  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 14,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 14,
+      "text": "14  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 15,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 15,
+      "text": "15  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 16,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 16,
+      "text": "16  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 17,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 17,
+      "text": "17  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 18,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 18,
+      "text": "18  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 19,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 19,
+      "text": "19  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 20,
+      "text": "FLOODLINE  /  CAA PROJECT",
+      "bounds": [
+        46.79999923706055,
+        516.239990234375,
+        161.25,
+        11.039999961853027
+      ]
+    },
+    {
+      "slide": 20,
+      "text": "20  /  20",
+      "bounds": [
+        881.3650512695312,
+        514.7999877929688,
+        35.5,
+        11.039999961853027
+      ]
+    }
+  ],
+  "slide_count": 20,
+  "speaker_note_count": 20,
+  "native_chart_count": 1,
+  "animation_slide_count": 20,
+  "transition_slide_count": 20,
+  "placeholder_matches": [],
+  "pdf_pages": 20
+}

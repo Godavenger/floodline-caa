@@ -1,0 +1,862 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Floodline \u2014 From rainfall to local decisions",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 4,
+      "animations": [
+        {
+          "name": "01_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "01_cover_wordmark",
+          "effect_type": 30,
+          "duration": 0.5,
+          "delay": 0.029999999329447746,
+          "trigger": 2
+        },
+        {
+          "name": "01_cover_map",
+          "effect_type": 30,
+          "duration": 0.550000011920929,
+          "delay": 0.18000000715255737,
+          "trigger": 2
+        },
+        {
+          "name": "01_cover_context",
+          "effect_type": 30,
+          "duration": 0.550000011920929,
+          "delay": 0.4000000059604645,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "title": "Limited data has to become a useful local decision.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 5,
+      "animations": [
+        {
+          "name": "02_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "02_question_0",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.14000000059604645,
+          "trigger": 2
+        },
+        {
+          "name": "02_question_1",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.30000001192092896,
+          "trigger": 2
+        },
+        {
+          "name": "02_question_2",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.46000000834465027,
+          "trigger": 2
+        },
+        {
+          "name": "s02_problem_takeaway_text_20",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.6700000166893005,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "title": "One platform. Two evidence streams.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 6,
+      "animations": [
+        {
+          "name": "03_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "03_environmental",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.14000000059604645,
+          "trigger": 2
+        },
+        {
+          "name": "03_community",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.30000001192092896,
+          "trigger": 2
+        },
+        {
+          "name": "03_joining",
+          "effect_type": 22,
+          "duration": 0.5,
+          "delay": 0.4699999988079071,
+          "trigger": 2
+        },
+        {
+          "name": "03_map_output",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.5799999833106995,
+          "trigger": 2
+        },
+        {
+          "name": "03_actions",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.75,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "title": "The map is the starting point.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 3,
+      "animations": [
+        {
+          "name": "04_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "04_actual_dashboard",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.1599999964237213,
+          "trigger": 2
+        },
+        {
+          "name": "04_dashboard_stats",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.38999998569488525,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "title": "Raw data becomes traceable evidence.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 4,
+      "animations": [
+        {
+          "name": "05_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "05_ingestion_totals",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.12999999523162842,
+          "trigger": 2
+        },
+        {
+          "name": "05_data_flow",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.28999999165534973,
+          "trigger": 2
+        },
+        {
+          "name": "05_receipt_timeline",
+          "effect_type": 22,
+          "duration": 0.5,
+          "delay": 0.4699999988079071,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "title": "GIS connects area context to a directed road graph.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 3,
+      "animations": [
+        {
+          "name": "06_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "06_gis_map",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.1599999964237213,
+          "trigger": 2
+        },
+        {
+          "name": "06_gis_facts",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.3700000047683716,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "title": "An interpretable rule runs the demo.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 4,
+      "animations": [
+        {
+          "name": "07_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "07_active_equation",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.17000000178813934,
+          "trigger": 2
+        },
+        {
+          "name": "07_rule_features",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.3400000035762787,
+          "trigger": 2
+        },
+        {
+          "name": "07_risk_thresholds",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.5199999809265137,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "title": "The evidence is visible beside the map.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 3,
+      "animations": [
+        {
+          "name": "08_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "08_evidence_map",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.1599999964237213,
+          "trigger": 2
+        },
+        {
+          "name": "08_native_evidence",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.38999998569488525,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "title": "Reports earn trust through review.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 4,
+      "animations": [
+        {
+          "name": "09_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "09_resident_report",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.1599999964237213,
+          "trigger": 2
+        },
+        {
+          "name": "s09_review_bridge_shape_11",
+          "effect_type": 22,
+          "duration": 0.5,
+          "delay": 0.3799999952316284,
+          "trigger": 2
+        },
+        {
+          "name": "09_moderation_review",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.46000000834465027,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "title": "Reviewed evidence changes the route.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 4,
+      "animations": [
+        {
+          "name": "10_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "10_route_before",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.1599999964237213,
+          "trigger": 2
+        },
+        {
+          "name": "10_route_after",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.3799999952316284,
+          "trigger": 2
+        },
+        {
+          "name": "10_route_conclusion",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.5799999833106995,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 11,
+      "title": "Alerts remember consent, retries and expiry.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 6,
+      "animations": [
+        {
+          "name": "11_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "11_alert_capture",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.1599999964237213,
+          "trigger": 2
+        },
+        {
+          "name": "11_alert_step_0",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.3199999928474426,
+          "trigger": 2
+        },
+        {
+          "name": "11_alert_step_1",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.4399999976158142,
+          "trigger": 2
+        },
+        {
+          "name": "11_alert_step_2",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.5600000023841858,
+          "trigger": 2
+        },
+        {
+          "name": "11_alert_step_3",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.6800000071525574,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 12,
+      "title": "Synthetic evaluation keeps events separate.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 5,
+      "animations": [
+        {
+          "name": "12_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "12_split_0",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.15000000596046448,
+          "trigger": 2
+        },
+        {
+          "name": "12_split_1",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.3400000035762787,
+          "trigger": 2
+        },
+        {
+          "name": "12_split_2",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.5299999713897705,
+          "trigger": 2
+        },
+        {
+          "name": "12_temporal_rule",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.75,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 13,
+      "title": "Higher recall brought more false positives.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 5,
+      "animations": [
+        {
+          "name": "13_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "s13_metric_panel_shape_5",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.12999999523162842,
+          "trigger": 2
+        },
+        {
+          "name": "s13_metric_chart_chart_6",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.2800000011920929,
+          "trigger": 2
+        },
+        {
+          "name": "13_error_table",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.4699999988079071,
+          "trigger": 2
+        },
+        {
+          "name": "s13_promotion_decision_text_18",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.6899999976158142,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 14,
+      "title": "Unknown data stays visibly unknown.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 3,
+      "animations": [
+        {
+          "name": "14_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "14_outage_explanation",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.15000000596046448,
+          "trigger": 2
+        },
+        {
+          "name": "14_outage_capture",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.36000001430511475,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 15,
+      "title": "The delivery is backed by inspectable checks.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 6,
+      "animations": [
+        {
+          "name": "15_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "15_check_0",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.15000000596046448,
+          "trigger": 2
+        },
+        {
+          "name": "15_check_1",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.25999999046325684,
+          "trigger": 2
+        },
+        {
+          "name": "15_check_2",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.3700000047683716,
+          "trigger": 2
+        },
+        {
+          "name": "15_check_3",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.47999998927116394,
+          "trigger": 2
+        },
+        {
+          "name": "15_acceptance_context",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.6100000143051147,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 16,
+      "title": "A focused demo follows six actions.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 8,
+      "animations": [
+        {
+          "name": "16_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "16_demo_0",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.1599999964237213,
+          "trigger": 2
+        },
+        {
+          "name": "16_demo_1",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.25999999046325684,
+          "trigger": 2
+        },
+        {
+          "name": "16_demo_2",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.36000001430511475,
+          "trigger": 2
+        },
+        {
+          "name": "16_demo_3",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.46000000834465027,
+          "trigger": 2
+        },
+        {
+          "name": "16_demo_4",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.5600000023841858,
+          "trigger": 2
+        },
+        {
+          "name": "16_demo_5",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.6600000262260437,
+          "trigger": 2
+        },
+        {
+          "name": "16_demo_launch",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.8299999833106995,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 17,
+      "title": "The path to a real pilot is clear.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 6,
+      "animations": [
+        {
+          "name": "17_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "17_delivered_scope",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.1599999964237213,
+          "trigger": 2
+        },
+        {
+          "name": "17_gate_0",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.30000001192092896,
+          "trigger": 2
+        },
+        {
+          "name": "17_gate_1",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.41999998688697815,
+          "trigger": 2
+        },
+        {
+          "name": "17_gate_2",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.5400000214576721,
+          "trigger": 2
+        },
+        {
+          "name": "17_gate_3",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.6600000262260437,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 18,
+      "title": "Visible evidence supports useful local decisions.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 6,
+      "animations": [
+        {
+          "name": "18_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "18_closing_claim",
+          "effect_type": 30,
+          "duration": 0.550000011920929,
+          "delay": 0.17000000178813934,
+          "trigger": 2
+        },
+        {
+          "name": "18_takeaway_0",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.3700000047683716,
+          "trigger": 2
+        },
+        {
+          "name": "18_takeaway_1",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.4699999988079071,
+          "trigger": 2
+        },
+        {
+          "name": "18_takeaway_2",
+          "effect_type": 30,
+          "duration": 0.44999998807907104,
+          "delay": 0.5699999928474426,
+          "trigger": 2
+        },
+        {
+          "name": "18_questions",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.75,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 19,
+      "title": "Six responsibility areas connect the stack.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 7,
+      "animations": [
+        {
+          "name": "19_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "19_role_0",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.14000000059604645,
+          "trigger": 2
+        },
+        {
+          "name": "19_role_1",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.2199999988079071,
+          "trigger": 2
+        },
+        {
+          "name": "19_role_2",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.30000001192092896,
+          "trigger": 2
+        },
+        {
+          "name": "19_role_3",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.3799999952316284,
+          "trigger": 2
+        },
+        {
+          "name": "19_role_4",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.46000000834465027,
+          "trigger": 2
+        },
+        {
+          "name": "19_role_5",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.5400000214576721,
+          "trigger": 2
+        }
+      ]
+    },
+    {
+      "slide": 20,
+      "title": "Requirements, implementation and evidence are linked.",
+      "transition": 3849,
+      "duration": 0.5,
+      "animation_count": 4,
+      "animations": [
+        {
+          "name": "20_heading",
+          "effect_type": 10,
+          "duration": 0.4000000059604645,
+          "delay": 0.0,
+          "trigger": 2
+        },
+        {
+          "name": "20_project_records",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.14000000059604645,
+          "trigger": 2
+        },
+        {
+          "name": "20_implementation_links",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.3199999928474426,
+          "trigger": 2
+        },
+        {
+          "name": "20_candidate_sources",
+          "effect_type": 10,
+          "duration": 0.44999998807907104,
+          "delay": 0.4699999988079071,
+          "trigger": 2
+        }
+      ]
+    }
+  ],
+  "native_powerpoint": true,
+  "powerpoint_version": "16.0",
+  "output_pptx": "C:\\Users\\Sharanya\\Documents\\Snigdha CAA assignment\\outputs\\Floodline_CAA_Presentation.pptx",
+  "output_pdf": "C:\\Users\\Sharanya\\Documents\\Snigdha CAA assignment\\outputs\\Floodline_CAA_Presentation.pdf",
+  "output_show": "C:\\Users\\Sharanya\\Documents\\Snigdha CAA assignment\\outputs\\Floodline_CAA_Slideshow.ppsx",
+  "total_native_animations": 96
+}
